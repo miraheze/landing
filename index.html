@@ -403,85 +403,85 @@
             </footer>
         </div>
 
-    <script>
-        var _paq = _paq || [];
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-            var u="https://matomo.miraheze.org/";
-            _paq.push(['setTrackerUrl', u+'piwik.php']);
-            _paq.push(['setSiteId', 1]);
-            _paq.push(['addTracker', u + "piwik.php", 3412]);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-        })();
+        <script>
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u="https://matomo.miraheze.org/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', 1]);
+                _paq.push(['addTracker', u + "piwik.php", 3412]);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            })();
 
-        document.addEventListener('DOMContentLoaded', function() {
-          // Get all "navbar-burger" elements
-          var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            document.addEventListener('DOMContentLoaded', function() {
+              // Get all "navbar-burger" elements
+              var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-          // Check if there are any navbar burgers
-          if ($navbarBurgers.length > 0) {
+              // Check if there are any navbar burgers
+              if ($navbarBurgers.length > 0) {
 
-            // Add a click event on each of them
-            $navbarBurgers.forEach( function(el) {
-              el.addEventListener('click', function() {
+                // Add a click event on each of them
+                $navbarBurgers.forEach( function(el) {
+                  el.addEventListener('click', function() {
 
-                // Get the target from the "data-target" attribute
-                const target = el.dataset.target;
-                const $target = document.getElementById(target);
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
 
-                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-                el.classList.toggle('is-active');
-                $target.classList.toggle('is-active');
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
 
-              });
-            });
-          }
-        });
-
-        function donationDialog() {
-            var modal = document.querySelector('.modal');  // assuming you have only 1
-            var html = document.querySelector('html');
-            modal.classList.add('is-active');
-            html.classList.add('is-clipped');
-
-            modal.querySelector('.delete').addEventListener('click', function(e) {
-                if (e) { e.preventDefault(); }
-                modal.classList.remove('is-active');
-                html.classList.remove('is-clipped');
+                  });
+                });
+              }
             });
 
-            modal.querySelector('.dismiss').addEventListener('click', function(e) {
-                if (e) { e.preventDefault(); }
-                modal.classList.remove('is-active');
-                html.classList.remove('is-clipped');
-            });
-        }
+            function donationDialog() {
+                var modal = document.querySelector('.modal');  // assuming you have only 1
+                var html = document.querySelector('html');
+                modal.classList.add('is-active');
+                html.classList.add('is-clipped');
 
-        document.querySelector('a#donations').addEventListener('click', function(event) {
-            donationDialog();
-        });
+                modal.querySelector('.delete').addEventListener('click', function(e) {
+                    if (e) { e.preventDefault(); }
+                    modal.classList.remove('is-active');
+                    html.classList.remove('is-clipped');
+                });
 
-        document.querySelector('a#donate-button').addEventListener('click', function(event) {
-            donationDialog();
-        });
-      
-        if ( window.location.href === "https://miraheze.org/#donate" ) {
-            donationDialog();
-        }
-      
-        function search(ele) {
-            a = document.getElementById('donationHref');
-            var value;
-            if (ele && ele.value) {
-              value = '/' + ele.value + '/';
-            } else {
-              value = '';
+                modal.querySelector('.dismiss').addEventListener('click', function(e) {
+                    if (e) { e.preventDefault(); }
+                    modal.classList.remove('is-active');
+                    html.classList.remove('is-clipped');
+                });
             }
-            a.setAttribute("href", "https://www.paypal.me/miraheze" + value );
-        }
-    </script>
-    <noscript><p><img src="https://matomo.miraheze.org/piwik.php?idsite=1&amp;rec=1&amp;action_name=Miraheze" style="border:0;" alt="" /></p></noscript>
+
+            document.querySelector('a#donations').addEventListener('click', function(event) {
+                donationDialog();
+            });
+
+            document.querySelector('a#donate-button').addEventListener('click', function(event) {
+                donationDialog();
+            });
+
+            if ( window.location.href === "https://miraheze.org/#donate" ) {
+                donationDialog();
+            }
+
+            function search(ele) {
+                a = document.getElementById('donationHref');
+                var value;
+                if (ele && ele.value) {
+                  value = '/' + ele.value + '/';
+                } else {
+                  value = '';
+                }
+                a.setAttribute("href", "https://www.paypal.me/miraheze" + value );
+            }
+        </script>
+        <noscript><p><img src="https://matomo.miraheze.org/piwik.php?idsite=1&amp;rec=1&amp;action_name=Miraheze" style="border:0;" alt="" /></p></noscript>
     </body>
 </html>
