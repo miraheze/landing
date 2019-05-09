@@ -1,9 +1,9 @@
 <?php
-require_once('translations.php');
-if (isset($_GET['lang'])) {
+require_once __DIR . '/translations.php';
+
+if ( isset($_GET['lang']) ) {
 	$lang = $_GET['lang'];
-}
-else {
+} else {
 	$lang = "en";
 }
 ?>
@@ -325,7 +325,7 @@ else {
                         </div>
 
                         <div class="column is-half">
-                            <div class="title is-4"><?php echo(translations['sslatext'][$lang]);?></div>
+                            <div class="title is-4"><?php echo($translations['sslatext'][$lang]);?></div>
                             <p><?php echo($translations['sslatext'][$lang]);?></p>
                         </div>
                     </div>
