@@ -159,7 +159,7 @@ $translations = array(
         ),
 	'$copytext' => array(
                 'en' => 'Except where otherwise noted, the content of this site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
-                'es' => 'Excepto donde se indique lo contrario, el contenido de este sitio se otorga bajo una <a href="https://creativecommons.org/licenses/by-sa/4.0/"> Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) < / a>.',
+                'es' => 'Excepto donde se indique lo contrario, el contenido de este sitio se otorga bajo una <a href="https://creativecommons.org/licenses/by-sa/4.0/"> Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) </a>.',
         ),
 )
 ?>
