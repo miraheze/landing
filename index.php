@@ -1,3 +1,12 @@
+<?php
+require_once('translations.php');
+if (isset($_GET['lang'])) {
+	$lang = $_GET['lang'];
+}
+else {
+	$lang = "en";
+}
+?>
 <!-- Template from https://github.com/petehouston/bulma-landing-page-template/blob/master/index.html -->
 <!doctype html>
 <html lang="en">
@@ -136,7 +145,7 @@
                 <div id="mainNavbar" class="navbar-menu">
                     <div class="navbar-end">
                         <a class="navbar-item is-active" href="https://miraheze.org">
-                            Home
+                            <?php echo($translations['$hometext'][$lang]);?>
                         </a>
                         <a class="navbar-item" href="https://meta.miraheze.org/wiki/">
                             Wiki
@@ -150,10 +159,20 @@
                                     <i class="fas fa-gift"></i>
                                 </span>
                                 <span title="Hello from the other side">
-                                  Donate!
+                                  <?php echo($translations['$donatebuttontext'][$lang]);?>
                               </span>
                             </a>
                         </span>
+			<span class="navbar-item"><form action="index.php?lang="getElementByid("lang")"">
+				<select name="lang" onchange="this.form.submit()">
+					 <option value="default">Select Language</option>
+   					 <option value="en">English</option>
+   					 <option value="es">Espoñol</option>
+				</select></form>
+			</span>
+			<a class="navbar-item" href="https://github.com/miraheze/landing">
+				<?php echo($translations['$translatetext'][$lang]);?>
+			</a>
                     </div>
                 </div>
             </div>
@@ -171,15 +190,16 @@
                         <div class="columns">
                             <div class="column is-12 is-offset-0">
                                 <h1 class="title is-1">
-                                    Welcome to Miraheze!
+                                    <?php echo($translations['$welcometext'][$lang]);?>
                                 </h1>
                                 <h2 class="subtitle is-4">
-                                    Miraheze is a non profit, with a mission to provide a free community-centric wiki farm.
+                                    <?php echo($translations['$desctext'][$lang]);?>
                                 </h2>
-                              
-                                <a class="button is-info is-rounded" href="https://meta.miraheze.org/w/index.php?title=Special:CreateAccount&returnto=Miraheze">Join Now!</a>
 
-                                <a id="donate-button" class="button is-info is-rounded purpleButton">Donate Today!</a>
+                                <a class="button is-info is-rounded" href="https://meta.miraheze.org/w/index.php?title=Special:CreateAccount&returnto=Miraheze"> 
+<?php echo($translations['$jointext'][$lang]);?></a>
+
+                                <a id="donate-button" class="button is-info is-rounded purpleButton"><?php echo($translations['$donatebutton2text'][$lang]);?></a>
 
                                 <figure class="image">
                                     <img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" alt="Logo" width="2000">
@@ -198,7 +218,7 @@
                 </div>-->
                 <div class="container section">
                     <div class="content has-text-centered">
-                        <h1>Features You'll Love</h1>
+                        <h1><?php echo($translations['$featurestext'][$lang]);?></h1>
                     </div>
 
                    <div class="columns features">
@@ -210,9 +230,9 @@
                                 <div class="card-content">
                                     <div class="content">
                                         <h4>MediaWiki!</h4>
-                                        <p>We use <a href="https://mediawiki.org">MediaWiki</a> to run our wiki farm! You can do anything from uploading media such as images or videos, to writing articles or blogs.</p>
+                                        <p><?php echo($translations['$mwtext'][$lang]);?></p>
 
-                                        <p>We have over 200 extensions and over 15 skins to choose from to customise your experience with MediaWiki!</p>
+                                        <p><?php echo($translations['$mw2text'][$lang]);?></p>
                                     </div>
                                 </div>
                             </div>
@@ -224,9 +244,9 @@
                                 </div>
                                 <div class="card-content">
                                     <div class="content">
-                                        <h4>In house extensions!</h4>
+                                        <h4><?php echo($translations['$exttext'][$lang]);?></h4>
                                         <p>
-                                            We have designed some of the most cutting edge extensions to help us grow and become one of the world's best wiki farm! Our extensions go from creating wikis to manging wikis from a special page.
+                                            <?php echo($translations['$ext2text'][$lang]);?>
                                         </p>
                                         <ul>
                                             <li>
@@ -259,12 +279,12 @@
                                 </div>
                                 <div class="card-content">
                                     <div class="content">
-                                        <h4>Community!</h4>
+                                        <h4><?php echo($translations['$community0text'][$lang]);?></h4>
                                         <p>
-                                            As a community we all work together to achieve a common goal of being a great wiki farm!
+                                            <?php echo($translations['$community1text'][$lang]);?>
                                         </p>
                                         <p>
-                                          This allows us to achieve the best possible outcome for users, by allowing users to learn!
+                                          <?php echo($translations['$community2text'][$lang]);?>
                                         </p>
                                     </div>
                                 </div>
@@ -284,8 +304,8 @@
                         </div>
                         <div class="column ">
                             <div class="content">
-                                <h1>Mobile Optimised!</h1>
-                                <p>Our site is mobile optimised, so that all users are equal regardless of which device they use!</p>
+                                <h1><?php echo($translations['$mobiletext'][$lang]);?></h1>
+                                <p><?php echo($translations['$mobile2text'][$lang]);?></p>
                             </div>
                         </div>
                     </div>
@@ -295,36 +315,36 @@
             <section class="bg-light" id="FAQ">
                 <div class="container section">
                     <div class="content has-text-centered">
-                        <h1>Frequently Ask Questions</h1>
+                        <h1><?php echo($translations['$faqtext'][$lang]);?></h1>
                     </div>
 
                     <div class="columns">
                         <div class="column is-half">
-                            <div class="title is-4">Which Wiki software do you run?</div>
-                            <p>We run <a href="https://mediawiki.org">MediaWiki</a>, the same software that powers <a href="https://wikipedia.org">Wikipedia</a>.</p>
+                            <div class="title is-4"><?php echo($translations['$wikiqtext'][$lang]);?></div>
+                            <p><?php echo($translations['$wikiatext'][$lang]);?></p>
                         </div>
 
                         <div class="column is-half">
-                            <div class="title is-4">Are you secure?</div>
-                            <p>Yes we are, we recently disabled TLS 1.0 and TLS 1.1 in favour of being TLS 1.2+, you can read this blog post <a href="https://phabricator.miraheze.org/phame/post/view/4/potentially_breaking_security_changes/">here</a>.</p>
+                            <div class="title is-4"><?php echo($translations['$sslatext'][$lang]);?></div>
+                            <p><?php echo($translations['$sslatext'][$lang]);?></p>
                         </div>
                     </div>
 
                     <div class="columns">
                         <div class="column is-half">
-                            <div class="title is-4">How do you finance?</div>
-                            <p>We rely on donations to maintain the servers, please see our finances at <a href="https://meta.miraheze.org/wiki/Finance">Finance!</a></p>
+                            <div class="title is-4"><?php echo($translations['$financeqtext'][$lang]);?></div>
+                            <p><?php echo($translations['$financeatext'][$lang]);?></p>
                         </div>
 
                         <div class="column is-half">
-                            <div class="title is-4">Where can I report bugs/feature requests?</div>
-                          <p>We use software called <a href="https://www.phacility.com/">Phabricator</a> located at <a href="https://phabricator.miraheze.org">phabricator.miraheze.org</a> to track bug reports or feature suggestions.</p>
+                            <div class="title is-4"><?php echo($translations['$phabqtext'][$lang]);?></div>
+                          <p><?php echo($translations['$phabatext'][$lang]);?></p>
                         </div>
                     </div>
 
                     <div class="content has-text-centered">
                         <a class="button is-success is-rounded" href="https://meta.miraheze.org/wiki/FAQ">
-                            View More
+                            <?php echo($translations['$moretext'][$lang]);?>
                         </a>
                     </div>
                 </div>
@@ -334,9 +354,9 @@
                 <div class="container section has-text-centered">
                     <div class="columns">
                         <div class="column is-half is-offset-one-quarter">
-                            <h1 class="title is-2">Transparent and free!</h1>
+                            <h1 class="title is-2"><?php echo($translations['$transparenttext'][$lang]);?></h1>
                             <p>
-                                We started in 2015 as a transparent non-profit wiki farm. Since then we have grown. We are transparent with our finance or financial information which you can view <a href="https://meta.miraheze.org/wiki/Finance">here!</a>
+                                <?php echo($translations['$transparent2text'][$lang]);?>
                             </p>
                         </div>
                     </div>
@@ -349,7 +369,7 @@
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head">
-                        <p class="modal-card-title">Donate now!</p>
+                        <p class="modal-card-title"><?php echo($translations['$donatenowtext'][$lang]);?></p>
                         <button class="delete" aria-label="close"></button>
                     </header>
                     <section class="modal-card-body">
@@ -364,15 +384,15 @@
                                 <div class="media-content">
                                   <div class="content">
                                     <p>
-                                        Donating to Miraheze has its benefits! You will be supporting our mission to provide a free community-centric wiki farm, that is secure and free of ads giving you peace of mind! We will use this funding to keep existing servers operational, and we will also buy some new servers to expand due to our growing user/wiki base.
+                                        <?php echo($translations['$donatetext'][$lang]);?>
                                     </p>
                                     <p class="control">
-                                      <input id="donateBox" class="input" type="text" placeholder="Amount of money" oninput="search(this)">
+                                      <input id="donateBox" class="input" type="text" placeholder=<?php echo($translations['$moneytext'][$lang]);?> oninput="search(this)">
                                     </p>
-                                    <a id="donationHref" class="button is-success is-fullwidth" href="https://www.paypal.me/miraheze">Donate with PayPal!</a>
+                                    <?php echo($translations['$paypaltext'][$lang]);?>
                                   </div>
                                   <small>
-                                    Note that these are in US dollars, you will be able to convert it to your currency once on PayPal site.
+                                    <?php echo($translations['$notetext'][$lang]);?>
                                   </small>
                                 </div>
                               </article>
@@ -380,7 +400,7 @@
                         </div>
                     </section>
                     <footer class="modal-card-foot">
-                        <button class="dismiss" data-dismiss="modal">Dismiss</button>
+                        <button class="dismiss" data-dismiss="modal"><?php echo($translations['$dismisstext'][$lang]);?></button>
                     </footer>
                 </div>
             </div>
@@ -391,20 +411,20 @@
                     <div class="content has-text-centered">
                         <p>
                             <a class="button is-primary is-outlined" href="https://meta.miraheze.org/wiki/Terms_of_Use">
-                                Terms of Use
+                                <?php echo($translations['$toutext'][$lang]);?>
                             </a>
                             <a class="button is-primary is-outlined" href="https://meta.miraheze.org/wiki/Privacy_Policy">
-                                Privacy Policy
+                                <?php echo($translations['$pptext'][$lang]);?>
                             </a>
                             <a class="button is-primary is-outlined" href="https://meta.miraheze.org/wiki/Meta:General_disclaimer">
-                                Disclaimers
+                                <?php echo($translations['$dtext'][$lang]);?>
                             </a>
                             <a class="button is-primary is-outlined" href="https://meta.miraheze.org/wiki/Privacy_Policy#4._Cookies">
-                                Cookie Statement
+                                <?php echo($translations['$ctext'][$lang]);?>
                             </a>
                         </p>
                         <p>
-                            Except where otherwise noted, the content of this site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.
+                            <?php echo($translations['$copytext'][$lang]);?>
                         </p>
                     </div>
                 </div>
