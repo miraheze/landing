@@ -1,5 +1,5 @@
 <?php
-require_once __DIR . '/translations.php';
+require_once __DIR__ . '/translations.php';
 
 if ( isset($_GET['lang']) ) {
 	$lang = $_GET['lang'];
