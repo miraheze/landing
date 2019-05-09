@@ -8,7 +8,7 @@ install:
   - sudo npm i html-validator-cli -g
 
 script:
-  - html-validator --file=index.html --verbose
+  - html-validator --file=index.php --verbose
 
 
 notifications:
