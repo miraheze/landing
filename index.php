@@ -325,7 +325,7 @@ if ( isset($_GET['lang']) ) {
                         </div>
 
                         <div class="column is-half">
-                            <div class="title is-4"><?php echo($translations['sslatext'][$lang]);?></div>
+                            <div class="title is-4"><?php echo($translations['sslqtext'][$lang]);?></div>
                             <p><?php echo($translations['sslatext'][$lang]);?></p>
                         </div>
                     </div>
