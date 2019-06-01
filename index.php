@@ -168,6 +168,7 @@ if ( isset($_GET['lang']) ) {
 					 <option value="default">Select Language</option>
    					 <option value="en">English</option>
    					 <option value="es">Espoñol</option>
+					 <option value="fr">Français</option>
 				</select></form>
 			</span>
 			<a class="navbar-item" href="https://github.com/miraheze/landing">
