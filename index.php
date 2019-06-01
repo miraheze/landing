@@ -153,6 +153,9 @@ if ( isset($_GET['lang']) ) {
                         <a class="navbar-item" href="https://blog.miraheze.org">
                             Blog
                         </a>
+                        <a class="navbar-item" href="https://status.miraheze.wiki/">
+                            Status
+                        </a>
                         <span class="navbar-item">
                             <a class="button is-primary is-rounded" id="donations">
                                 <span class="icon">
