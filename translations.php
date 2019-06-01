@@ -23,7 +23,7 @@ $translations = [
 	'desctext' => [
                 'en' => 'Miraheze is a non profit, with a mission to provide a free community-centric wiki farm.',
                 'es' => 'Miraheze es una organización sin fines de lucro, con la misión de proporcionar una granja wiki gratuita centrada en la comunidad.',
-		'fr' => "Miraheze est une organisation à but non lucratif dont la mission est de fournir une ferme d'hébergement wiki gratuite, centrée sur la communauté."
+		'fr' => "Miraheze est une organisation à but non lucratif dont la mission est de fournir une ferme d'hébergement wiki gratuite, centrée sur la communauté.",
         ],
 	'jointext' => [
                 'en' => 'Join Now!',
@@ -103,7 +103,7 @@ $translations = [
 	'sslqtext' => [
                 'en' => 'Are you secure?',
                 'es' => '¿Estás seguro?',
-		'fr' => 'Êtes-vous en sécurisé?',
+		'fr' => 'Êtes-vous sécurisé?',
         ],
 	'sslatext' => [
                 'en' => 'Yes we are, we recently disabled TLS 1.0 and TLS 1.1 in favour of being TLS 1.2+, you can read this blog post <a href="https://phabricator.miraheze.org/phame/post/view/4/potentially_breaking_security_changes/">here</a>.',
