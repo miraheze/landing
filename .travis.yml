@@ -9,6 +9,7 @@ install:
 
 script:
   - html-validator --file=index.php --verbose
+  - bash .travis.phplint.sh
 
 
 notifications:
