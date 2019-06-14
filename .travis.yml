@@ -1,13 +1,7 @@
 sudo: required
 language: generic
 
-install:
-  - sudo apt-get install nodejs npm
-  - npm config set strict-ssl false
-  - sudo npm i html-validator-cli -g
-
 script:
-  - html-validator --file=index.php --verbose
   - bash .travis.phplint.sh
 
 notifications:
