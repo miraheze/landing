@@ -170,7 +170,7 @@ if ( isset($_GET['lang']) ) {
 				<select name="lang" onchange="this.form.submit()">
 					 <option value="default">Select Language</option>
    					 <option value="en">English</option>
-   					 <option value="es">Espoñol</option>
+   					 <option value="es">Español</option>
 					 <option value="fr">Français</option>
 				</select></form>
 			</span>
