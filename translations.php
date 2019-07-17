@@ -38,7 +38,7 @@ $translations = [
         ],
 	'donatebutton2text' => [
         	'en' => 'Donate Today!',
-        	'es' => '¡Donar hboy!',
+        	'es' => '¡Donar hoy!',
 		'fr' => "Faites un don aujourd'hui",
 		'tr' => 'Bugün bağış yapın!',
         ],
