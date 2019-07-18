@@ -20,7 +20,7 @@ $translations = [
         ],
 	'translatetext' => [
         	'en' => 'Translate this page',
-        	'es' => 'Traducir este página',
+        	'es' => 'Traducir esta página',
 		'fr' => 'Traduire cette page',
 		'tr' => 'Bu sayfayı çevirin',
         ],
@@ -50,7 +50,7 @@ $translations = [
         ],
 	'mwtext' => [
        		'en' => 'We use <a href="https://mediawiki.org">MediaWiki</a> to run our wiki farm! You can do anything from uploading media such as images or videos, to writing articles or blogs.',
-        	'es' => '¡Usamos <a href="https://mediawiki.org"> MediaWiki </a> para ejecutar nuestra granja de wikis! Puede hacer cualquier cosa, desde carga de medios, como imágenes o videos, hasta escribir artículos o blogs.',
+        	'es' => '¡Usamos <a href="https://mediawiki.org">MediaWiki</a> para hacer funcionar nuestra granja de wikis! Puede hacer cualquier cosa, desde carga de medios, como imágenes o videos, hasta escribir artículos o blogs.',
 		'fr' => 'On utilise <a href="https://mediawiki.org">MediaWiki</a> faire fonctionner notre ferme wiki! Vous pouvez faire beaucoup de choses différentes, par exemple, du téléchargement de médias (des images ou des vidéos) ou la écrire des articles ou faire des blogs.',
 		'tr' => 'Wiki grubumuzu çalıştırmak için <a href="https://mediawiki.org">MediaWiki</a> kullanıyoruz! Bu sayede sizler blog oluşturma, makaleler yayınlama ve bu makaleler ile bloglarda resim ya da video yayınlamaya kadar her şeyi yapabiliyorsunuz.',
         ],
@@ -116,7 +116,7 @@ $translations = [
         ],
 	'wikiatext' => [
         	'en' => 'We run <a href="https://mediawiki.org">MediaWiki</a>, the same software that powers <a href="https://wikipedia.org">Wikipedia</a>.',
-        	'es' => 'Ejecutamos <a href="https://mediawiki.org"> MediaWiki </a>, el mismo software que impulsa <a href="https://wikipedia.org"> Wikipedia </a>.',
+        	'es' => 'Utilizamos <a href="https://mediawiki.org">MediaWiki</a>, el mismo software que impulsa <a href="https://wikipedia.org">Wikipedia</a>.',
 		'fr' => 'On utilise <a href="https://mediawiki.org">MediaWiki</a>, le meme logiciel qui est utilisé par <a href="https://wikipedia.org">Wikipedia</a>.',
 		'tr' => "<a href='https://wikipedia.org'>Vikipedi'yi</a> destekleyen ve oluşturan <a href='https://mediawiki.org'>MediaWiki</a> yazılımını çalıştırıyoruz.",
         ],
@@ -128,7 +128,7 @@ $translations = [
         ],
 	'sslatext' => [
         	'en' => 'Yes we are, we recently disabled TLS 1.0 and TLS 1.1 in favour of being TLS 1.2+, you can read this blog post <a href="https://phabricator.miraheze.org/phame/post/view/4/potentially_breaking_security_changes/">here</a>.',
-        	'es' => 'Sí, recientemente inhabilitamos TLS 1.0 y TLS 1.1 a favor de ser TLS 1.2+, puedes leer esta publicación del blog <a href = "https://phabricator.miraheze.org/phame/post/view/4/potentially_breaking_security_changes/"> aquí </a>',
+        	'es' => 'Sí, recientemente inhabilitamos TLS 1.0 y TLS 1.1 a favor de evolucionar a TLS 1.2+, puedes leer esta publicación del blog <a href = "https://phabricator.miraheze.org/phame/post/view/4/potentially_breaking_security_changes/"> aquí </a>',
 		'fr' => 'Oui, on a récemment désactivé TLS 1.0 et TLS 1.1 pour devenir TLS 1.2+. Vous pouvez lire cet article de blog <a href="https://phabricator.miraheze.org/phame/post/view/4/potentially_breaking_security_changes/">ici</a>.',
 		'tr' => "Evet öyleyiz, yakın zamanda TLS 1.0 ve TLS 1.1'i, TLS 1.2+'e ayrıcalık tanımak için kapattık. Konuyla ilgili blog yazısını <a href='https://phabricator.miraheze.org/phame/post/view/4/potentially_breaking_security_changes/'>buradan</a> okuyabilirsiniz",
         ],
@@ -140,7 +140,7 @@ $translations = [
         ],
 	'financeatext' => [
         	'en' => 'We rely on donations to maintain the servers, please see our finances at <a href="https://meta.miraheze.org/wiki/Finance">Finance!</a>',
-        	'es' => 'Confiamos en las donaciones para mantener los servidores, consulte nuestras finanzas en <a href="https://meta.miraheze.org/wiki/Finance"> Finance! </a>',
+        	'es' => '¡Confiamos en las donaciones para mantener los servidores, consulte nuestras finanzas en <a href="https://meta.miraheze.org/wiki/Finance">Finanzas!</a>',
 		'fr' => 'On depend des dons pour maintenir les serveurs, veuillez consulter nos finances à <a href="https://meta.miraheze.org/wiki/Finance">Finance!</a>',
 		'tr' => 'Sunucularımızın bütçesi için bağışlara güveniyoruz ve lütfen konuyla ilgili <a href="https://meta.miraheze.org/wiki/Finance">finans!</a> bölümümüze bir göz atın.',
         ],
@@ -152,7 +152,7 @@ $translations = [
         ],
 	'phabatext' => [
         	'en' => 'We use software called <a href="https://www.phacility.com/">Phabricator</a> located at <a href="https://phabricator.miraheze.org">phabricator.miraheze.org</a> to track bug reports or feature suggestions.',
-        	'es' => 'Usamos el software llamado <a href="https://www.phacility.com/"> Phabricator </a> ubicado en <a href="https://phabricator.miraheze.org"> phabricator.miraheze.org < / a> para rastrear informes de errores o sugerencias de funciones.',
+        	'es' => 'Usamos el software llamado <a href="https://www.phacility.com/">Phabricator</a> ubicado en <a href="https://phabricator.miraheze.org">phabricator.miraheze.org</a> para rastrear informes de errores o sugerencias de funciones.',
 		'fr' => 'On utilise un logiciel appelé <a href="https://www.phacility.com/">Phabricator</a> que vous pouvez trouver ici <a href="https://phabricator.miraheze.org">ici</a> pour suivre les bugs et les demandes de fonctionnalités.',
 		'tr' => 'Hata raporlamalarını ve özellik isteklerini izlemek için <a href="https://phabricator.miraheze.org">phabricator.miraheze.org</a> adresinden ulaşabileceğiniz <a href="https://www.phacility.com/">Phabricator</a> yazılımını kullanıyoruz.',
         ],
@@ -170,7 +170,7 @@ $translations = [
         ],
 	'transparent2text' => [
         	'en' => 'We started in 2015 as a transparent non-profit wiki farm. Since then we have grown. We are transparent with our finance or financial information which you can view <a href="https://meta.miraheze.org/wiki/Finance">here!</a>',
-        	'es' => 'Comenzamos en 2015 como una granja de wikis transparente sin fines de lucro. Desde entonces hemos crecido. ¡Somos transparentes con nuestra información financiera que puede ver <a href="https://meta.miraheze.org/wiki/Finance"> aquí! </a>',
+        	'es' => 'Comenzamos en 2015 como una granja de wikis transparente sin fines de lucro. Desde entonces hemos crecido. ¡Somos transparentes con nuestra información financiera que puede ver <a href="https://meta.miraheze.org/wiki/Finance">aquí!</a>',
 		'fr' => 'On a commencé en 2015 en tant que ferme wiki transparente à but non lucratif. Depuis lors nous avons grandi. Nous sommes transparents avec nos informations financières  que vous pouvez voir <a href="https://meta.miraheze.org/wiki/Finance">ici!</a>.',
 		'tr' => '2015 yılında kar amacı gütmeyen şeffaf bir wiki grubu olarak başladık. O zamandan beri büyüdük. <a href="https://meta.miraheze.org/wiki/Finance">Burada</a> görüntüleyebileceğiniz finans veya finansal bilgilerimizle şeffafız!',
         ],
@@ -194,13 +194,13 @@ $translations = [
         ],
 	'donatetext' => [
         	'en' => 'Donating to Miraheze has its benefits! You will be supporting our mission to provide a free community-centric wiki farm, that is secure and free of ads giving you peace of mind! We will use this funding to keep existing servers operational, and we will also buy some new servers to expand due to our growing user/wiki base.',
-        	'es' => '¡Donar a Miraheze tiene sus beneficios! Estarás apoyando nuestra misión de proporcionar una granja de wiki gratuita centrada en la comunidad, que sea segura y sin anuncios, ¡lo que te dará tranquilidad! Usaremos esta financiación para mantener operativos los servidores existentes, y también compraremos algunos servidores nuevos para expandir debido a nuestra creciente base de usuarios/wikis.',
+        	'es' => '¡Donar a Miraheze tiene sus beneficios! Estarás apoyando nuestra misión de proporcionar una granja de wikis gratuita centrada en la comunidad, que sea segura y sin anuncios, ¡lo que te dará tranquilidad! Usaremos esta financiación para mantener operativos los servidores existentes y también compraremos algunos servidores nuevos para expandirnos debido a nuestra creciente base de usuarios/wikis.',
 		'fr' => "Faire un don à Miraheze a ses avantages! Vous soutiendrez notre mission qui consiste à fournir une ferme wiki gratuite, centrée sur la communauté, sécurisée et sans annonces, pour une tranquillité d'esprit! Nous utiliserons ces fonds pour maintenir les serveurs existants et également pour acheter de nouveaux serveurs en raison de la croissance de notre base d'utilisateurs et de wikis",
 		'tr' => "Miraheze'ye bağışta bulunmanın şu faydaları bulunmaktadır! Öözgür ve topluluk merkezli bir wiki grubu sağlama misyonumuzu destekleyeceksiniz, bu da güvenli ve size huzur veren reklamlardan arınmış alanları oluşturacak! Bu finansmanı yalnızca mevcut sunucuları çalışır durumda tutmak için kullanacağız ve büyüyen kullanıcı/wiki tabanımız nedeniyle daha da genişletmek için yeni sunucular alacağız.",
         ],
 	'notetext' => [
         	'en' => 'Note that these are in US dollars, you will be able to convert it to your currency once on PayPal site.',
-        	'es' => 'Tenga en cuenta que estos están en dólares estadounidenses, podrá convertirlos a su moneda una vez en el sitio de PayPal.',
+        	'es' => 'Tenga en cuenta que estos están en dólares estadounidenses, Podrá convertirlos a su moneda una vez ingrese en el sitio web de PayPal.',
 		'fr' => 'Veulliez noter que cette somme est en dollars américains, vous pourrez le convertir dans votre devise une fois sur le site PayPal.',
 		'tr' => 'Bunun Amerikan Doları olarak PayPal vasıtasıyla bir defada dönüştürüleceğini unutmayınız.',
         ],
@@ -212,13 +212,13 @@ $translations = [
         ],
 	'toutext' => [
         	'en' => 'Terms of Use',
-        	'es' => 'Términos de Uso',
+        	'es' => 'Términos de uso',
 		'fr' => 'Conditions d’utilisation',
 		'tr' => 'Kullanım Şartları',
         ],
 	'pptext' => [
         	'en' => 'Privacy Policy',
-        	'es' => 'Politica de Privacidad',
+        	'es' => 'Política de privacidad',
 		'fr' => 'Politique de confidentialité',
 		'tr' => 'Gizlilik Politikası',
         ],
@@ -236,7 +236,7 @@ $translations = [
 	],
 	'copytext' => [
         	'en' => 'Except where otherwise noted, the content of this site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
-       		'es' => 'Excepto donde se indique lo contrario, el contenido de este sitio se otorga bajo una <a href="https://creativecommons.org/licenses/by-sa/4.0/"> Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) </a>.',
+       		'es' => 'Excepto donde se indique lo contrario, el contenido de este sitio está disponible bajo la licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
 		'fr' => 'Sauf indication contraire, le contenu de ce site est licencié sous une licence <a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
 		'tr' => 'Aksi belirtilmediği sürece, bu sitenin içeriği <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.tr">Atıf-AynıLisanslaPaylaş 4.0 Uluslararası (CC BY-SA 4.0)</a> kapsamında lisanslanmıştır.',
         ],
