@@ -2,9 +2,9 @@
 require_once __DIR__ . '/translations.php';
 
 if ( isset($_GET['lang']) ) {
-	$lang = $_GET['lang'];
+    $lang = $_GET['lang'];
 } else {
-	$lang = "en";
+    $lang = "en";
 }
 ?>
 <!-- Template from https://github.com/petehouston/bulma-landing-page-template/blob/master/index.html -->
@@ -118,7 +118,7 @@ if ( isset($_GET['lang']) ) {
                 padding: 1em;
             }
             .purpleButton {
-              background: hsl(271, 100%, 71%) !important;
+                background: hsl(271, 100%, 71%) !important;
             }
             @media only screen and (max-width: 50em) {
                 .hero.is-large .hero-body {
@@ -162,21 +162,21 @@ if ( isset($_GET['lang']) ) {
                                     <i class="fas fa-gift"></i>
                                 </span>
                                 <span title="Hello from the other side">
-                                  <?php echo($translations['donatebuttontext'][$lang]);?>
-                              </span>
+                                    <?php echo($translations['donatebuttontext'][$lang]);?>
+                                </span>
                             </a>
                         </span>
-			<span class="navbar-item"><form action="index.php?lang="getElementByid("lang")"">
-				<select name="lang" onchange="this.form.submit()">
-					 <option value="default">Select Language</option>
-   					 <option value="en">English</option>
-   					 <option value="es">Español</option>
-					 <option value="fr">Français</option>
-				</select></form>
-			</span>
-			<a class="navbar-item" href="https://github.com/miraheze/landing">
-				<?php echo($translations['translatetext'][$lang]);?>
-			</a>
+                        <span class="navbar-item"><form action="index.php?lang="getElementByid("lang")"">
+                            <select name="lang" onchange="this.form.submit()">
+                                <option value="default">Select Language</option>
+                                <option value="en">English</option>
+                                <option value="es">Español</option>
+                                <option value="fr">Français</option>
+                            </select></form>
+                        </span>
+                        <a class="navbar-item" href="https://github.com/miraheze/landing">
+                            <?php echo($translations['translatetext'][$lang]);?>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -200,10 +200,13 @@ if ( isset($_GET['lang']) ) {
                                     <?php echo($translations['desctext'][$lang]);?>
                                 </h2>
 
-                                <a class="button is-info is-rounded" href="https://meta.miraheze.org/w/index.php?title=Special:CreateAccount&returnto=Miraheze"> 
-<?php echo($translations['jointext'][$lang]);?></a>
+                                <a class="button is-info is-rounded" href="https://meta.miraheze.org/w/index.php?title=Special:CreateAccount&returnto=Miraheze">
+                                    <?php echo($translations['jointext'][$lang]);?>
+                                </a>
 
-                                <a id="donate-button" class="button is-info is-rounded purpleButton"><?php echo($translations['donatebutton2text'][$lang]);?></a>
+                                <a id="donate-button" class="button is-info is-rounded purpleButton">
+                                    <?php echo($translations['donatebutton2text'][$lang]);?>
+                                </a>
 
                                 <figure class="image">
                                     <img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" alt="Logo" width="2000">
@@ -225,7 +228,7 @@ if ( isset($_GET['lang']) ) {
                         <h1><?php echo($translations['featurestext'][$lang]);?></h1>
                     </div>
 
-                   <div class="columns features">
+                    <div class="columns features">
                         <div class="column is-4">
                             <div class="card is-shady">
                                 <div class="card-image has-text-centered has-features">
@@ -342,7 +345,7 @@ if ( isset($_GET['lang']) ) {
 
                         <div class="column is-half">
                             <div class="title is-4"><?php echo($translations['phabqtext'][$lang]);?></div>
-                          <p><?php echo($translations['phabatext'][$lang]);?></p>
+                            <p><?php echo($translations['phabatext'][$lang]);?></p>
                         </div>
                     </div>
 
@@ -379,27 +382,29 @@ if ( isset($_GET['lang']) ) {
                     <section class="modal-card-body">
                         <div class="content">
                             <div class="box">
-                              <article class="media">
-                                <div class="media-left">
-                                  <figure class="image is-64x64">
-                                    <img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Image">
-                                  </figure>
-                                </div>
-                                <div class="media-content">
-                                  <div class="content">
-                                    <p>
-                                        <?php echo($translations['donatetext'][$lang]);?>
-                                    </p>
-                                    <p class="control">
-                                      <input id="donateBox" class="input" type="text" placeholder=<?php echo($translations['moneytext'][$lang]);?> oninput="search(this)">
-                                    </p>
-                                    <?php echo($translations['paypaltext'][$lang]);?>
-                                  </div>
-                                  <small>
-                                    <?php echo($translations['notetext'][$lang]);?>
-                                  </small>
-                                </div>
-                              </article>
+                                <article class="media">
+                                    <div class="media-left">
+                                        <figure class="image is-64x64">
+                                            <img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Image">
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <div class="content">
+                                            <p>
+                                                <?php echo($translations['donatetext'][$lang]);?>
+                                            </p>
+                                            <p class="control">
+                                                <input id="donateBox" class="input" type="text" placeholder=<?php echo($translations['moneytext'][$lang]);?> oninput="search(this)">
+                                            </p>
+                                            <a id="donationHref" class="button is-success is-fullwidth" href="https://www.paypal.me/miraheze">
+                                                <?php echo($translations['paypaltext'][$lang]);?>
+                                            </a>
+                                        </div>
+                                        <small>
+                                            <?php echo($translations['notetext'][$lang]);?>
+                                        </small>
+                                    </div>
+                                </article>
                             </div>
                         </div>
                     </section>
@@ -449,27 +454,27 @@ if ( isset($_GET['lang']) ) {
             })();
 
             document.addEventListener('DOMContentLoaded', function() {
-              // Get all "navbar-burger" elements
-              var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+                // Get all "navbar-burger" elements
+                var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-              // Check if there are any navbar burgers
-              if ($navbarBurgers.length > 0) {
+                // Check if there are any navbar burgers
+                if ($navbarBurgers.length > 0) {
 
-                // Add a click event on each of them
-                $navbarBurgers.forEach( function(el) {
-                  el.addEventListener('click', function() {
+                    // Add a click event on each of them
+                    $navbarBurgers.forEach( function(el) {
+                        el.addEventListener('click', function() {
 
-                    // Get the target from the "data-target" attribute
-                    const target = el.dataset.target;
-                    const $target = document.getElementById(target);
+                            // Get the target from the "data-target" attribute
+                            const target = el.dataset.target;
+                            const $target = document.getElementById(target);
 
-                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-                    el.classList.toggle('is-active');
-                    $target.classList.toggle('is-active');
+                            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                            el.classList.toggle('is-active');
+                            $target.classList.toggle('is-active');
 
-                  });
-                });
-              }
+                        });
+                    });
+                }
             });
 
             function donationDialog() {
@@ -507,9 +512,9 @@ if ( isset($_GET['lang']) ) {
                 a = document.getElementById('donationHref');
                 var value;
                 if (ele && ele.value) {
-                  value = '/' + ele.value + '/';
+                    value = '/' + ele.value + '/';
                 } else {
-                  value = '';
+                    value = '';
                 }
                 a.setAttribute("href", "https://www.paypal.me/miraheze" + value );
             }
