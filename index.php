@@ -172,6 +172,7 @@ if ( isset($_GET['lang']) ) {
                                 <option value="en">English</option>
                                 <option value="es">Español</option>
                                 <option value="fr">Français</option>
+                                <option value="ko">한국어</option>
                             </select></form>
                         </span>
                         <a class="navbar-item" href="https://github.com/miraheze/landing">
