@@ -229,7 +229,7 @@ $translations = [
         	'es' => '¡Donar a Miraheze tiene sus beneficios! Estarás apoyando nuestra misión de proporcionar una granja de wikis gratuita centrada en la comunidad, que sea segura y sin anuncios, ¡lo que te dará tranquilidad! Usaremos esta financiación para mantener operativos los servidores existentes y también compraremos algunos servidores nuevos para expandirnos debido a nuestra creciente base de usuarios/wikis.',
 		'fr' => "Faire un don à Miraheze a ses avantages! Vous soutiendrez notre mission qui consiste à fournir une ferme wiki gratuite, centrée sur la communauté, sécurisée et sans annonces, pour une tranquillité d'esprit! Nous utiliserons ces fonds pour maintenir les serveurs existants et également pour acheter de nouveaux serveurs en raison de la croissance de notre base d'utilisateurs et de wikis",
 		'tr' => "Miraheze'ye bağışta bulunmanın şu faydaları bulunmaktadır! Öözgür ve topluluk merkezli bir wiki grubu sağlama misyonumuzu destekleyeceksiniz, bu da güvenli ve size huzur veren reklamlardan arınmış alanları oluşturacak! Bu finansmanı yalnızca mevcut sunucuları çalışır durumda tutmak için kullanacağız ve büyüyen kullanıcı/wiki tabanımız nedeniyle daha da genişletmek için yeni sunucular alacağız.",
-		'ko' => "Miraheze에 기부하면 여러가지 장점이 있습니다! 당신은 안전하고 광고가 없는 위키 호스팅을 제공한다는 우리의 사명을 지원하게 됩니다. 우리는 이 기금을 기존 서버의 운영을 유지하기 위해 사용하고, 증가하는 사용자나 위키를 위해 새로운 서버도 구매할 것입니다.',
+		'ko' => "Miraheze에 기부하면 여러가지 장점이 있습니다! 당신은 안전하고 광고가 없는 위키 호스팅을 제공한다는 우리의 사명을 지원하게 됩니다. 우리는 이 기금을 기존 서버의 운영을 유지하기 위해 사용하고, 증가하는 사용자나 위키를 위해 새로운 서버도 구매할 것입니다.",
         ],
 	'notetext' => [
         	'en' => 'Note that these are in US dollars, you will be able to convert it to your currency once on PayPal site.',
