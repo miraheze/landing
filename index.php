@@ -133,7 +133,7 @@ if ( isset($_GET['lang']) ) {
             <div class="container">
                 <div class="navbar-brand">
                     <a class="navbar-item" href="https://miraheze.org">
-                        <img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Logo">
+                        <img class="logo" src="https://static-temp.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Logo">
                         Miraheze
                     </a>
                     <span class="navbar-burger burger" data-target="mainNavbar">
@@ -211,7 +211,7 @@ if ( isset($_GET['lang']) ) {
                                 </a>
 
                                 <figure class="image">
-                                    <img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" alt="Logo" width="2000">
+                                    <img src="https://static-temp.miraheze.org/metawiki/0/03/Meta_Main_Page.png" alt="Logo" width="2000">
                                 </figure>
                             </div>
                         </div>
@@ -308,7 +308,7 @@ if ( isset($_GET['lang']) ) {
                     <div class="columns is-vcentered">
                         <div class="column">
                             <figure class="image">
-                                <img src="https://static.miraheze.org/metawiki/a/a1/Meta_Mobile_Main_Page.png" alt="">
+                                <img src="https://static-temp.miraheze.org/metawiki/a/a1/Meta_Mobile_Main_Page.png" alt="">
                             </figure>
                         </div>
                         <div class="column ">
@@ -387,7 +387,7 @@ if ( isset($_GET['lang']) ) {
                                 <article class="media">
                                     <div class="media-left">
                                         <figure class="image is-64x64">
-                                            <img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Image">
+                                            <img src="https://static-temp.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Image">
                                         </figure>
                                     </div>
                                     <div class="media-content">
