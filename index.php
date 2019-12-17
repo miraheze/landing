@@ -398,7 +398,7 @@ if ( isset($_GET['lang']) ) {
                                             <p class="control">
                                                 <input id="donateBox" class="input" type="text" placeholder=<?php echo($translations['moneytext'][$lang]);?> oninput="search(this)">
                                             </p>
-                                            <a id="donationHref" class="button is-success is-fullwidth" href="https://www.paypal.me/miraheze">
+                                            <a id="donationHref" class="button is-success is-fullwidth" href="https://paypal.me/mirahezelimited">
                                                 <?php echo($translations['paypaltext'][$lang]);?>
                                             </a>
                                         </div>
@@ -518,7 +518,7 @@ if ( isset($_GET['lang']) ) {
                 } else {
                     value = '';
                 }
-                a.setAttribute("href", "https://www.paypal.me/miraheze" + value );
+                a.setAttribute("href", "https://paypal.me/mirahezelimited" + value );
             }
         </script>
         <noscript><p><img src="https://matomo.miraheze.org/piwik.php?idsite=1&amp;rec=1&amp;action_name=Miraheze" style="border:0;" alt="" /></p></noscript>
