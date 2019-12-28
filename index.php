@@ -83,7 +83,7 @@ if ( isset( $_GET['lang'] ) && $_GET['lang'] ) {
         <h1 class="masthead-heading text-uppercase mb-0">Welcome to Miraheze!</h1>
 
         <!-- Masthead Subheading -->
-        <p class="masthead-subheading font-weight-light mb-0">Miraheze is a non profit, with a mission to provide a free community-centric wiki farm.</p>
+        <p class="masthead-subheading font-weight-light mb-0">Miraheze is a non-profit, with a mission to provide a free community-centric wiki farm.</p>
 
         <div>
           <a class="btn btn-xl btn-outline-light" href="https://meta.miraheze.org/w/index.php?title=Special:CreateAccount&returnto=Miraheze">
@@ -140,7 +140,7 @@ if ( isset( $_GET['lang'] ) && $_GET['lang'] ) {
            <div class="col-md-4">
              <span class="fa-stack fa-4x">
                <i class="fas fa-circle fa-stack-2x text-primary"></i>
-               <i class="fas fa-mobile-alt fa-stack-1x fa-inverse"></i>
+               <i class="fas fa-users fa-stack-1x fa-inverse"></i>
              </span>
              <h4 class="service-heading">Community</h4>
              <p class="text-muted">As a community we all work together to achieve a common goal of being a great wiki farm! This allows us to achieve the best possible outcome for users, by allowing users to learn</p>
@@ -184,7 +184,7 @@ if ( isset( $_GET['lang'] ) && $_GET['lang'] ) {
         <div class="divider-custom divider-light"></div>
         <div class="row">
           <div class="col-lg-12 ml-auto">
-            <p class="lead">In July 2015, John Lewis and Ferran Tufan created a new wiki farm - named Miraheze. Through the use of community crowdfunding and personal investment, Miraheze officially went live in August of 2015. Over the last four and a half years, the project has grown immensely to be one of the largest and most recognisable wiki farms specialising in MediaWiki on offer. Despite the success and evolution, one aspect of Miraheze never changed - formal existence. In November 2019, Miraheze become an offical Non-Profit called Miraheze Limited.</p>
+            <p class="lead">In July 2015, John Lewis and Ferran Tufan created a new wiki farm - named Miraheze. Through the use of community crowdfunding and personal investment, Miraheze officially went live in August of 2015. Over the years, the project has grown immensely to be one of the largest and most recognisable wiki farms specialising in MediaWiki on offer. Despite the success and evolution, one aspect of Miraheze never changed - formal existence. In November 2019, Miraheze become an offical Non-Profit called Miraheze Limited.</p>
           </div>
         </div>
       </div>
@@ -240,22 +240,33 @@ if ( isset( $_GET['lang'] ) && $_GET['lang'] ) {
       </div>
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-to-top d-lg-none position-fixed ">
       <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>
 
-    <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
+
+    <script>
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="https://matomo.miraheze.org/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', 1]);
+            _paq.push(['addTracker', u + "piwik.php", 3412]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <noscript><p><img src="https://matomo.miraheze.org/piwik.php?idsite=1&amp;rec=1&amp;action_name=Miraheze" style="border:0;" alt="" /></p></noscript>
 
   </body>
 
