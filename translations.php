@@ -265,7 +265,7 @@ $translations = [
 		'it' => "Fare una donazione a Miraheze ha i suoi benefici! Sosterrai la nostra missione, che coinsiste nel fornire una wiki farm gratuita e incentrata sulla community, sicura e senza pubblicità, dandoti tranquillità! Useremo questi fondi per mantenere i nostri server in funzione, e anche per aquistarne di nuovi per supportare l'espansione della nostra wiki farm.",
         ],
 	'notetext' => [
-        	'en' => 'Note that these are in US dollars, you will be able to convert it to your currency once on PayPal site.',
+        	'en' => 'Note that these are in British Pounds, you will be able to convert it to your currency once on PayPal site.',
         	'es' => 'Tenga en cuenta que estos están en dólares estadounidenses, Podrá convertirlos a su moneda una vez ingrese en el sitio web de PayPal.',
 		'fr' => 'Veulliez noter que cette somme est en dollars américains, vous pourrez le convertir dans votre devise une fois sur le site PayPal.',
 		'tr' => 'Bunun Amerikan Doları olarak PayPal vasıtasıyla bir defada dönüştürüleceğini unutmayınız.',
