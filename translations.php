@@ -194,7 +194,7 @@
 		],
 	];
 
-	public function translate( $key ) {
+	function translate( $key ) {
 		$lang = $_GET['lang'] ? $_GET['lang'] : 'en';
 
 		if ( isset( $translations[$key][$lang] ) && $translations[$key][$lang] ) {
