@@ -142,7 +142,7 @@
 		],
 		'footer-desc' => [
 			'en' => 'Miraheze Limited <br />' .
-				'A company limited by guarantee registered in England and Wales company no. 12323854  <br />',
+				'A company limited by guarantee registered in England and Wales company no. 12323854  <br />' .
 				'Except where otherwise noted, the content of this site is licensed under a ' .
 				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
 		],
