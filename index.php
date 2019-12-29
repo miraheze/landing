@@ -310,8 +310,6 @@ require_once __DIR__ . '/translations.php';
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
     <script src="js/miraheze.min.js"></script>
 
     <script>
