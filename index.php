@@ -136,7 +136,7 @@ require_once __DIR__ . '/translations.php';
             <?php echo( translate( 'join-text' ) ); ?>
           </a>
 
-          <a class="btn btn-xl btn-outline-light" href="https://donate.miraheze.org?lang=$lang">
+          <a class="btn btn-xl btn-outline-light" href="https://donate.miraheze.org">
             <i class="fas fa-donate mr-2"></i>
             <?php echo( translate( 'donate-text' ) ); ?>
           </a>
