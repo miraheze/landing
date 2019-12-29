@@ -121,7 +121,7 @@
 		'features-extensions-desc' => [
 			'en' => 'We have designed some of the most cutting edge extensions to help us grow and become one of the world\'s best wiki farm!' .
 				'Our extensions go from creating wikis to manging wikis from a special page. ' .
-				'It devoles power to the admin of the wiki requiring little oversee from the stewards or tech team. ' .
+				'It devolves power to the admin of the wiki, requiring little oversight from the stewards or tech team. ' .
 				'It improves community say over how there wiki is ran.',
 		],
 		'features-more-desc' => [
