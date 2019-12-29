@@ -47,7 +47,7 @@ require_once __DIR__ . '/translations.php';
   <body id="page-top">
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="https://miraheze.org">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
           <img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Logo" style="height:3em; width:3em; padding:0.5em;">
           <?php echo( translate( 'header-logo-text' ) ); ?>
         </a>
