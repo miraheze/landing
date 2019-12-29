@@ -108,7 +108,7 @@
 			'en' => 'Responsive',
 		],
 		'features-responsive-desc' => [
-			'en' => 'We provide responive sites by default (with the option to turn it off).',
+			'en' => 'All our wikis use MobileFrontend which makes the UI mobile friendly. We also allow you to switch this off by disabling it.',
 		],
 		'features-extensions-text' => [
 			'en' => 'In house extensions',
