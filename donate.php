@@ -33,11 +33,11 @@ require_once __DIR__ . '/translations.php';
     <meta charset="UTF-8">
     <meta name="description" content="Miraheze is an open source project that offers free MediaWiki hosting, for everyone. Request your free wiki today!">
     <meta name="revisit-after" content="2 days">
-    <meta name="keywords" content="miraheze, free, wiki hosting, mediawiki, mediawiki hosting, open source, hosting">
+    <meta name="keywords" content="miraheze, free, wiki hosting, mediawiki, mediawiki hosting, open source, hosting, donate, non-profit">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title><?php echo( translate( 'header-logo-text' ) ); ?></title>
+    <title><?php echo( translate( 'header-donate-logo-text' ) ); ?></title>
 
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/miraheze.min.css">
@@ -58,13 +58,8 @@ require_once __DIR__ . '/translations.php';
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#features">
-                <?php echo( translate( 'header-menu-features' ) ); ?>
-              </a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">
-                <?php echo( translate( 'header-menu-about' ) ); ?>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://miraheze.org">
+                <?php echo( translate( 'header-menu-home' ) ); ?>
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
@@ -80,11 +75,6 @@ require_once __DIR__ . '/translations.php';
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://status.miraheze.wiki/">
                 <?php echo( translate( 'header-menu-status' ) ); ?>
-              </a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://donate.miraheze.org">
-                <?php echo( translate( 'header-menu-donate' ) ); ?>
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
@@ -105,7 +95,7 @@ require_once __DIR__ . '/translations.php';
         </div>
       </div>
     </nav>
- 
+
     <section class="page-section mb-0" id="siteNotice">
       <div class="container">
         <div class="divider-custom divider-light"></div>
@@ -119,133 +109,33 @@ require_once __DIR__ . '/translations.php';
       </div>
     </section>
 
-    <header class="masthead bg-primary text-white text-center">
-      <div class="container d-flex align-items-center flex-column">
-
-        <h1 class="masthead-heading text-uppercase mb-0">
-          <?php echo( translate( 'welcome-text' ) ); ?>
-        </h1>
-
-        <p class="masthead-subheading font-weight-light mb-0">
-          <?php echo( translate( 'description-text' ) ); ?>
-        </p>
-
-        <div>
-          <a class="btn btn-xl btn-outline-light" href="https://meta.miraheze.org/w/index.php?title=Special:CreateAccount&returnto=Miraheze">
-            <i class="fas fa-sign-in-alt mr-2"></i>
-            <?php echo( translate( 'join-text' ) ); ?>
-          </a>
-
-          <a class="btn btn-xl btn-outline-light" href="https://donate.miraheze.org">
-            <i class="fas fa-donate mr-2"></i>
-            <?php echo( translate( 'donate-text' ) ); ?>
-          </a>
-        </div>
-
-        <img class="img-fluid" src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" alt="Logo" width="1500">
-
-      </div>
-    </header>
-
-    <section class="page-section features" id="features">
+    <section class="page-section">
       <div class="container">
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"><?php echo( translate( 'header-menu-donate' ) ); ?></h2>
+
+        <div class="divider-custom"></div>
+
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="page-section-heading text-uppercase">
-              <?php echo( translate( 'features-text' ) ); ?>
-            </h2>
-          </div>
-        </div>
-
-        <div class="divider-custom divider-light"></div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-server fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">
-              <?php echo( translate( 'features-mediawiki' ) ); ?>
-            </h4>
-            <p class="text-muted">
-              <?php echo( translate( 'features-mediawiki-desc' ) ); ?>
-            </p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-donate fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">
-              <?php echo( translate( 'features-non-profit-text' ) ); ?>
-            </h4>
-            <p class="text-muted">
-              <?php echo( translate( 'features-non-profit-desc' ) ); ?>
-            </p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-users fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">
-              <?php echo( translate( 'features-community-text' ) ); ?>
-            </h4>
-            <p class="text-muted">
-              <?php echo( translate( 'features-community-desc' ) ); ?>
-            </p>
-          </div>
-        </div>
-
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-mobile-alt fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">
-              <?php echo( translate( 'features-responsive-text' ) ); ?>
-            </h4>
-            <p class="text-muted">
-              <?php echo( translate( 'features-responsive-desc' ) ); ?>
-            </p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-cog fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">
-              <?php echo( translate( 'features-extensions-text' ) ); ?>
-            </h4>
-            <p class="text-muted">
-              <?php echo( translate( 'features-extensions-desc' ) ); ?>
-            </p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-angle-double-right fa-stack-1x fa-inverse"></i>
-            </span>
-            <p class="text-muted">
-              <?php echo( translate( 'features-more-desc' ) ); ?>
-            </p>
-           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="page-section text-white mb-0" id="about">
-      <div class="container">
-        <h2 class="page-section-heading text-center text-uppercase text-white">
-          <?php echo( translate( 'about-title' ) ); ?>
-        </h2>
-        <div class="divider-custom divider-light"></div>
-        <div class="row">
-          <div class="col-lg-12 ml-auto">
-            <p class="lead">
-              <?php echo( translate( 'about-desc' ) ); ?>
-            </p>
+          <div class="col-lg-8 mx-auto">
+            <form name="donate" id="donateForm" novalidate="novalidate">
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label><?php echo( translate( 'donate-amount' ) ); ?></label>
+                  <input class="form-control" id="amountInput" type="number" placeholder="<?php echo( translate( 'donate-amount' ) ); ?>" oninput="_amountInput(this)">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div class="form-group">
+                <a id="donationHref" class="btn btn-primary btn-xl" href="https://paypal.me/mirahezelimited">
+                    <?php echo( translate( 'header-menu-donate' ) ); ?>
+                </a>
+                <br />
+                <small>
+                <?php echo( translate( 'donate-note' ) ); ?>
+                </small>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -325,17 +215,28 @@ require_once __DIR__ . '/translations.php';
     <script src="js/miraheze.min.js"></script>
 
     <script>
-        var _paq = _paq || [];
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-            var u="https://matomo.miraheze.org/";
-            _paq.push(['setTrackerUrl', u+'piwik.php']);
-            _paq.push(['setSiteId', 1]);
-            _paq.push(['addTracker', u + "piwik.php", 3412]);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-        })();
+      var _paq = _paq || [];
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://matomo.miraheze.org/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 1]);
+        _paq.push(['addTracker', u + "piwik.php", 3412]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+
+      function _amountInput(ele) {
+        a = document.getElementById('donationHref');
+        var value;
+        if (ele && ele.value) {
+            value = '/' + ele.value + '/';
+        } else {
+            value = '';
+        }
+        a.setAttribute("href", "https://paypal.me/mirahezelimited" + value );
+      }
     </script>
     <noscript><p><img src="https://matomo.miraheze.org/piwik.php?idsite=1&amp;rec=1&amp;action_name=Miraheze" style="border:0;" alt="" /></p></noscript>
   </body>
