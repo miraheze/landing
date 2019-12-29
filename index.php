@@ -37,11 +37,10 @@ require_once __DIR__ . '/translations.php';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-
     <title><?php echo( translate( 'header-logo-text' ) ); ?></title>
 
-    <link rel="stylesheet" href="css/all.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/miraheze.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/miraheze.min.css">
     <link rel="icon" href="https://meta.miraheze.org/favicon.ico">
   </head>
 
