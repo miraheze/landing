@@ -31,7 +31,7 @@
 		],
 		'header-menu-donate' => [
 			'en' => 'Donate',
-				'es' => '¡Donar',
+			'es' => '¡Donar',
 			'fr' => 'Faire un don',
 			'tr' => 'Bağış yap',
 			'ko' => '기부',
@@ -46,7 +46,7 @@
 			'it' => 'Benvenuto a Miraheze',
 		],
 		'description-text' => [
-			'en' => 'Miraheze is a non profit, with a mission to provide a free community-centric wiki farm.',
+			'en' => 'Miraheze is a non-profit, with a mission to provide a free community-centric wiki farm.',
 			'es' => 'Miraheze es una organización sin fines de lucro, con la misión de proporcionar una granja de wikis gratuita centrada en la comunidad.',
 			'fr' => "Miraheze est une organisation à but non lucratif dont la mission est de fournir une ferme d'hébergement wiki gratuite, centrée sur la communauté.",
 			'tr' => 'Miraheze kâr amacı gütmeyen, topluluk merkezli bir wiki çiftliği sağlama misyonudur.',
@@ -73,14 +73,14 @@
 		'features-mediawiki-desc' => [
 			'en' => 'Miraheze runs the same software as Wikipedia, <a href="https://www.mediawiki.org">MediaWiki!</a> ' .
 				'You can do anything from uploading media such as images or videos, to writing articles or blogs. ' .
-				'We have over 200 extensions and over 15 skins to choose from to customise your experience with MediaWiki!',
+				'We have over 200 extensions and over 15 skins to choose from to customize your experience with MediaWiki!',
 		],
 		'features-non-profit-text' => [
 			'en' => 'Non-Profit',
 		],
 		'features-non-profit-desc' => [
 			'en' => 'Miraheze is registered as Miraheze Limited in the United Kingdom. ' .
-				'We provide 100% free wikis as a Non-Profit that maintains the servers and keeps up with the development of our in house extensions.',
+				'We provide 100% free wikis as a non-profit that maintains the servers and keeps up with the development of our in house extensions.',
 		],
 		'features-community-text' => [
 			'en' => 'Community',
@@ -91,7 +91,7 @@
 			'it' => 'Communità',
 		],
 		'features-community-desc' => [
-			'en' => 'As a community we all work together to achieve a common goal of being a great wiki farm! '.
+			'en' => 'As a community, we all work together to achieve a common goal of being a great wiki farm! '.
 				'This allows us to achieve the best possible outcome for users, by allowing users to learn!',
 			'es' => '¡Como comunidad, todos trabajamos juntos para lograr el objetivo común de ser una gran granja de wikis! ' .
 				'¡Esto nos permite lograr el mejor resultado posible para los usuarios, al permitirles aprender!',
@@ -119,10 +119,10 @@
 			'it' => 'Estensioni disegnate da noi',
 		],
 		'features-extensions-desc' => [
-			'en' => 'We have designed some of the most cutting edge extensions to help us grow and become one of the world\'s best wiki farm! ' .
-				'Our extensions go from creating wikis to manging wikis from a special page. ' .
-				'It devolves power to the admin of the wiki, requiring little oversight from the stewards or tech team. ' .
-				'It improves community say over how there wiki is ran.',
+			'en' => 'We have designed some of the most cutting edge extensions to help us grow and become one of the world\'s best wiki farms! ' .
+				'Our extensions assist with wiki creation and management from special pages. ' .
+				'This hands the power to the admin of the wiki, requiring little oversight from the stewards or tech team. ' .
+				'We hope to elevate community input in the management of their wikis.',
 		],
 		'features-more-desc' => [
 			'en' => 'And many more features!',
@@ -133,9 +133,9 @@
 		'about-desc' => [
 			'en' => 'In July 2015, John Lewis and Ferran Tufan created a new wiki farm - named Miraheze. ' .
 				'Through the use of community crowdfunding and personal investment, Miraheze officially went live in August of 2015. ' .
-				'Over the years, the project has grown immensely to be one of the largest and most recognisable wiki farms specialising in MediaWiki on offer. '.
+				'Over the years, the project has grown immensely to be one of the largest and most recognizable wiki farms specializing in MediaWiki on offer. '.
 				'Despite the success and evolution, one aspect of Miraheze never changed - formal existence. ' .
-				'In November 2019, Miraheze become an offical Non-Profit called Miraheze Limited.',
+				'In November 2019, Miraheze became an registered non-profit in the UK as Miraheze Limited.',
 		],
 		'socialmedia-title' => [
 			'en' => 'Social Media',
@@ -204,8 +204,8 @@
 			'en' => 'Amount',
 		],
 		'donate-note' => [
-			'en' => 'Note that this form is to donate with PayPal (which you can use credit/debit cards). ' .
-				'You need to switch the currency to your local currency, using the dropdown once on the page.'
+			'en' => 'This form is for donations with PayPal (you may use credit/debit cards). ' .
+				'You should select your local currency using the dropdown on the page.'
 		],
 	];
 
