@@ -99,6 +99,8 @@ require_once __DIR__ . '/translations.php';
     <section class="page-section">
       <div class="container">
 
+        <div class="divider-custom"></div>
+
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"><?php echo( translate( 'header-menu-donate' ) ); ?></h2>
 
         <div class="divider-custom"></div>
@@ -109,7 +111,7 @@ require_once __DIR__ . '/translations.php';
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label><?php echo( translate( 'donate-amount' ) ); ?></label>
-                  <input class="form-control" id="amountInput" type="number" placeholder="<?php echo( translate( 'donate-amount' ) ); ?>" oninput="amountInput(this)">
+                  <input class="form-control" id="amountInput" type="number" placeholder="<?php echo( translate( 'donate-amount' ) ); ?>" oninput="_amountInput(this)">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -214,7 +216,7 @@ require_once __DIR__ . '/translations.php';
         g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
       })();
 
-      function amountInput(ele) {
+      function _amountInput(ele) {
         a = document.getElementById('donationHref');
         var value;
         if (ele && ele.value) {
