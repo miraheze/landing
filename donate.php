@@ -120,6 +120,7 @@ require_once __DIR__ . '/translations.php';
                 <a id="donationHref" class="btn btn-primary btn-xl" href="https://paypal.me/mirahezelimited">
                     <?php echo( translate( 'header-menu-donate' ) ); ?>
                 </a>
+                <br />
                 <small>
                 <?php echo( translate( 'donate-note' ) ); ?>
                 </small>
