@@ -71,15 +71,15 @@
 			'en' => 'MediaWiki',
 		],
 		'features-mediawiki-desc' => [
-			'en' => 'Miraheze runs the same software as Wikipedia, <a href="https://www.mediawiki.org">MediaWiki!</a>' .
-				'You can do anything from uploading media such as images or videos, to writing articles or blogs.' .
+			'en' => 'Miraheze runs the same software as Wikipedia, <a href="https://www.mediawiki.org">MediaWiki!</a> ' .
+				'You can do anything from uploading media such as images or videos, to writing articles or blogs. ' .
 				'We have over 200 extensions and over 15 skins to choose from to customise your experience with MediaWiki!',
 		],
 		'features-non-profit-text' => [
 			'en' => 'Non-Profit',
 		],
 		'features-non-profit-desc' => [
-			'en' => 'Miraheze is registered as Miraheze Limited in the United Kingdom.' .
+			'en' => 'Miraheze is registered as Miraheze Limited in the United Kingdom. ' .
 				'We provide 100% free wikis as a Non-Profit that maintains the servers and keeps up with the development of our in house extensions.',
 		],
 		'features-community-text' => [
@@ -91,17 +91,17 @@
 			'it' => 'Communità',
 		],
 		'features-community-desc' => [
-			'en' => 'As a community we all work together to achieve a common goal of being a great wiki farm!'.
+			'en' => 'As a community we all work together to achieve a common goal of being a great wiki farm! '.
 				'This allows us to achieve the best possible outcome for users, by allowing users to learn!',
-			'es' => '¡Como comunidad, todos trabajamos juntos para lograr el objetivo común de ser una gran granja de wikis!' .
+			'es' => '¡Como comunidad, todos trabajamos juntos para lograr el objetivo común de ser una gran granja de wikis! ' .
 				'¡Esto nos permite lograr el mejor resultado posible para los usuarios, al permitirles aprender!',
-			'fr' => 'En tant que communauté, on travaille tous ensemble pour atteindre un objectif commun: devenir une grande ferme wiki!' .
+			'fr' => 'En tant que communauté, on travaille tous ensemble pour atteindre un objectif commun: devenir une grande ferme wiki! ' .
 				'Cela nous permet d’obtenir le meilleur résultat possible pour nos utilisateurs, en leur permettant d’apprendre!',
-			'tr' => 'Bir topluluk olarak hepimiz birlikte büyük bir wiki çiftliği olma ortak hedefine ulaşmak için çalışıyoruz!' .
+			'tr' => 'Bir topluluk olarak hepimiz birlikte büyük bir wiki çiftliği olma ortak hedefine ulaşmak için çalışıyoruz! ' .
 				'Bunların tamamı, kullanıcıların öğrenmesini sağlayarak, kullanıcılar için mümkün olan en iyi sonucu elde etmemizi sağlar!',
-			'ko' => '커뮤니티에서 우리는 훌륭한 위키 호스팅이 되기 위한 공동의 목표 달성을 위해 함께 노력합니다!' .
+			'ko' => '커뮤니티에서 우리는 훌륭한 위키 호스팅이 되기 위한 공동의 목표 달성을 위해 함께 노력합니다! ' .
 				'이를 통해 사용자들이 학습할 수 있게 함으로써 사용자가 최상의 결과를 얻을 수 있게 해줍니다!',
-			'it' => 'Come communità, lavoriamo tutti insieme per raggiungere l\'obbiettivo comune di essere una grande wiki farm!' .
+			'it' => 'Come communità, lavoriamo tutti insieme per raggiungere l\'obbiettivo comune di essere una grande wiki farm! ' .
 				'Questo ci permette di ottenere il miglior risultato possibile per gli utenti, permettendogli di imparare!',
 		],
 		'features-responsive-text' => [
@@ -119,7 +119,7 @@
 			'it' => 'Estensioni disegnate da noi',
 		],
 		'features-extensions-desc' => [
-			'en' => 'We have designed some of the most cutting edge extensions to help us grow and become one of the world\'s best wiki farm!' .
+			'en' => 'We have designed some of the most cutting edge extensions to help us grow and become one of the world\'s best wiki farm! ' .
 				'Our extensions go from creating wikis to manging wikis from a special page. ' .
 				'It devolves power to the admin of the wiki, requiring little oversight from the stewards or tech team. ' .
 				'It improves community say over how there wiki is ran.',
@@ -191,6 +191,21 @@
 			'tr' => 'Bu sayfayı çevirin',
 			'ko' => '이 페이지 번역',
 			'it' => 'Traduci questa pagina',
+		],
+		
+		// Donate page
+		'header-donate-logo-text' => [
+			'en' => 'Miraheze Donate',
+		],
+		'header-menu-home' => [
+			'en' => 'Home',
+		],
+		'donate-amount' => [
+			'en' => 'Amount',
+		],
+		'donate-note' => [
+			'en' => 'Note that this form is to donate with PayPal (which you can use credit/debit cards). ' .
+				'You need to switch the currency to your local currency, using the dropdown once on the page.'
 		],
 	];
 
