@@ -184,7 +184,7 @@
 		'footer-faq' => [
 			'en' => 'FAQ',
 		],
-		'translatetext' => [
+		'footer-translate' => [
 			'en' => 'Translate this page',
 			'es' => 'Traducir esta página',
 			'fr' => 'Traduire cette page',
