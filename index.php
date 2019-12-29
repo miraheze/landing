@@ -113,7 +113,7 @@ require_once __DIR__ . '/translations.php';
           <div class="col-lg-12 ml-auto">
             <p class="lead">
                 Miraheze is seeking donations to support a new plan to improve its infrastructure and allow communities to prosper. Read more on our <a href="https://www.gofundme.com/f/7uj22x-help-miraheze-stay-online">campaign page</a>.
-			</p>
+            </p>
           </div>
         </div>
       </div>
