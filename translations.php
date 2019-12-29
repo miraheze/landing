@@ -13,12 +13,15 @@
 			'tr' => "Ana sayfa",
 			'ko' => '홈',
 			'it' => 'Pagina principale',
+			'pt' => 'Página principal',
 		],
 		'header-menu-features' => [
 			'en' => 'Features',
+			'pt' => 'Recursos',
 		],
 		'header-menu-about' => [
 			'en' => 'About',
+			'pt' => 'Sobre',
 		],
 		'header-menu-wiki' => [
 			'en' => 'Wiki',
@@ -28,6 +31,7 @@
 		],
 		'header-menu-status' => [
 			'en' => 'Status',
+			'pt' => 'Status',
 		],
 		'header-menu-donate' => [
 			'en' => 'Donate',
@@ -36,6 +40,7 @@
 			'tr' => 'Bağış yap',
 			'ko' => '기부',
 			'it' => 'Fai una donazione',
+			'pt' => 'Doar',
 		],
 		'welcome-text' => [
 			'en' => 'Welcome to Miraheze!',
@@ -44,6 +49,7 @@
 			'tr' => "Miraheze'ye hoş geldiniz",
 			'ko' => 'Miraheze에 오신 것을 환영합니다!',
 			'it' => 'Benvenuto a Miraheze',
+			'pt' => 'Bem-vindo(a) ao Miraheze!',
 		],
 		'description-text' => [
 			'en' => 'Miraheze is a non-profit, with a mission to provide a free community-centric wiki farm.',
@@ -52,9 +58,11 @@
 			'tr' => 'Miraheze kâr amacı gütmeyen, topluluk merkezli bir wiki çiftliği sağlama misyonudur.',
 			'ko' => 'Miraheze는 무료로 위키 공동체를 제공한다는 사명을 가진 비영리 단체입니다.',
 			'it' => 'Miraheze è una organizzazione senza scopo di lucro, con la missione di fornire una farm di wiki gratuita incentrata sulla comunità.',
+			'pt' => 'Miraheze é uma organização sem fins lucrativos, com a missão de proporcionar uma farm de wikis gratuita e centrada em sua comunidade.',
 		],
 		'join-text' => [
 			'en' => 'Join Today!',
+			'pt' => 'Junte-se hoje!',
 		],
 		'donate-text' => [
 			'en' => 'Donate Today!',
@@ -63,9 +71,11 @@
 			'tr' => 'Bugün bağış yapın!',
 			'ko' => '오늘 기부해보세요!',
 			'it' => 'Fai una donazione',
+			'pt' => 'Doe hoje!',
 		],
 		'features-text' => [
 			'en' => 'Features',
+			'pt' => 'Recursos',
 		],
 		'features-mediawiki' => [
 			'en' => 'MediaWiki',
@@ -74,13 +84,19 @@
 			'en' => 'Miraheze runs the same software as Wikipedia, <a href="https://www.mediawiki.org">MediaWiki!</a> ' .
 				'You can do anything from uploading media such as images or videos, to writing articles or blogs. ' .
 				'We have over 200 extensions and over 15 skins to choose from to customize your experience with MediaWiki!',
+			'pt' => 'Miraheze usa o mesmo software que a Wikipédia, <a href="https://www.mediawiki.org">MediaWiki!</a> '.
+				'Você pode fazer qualquer coisa, desde enviar arquivos como imagens ou vídeos, até escrever artigos ou blogs. '.
+				'Temos mais de 200 extensões e mais de 15 skins (temas) para customizar sua experiência com o MediaWiki!',
 		],
 		'features-non-profit-text' => [
 			'en' => 'Non-Profit',
+			'pt' => 'Sem fins lucrativos',
 		],
 		'features-non-profit-desc' => [
 			'en' => 'Miraheze is registered as Miraheze Limited in the United Kingdom. ' .
 				'We provide 100% free wikis as a non-profit that maintains the servers and keeps up with the development of our in house extensions.',
+			'pt' => 'Miraheze está registrado como Miraheze Limited no Reino Unido. '.
+				'Providenciamos wikis 100% gratuitas, sem fins lucrativos, que mantêm os servidores e continua o desenvolvimento de nossas extensões domésticas.',
 		],
 		'features-community-text' => [
 			'en' => 'Community',
@@ -89,6 +105,7 @@
 			'tr' => 'Topluluk',
 			'ko' => '커뮤니티',
 			'it' => 'Communità',
+			'pt' => 'Comunidade',
 		],
 		'features-community-desc' => [
 			'en' => 'As a community, we all work together to achieve a common goal of being a great wiki farm! '.
@@ -103,12 +120,16 @@
 				'이를 통해 사용자들이 학습할 수 있게 함으로써 사용자가 최상의 결과를 얻을 수 있게 해줍니다!',
 			'it' => 'Come communità, lavoriamo tutti insieme per raggiungere l\'obbiettivo comune di essere una grande wiki farm! ' .
 				'Questo ci permette di ottenere il miglior risultato possibile per gli utenti, permettendogli di imparare!',
+			'pt' => 'Como comunidade, todos trabalhamos juntos para alcançar um objetivo em comum em ser uma grande wiki farm! '.
+				'Isto nos permite alcançar o melhor resultado possível para todos os usuários ao permiti-los aprender!',
 		],
 		'features-responsive-text' => [
 			'en' => 'Responsive',
+			'pt' => 'Responsivo',
 		],
 		'features-responsive-desc' => [
 			'en' => 'All our wikis use MobileFrontend which makes the UI mobile friendly. We also allow you to switch this off by disabling it.',
+			'pt' => 'Todas as nossas wikis usam MobileFrontend que fazem com que a UI seja amigável com dispositivos móveis. Também permitimos que você desligue o recurso ao desabilitá-lo.',
 		],
 		'features-extensions-text' => [
 			'en' => 'In house extensions',
@@ -117,18 +138,25 @@
 			'tr' => 'Evizdeki kadar uzağınızda',
 			'ko' => '내부 확장기능',
 			'it' => 'Estensioni disegnate da noi',
+			'pt' => 'Extensões domésticas',
 		],
 		'features-extensions-desc' => [
 			'en' => 'We have designed some of the most cutting edge extensions to help us grow and become one of the world\'s best wiki farms! ' .
 				'Our extensions assist with wiki creation and management from special pages. ' .
 				'This hands the power to the admin of the wiki, requiring little oversight from the stewards or tech team. ' .
 				'We hope to elevate community input in the management of their wikis.',
+			'pt' => 'Designamos e projetamos algumas das mais extensões de ponta para ajudar-nos crescer e tornar-mos uma das melhores wiki farms! ' .
+				'Nossas extensões ajudam com a criação das wikis e gestão pelas páginas especiais. ' .
+				'Isso nos dá o poder de administrar a wiki, requerindo pouca fiscalização dos comissários ou equipe técnica. ' .
+				'Esperamos elevar a contribuição da comunidade na gestão de suas wikis.',
 		],
 		'features-more-desc' => [
 			'en' => 'And many more features!',
+			'pt' => 'E muito mais recursos!',
 		],
 		'about-title' => [
 			'en' => 'About',
+			'pt' => 'Sobre',
 		],
 		'about-desc' => [
 			'en' => 'In July 2015, John Lewis and Ferran Tufan created a new wiki farm - named Miraheze. ' .
@@ -136,14 +164,24 @@
 				'Over the years, the project has grown immensely to be one of the largest and most recognizable wiki farms specializing in MediaWiki on offer. '.
 				'Despite the success and evolution, one aspect of Miraheze never changed - formal existence. ' .
 				'In November 2019, Miraheze became an registered non-profit in the UK as Miraheze Limited.',
+			'pt' => 'Em julho de 2015, John Lewis e Ferran Tufan criaram uma nova wiki farm - chamada de Miraheze. ' .
+				'Com o uso de financiamento colaborativo da comunidade e investimento pessoal, Miraheze oficialmente foi ao ar em agosto de 2015. ' .
+				'Com o passar dos anos, o projeto cresceu imensamente para se tornar uma das maiores e mais reconhecidas wiki farms especializadas em MediaWiki. ' .
+				'Apesar do sucesso e evolução, um aspecto do Miraheze nunca mudou - existência formal. ' .
+				'Em novembro de 2019, Miraheze se tornou uma empresa sem fins lucrativos registrada no Reino Unido como Miraheze Limited.',
 		],
 		'socialmedia-title' => [
 			'en' => 'Social Media',
+			'pt' => 'Mídia Social',
 		],
 		'footer-desc' => [
 			'en' => 'Miraheze Limited <br />' .
 				'A company limited by guarantee registered in England and Wales company no. 12323854  <br />' .
 				'Except where otherwise noted, the content of this site is licensed under a ' .
+				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
+			'pt' => 'Miraheze Limited <br />' .
+				'Uma empresa limitada por garantia registrada na Inglaterra e País de Gales, companhia nº 12323854 <br />'.
+				'Salvo em indicação ao contrário, o conteúdo deste site está licenciado sob ' .
 				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
 		],
 		'footer-terms' => [
@@ -153,6 +191,7 @@
 			'tr' => 'Kullanım Şartları',
 			'ko' => '이용약관',
 			'it' => "Termini d'uso",
+			'pt' => 'Termos de uso',
 		],
 		'footer-privacy-policy' => [
 			'en' => 'Privacy Policy',
@@ -161,6 +200,7 @@
 			'tr' => 'Gizlilik Politikası',
 			'ko' => '개인정보 보호정책',
 			'it' => "Politica sulla privacy",
+			'pt' => 'Política de privacidade',
 		],
 		'footer-disclaimers' => [
 			'en' => 'Disclaimers',
@@ -169,6 +209,7 @@
 			'tr' => 'Feragatler',
 			'ko' => '면책조항',
 			'it' => "Disclaimer",
+			'pt' => 'Avisos Legais',
 		],
 		'footer-cookie' => [
 			'en' => 'Cookie Statement',
@@ -177,12 +218,15 @@
 			'tr' => 'Çerez Bildirimi',
 			'ko' => '쿠키 정책',
 			'it' => "Informativa sui cookie",
+			'pt' => 'Declaração de cookies',
 		],
 		'footer-contact' => [
 			'en' => 'Contact Us',
+			'pt' => 'Contate-nos',
 		],
 		'footer-faq' => [
 			'en' => 'FAQ',
+			'pt' => 'Perguntas Frequentes',
 		],
 		'footer-translate' => [
 			'en' => 'Translate this page',
@@ -191,21 +235,27 @@
 			'tr' => 'Bu sayfayı çevirin',
 			'ko' => '이 페이지 번역',
 			'it' => 'Traduci questa pagina',
+			'pt' => 'Traduza esta página',
 		],
 		
 		// Donate page
 		'header-donate-logo-text' => [
 			'en' => 'Miraheze Donate',
+			'pt' => 'Doe ao Miraheze',
 		],
 		'header-menu-home' => [
 			'en' => 'Home',
+			'pt' => 'Página principal',
 		],
 		'donate-amount' => [
 			'en' => 'Amount',
+			'pt' => 'Montante',
 		],
 		'donate-note' => [
 			'en' => 'This form is for donations with PayPal (you may use credit/debit cards). ' .
-				'You should select your local currency using the dropdown on the page.'
+				'You should select your local currency using the dropdown on the page.',
+			'pt' => 'Este formulário é para doações com PayPal (você pode usar cartão de crédito/débito); ' .
+				'Escolha sua moeda local usando o menu suspenso na página.',
 		],
 	];
 
