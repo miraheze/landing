@@ -40,8 +40,8 @@ require_once __DIR__ . '/translations.php';
 
     <title><?php echo( translate( 'header-logo-text' ) ); ?></title>
 
-    <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/freelancer.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/miraheze.min.css" rel="stylesheet">
     <link rel="icon" href="https://meta.miraheze.org/favicon.ico">
   </head>
 
@@ -307,12 +307,12 @@ require_once __DIR__ . '/translations.php';
       </a>
     </div>
 
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <script src="js/freelancer.min.js"></script>
+    <script src="js/miraheze.min.js"></script>
 
     <script>
         var _paq = _paq || [];
