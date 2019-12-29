@@ -105,6 +105,19 @@ require_once __DIR__ . '/translations.php';
         </div>
       </div>
     </nav>
+ 
+    <section class="page-section mb-0" id="siteNotice">
+      <div class="container">
+        <div class="divider-custom divider-light"></div>
+        <div class="row">
+          <div class="col-lg-12 ml-auto">
+            <p class="lead">
+                Miraheze is seeking donations to support a new plan to improve its infrastructure and allow communities to prosper. Read more on our <a href="https://www.gofundme.com/f/7uj22x-help-miraheze-stay-online">campaign page</a>.
+			</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <header class="masthead bg-primary text-white text-center">
       <div class="container d-flex align-items-center flex-column">
