@@ -25,9 +25,8 @@ THE SOFTWARE.
 <?php
 require_once __DIR__ . '/translations.php';
 ?>
-
 <!DOCTYPE html>
-<html>
+<html lang="<?php if(isset($_GET['lang'])) { echo $_GET['lang']; } else { echo 'en'; } ?>" dir="<?php if(isset($_GET['lang'])) { echo 'rtl'; } else { echo 'ltr'; } ?>">
 
   <head>
     <meta charset="UTF-8">
@@ -41,6 +40,13 @@ require_once __DIR__ . '/translations.php';
 
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/miraheze.min.css">
+	<?php
+	if(isset($_GET['lang'])) {
+		if($_GET['lang'] == 'fa') {
+			echo '<link rel="stylesheet" href="css/farsi.css">';
+		}
+	}
+	?>
     <link rel="icon" href="https://meta.miraheze.org/favicon.ico">
   </head>
 
@@ -97,6 +103,7 @@ require_once __DIR__ . '/translations.php';
                     <option value="fr">Français</option>
                     <option value="ko">한국어</option>
                     <option value="it">Italiano</option>
+					<option value="fa">فارسی</option>
                   </select>
                 </form>
               </div>

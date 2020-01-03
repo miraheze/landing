@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../webfonts/Vazir-FD.eot');
+    src: url('../webfonts/Vazir-FD.eot?#iefix') format('embedded-opentype'), url('../webfonts/Vazir-FD.ttf') format('truetype'), url('../webfonts/Vazir-FD.woff') format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('../webfonts/Vazir-Bold-FD.eot');
+    src: url('../webfonts/Vazir-Bold-FD.eot?#iefix') format('embedded-opentype'), url('../webfonts/Vazir-Bold-FD.ttf') format('truetype'), url('../webfonts/Vazir-Bold-FD.woff') format('woff');
+    font-weight: bold;
+}
+body, a, p, button, h1, h2, h3, h4, span {
+    font-family: Vazir !important;
+}
