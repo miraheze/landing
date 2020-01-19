@@ -103,7 +103,8 @@ require_once __DIR__ . '/translations.php';
                     <option value="fr">Français</option>
                     <option value="ko">한국어</option>
                     <option value="it">Italiano</option>
-					<option value="fa">فارسی</option>
+                    <option value="pt">Português</option>
+                    <option value="fa">فارسی</option>
                   </select>
                 </form>
               </div>

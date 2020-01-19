@@ -165,9 +165,8 @@
 		],
 		'features-extensions-desc' => [
 			'en' => 'We have designed some of the most cutting edge extensions to help us grow and become one of the world\'s best wiki farms! ' .
-				'Our extensions assist with wiki creation and management from special pages. ' .
-				'This hands the power to the admin of the wiki, requiring little oversight from the stewards or tech team. ' .
-				'We hope to elevate community input in the management of their wikis.',
+				'Our extensions allow communities to have more control over their own wikis, requiring little oversight from our staff. ' .
+				'We listen to community input over the management of their wikis.',
 			'pt' => 'Designamos e projetamos algumas das mais extensões de ponta para ajudar-nos crescer e tornar-mos uma das melhores wiki farms! ' .
 				'Nossas extensões ajudam com a criação das wikis e gestão pelas páginas especiais. ' .
 				'Isso nos dá o poder de administrar a wiki, requerindo pouca fiscalização dos comissários ou equipe técnica. ' .
