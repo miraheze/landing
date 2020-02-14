@@ -186,7 +186,7 @@
 				'Dzięki crowdfundingowi i inwestycjom prywatnym, Miraheze została oficjalnie uruchomiona w sierpniu 2015. ' .
 				'Od tamtego czasu, projekt stał się jedną z największych i najbardziej rozpoznawanych farm wiki specjalizujących się w MediaWiki na żądanie. ' .
 				'Pomimo sukcesu i ewolucji, jeden z aspektów Miraheze się nie zmienił - prawne istnienie. ' .
-				'W listopadzie 2019, Miraheze oficjalnie została zarejestrowaną organizacją non-profit w Wielkiej Brytanii jako Miraheze Limited.'
+				'W listopadzie 2019, Miraheze oficjalnie została zarejestrowaną organizacją non-profit w Wielkiej Brytanii jako Miraheze Limited.',
 			'pt' => 'Em julho de 2015, John Lewis e Ferran Tufan criaram uma nova wiki farm - chamada de Miraheze. ' .
 				'Com o uso de financiamento colaborativo da comunidade e investimento pessoal, Miraheze oficialmente foi ao ar em agosto de 2015. ' .
 				'Com o passar dos anos, o projeto cresceu imensamente para se tornar uma das maiores e mais reconhecidas wiki farms especializadas em MediaWiki. ' .
