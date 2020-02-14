@@ -13,14 +13,17 @@
 			'tr' => "Ana sayfa",
 			'ko' => '홈',
 			'it' => 'Pagina principale',
+			'pl' => 'Strona główna',
 			'pt' => 'Página principal',
 		],
 		'header-menu-features' => [
 			'en' => 'Features',
+			'pl' => 'Funkcje',
 			'pt' => 'Recursos',
 		],
 		'header-menu-about' => [
 			'en' => 'About',
+			'pl' => 'O nas',
 			'pt' => 'Sobre',
 		],
 		'header-menu-wiki' => [
@@ -40,6 +43,7 @@
 			'tr' => 'Bağış yap',
 			'ko' => '기부',
 			'it' => 'Fai una donazione',
+			'pl' => 'Przekaż darowiznę',
 			'pt' => 'Doar',
 		],
 		'welcome-text' => [
@@ -49,6 +53,7 @@
 			'tr' => "Miraheze'ye hoş geldiniz",
 			'ko' => 'Miraheze에 오신 것을 환영합니다!',
 			'it' => 'Benvenuto a Miraheze',
+			'pl' => 'Witaj na Miraheze!',
 			'pt' => 'Bem-vindo(a) ao Miraheze!',
 		],
 		'description-text' => [
@@ -58,10 +63,12 @@
 			'tr' => 'Miraheze kâr amacı gütmeyen, topluluk merkezli bir wiki çiftliği sağlama misyonudur.',
 			'ko' => 'Miraheze는 무료로 위키 공동체를 제공한다는 사명을 가진 비영리 단체입니다.',
 			'it' => 'Miraheze è una organizzazione senza scopo di lucro, con la missione di fornire una farm di wiki gratuita incentrata sulla comunità.',
+			'pl' => 'Miraheze to organizacja non-profit, z misją bycia darmową farmą wiki skupioną wokół społeczności.',
 			'pt' => 'Miraheze é uma organização sem fins lucrativos, com a missão de proporcionar uma farm de wikis gratuita e centrada em sua comunidade.',
 		],
 		'join-text' => [
 			'en' => 'Join Today!',
+			'pl' => 'Dołącz dzisiaj!',
 			'pt' => 'Junte-se hoje!',
 		],
 		'donate-text' => [
@@ -71,10 +78,12 @@
 			'tr' => 'Bugün bağış yapın!',
 			'ko' => '오늘 기부해보세요!',
 			'it' => 'Fai una donazione',
+			'pl' => 'Przekaż darowiznę',
 			'pt' => 'Doe hoje!',
 		],
 		'features-text' => [
 			'en' => 'Features',
+			'pl' => 'Funkcje',
 			'pt' => 'Recursos',
 		],
 		'features-mediawiki' => [
@@ -95,6 +104,8 @@
 		'features-non-profit-desc' => [
 			'en' => 'Miraheze is registered as Miraheze Limited in the United Kingdom. ' .
 				'We provide 100% free wikis as a non-profit that maintains the servers and keeps up with the development of our in house extensions.',
+			'pl' => 'Miraheze zostało zarejestrowane jako Miraheze Limited w Wielkiej Brytanii. ' .
+				'Zapewniamy 100% darmowe wiki jako organizacja non-profit, która konserwuje serwery i samodzielnie rozwija swoje rozszerzenia.',
 			'pt' => 'Miraheze está registrado como Miraheze Limited no Reino Unido. '.
 				'Providenciamos wikis 100% gratuitas, sem fins lucrativos, que mantêm os servidores e continua o desenvolvimento de nossas extensões domésticas.',
 		],
@@ -105,6 +116,7 @@
 			'tr' => 'Topluluk',
 			'ko' => '커뮤니티',
 			'it' => 'Communità',
+			'pl' => 'Społeczność',
 			'pt' => 'Comunidade',
 		],
 		'features-community-desc' => [
@@ -120,15 +132,19 @@
 				'이를 통해 사용자들이 학습할 수 있게 함으로써 사용자가 최상의 결과를 얻을 수 있게 해줍니다!',
 			'it' => 'Come communità, lavoriamo tutti insieme per raggiungere l\'obbiettivo comune di essere una grande wiki farm! ' .
 				'Questo ci permette di ottenere il miglior risultato possibile per gli utenti, permettendogli di imparare!',
+			'pl' => 'Jako społeczność, pracujemy razem, by osiągnąć wspólny cel bycia wspaniałą farmą wiki! ' .
+				'Pozwala nam to na osiągnięcie najlepszych rozwiązań dla użytkowników, pozwalając im się uczyć!',
 			'pt' => 'Como comunidade, todos trabalhamos juntos para alcançar um objetivo em comum em ser uma grande wiki farm! '.
 				'Isto nos permite alcançar o melhor resultado possível para todos os usuários ao permiti-los aprender!',
 		],
 		'features-responsive-text' => [
 			'en' => 'Responsive',
+			'pl' => 'Responsywność',
 			'pt' => 'Responsivo',
 		],
 		'features-responsive-desc' => [
 			'en' => 'All our wikis use MobileFrontend which makes the UI mobile friendly. We also allow you to switch this off by disabling it.',
+			'pl' => 'Wszystkie nasze wiki używają MobileFrontend, który czyni interfejs przyjaznym dla urządzeń mobilnych. Pozwalamy także na wyłączenie tego rozszerzenia.',
 			'pt' => 'Todas as nossas wikis usam MobileFrontend que fazem com que a UI seja amigável com dispositivos móveis. Também permitimos que você desligue o recurso ao desabilitá-lo.',
 		],
 		'features-extensions-text' => [
@@ -138,6 +154,7 @@
 			'tr' => 'Evizdeki kadar uzağınızda',
 			'ko' => '내부 확장기능',
 			'it' => 'Estensioni disegnate da noi',
+			'pl' => 'Własne rozszerzenia',
 			'pt' => 'Extensões domésticas',
 		],
 		'features-extensions-desc' => [
@@ -151,10 +168,12 @@
 		],
 		'features-more-desc' => [
 			'en' => 'And many more features!',
+			'pl' => 'I wiele innych funkcji!',
 			'pt' => 'E muito mais recursos!',
 		],
 		'about-title' => [
 			'en' => 'About',
+			'pl' => 'O nas',
 			'pt' => 'Sobre',
 		],
 		'about-desc' => [
@@ -163,6 +182,11 @@
 				'Over the years, the project has grown immensely to be one of the largest and most recognizable wiki farms specializing in MediaWiki on offer. '.
 				'Despite the success and evolution, one aspect of Miraheze never changed - formal existence. ' .
 				'In November 2019, Miraheze became an registered non-profit in the UK as Miraheze Limited.',
+			'pl' => 'W lipcu 2015, John Lewis i Ferran Tufan stworzyli nową farmę wiki - Miraheze.' .
+				'Dzięki crowdfundingowi i inwestycjom prywatnym, Miraheze została oficjalnie uruchomiona w sierpniu 2015. ' .
+				'Od tamtego czasu, projekt stał się jedną z największych i najbardziej rozpoznawanych farm wiki specjalizujących się w MediaWiki na żądanie. ' .
+				'Pomimo sukcesu i ewolucji, jeden z aspektów Miraheze się nie zmienił - prawne istnienie. ' .
+				'W listopadzie 2019, Miraheze oficjalnie została zarejestrowaną organizacją non-profit w Wielkiej Brytanii jako Miraheze Limited.'
 			'pt' => 'Em julho de 2015, John Lewis e Ferran Tufan criaram uma nova wiki farm - chamada de Miraheze. ' .
 				'Com o uso de financiamento colaborativo da comunidade e investimento pessoal, Miraheze oficialmente foi ao ar em agosto de 2015. ' .
 				'Com o passar dos anos, o projeto cresceu imensamente para se tornar uma das maiores e mais reconhecidas wiki farms especializadas em MediaWiki. ' .
@@ -178,6 +202,10 @@
 				'A company limited by guarantee registered in England and Wales company no. 12323854  <br />' .
 				'Except where otherwise noted, the content of this site is licensed under a ' .
 				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
+			'pl' => 'Miraheze Limited <br />' .
+				'Firma z ograniczoną odpowiedzialność zarejestrowana w Anglii oraz Walii z numere 12323854  <br />' .
+				'Treść, której licencja nie została określona, jest objęta ' .
+				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
 			'pt' => 'Miraheze Limited <br />' .
 				'Uma empresa limitada por garantia registrada na Inglaterra e País de Gales, companhia nº 12323854 <br />'.
 				'Salvo em indicação ao contrário, o conteúdo deste site está licenciado sob ' .
@@ -190,6 +218,7 @@
 			'tr' => 'Kullanım Şartları',
 			'ko' => '이용약관',
 			'it' => "Termini d'uso",
+			'pl' => 'Warunki użytkowania',
 			'pt' => 'Termos de uso',
 		],
 		'footer-privacy-policy' => [
@@ -199,6 +228,7 @@
 			'tr' => 'Gizlilik Politikası',
 			'ko' => '개인정보 보호정책',
 			'it' => "Politica sulla privacy",
+			'pl' => 'Polityka prywatności',
 			'pt' => 'Política de privacidade',
 		],
 		'footer-disclaimers' => [
@@ -208,6 +238,7 @@
 			'tr' => 'Feragatler',
 			'ko' => '면책조항',
 			'it' => "Disclaimer",
+			'pl' => 'Informacje prawne',
 			'pt' => 'Avisos Legais',
 		],
 		'footer-cookie' => [
@@ -217,10 +248,12 @@
 			'tr' => 'Çerez Bildirimi',
 			'ko' => '쿠키 정책',
 			'it' => "Informativa sui cookie",
+			'pl' => 'Polityka dot. cookies',
 			'pt' => 'Declaração de cookies',
 		],
 		'footer-contact' => [
 			'en' => 'Contact Us',
+			'pl' => 'Skontaktuj się z nami',
 			'pt' => 'Contate-nos',
 		],
 		'footer-faq' => [
@@ -234,6 +267,7 @@
 			'tr' => 'Bu sayfayı çevirin',
 			'ko' => '이 페이지 번역',
 			'it' => 'Traduci questa pagina',
+			'pl' => 'Przetłumacz tę witrynę',
 			'pt' => 'Traduza esta página',
 		],
 		
@@ -244,15 +278,19 @@
 		],
 		'header-menu-home' => [
 			'en' => 'Home',
+			'pl' => 'Strona główna',
 			'pt' => 'Página principal',
 		],
 		'donate-amount' => [
 			'en' => 'Amount',
+			'pl' => 'Kwota',
 			'pt' => 'Montante',
 		],
 		'donate-note' => [
 			'en' => 'This form is for donations with PayPal (you may use credit/debit cards). ' .
 				'You should select your local currency using the dropdown on the page.',
+			'pl' => 'Ten formularz dotyczy darowizn dokonywanych z użyciem PayPal (możliwe jest użycie kart kredytowych/debetowych). ' .
+				'Prosimy o wybranie swojej lokalnej waluty używając menu na stronie.',
 			'pt' => 'Este formulário é para doações com PayPal (você pode usar cartão de crédito/débito); ' .
 				'Escolha sua moeda local usando o menu suspenso na página.',
 		],
