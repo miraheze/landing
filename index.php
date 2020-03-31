@@ -335,8 +335,8 @@ require_once __DIR__ . '/translations.php';
         (function() {
             var u="https://matomo.miraheze.org/";
             _paq.push(['setTrackerUrl', u+'piwik.php']);
-            _paq.push(['setSiteId', 1]);
-            _paq.push(['addTracker', u + "piwik.php", 3412]);
+            _paq.push(['setSiteId', 4657]);
+            _paq.push(['addTracker', u + "piwik.php", 1]);
             var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
             g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
         })();
