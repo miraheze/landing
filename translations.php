@@ -5,7 +5,6 @@
 		],
 		'header-menu-title' => [
 			'en' => 'Menu'
-			'ja' => 'メニュー'
 		],
 		'header-menu-home' => [
 			'en' => 'Home',
