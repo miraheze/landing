@@ -148,7 +148,7 @@
 			'pt' => 'Todas as nossas wikis usam MobileFrontend que fazem com que a UI seja amigável com dispositivos móveis. Também permitimos que você desligue o recurso ao desabilitá-lo.',
 		],
 		'features-extensions-text' => [
-			'en' => 'In house extensions',
+			'en' => 'In-house extensions',
 			'es' => '¡En las extensiones de la casa',
 			'fr' => 'Des extensions internes',
 			'tr' => 'Evizdeki kadar uzağınızda',
