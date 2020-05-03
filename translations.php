@@ -23,12 +23,14 @@
 			'en' => '特徴',
 			'pl' => 'Funkcje',
 			'pt' => 'Recursos',
+			'ko' => '특징',
 		],
 		'header-menu-about' => [
 			'en' => 'About',
 			'ja' => '概要',
 			'pl' => 'O nas',
 			'pt' => 'Sobre',
+			'ko' => '소개',
 		],
 		'header-menu-wiki' => [
 			'en' => 'Wiki',
@@ -37,10 +39,16 @@
 		'header-menu-blog' => [
 			'en' => 'Blog',
 			'ja => 'ブログ',
+			'ko' => '위키',
+		],
+		'header-menu-blog' => [
+			'en' => 'Blog',
+			'ko' => '블로그',
 		],
 		'header-menu-status' => [
 			'en' => 'Status',
 			'pt' => 'Status',
+			'ko' => '상태',
 		],
 		'header-menu-donate' => [
 			'en' => 'Donate',
@@ -80,6 +88,7 @@
 			'ja' => '今日参加しましょう！', 
 			'pl' => 'Dołącz dzisiaj!',
 			'pt' => 'Junte-se hoje!',
+			'ko' => '지금 가입하세요!',
 		],
 		'donate-text' => [
 			'en' => 'Donate Today!',
@@ -97,6 +106,7 @@
 			'ja' => '特徴',
 			'pl' => 'Funkcje',
 			'pt' => 'Recursos',
+			'ko' => '특징',
 		],
 		'features-mediawiki' => [
 			'en' => 'MediaWiki',
@@ -111,11 +121,15 @@
 			'pt' => 'Miraheze usa o mesmo software que a Wikipédia, <a href="https://www.mediawiki.org">MediaWiki!</a> '.
 				'Você pode fazer qualquer coisa, desde enviar arquivos como imagens ou vídeos, até escrever artigos ou blogs. '.
 				'Temos mais de 200 extensões e mais de 15 skins (temas) para customizar sua experiência com o MediaWiki!',
+			'ko' => 'Miraheze는 위키백과와 동일한 소프트웨어인 <a href="https://www.mediawiki.org">MediaWiki</a>를 사용합니다! ' .
+				'당신은 이미지나 동영상과 같은 미디어를 올리는 것부터, 글이나 블로그를 작성하는 것까지 무엇이든 할 수 있습니다. ' .
+				'우리는 MediaWiki를 입맛대로 쓸 수 있도록 200개가 넘는 확장기능과 15개가 넘는 스킨을 제공합니다!',
 		],
 		'features-non-profit-text' => [
 			'en' => 'Non-Profit',
 			'ja' => '非営利',
 			'pt' => 'Sem fins lucrativos',
+			'ko' => '비영리',
 		],
 		'features-non-profit-desc' => [
 			'en' => 'Miraheze is registered as Miraheze Limited in the United Kingdom. ' .
@@ -126,6 +140,8 @@
 				'Zapewniamy 100% darmowe wiki jako organizacja non-profit, która konserwuje serwery i samodzielnie rozwija swoje rozszerzenia.',
 			'pt' => 'Miraheze está registrado como Miraheze Limited no Reino Unido. '.
 				'Providenciamos wikis 100% gratuitas, sem fins lucrativos, que mantêm os servidores e continua o desenvolvimento de nossas extensões domésticas.',
+			'ko' => 'Miraheze는 영국에 Miraheze Limited로 등록되어 있습니다. ' .
+				'우리는 서버를 관리하고 내부 확장기능을 지속적으로 개발해 나감으로써 100% 자유로운 위키들을 제공합니다.',
 		],
 		'features-community-text' => [
 			'en' => 'Community',
@@ -163,15 +179,17 @@
 			'ja' => 'レスポンシブ',
 			'pl' => 'Responsywność',
 			'pt' => 'Responsivo',
+			'ko' => '반응형',
 		],
 		'features-responsive-desc' => [
 			'en' => 'All our wikis use MobileFrontend which makes the UI mobile friendly. We also allow you to switch this off by disabling it.',
 			'ja' => 'すべてのウィキは、UIをモバイルに最適化するMobileFrontendを使用しています。 また、これを無効にすることでオフにできます。',
 			'pl' => 'Wszystkie nasze wiki używają MobileFrontend, który czyni interfejs przyjaznym dla urządzeń mobilnych. Pozwalamy także na wyłączenie tego rozszerzenia.',
 			'pt' => 'Todas as nossas wikis usam MobileFrontend que fazem com que a UI seja amigável com dispositivos móveis. Também permitimos que você desligue o recurso ao desabilitá-lo.',
+			'en' => '우리의 모든 위키는 UI를 모바일 친화적으로 만드는 MobileFrontend를 사용합니다. 물론 당신이 이 기능을 끌 수도 있습니다.',
 		],
 		'features-extensions-text' => [
-			'en' => 'In house extensions',
+			'en' => 'In-house extensions',
 			'es' => '¡En las extensiones de la casa',
 			'fr' => 'Des extensions internes',
 			'ja' => '内部拡張機能',
@@ -192,18 +210,24 @@
 				'Nossas extensões ajudam com a criação das wikis e gestão pelas páginas especiais. ' .
 				'Isso nos dá o poder de administrar a wiki, requerindo pouca fiscalização dos comissários ou equipe técnica. ' .
 				'Esperamos elevar a contribuição da comunidade na gestão de suas wikis.',
+			'ko' => '우리는 성장을 돕고 세계 최고의 위키 호스팅 서비스가 될 수 있도록 몇몇 최첨단 확장기능을 설계해왔습니다! ' .
+				'우리의 확장기능은 운영자의 적은 간섭으로 공동체가 자신의 위키에서 더 많은 것을 제어할 수 있도록 합니다. ' .
+				'우리는 공동체로부터 자신의 위키를 관리하는 것에 대한 의견을 듣습니다.',
+
 		],
 		'features-more-desc' => [
 			'en' => 'And many more features!',
 			'ja' => 'さらに多くの特徴！',
 			'pl' => 'I wiele innych funkcji!',
 			'pt' => 'E muito mais recursos!',
+			'ko' => '그리고 더 많은 기능이 있습니다!',
 		],
 		'about-title' => [
 			'en' => 'About',
 			'ja' => '概要',
 			'pl' => 'O nas',
 			'pt' => 'Sobre',
+			'ko' => '소개',
 		],
 		'about-desc' => [
 			'en' => 'In July 2015, John Lewis and Ferran Tufan created a new wiki farm - named Miraheze. ' .
@@ -226,11 +250,17 @@
 				'Com o passar dos anos, o projeto cresceu imensamente para se tornar uma das maiores e mais reconhecidas wiki farms especializadas em MediaWiki. ' .
 				'Apesar do sucesso e evolução, um aspecto do Miraheze nunca mudou - existência formal. ' .
 				'Em novembro de 2019, Miraheze se tornou uma empresa sem fins lucrativos registrada no Reino Unido como Miraheze Limited.',
+			'ko' => '2015년 7월, John Lewis와 Ferran Tufan가 Miraheze라는 새로운 위키 호스팅 사이트를 설립했습니다. ' .
+				'공동체의 크라우드 펀딩과 개인 투자를 통해, Miraheze는 2015년 8월에 정식으로 오픈했습니다. ' .
+				'수년동안, 프로젝트는 가장 크고 가장 유명한 MediaWiki 전문 위키 호스팅 사이트 중 하나로 막대하게 성장했습니다. '.
+				'성공과 진화에도 불구하고, Miraheze의 법인은 여전히 없었습니다. ' .
+				'2019년 11월, Miraheze는 드디어 영국에서 Miraheze Limited라는 비영리 법인으로 등록하였습니다.',
 		],
 		'socialmedia-title' => [
 			'en' => 'Social Media',
 			'ja' => 'ソーシャルメディア',
 			'pt' => 'Mídia Social',
+			'ko' => '소셜 미디어',
 		],
 
 		'footer-desc' => [
@@ -252,6 +282,11 @@
 				'Uma empresa limitada por garantia registrada na Inglaterra e País de Gales, companhia nº 12323854 <br />'.
 				'Salvo em indicação ao contrário, o conteúdo deste site está licenciado sob ' .
 				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
+			'ko' => 'Miraheze Limited <br />' .
+				'잉글랜드 및 웨일스에 등록된 보증유한회사 사업자번호: 12323854  <br />' .
+				'별도로 언급되지 않는 한, 이 사이트의 내용은 ' .
+				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">저작자표시-동일조건변경허락 4.0 국제 (CC BY-SA 4.0)</a> ' .
+				'라이선스에 의해 사용하실 수 있습니다.',
 		],
 		'footer-terms' => [
 			'en' => 'Terms of Use',
@@ -302,6 +337,7 @@
 			'ja' => 'お問い合わせ',
 			'pl' => 'Skontaktuj się z nami',
 			'pt' => 'Contate-nos',
+			'ko' => '문의하기',
 		],
 		'footer-faq' => [
 			'en' => 'FAQ',
@@ -324,18 +360,21 @@
 			'en' => 'Miraheze Donate',
 			'ja' => 'Miraheze 寄付',
 			'pt' => 'Doe ao Miraheze',
+			'ko' => 'Miraheze에 기부하기',
 		],
 		'header-menu-home' => [
 			'en' => 'Home',
 			'ja' => 'ホーム',
 			'pl' => 'Strona główna',
 			'pt' => 'Página principal',
+			'ko' => '홈',
 		],
 		'donate-amount' => [
 			'en' => 'Amount',
 			'ja' => '金額',
 			'pl' => 'Kwota',
 			'pt' => 'Montante',
+			'ko' => '금액',
 		],
 		'donate-note' => [
 			'en' => 'This form is for donations with PayPal (you may use credit/debit cards). ' .
@@ -346,6 +385,8 @@
 				'Prosimy o wybranie swojej lokalnej waluty używając menu na stronie.',
 			'pt' => 'Este formulário é para doações com PayPal (você pode usar cartão de crédito/débito); ' .
 				'Escolha sua moeda local usando o menu suspenso na página.',
+			'ko' => '이 양식은 PayPal을 통한 기부에 사용합니다. (신용/직불 카드를 이용하실 수 있습니다). ' .
+				'다음 페이지의 드롭다운 메뉴에서 당신이 사용하는 화폐를 선택해야 합니다.',
 		],
 	];
 
