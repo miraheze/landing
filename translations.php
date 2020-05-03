@@ -38,7 +38,7 @@
 		],
 		'header-menu-blog' => [
 			'en' => 'Blog',
-			'ja => 'ブログ',
+			'ja' => 'ブログ',
 			'ko' => '위키',
 		],
 		'header-menu-blog' => [
