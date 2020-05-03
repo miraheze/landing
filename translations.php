@@ -78,7 +78,7 @@
 			'it' => 'Miraheze è una organizzazione senza scopo di lucro, con la missione di fornire una farm di wiki gratuita incentrata sulla comunità.',
 			'pl' => 'Miraheze to organizacja non-profit, z misją bycia darmową farmą wiki skupioną wokół społeczności.',
 			'pt' => 'Miraheze é uma organização sem fins lucrativos, com a missão de proporcionar uma farm de wikis gratuita e centrada em sua comunidade.',
-			'zh-hant' => 'Miraheze 是非營利的，旨在提供一個免費、以社群為中心的維基農場',
+			'zh-hant' => 'Miraheze 是非營利的，旨在提供一個免費、以社群為中心的 Wiki 農場',
 		],
 		'join-text' => [
 			'en' => 'Join Today!',
@@ -160,20 +160,19 @@
 				'Pozwala nam to na osiągnięcie najlepszych rozwiązań dla użytkowników, pozwalając im się uczyć!',
 			'pt' => 'Como comunidade, todos trabalhamos juntos para alcançar um objetivo em comum em ser uma grande wiki farm! '.
 				'Isto nos permite alcançar o melhor resultado possível para todos os usuários ao permiti-los aprender!',
-			'zh-hant' => '作為一個社群，我們一起合作推動「建立一個優質的維基農場」這一共同目標！'.
+			'zh-hant' => '作為一個社群，我們一起合作推動「建立一個優質的 Wiki 農場」這一共同目標！'.
 				'這使我們能容許用戶互相學習，為用戶獲得最好的效果！',
 		],
 		'features-responsive-text' => [
 			'en' => 'Responsive',
 			'pl' => 'Responsywność',
 			'pt' => 'Responsivo',
-			'zh-hant' => '回應式網頁',
 		],
 		'features-responsive-desc' => [
 			'en' => 'All our wikis use MobileFrontend which makes the UI mobile friendly. We also allow you to switch this off by disabling it.',
 			'pl' => 'Wszystkie nasze wiki używają MobileFrontend, który czyni interfejs przyjaznym dla urządzeń mobilnych. Pozwalamy także na wyłączenie tego rozszerzenia.',
 			'pt' => 'Todas as nossas wikis usam MobileFrontend que fazem com que a UI seja amigável com dispositivos móveis. Também permitimos que você desligue o recurso ao desabilitá-lo.',
-			'zh-hant' => '我們所有的維基均開啟 MobileFrontend，使各維基對各移動裝置更友好。而我們也允許您關閉這個功能。',
+			'zh-hant' => '我們所有的維基均開啟 MobileFrontend，使各維基對移動裝置更友好。當然，我們也允許您關閉這個功能。',
 		],
 		'features-extensions-text' => [
 			'en' => 'In-house extensions',
@@ -194,7 +193,7 @@
 				'Nossas extensões ajudam com a criação das wikis e gestão pelas páginas especiais. ' .
 				'Isso nos dá o poder de administrar a wiki, requerindo pouca fiscalização dos comissários ou equipe técnica. ' .
 				'Esperamos elevar a contribuição da comunidade na gestão de suas wikis.',
-			'zh-hant' => '我們設計了一些最新的擴展功能，幫助我們建立一個優質維基農場！'.
+			'zh-hant' => '我們設計了一些最新的擴展功能，幫助我們建立一個優質 Wiki 農場！'.
 				'我們的擴展功能容許社群更容易管理他們的維基，而幾乎不需要我們的管理。'.
 				'而我們也會繼續聽取社群在維基管理方面的意見。',
 		],
@@ -298,6 +297,8 @@
 			'it' => "Informativa sui cookie",
 			'pl' => 'Polityka dot. cookies',
 			'pt' => 'Declaração de cookies',
+			'zh-hans' => 'Cookie 声明',
+			'zh-hant' => 'Cookie 聲明',
 		],
 		'footer-contact' => [
 			'en' => 'Contact Us',
@@ -329,16 +330,20 @@
 		'header-donate-logo-text' => [
 			'en' => 'Miraheze Donate',
 			'pt' => 'Doe ao Miraheze',
+			'zh-hant' => '捐款給 Miraheze',
 		],
 		'header-menu-home' => [
 			'en' => 'Home',
 			'pl' => 'Strona główna',
 			'pt' => 'Página principal',
+			'zh-hans' => '首頁',
+			'zh-hant' => '首頁',
 		],
 		'donate-amount' => [
 			'en' => 'Amount',
 			'pl' => 'Kwota',
 			'pt' => 'Montante',
+			'zh-hant' => '金額',
 		],
 		'donate-note' => [
 			'en' => 'This form is for donations with PayPal (you may use credit/debit cards). ' .
