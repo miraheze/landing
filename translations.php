@@ -15,26 +15,35 @@
 			'it' => 'Pagina principale',
 			'pl' => 'Strona główna',
 			'pt' => 'Página principal',
+			'zh-hans' => '首頁',
+			'zh-hant' => '首頁',
 		],
 		'header-menu-features' => [
 			'en' => 'Features',
 			'pl' => 'Funkcje',
 			'pt' => 'Recursos',
+			'zh-hans' => '特点',
+			'zh-hant' => '特點',
 		],
 		'header-menu-about' => [
 			'en' => 'About',
 			'pl' => 'O nas',
 			'pt' => 'Sobre',
+			'zh-hans' => '关于',
+			'zh-hant' => '關於',
 		],
 		'header-menu-wiki' => [
 			'en' => 'Wiki',
 		],
 		'header-menu-blog' => [
 			'en' => 'Blog',
+			'zh-hant' => '網誌',
 		],
 		'header-menu-status' => [
 			'en' => 'Status',
 			'pt' => 'Status',
+			'zh-hans' => '状态',
+			'zh-hant' => '狀態',
 		],
 		'header-menu-donate' => [
 			'en' => 'Donate',
@@ -45,6 +54,8 @@
 			'it' => 'Fai una donazione',
 			'pl' => 'Przekaż darowiznę',
 			'pt' => 'Doar',
+			'zh-hans' => '捐款',
+			'zh-hant' => '捐款',
 		],
 		'welcome-text' => [
 			'en' => 'Welcome to Miraheze!',
@@ -55,6 +66,8 @@
 			'it' => 'Benvenuto a Miraheze',
 			'pl' => 'Witaj na Miraheze!',
 			'pt' => 'Bem-vindo(a) ao Miraheze!',
+			'zh-hans' => '欢迎來到 Miraheze',
+			'zh-hant' => '歡迎來到 Miraheze',
 		],
 		'description-text' => [
 			'en' => 'Miraheze is a non-profit, with a mission to provide a free community-centric wiki farm.',
@@ -65,11 +78,13 @@
 			'it' => 'Miraheze è una organizzazione senza scopo di lucro, con la missione di fornire una farm di wiki gratuita incentrata sulla comunità.',
 			'pl' => 'Miraheze to organizacja non-profit, z misją bycia darmową farmą wiki skupioną wokół społeczności.',
 			'pt' => 'Miraheze é uma organização sem fins lucrativos, com a missão de proporcionar uma farm de wikis gratuita e centrada em sua comunidade.',
+			'zh-hant' => 'Miraheze 是非營利的，旨在提供一個免費、以社群為中心的維基農場',
 		],
 		'join-text' => [
 			'en' => 'Join Today!',
 			'pl' => 'Dołącz dzisiaj!',
 			'pt' => 'Junte-se hoje!',
+			'zh-hant' => '現在就加入我們！',
 		],
 		'donate-text' => [
 			'en' => 'Donate Today!',
@@ -80,11 +95,15 @@
 			'it' => 'Fai una donazione',
 			'pl' => 'Przekaż darowiznę',
 			'pt' => 'Doe hoje!',
+			'zh-hans' => '立即捐款！',
+			'zh-hant' => '立即捐款！',
 		],
 		'features-text' => [
 			'en' => 'Features',
 			'pl' => 'Funkcje',
 			'pt' => 'Recursos',
+			'zh-hans' => '特点',
+			'zh-hant' => '特點',
 		],
 		'features-mediawiki' => [
 			'en' => 'MediaWiki',
@@ -96,10 +115,14 @@
 			'pt' => 'Miraheze usa o mesmo software que a Wikipédia, <a href="https://www.mediawiki.org">MediaWiki!</a> '.
 				'Você pode fazer qualquer coisa, desde enviar arquivos como imagens ou vídeos, até escrever artigos ou blogs. '.
 				'Temos mais de 200 extensões e mais de 15 skins (temas) para customizar sua experiência com o MediaWiki!',
+			'zh-hant' => '我們與維基百科一樣使用 <a href="https://mediawiki.org">MediaWiki</a> 來運行這個 Wiki 農場！'.
+				'您可以在這裡上傳圖片、影片等各種多媒體，以至寫文章或博客。',
 		],
 		'features-non-profit-text' => [
 			'en' => 'Non-Profit',
 			'pt' => 'Sem fins lucrativos',
+			'zh-hans' => '非营利',
+			'zh-hant' => '非營利',
 		],
 		'features-non-profit-desc' => [
 			'en' => 'Miraheze is registered as Miraheze Limited in the United Kingdom. ' .
@@ -118,6 +141,7 @@
 			'it' => 'Communità',
 			'pl' => 'Społeczność',
 			'pt' => 'Comunidade',
+			'zh-hant' => '社群',
 		],
 		'features-community-desc' => [
 			'en' => 'As a community, we all work together to achieve a common goal of being a great wiki farm! '.
@@ -136,16 +160,20 @@
 				'Pozwala nam to na osiągnięcie najlepszych rozwiązań dla użytkowników, pozwalając im się uczyć!',
 			'pt' => 'Como comunidade, todos trabalhamos juntos para alcançar um objetivo em comum em ser uma grande wiki farm! '.
 				'Isto nos permite alcançar o melhor resultado possível para todos os usuários ao permiti-los aprender!',
+			'zh-hant' => '作為一個社群，我們一起合作推動「建立一個優質的維基農場」這一共同目標！'.
+				'這使我們能容許用戶互相學習，為用戶獲得最好的效果！',
 		],
 		'features-responsive-text' => [
 			'en' => 'Responsive',
 			'pl' => 'Responsywność',
 			'pt' => 'Responsivo',
+			'zh-hant' => '回應式網頁',
 		],
 		'features-responsive-desc' => [
 			'en' => 'All our wikis use MobileFrontend which makes the UI mobile friendly. We also allow you to switch this off by disabling it.',
 			'pl' => 'Wszystkie nasze wiki używają MobileFrontend, który czyni interfejs przyjaznym dla urządzeń mobilnych. Pozwalamy także na wyłączenie tego rozszerzenia.',
 			'pt' => 'Todas as nossas wikis usam MobileFrontend que fazem com que a UI seja amigável com dispositivos móveis. Também permitimos que você desligue o recurso ao desabilitá-lo.',
+			'zh-hant' => '我們所有的維基均開啟 MobileFrontend，使各維基對各移動裝置更友好。而我們也允許您關閉這個功能。',
 		],
 		'features-extensions-text' => [
 			'en' => 'In-house extensions',
@@ -156,6 +184,7 @@
 			'it' => 'Estensioni disegnate da noi',
 			'pl' => 'Własne rozszerzenia',
 			'pt' => 'Extensões domésticas',
+			'zh-hant' => '自家製作的擴展功能',
 		],
 		'features-extensions-desc' => [
 			'en' => 'We have designed some of the most cutting edge extensions to help us grow and become one of the world\'s best wiki farms! ' .
@@ -165,16 +194,23 @@
 				'Nossas extensões ajudam com a criação das wikis e gestão pelas páginas especiais. ' .
 				'Isso nos dá o poder de administrar a wiki, requerindo pouca fiscalização dos comissários ou equipe técnica. ' .
 				'Esperamos elevar a contribuição da comunidade na gestão de suas wikis.',
+			'zh-hant' => '我們設計了一些最新的擴展功能，幫助我們建立一個優質維基農場！'.
+				'我們的擴展功能容許社群更容易管理他們的維基，而幾乎不需要我們的管理。'.
+				'而我們也會繼續聽取社群在維基管理方面的意見。',
 		],
 		'features-more-desc' => [
 			'en' => 'And many more features!',
 			'pl' => 'I wiele innych funkcji!',
 			'pt' => 'E muito mais recursos!',
+			'zh-hans' => '还有更多功能！',
+			'zh-hant' => '還有更多功能！',
 		],
 		'about-title' => [
 			'en' => 'About',
 			'pl' => 'O nas',
 			'pt' => 'Sobre',
+			'zh-hans' => '关于',
+			'zh-hant' => '關於',
 		],
 		'about-desc' => [
 			'en' => 'In July 2015, John Lewis and Ferran Tufan created a new wiki farm - named Miraheze. ' .
@@ -196,6 +232,8 @@
 		'socialmedia-title' => [
 			'en' => 'Social Media',
 			'pt' => 'Mídia Social',
+			'zh-hans' => '社交媒体',
+			'zh-hant' => '社交媒體',
 		],
 		'footer-desc' => [
 			'en' => 'Miraheze Limited <br />' .
@@ -210,6 +248,10 @@
 				'Uma empresa limitada por garantia registrada na Inglaterra e País de Gales, companhia nº 12323854 <br />'.
 				'Salvo em indicação ao contrário, o conteúdo deste site está licenciado sob ' .
 				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
+			'zh-hant' => 'Miraheze Limited <br />' .
+				'是在英格蘭和威爾士註冊的擔保有限公司 公司編號︰12323854  <br />' .
+				'除非另有註明，本網站所有內容皆以' .
+				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a> 條款授權。',
 		],
 		'footer-terms' => [
 			'en' => 'Terms of Use',
@@ -220,6 +262,8 @@
 			'it' => "Termini d'uso",
 			'pl' => 'Warunki użytkowania',
 			'pt' => 'Termos de uso',
+			'zh-hans' => '使用条款',
+			'zh-hant' => '使用條款',
 		],
 		'footer-privacy-policy' => [
 			'en' => 'Privacy Policy',
@@ -230,6 +274,8 @@
 			'it' => "Politica sulla privacy",
 			'pl' => 'Polityka prywatności',
 			'pt' => 'Política de privacidade',
+			'zh-hans' => '隐私政策',
+			'zh-hant' => '隱私政策',
 		],
 		'footer-disclaimers' => [
 			'en' => 'Disclaimers',
@@ -240,6 +286,8 @@
 			'it' => "Disclaimer",
 			'pl' => 'Informacje prawne',
 			'pt' => 'Avisos Legais',
+			'zh-hans' => '免责声明',
+			'zh-hant' => '免責聲明',
 		],
 		'footer-cookie' => [
 			'en' => 'Cookie Statement',
@@ -255,10 +303,14 @@
 			'en' => 'Contact Us',
 			'pl' => 'Skontaktuj się z nami',
 			'pt' => 'Contate-nos',
+			'zh-hans' => '联络我们',
+			'zh-hant' => '聯絡我們',
 		],
 		'footer-faq' => [
 			'en' => 'FAQ',
 			'pt' => 'Perguntas Frequentes',
+			'zh-hans' => '常见问题',
+			'zh-hant' => '常見問題',
 		],
 		'footer-translate' => [
 			'en' => 'Translate this page',
@@ -269,6 +321,8 @@
 			'it' => 'Traduci questa pagina',
 			'pl' => 'Przetłumacz tę witrynę',
 			'pt' => 'Traduza esta página',
+			'zh-hans' => '翻译这个页面',
+			'zh-hant' => '翻譯這個頁面',
 		],
 		
 		// Donate page
