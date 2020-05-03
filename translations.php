@@ -379,7 +379,7 @@
 		'donate-note' => [
 			'en' => 'This form is for donations with PayPal (you may use credit/debit cards). ' .
 				'You should select your local currency using the dropdown on the page.',
-			'ja => 'このフォームは、PayPalでの寄付用です（クレジットカード/デビットカードを使用できます）。' .
+			'ja' => 'このフォームは、PayPalでの寄付用です（クレジットカード/デビットカードを使用できます）。' .
 				'ページのドロップダウンを使用して、現地通貨を選択する必要があります。',
 			'pl' => 'Ten formularz dotyczy darowizn dokonywanych z użyciem PayPal (możliwe jest użycie kart kredytowych/debetowych). ' .
 				'Prosimy o wybranie swojej lokalnej waluty używając menu na stronie.',
