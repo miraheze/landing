@@ -4,7 +4,7 @@
 			'en' => 'Miraheze',
 		],
 		'header-menu-title' => [
-			'en' => 'Menu'
+			'en' => 'Menu',
 			'ja' => 'メニュー'
 		],
 		'header-menu-home' => [
