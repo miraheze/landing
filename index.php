@@ -96,6 +96,7 @@ require_once __DIR__ . '/translations.php';
                     <option value="es">Español</option>
                     <option value="fr">Français</option>
                     <option value="it">Italiano</option>
+                    <option value="ja">日本語</option>
                     <option value="ko">한국어</option>
                     <option value="pl">Polski</option>
                     <option value="pt">Português</option>
