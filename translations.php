@@ -35,22 +35,20 @@
 			'ko' => '소개',
 			'pl' => 'O nas',
 			'pt' => 'Sobre',
-			'zh-hans' => '关于',
-			'zh-hant' => '關於',
+			'zh-hans' => '简介',
+			'zh-hant' => '簡介',
 		],
 		'header-menu-wiki' => [
 			'en' => 'Wiki',
 			'ja' => 'ウィキ',
+			'ko' => '위키',
 		],
 		'header-menu-blog' => [
 			'en' => 'Blog',
 			'ja' => 'ブログ',
-			'ko' => '위키',
-			'zh-hant' => '網誌',
-		],
-		'header-menu-blog' => [
-			'en' => 'Blog',
 			'ko' => '블로그',
+			'zh-hant' => '博客',
+			'zh-hant' => '網誌',
 		],
 		'header-menu-status' => [
 			'en' => 'Status',
@@ -260,8 +258,8 @@
 			'ko' => '소개',
 			'pl' => 'O nas',
 			'pt' => 'Sobre',
-			'zh-hans' => '关于',
-			'zh-hant' => '關於',
+			'zh-hans' => '简介',
+			'zh-hant' => '簡介',
 		],
 		'about-desc' => [
 			'en' => 'In July 2015, John Lewis and Ferran Tufan created a new wiki farm - named Miraheze. ' .
@@ -432,6 +430,7 @@
 			'ko' => '금액',
 			'pl' => 'Kwota',
 			'pt' => 'Montante',
+			'zh-hans' => '金额',
 			'zh-hant' => '金額',
 		],
 		'donate-note' => [
