@@ -430,7 +430,7 @@
 			'ko' => '금액',
 			'pl' => 'Kwota',
 			'pt' => 'Montante',
-			'zh-hans' => '金额'
+			'zh-hans' => '金额',
 			'zh-hant' => '金額',
 		],
 		'donate-note' => [
