@@ -111,7 +111,7 @@ require_once __DIR__ . '/translations.php';
       </div>
     </nav>
  
-    <section class="page-section mb-0" id="siteNotice">
+    <!--<section class="page-section mb-0" id="siteNotice">
       <div class="container">
         <div class="divider-custom divider-light"></div>
         <div class="row">
@@ -122,7 +122,7 @@ require_once __DIR__ . '/translations.php';
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <header class="masthead bg-primary text-white text-center">
       <div class="container d-flex align-items-center flex-column">
