@@ -6,7 +6,7 @@
 		],
 		'header-menu-title' => [
 			'en' => 'Menu',
-			'ja' => 'メニュー'
+			'ja' => 'メニュー',
 			'cs' => 'Menu',
 		],
 		'header-menu-home' => [
