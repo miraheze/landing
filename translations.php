@@ -2,10 +2,12 @@
 	$translations = [
 		'header-logo-text' => [
 			'en' => 'Miraheze',
+			'cs' => 'Miraheze',
 		],
 		'header-menu-title' => [
 			'en' => 'Menu',
 			'ja' => 'メニュー'
+			'cs' => 'Menu',
 		],
 		'header-menu-home' => [
 			'en' => 'Home',
@@ -19,6 +21,7 @@
 			'pt' => 'Página principal',
 			'zh-hans' => '首頁',
 			'zh-hant' => '首頁',
+			'cs' => 'Domů',
 		],
 		'header-menu-features' => [
 			'en' => 'Features',
@@ -28,6 +31,7 @@
 			'pt' => 'Recursos',
 			'zh-hans' => '特点',
 			'zh-hant' => '特點',
+			'cs' => 'Vlastnosti',
 		],
 		'header-menu-about' => [
 			'en' => 'About',
@@ -37,11 +41,13 @@
 			'pt' => 'Sobre',
 			'zh-hans' => '简介',
 			'zh-hant' => '簡介',
+			'cs' => 'O nás',
 		],
 		'header-menu-wiki' => [
 			'en' => 'Wiki',
 			'ja' => 'ウィキ',
 			'ko' => '위키',
+			'cs' => 'Wiki',
 		],
 		'header-menu-blog' => [
 			'en' => 'Blog',
@@ -49,6 +55,7 @@
 			'ko' => '블로그',
 			'zh-hant' => '博客',
 			'zh-hant' => '網誌',
+			'cs' => 'Blog',
 		],
 		'header-menu-status' => [
 			'en' => 'Status',
@@ -69,6 +76,7 @@
 			'pt' => 'Doar',
 			'zh-hans' => '捐款',
 			'zh-hant' => '捐款',
+			'cs' => 'Podpořte Miraheze',
 		],
 		'welcome-text' => [
 			'en' => 'Welcome to Miraheze!',
@@ -82,6 +90,7 @@
 			'pt' => 'Bem-vindo(a) ao Miraheze!',
 			'zh-hans' => '欢迎來到 Miraheze',
 			'zh-hant' => '歡迎來到 Miraheze',
+			'cs' => 'Vítejte v Miraheze',
 		],
 		'description-text' => [
 			'en' => 'Miraheze is a non-profit, with a mission to provide a free community-centric wiki farm.',
@@ -102,6 +111,7 @@
 			'pt' => 'Junte-se hoje!',
 			'ko' => '지금 가입하세요!',
 			'zh-hant' => '現在就加入我們！',
+			'cs' => 'Připojte se dnes',
 		],
 		'donate-text' => [
 			'en' => 'Donate Today!',
@@ -115,6 +125,7 @@
 			'pt' => 'Doe hoje!',
 			'zh-hans' => '立即捐款！',
 			'zh-hant' => '立即捐款！',
+			'cs' => 'Přispějte dnes',
 		],
 		'features-text' => [
 			'en' => 'Features',
@@ -124,9 +135,12 @@
 			'ko' => '특징',
 			'zh-hans' => '特点',
 			'zh-hant' => '特點',
+			'cs' => 'Vlastnosti',
+
 		],
 		'features-mediawiki' => [
 			'en' => 'MediaWiki',
+			'cs' => 'MediaWiki',
 		],
 		'features-mediawiki-desc' => [
 			'en' => 'Miraheze runs the same software as Wikipedia, <a href="https://www.mediawiki.org">MediaWiki!</a> ' .
@@ -143,6 +157,9 @@
 				'Temos mais de 200 extensões e mais de 15 skins (temas) para customizar sua experiência com o MediaWiki!',
 			'zh-hant' => '我們與維基百科一樣使用 <a href="https://mediawiki.org">MediaWiki</a> 來運行這個 Wiki 農場！'.
 				'您可以在這裡上傳圖片、影片等各種多媒體，以至寫文章或博客。',
+			'cs' => 'Miraheze používá stejný software jako Wikipedie, <a href="https://www.mediawiki.org">MediaWiki!</a> ' .
+				'Můžete dělat cokoli, od nahrávání médií, jako jsou obrázky nebo videa, až po psaní článků nebo blogů. ' .
+				'Máme přes 200 rozšíření a přes 15 vzhledů, ze kterých si můžete vybrat, a tak přispůsobit váš zážitek s MediaWiki!',
 		],
 		'features-non-profit-text' => [
 			'en' => 'Non-Profit',
@@ -151,6 +168,7 @@
 			'ko' => '비영리',
 			'zh-hans' => '非营利',
 			'zh-hant' => '非營利',
+			'cs' => 'Neziskové',
 		],
 		'features-non-profit-desc' => [
 			'en' => 'Miraheze is registered as Miraheze Limited in the United Kingdom. ' .
@@ -163,6 +181,8 @@
 				'Providenciamos wikis 100% gratuitas, sem fins lucrativos, que mantêm os servidores e continua o desenvolvimento de nossas extensões domésticas.',
 			'ko' => 'Miraheze는 영국에 Miraheze Limited로 등록되어 있습니다. ' .
 				'우리는 서버를 관리하고 내부 확장기능을 지속적으로 개발해 나감으로써 100% 자유로운 위키들을 제공합니다.',
+			'cs' =>  'Miraheze je ve Velké Británii registrována jako Miraheze Limited.'
+				 'Poskytujeme 100% bezplatné wiki jako nezisková organizace, která udržuje servery a udržuje krok s vývojem našich vlastních rozšíření.',
 		],
 		'features-community-text' => [
 			'en' => 'Community',
@@ -175,6 +195,7 @@
 			'pl' => 'Społeczność',
 			'pt' => 'Comunidade',
 			'zh-hant' => '社群',
+			'cs' => 'Komunita',
 		],
 		'features-community-desc' => [
 			'en' => 'As a community, we all work together to achieve a common goal of being a great wiki farm! '.
