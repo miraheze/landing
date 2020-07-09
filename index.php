@@ -100,6 +100,7 @@ require_once __DIR__ . '/translations.php';
                     <option value="ko">한국어</option>
                     <option value="pl">Polski</option>
                     <option value="pt">Português</option>
+                    <option value="th">ภาษาไทย</option>
                     <option value="zh-hans">中文（简体）</option>
                     <option value="zh-hant">中文（繁體）</option>
                   </select>
