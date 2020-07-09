@@ -5,7 +5,8 @@
 		],
 		'header-menu-title' => [
 			'en' => 'Menu',
-			'ja' => 'メニュー'
+			'ja' => 'メニュー',
+			'th' => 'เมนู',
 		],
 		'header-menu-home' => [
 			'en' => 'Home',
@@ -17,6 +18,7 @@
 			'it' => 'Pagina principale',
 			'pl' => 'Strona główna',
 			'pt' => 'Página principal',
+			'th' => 'หน้าหลัก',
 			'zh-hans' => '首頁',
 			'zh-hant' => '首頁',
 		],
@@ -26,6 +28,7 @@
 			'ko' => '특징',
 			'pl' => 'Funkcje',
 			'pt' => 'Recursos',
+			'th' => 'คุณสมบัติ',
 			'zh-hans' => '特点',
 			'zh-hant' => '特點',
 		],
@@ -35,6 +38,7 @@
 			'ko' => '소개',
 			'pl' => 'O nas',
 			'pt' => 'Sobre',
+			'th' => 'เกี่ยวกับ',
 			'zh-hans' => '简介',
 			'zh-hant' => '簡介',
 		],
@@ -42,11 +46,13 @@
 			'en' => 'Wiki',
 			'ja' => 'ウィキ',
 			'ko' => '위키',
+			'th' => 'วิกิหลัก',
 		],
 		'header-menu-blog' => [
 			'en' => 'Blog',
 			'ja' => 'ブログ',
 			'ko' => '블로그',
+			'th' => 'บล็อก',
 			'zh-hant' => '博客',
 			'zh-hant' => '網誌',
 		],
@@ -54,6 +60,7 @@
 			'en' => 'Status',
 			'pt' => 'Status',
 			'ko' => '상태',
+			'th' => 'สถานะ',
 			'zh-hans' => '状态',
 			'zh-hant' => '狀態',
 		],
@@ -67,6 +74,7 @@
 			'it' => 'Fai una donazione',
 			'pl' => 'Przekaż darowiznę',
 			'pt' => 'Doar',
+			'th' => 'บริจาค',
 			'zh-hans' => '捐款',
 			'zh-hant' => '捐款',
 		],
@@ -80,6 +88,7 @@
 			'it' => 'Benvenuto a Miraheze',
 			'pl' => 'Witaj na Miraheze!',
 			'pt' => 'Bem-vindo(a) ao Miraheze!',
+			'th' => 'ยินดีต้อนรับสู่ Miraheze!',
 			'zh-hans' => '欢迎來到 Miraheze',
 			'zh-hant' => '歡迎來到 Miraheze',
 		],
@@ -87,12 +96,13 @@
 			'en' => 'Miraheze is a non-profit, with a mission to provide a free community-centric wiki farm.',
 			'es' => 'Miraheze es una organización sin fines de lucro, con la misión de proporcionar una granja de wikis gratuita centrada en la comunidad.',
 			'fr' => "Miraheze est une organisation à but non lucratif dont la mission est de fournir une ferme d'hébergement wiki gratuite, centrée sur la communauté.",
-		        'ja' => 'Mirahezeは非営利団体であり、コミュニティ中心の無料のウィキファームを提供することを使命としています。', 
+			'ja' => 'Mirahezeは非営利団体であり、コミュニティ中心の無料のウィキファームを提供することを使命としています。',
 			'tr' => 'Miraheze kâr amacı gütmeyen, topluluk merkezli bir wiki çiftliği sağlama misyonudur.',
 			'ko' => 'Miraheze는 무료로 위키 공동체를 제공한다는 사명을 가진 비영리 단체입니다.',
 			'it' => 'Miraheze è una organizzazione senza scopo di lucro, con la missione di fornire una farm di wiki gratuita incentrata sulla comunità.',
 			'pl' => 'Miraheze to organizacja non-profit, z misją bycia darmową farmą wiki skupioną wokół społeczności.',
 			'pt' => 'Miraheze é uma organização sem fins lucrativos, com a missão de proporcionar uma farm de wikis gratuita e centrada em sua comunidade.',
+			'th' => 'Miraheze เป็นโครงการไม่แสวงหาผลกำไร โดยมีพันธกิจเป็นที่รวบรวมวิกิต่าง ๆ โดยไม่เสียค่าใข้จ่าย',
 			'zh-hant' => 'Miraheze 是非營利的，旨在提供一個免費、以社群為中心的 Wiki 農場',
 		],
 		'join-text' => [
@@ -101,6 +111,7 @@
 			'pl' => 'Dołącz dzisiaj!',
 			'pt' => 'Junte-se hoje!',
 			'ko' => '지금 가입하세요!',
+			'th' => 'เข้าร่วมกับเราวันนี้',
 			'zh-hant' => '現在就加入我們！',
 		],
 		'donate-text' => [
@@ -113,6 +124,7 @@
 			'it' => 'Fai una donazione',
 			'pl' => 'Przekaż darowiznę',
 			'pt' => 'Doe hoje!',
+			'th' => 'หรือบริจาค!',
 			'zh-hans' => '立即捐款！',
 			'zh-hant' => '立即捐款！',
 		],
@@ -122,11 +134,13 @@
 			'pl' => 'Funkcje',
 			'pt' => 'Recursos',
 			'ko' => '특징',
+			'th' => 'คุณลักษณะในวิกิ',
 			'zh-hans' => '特点',
 			'zh-hant' => '特點',
 		],
 		'features-mediawiki' => [
 			'en' => 'MediaWiki',
+			'th' => 'มีเดียวิกิ',
 		],
 		'features-mediawiki-desc' => [
 			'en' => 'Miraheze runs the same software as Wikipedia, <a href="https://www.mediawiki.org">MediaWiki!</a> ' .
@@ -141,6 +155,9 @@
 			'pt' => 'Miraheze usa o mesmo software que a Wikipédia, <a href="https://www.mediawiki.org">MediaWiki!</a> '.
 				'Você pode fazer qualquer coisa, desde enviar arquivos como imagens ou vídeos, até escrever artigos ou blogs. '.
 				'Temos mais de 200 extensões e mais de 15 skins (temas) para customizar sua experiência com o MediaWiki!',
+			'th' => 'Miraheze ใช้ซอร์ฟแวร์<a href="https://www.mediawiki.org">มีเดียวิกิ</a>ซึ่งเป็นซอร์ฟแวร์ตัวเดียวกับกับวิกิพีเดีย '.
+				'ซึ่งทำได้ตั้งแต่อัพโหลดรูปไปจนถึงเขียนบทความหรือบล็อก '.
+				'และเรายังมีส่วนขยายและสกินที่สามารถติดตั้งเพิ่มเติมเพื่อเพิ่มความสามารถให้วิกิได้อีกด้วยมีเดียวิกิ',
 			'zh-hant' => '我們與維基百科一樣使用 <a href="https://mediawiki.org">MediaWiki</a> 來運行這個 Wiki 農場！'.
 				'您可以在這裡上傳圖片、影片等各種多媒體，以至寫文章或博客。',
 		],
@@ -149,6 +166,7 @@
 			'ja' => '非営利',
 			'pt' => 'Sem fins lucrativos',
 			'ko' => '비영리',
+			'th' => 'ไม่แสวงหาผลกำไร',
 			'zh-hans' => '非营利',
 			'zh-hant' => '非營利',
 		],
@@ -163,6 +181,8 @@
 				'Providenciamos wikis 100% gratuitas, sem fins lucrativos, que mantêm os servidores e continua o desenvolvimento de nossas extensões domésticas.',
 			'ko' => 'Miraheze는 영국에 Miraheze Limited로 등록되어 있습니다. ' .
 				'우리는 서버를 관리하고 내부 확장기능을 지속적으로 개발해 나감으로써 100% 자유로운 위키들을 제공합니다.',
+			'th' => 'Meraheze จดทะเบียนในชื่อ Miraheze Limited ในสหราชอาณาจักร '.
+				'ทำให้วิกิในเครือของเราทำงานโดยไม่เสียค่าใช้จ่ายใด ๆ ในฐานะองค์กรไม่แสวงหาผลกำไร โดยโฮตสต์ ดูแลรักษา และพัฒนาภายในบ้านของเราเอง',
 		],
 		'features-community-text' => [
 			'en' => 'Community',
@@ -174,6 +194,7 @@
 			'it' => 'Communità',
 			'pl' => 'Społeczność',
 			'pt' => 'Comunidade',
+			'th' => 'ชุมชน',
 			'zh-hant' => '社群',
 		],
 		'features-community-desc' => [
@@ -195,6 +216,9 @@
 				'Pozwala nam to na osiągnięcie najlepszych rozwiązań dla użytkowników, pozwalając im się uczyć!',
 			'pt' => 'Como comunidade, todos trabalhamos juntos para alcançar um objetivo em comum em ser uma grande wiki farm! '.
 				'Isto nos permite alcançar o melhor resultado possível para todos os usuários ao permiti-los aprender!',
+			'th' => 'ชุมชนของเราทำงานร่วมกันเพื่อให้บรรลุเป้าหมายหลักในการเป็นแหล่งรวมวิกิที่ยิ่งใหญ่ '.
+			 'สิ่งนี้ทำให้เราสามารถให้สิ่งที่ดีที่สุดแก่ผู้ใช้ นั่นคือการให้ผู้ใช้เรียนรู้ด้วยตนเอง'.
+				'อย่างสะดวกที่สุด',
 			'zh-hant' => '作為一個社群，我們一起合作推動「建立一個優質的 Wiki 農場」這一共同目標！'.
 				'這使我們能容許用戶互相學習，為用戶獲得最好的效果！',
 		],
@@ -211,6 +235,7 @@
 			'ko' => '우리의 모든 위키는 UI를 모바일 친화적으로 만드는 MobileFrontend를 사용합니다. 물론 당신이 이 기능을 끌 수도 있습니다.',
 			'pl' => 'Wszystkie nasze wiki używają MobileFrontend, który czyni interfejs przyjaznym dla urządzeń mobilnych. Pozwalamy także na wyłączenie tego rozszerzenia.',
 			'pt' => 'Todas as nossas wikis usam MobileFrontend que fazem com que a UI seja amigável com dispositivos móveis. Também permitimos que você desligue o recurso ao desabilitá-lo.',
+			'th' => 'ทุกวิกิของเราใช้ส่วนขยาย MobileFrontend ที่ช่วยให้ผู้ใช้รุ่นอุปกรณ์เคลื่อนที่ใช้งานได้อย่างสะดวกมากยิ่งขึ้น ซึ่งผู้ใช้สามารถสลับไปมาหรือปิดใช้งานทั้งบนวิกิและส่วนตัวได้เช่นกัน ',
 			'zh-hant' => '我們所有的維基均開啟 MobileFrontend，使各維基對移動裝置更友好。當然，我們也允許您關閉這個功能。',
 		],
 		'features-extensions-text' => [
@@ -223,6 +248,7 @@
 			'it' => 'Estensioni disegnate da noi',
 			'pl' => 'Własne rozszerzenia',
 			'pt' => 'Extensões domésticas',
+			'th' => 'ส่วนขยายเสริมเฉพาะ',
 			'zh-hant' => '自家製作的擴展功能',
 		],
 		'features-extensions-desc' => [
@@ -239,6 +265,9 @@
 				'Nossas extensões ajudam com a criação das wikis e gestão pelas páginas especiais. ' .
 				'Isso nos dá o poder de administrar a wiki, requerindo pouca fiscalização dos comissários ou equipe técnica. ' .
 				'Esperamos elevar a contribuição da comunidade na gestão de suas wikis.',
+			'th' => 'เราได้ออกแบบส่วนขยายที่ล้ำหน้าและทีประโยชน์ เพื่อช่วยให้สามารถเติบโตและก้าวเป็นแหล่งรวบรวมวิกิที่ดีที่สุดในโลก ' .
+				'ส่วนขยายของเราทำให้ชุมชนต่าง ๆ สามารถดูแลและควบคุมวิกิของพวกเขาได้โดยสะดวก โดยทางทีมงานของเราเข้าไปกำกับดูแลกรณีเกิดปัญหาด้วยเช่นกัน ' .
+				'เรารับฟังความเห็นของแต่ละชุมชนเกี่ยวกับการควบคุมดูแลวิกิตลอดเวลา',
 			'zh-hant' => '我們設計了一些最新的擴展功能，幫助我們建立一個優質 Wiki 農場！'.
 				'我們的擴展功能容許社群更容易管理他們的維基，而幾乎不需要我們的管理。'.
 				'而我們也會繼續聽取社群在維基管理方面的意見。',
@@ -249,6 +278,7 @@
 			'ko' => '그리고 더 많은 기능이 있습니다!',
 			'pl' => 'I wiele innych funkcji!',
 			'pt' => 'E muito mais recursos!',
+			'th' => 'และอีกมากมาย!',
 			'zh-hans' => '还有更多功能！',
 			'zh-hant' => '還有更多功能！',
 		],
@@ -258,6 +288,7 @@
 			'ko' => '소개',
 			'pl' => 'O nas',
 			'pt' => 'Sobre',
+			'th' => 'เกี่ยวกับเรา',
 			'zh-hans' => '简介',
 			'zh-hant' => '簡介',
 		],
@@ -287,12 +318,18 @@
 				'수년동안, 프로젝트는 가장 크고 가장 유명한 MediaWiki 전문 위키 호스팅 사이트 중 하나로 막대하게 성장했습니다. '.
 				'성공과 진화에도 불구하고, Miraheze의 법인은 여전히 없었습니다. ' .
 				'2019년 11월, Miraheze는 드디어 영국에서 Miraheze Limited라는 비영리 법인으로 등록하였습니다.',
+			'th' => 'ในเดือนกรกฎาคม พ.ศ. 2558 John Lewis และ Ferran Tufan ได้ร่วมกันสร้างแหล่งรวบรวมวิกิขึ้น และตั้งชื่อว่า Miraheze '.
+				'ด้วยความร่วมมือกันของชุมชนและเงินทุนส่วนตัว Miraheze ได้เปิดใช้งานอย่างเป็นทางการในเดือนสิงหาคมปีเดียวกัน '.
+				'ในช่วงหลายปีที่ผ่านมา โครงการของเราได้เติบโตอย่างมากและเป็นที่รู้จักกันในฐานะแหล่งรวบรวมวิกิที่ใหญ่ที่สุด ที่มีความเชี่ยวชาญในการจัดการมีเดียวิกิ '.
+				'แม้เราจะมีความสำเร็จและมีพัฒนาการที่สูง สิ่งหนึ่งที่เราไม่มีทางเปลี่ยนแปลงคือ***TODO: This is in completes*** Despite the success and evolution, one aspect of Miraheze never changed - formal existence. ' .
+				'ในเดือนพฤษจิกายน พ.ศ. 2562 Miraheze ได้จดทะเบียนเป็นองค์กรไม่แสวงหาผลกำไรในชื่อ Miraheze Limited ในประเทศสหราชอาณาจักร',
 		],
 		'socialmedia-title' => [
 			'en' => 'Social Media',
 			'ja' => 'ソーシャルメディア',
 			'pt' => 'Mídia Social',
 			'ko' => '소셜 미디어',
+			'th' => 'พบเราได้ที่',
 			'zh-hans' => '社交媒体',
 			'zh-hant' => '社交媒體',
 		],
@@ -321,6 +358,10 @@
 				'Uma empresa limitada por garantia registrada na Inglaterra e País de Gales, companhia nº 12323854 <br />'.
 				'Salvo em indicação ao contrário, o conteúdo deste site está licenciado sob ' .
 				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
+			'th' => 'Miraheze Limited<br />' .
+				'บริษัทจำกัดที่จดทะเบียนในประเทศอังกฤษและเวลส์ หมายเลข 12323854<br />' .
+				'เนื้อหาในเว็บไซต์นี้อยู่ภายใต้สัญญาอนุญาต' .
+				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">ครีเอทีฟคอมมอนส์ อ้างอิงแหล่งที่มา-อนุญาตแบบเดียวกัน 4.0 นานาชาติ (CC BY-SA 4.0)</a> เว้นแต่ระบุไว้เป็นอื่น',
 			'zh-hant' => 'Miraheze Limited <br />' .
 				'是在英格蘭和威爾士註冊的擔保有限公司 公司編號︰12323854  <br />' .
 				'除非另有註明，本網站所有內容皆以' .
@@ -336,6 +377,7 @@
 			'it' => "Termini d'uso",
 			'pl' => 'Warunki użytkowania',
 			'pt' => 'Termos de uso',
+			'th' => 'ข้อกำหนดการใช้งาน',
 			'zh-hans' => '使用条款',
 			'zh-hant' => '使用條款',
 		],
@@ -349,6 +391,7 @@
 			'it' => "Politica sulla privacy",
 			'pl' => 'Polityka prywatności',
 			'pt' => 'Política de privacidade',
+			'th' => 'นโยบายความเป็นส่วนตัว',
 			'zh-hans' => '隐私政策',
 			'zh-hant' => '隱私政策',
 		],
@@ -362,6 +405,7 @@
 			'it' => "Disclaimer",
 			'pl' => 'Informacje prawne',
 			'pt' => 'Avisos Legais',
+			'th' => 'ข้อปฏิเสธความรับผิดชอบ',
 			'zh-hans' => '免责声明',
 			'zh-hant' => '免責聲明',
 		],
@@ -375,6 +419,7 @@
 			'it' => "Informativa sui cookie",
 			'pl' => 'Polityka dot. cookies',
 			'pt' => 'Declaração de cookies',
+			'th' => 'ข้ออธิบายคุกกี้',
 			'zh-hans' => 'Cookie 声明',
 			'zh-hant' => 'Cookie 聲明',
 		],
@@ -384,12 +429,14 @@
 			'ko' => '문의하기',
 			'pl' => 'Skontaktuj się z nami',
 			'pt' => 'Contate-nos',
+			'th' => 'ติดต่อเรา',
 			'zh-hans' => '联络我们',
 			'zh-hant' => '聯絡我們',
 		],
 		'footer-faq' => [
 			'en' => 'FAQ',
 			'pt' => 'Perguntas Frequentes',
+			'th' => 'คำถามที่พบบ่อย',
 			'zh-hans' => '常见问题',
 			'zh-hant' => '常見問題',
 		],
@@ -403,6 +450,7 @@
 			'it' => 'Traduci questa pagina',
 			'pl' => 'Przetłumacz tę witrynę',
 			'pt' => 'Traduza esta página',
+			'th' => 'แปลหรือแก้ไขคำแปลหน้านี้',
 			'zh-hans' => '翻译这个页面',
 			'zh-hant' => '翻譯這個頁面',
 		],
@@ -413,6 +461,7 @@
 			'ja' => 'Miraheze 寄付',
 			'ko' => 'Miraheze에 기부하기',
 			'pt' => 'Doe ao Miraheze',
+			'th' => 'บริจาค Miraheze',
 			'zh-hant' => '捐款給 Miraheze',
 		],
 		'header-menu-home' => [
@@ -421,6 +470,7 @@
 			'ko' => '홈',
 			'pl' => 'Strona główna',
 			'pt' => 'Página principal',
+			'th' => 'หน้าหลัก',
 			'zh-hans' => '首頁',
 			'zh-hant' => '首頁',
 		],
@@ -430,6 +480,7 @@
 			'ko' => '금액',
 			'pl' => 'Kwota',
 			'pt' => 'Montante',
+			'th' => 'จำนวนเงิน',
 			'zh-hans' => '金额',
 			'zh-hant' => '金額',
 		],
@@ -444,6 +495,8 @@
 				'Escolha sua moeda local usando o menu suspenso na página.',
 			'ko' => '이 양식은 PayPal을 통한 기부에 사용합니다. (신용/직불 카드를 이용하실 수 있습니다). ' .
 				'다음 페이지의 드롭다운 메뉴에서 당신이 사용하는 화폐를 선택해야 합니다.',
+			'th' => 'ฟอร์มนี้จะบริจาคผ่านเพย์พอล (และอาจบริจาคผ่านบัตรเครดิตหรือเดบิด) '.
+				'อาจเลือกสกุลเงินที่ต้องการผ่านช่องแบบหล่นลงในหน้าได้',
 		],
 	];
 
