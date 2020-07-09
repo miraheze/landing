@@ -217,7 +217,7 @@
 			'pt' => 'Como comunidade, todos trabalhamos juntos para alcançar um objetivo em comum em ser uma grande wiki farm! '.
 				'Isto nos permite alcançar o melhor resultado possível para todos os usuários ao permiti-los aprender!',
 			'th' => 'ชุมชนของเราทำงานร่วมกันเพื่อให้บรรลุเป้าหมายหลักในการเป็นแหล่งรวมวิกิที่ยิ่งใหญ่ '.
-			 'สิ่งนี้ทำให้เราสามารถให้สิ่งที่ดีที่สุดแก่ผู้ใช้ นั่นคือการให้ผู้ใช้เรียนรู้ด้วยตนเอง'.
+				'สิ่งนี้ทำให้เราสามารถให้สิ่งที่ดีที่สุดแก่ผู้ใช้ นั่นคือการให้ผู้ใช้เรียนรู้ด้วยตนเอง'.
 				'อย่างสะดวกที่สุด',
 			'zh-hant' => '作為一個社群，我們一起合作推動「建立一個優質的 Wiki 農場」這一共同目標！'.
 				'這使我們能容許用戶互相學習，為用戶獲得最好的效果！',
