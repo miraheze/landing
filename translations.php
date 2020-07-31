@@ -33,7 +33,6 @@
 			'zh-hans' => '特点',
 			'zh-hant' => '特點',
 			'cs' => 'Funkce',
-
 		],
 		'header-menu-about' => [
 			'en' => 'About',
