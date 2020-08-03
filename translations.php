@@ -196,7 +196,7 @@
 				'우리는 서버를 관리하고 내부 확장기능을 지속적으로 개발해 나감으로써 100% 자유로운 위키들을 제공합니다.',
 			'th' => 'Meraheze จดทะเบียนในชื่อ Miraheze Limited ในสหราชอาณาจักร '.
 				'ทำให้วิกิในเครือของเราทำงานโดยไม่เสียค่าใช้จ่ายใด ๆ ในฐานะองค์กรไม่แสวงหาผลกำไร โดยโฮตสต์ ดูแลรักษา และพัฒนาภายในบ้านของเราเอง',
-			'cs' => 'Miraheze je ve Velké Británii registrována jako Miraheze Limited.'
+			'cs' => 'Miraheze je ve Velké Británii registrována jako Miraheze Limited'.
 				'Poskytujeme 100% bezplatné wiki jako nezisková organizace, která udržuje servery a udržuje krok s vývojem našich vlastních rozšíření.',
 		],
 		'features-community-text' => [
