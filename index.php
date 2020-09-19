@@ -104,7 +104,7 @@ require_once __DIR__ . '/translations.php';
                     <option value="zh-hans">中文（简体）</option>
                     <option value="zh-hant">中文（繁體）</option>
                     <option value="cs">Čeština</option>
-                     <option value="bn">বাংলা</option>
+                    <option value="bn">বাংলা</option>
                   </select>
                 </form>
               </div>
