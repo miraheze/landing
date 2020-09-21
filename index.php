@@ -90,7 +90,7 @@ require_once __DIR__ . '/translations.php';
             <li class="nav-item mx-0 mx-lg-1">
               <div class="form-group nav-link py-3 px-0 px-lg-3">
                 <div></div>
-                <form action="index.php?lang=">
+                <form action="index.php?lang="getElementByid("lang")"">
                   <select name="lang" onchange="this.form.submit()">
                     <option value="cs"<?php if ($_GET['lang'] == 'cs') echo " selected" ?>>Čeština</option>
                     <option value="en"<?php if ($_GET['lang'] == 'en' || !empty($_GET['lang'])) echo " selected" ?>>English</option>
