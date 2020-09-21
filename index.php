@@ -93,7 +93,7 @@ require_once __DIR__ . '/translations.php';
                 <form action="index.php?lang="getElementByid("lang")"">
                   <select name="lang" onchange="this.form.submit()">
                     <option value="cs"<?php if ($_GET['lang'] == 'cs') echo " selected" ?>>Čeština</option>
-                    <option value="en"<?php if ($_GET['lang'] == 'en' || !empty($_GET['lang'])) echo " selected" ?>>English</option>
+                    <option value="en"<?php if ($_GET['lang'] == 'en') echo " selected" ?>>English</option>
                     <option value="es"<?php if ($_GET['lang'] == 'es') echo " selected" ?>>Español</option>
                     <option value="fr"<?php if ($_GET['lang'] == 'fr') echo " selected" ?>>Français</option>
                     <option value="it"<?php if ($_GET['lang'] == 'it') echo " selected" ?>>Italiano</option>
