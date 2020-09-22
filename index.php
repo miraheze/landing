@@ -93,6 +93,7 @@ require_once __DIR__ . '/translations.php';
                 <form action="index.php?lang="getElementByid("lang")"">
                   <select name="lang" onchange="this.form.submit()">
                     
+                    <option value="bn">বাংলা</option>
                     <option value="en">English</option>
                     <option value="es">Español</option>
                     <option value="fr">Français</option>
@@ -105,8 +106,8 @@ require_once __DIR__ . '/translations.php';
                     <option value="zh-hans">中文（简体）</option>
                     <option value="zh-hant">中文（繁體）</option>
                     <option value="cs">Čeština</option>
-                    <option value="bn">বাংলা</option>
 
+                    <option value="bn"<?php if ($_GET['lang'] == 'bn') echo " selected" ?>>বাংলা</option>
                     <option value="cs"<?php if ($_GET['lang'] == 'cs') echo " selected" ?>>Čeština</option>
                     <option value="en"<?php if ($_GET['lang'] == 'en' || empty($_GET['lang'])) echo " selected" ?>>English</option>
                     <option value="es"<?php if ($_GET['lang'] == 'es') echo " selected" ?>>Español</option>
@@ -119,7 +120,6 @@ require_once __DIR__ . '/translations.php';
                     <option value="th"<?php if ($_GET['lang'] == 'th') echo " selected" ?>>ภาษาไทย</option>
                     <option value="zh-hans"<?php if ($_GET['lang'] == 'zh-hans') echo " selected" ?>>中文（简体）</option>
                     <option value="zh-hant"<?php if ($_GET['lang'] == 'zh-hant') echo " selected" ?>>中文（繁體）</option>
-                    <option value="bn"<?php if ($_GET['lang'] == 'cs') echo " selected" ?>>বাংলা</option>
 
                   </select>
                 </form>
