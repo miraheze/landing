@@ -272,6 +272,9 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
             <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/miraheze">
               <i class="fab fa-fw fa-twitter"></i>
             </a>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://miraheze.org/discord">
+              <i class="fab fa-fw fa-discord"></i>
+            </a>
           </div>
         </div>
         <div class="bottom-footer">
