@@ -180,8 +180,8 @@
 			'pt' => 'Miraheze usa o mesmo software que a Wikipédia, <a href="https://www.mediawiki.org">MediaWiki!</a> '.
 				'Você pode fazer qualquer coisa, desde enviar arquivos como imagens ou vídeos, até escrever artigos ou blogs. '.
 				'Temos mais de 200 extensões e mais de 15 skins (temas) para customizar sua experiência com o MediaWiki!',
-			'ru' => 'Miraheze использует то же ПО, что и Википедия, <a href="https://www.mediawiki.org">MediaWiki!</a> ', . 
-				'Вы можете делать что угодно, начиная с загрузки медиафайлов, как изображения или видео, и заканчивая написанием статей или блогов. ' . 
+			'ru' => 'Miraheze использует то же ПО, что и Википедия, <a href="https://www.mediawiki.org">MediaWiki!</a> ', .
+				'Вы можете делать что угодно, начиная с загрузки медиафайлов, как изображения или видео, и заканчивая написанием статей или блогов. ' .
 				'У нас более 200 расширений и более 15 тем оформления, чтобы приспособить вашу работу с MediaWiki под себя!',
 			'th' => 'Miraheze ใช้ซอร์ฟแวร์<a href="https://www.mediawiki.org">มีเดียวิกิ</a>ซึ่งเป็นซอร์ฟแวร์ตัวเดียวกับกับวิกิพีเดีย '.
 				'ซึ่งทำได้ตั้งแต่อัพโหลดรูปไปจนถึงเขียนบทความหรือบล็อก '.
@@ -252,7 +252,7 @@
 				'Pozwala nam to na osiągnięcie najlepszych rozwiązań dla użytkowników, pozwalając im się uczyć!',
 			'pt' => 'Como comunidade, todos trabalhamos juntos para alcançar um objetivo em comum em ser uma grande wiki farm! '.
 				'Isto nos permite alcançar o melhor resultado possível para todos os usuários ao permiti-los aprender!',
-			'ru' => 'Как сообщество, мы работаем вместе, чтобы быть отличной вики-фермой! '. 
+			'ru' => 'Как сообщество, мы работаем вместе, чтобы быть отличной вики-фермой! '.
 				'Это позволяет нам достигать лучший для пользователей результат, позволяя им обучаться!',
 			'th' => 'ชุมชนของเราทำงานร่วมกันเพื่อให้บรรลุเป้าหมายหลักในการเป็นแหล่งรวมวิกิที่ยิ่งใหญ่ '.
 				'สิ่งนี้ทำให้เราสามารถให้สิ่งที่ดีที่สุดแก่ผู้ใช้ นั่นคือการให้ผู้ใช้เรียนรู้ด้วยตนเอง'.
