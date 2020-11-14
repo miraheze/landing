@@ -180,7 +180,7 @@
 			'pt' => 'Miraheze usa o mesmo software que a Wikipédia, <a href="https://www.mediawiki.org">MediaWiki!</a> '.
 				'Você pode fazer qualquer coisa, desde enviar arquivos como imagens ou vídeos, até escrever artigos ou blogs. '.
 				'Temos mais de 200 extensões e mais de 15 skins (temas) para customizar sua experiência com o MediaWiki!',
-			'ru' => 'Miraheze использует то же ПО, что и Википедия, <a href="https://www.mediawiki.org">MediaWiki!</a> ', .
+			'ru' => 'Miraheze использует то же ПО, что и Википедия, <a href="https://www.mediawiki.org">MediaWiki!</a> ' .
 				'Вы можете делать что угодно, начиная с загрузки медиафайлов, как изображения или видео, и заканчивая написанием статей или блогов. ' .
 				'У нас более 200 расширений и более 15 тем оформления, чтобы приспособить вашу работу с MediaWiki под себя!',
 			'th' => 'Miraheze ใช้ซอร์ฟแวร์<a href="https://www.mediawiki.org">มีเดียวิกิ</a>ซึ่งเป็นซอร์ฟแวร์ตัวเดียวกับกับวิกิพีเดีย '.
