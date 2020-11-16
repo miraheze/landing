@@ -103,6 +103,7 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
                     <option value="ko"<?php if ($lang == 'ko') echo " selected" ?>>한국어</option>
                     <option value="pl"<?php if ($lang == 'pl') echo " selected" ?>>Polski</option>
                     <option value="pt"<?php if ($lang == 'pt') echo " selected" ?>>Português</option>
+                    <option value="ru"<?php if ($lang == 'ru') echo " selected" ?>>Русский</option>
                     <option value="th"<?php if ($lang == 'th') echo " selected" ?>>ภาษาไทย</option>
                     <option value="zh-hans"<?php if ($lang == 'zh-hans') echo " selected" ?>>中文（简体）</option>
                     <option value="zh-hant"<?php if ($lang == 'zh-hant') echo " selected" ?>>中文（繁體）</option>
