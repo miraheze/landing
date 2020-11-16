@@ -89,6 +89,7 @@ require_once __DIR__ . '/translations.php';
                     <option value="ja">日本語</option>
                     <option value="ko">한국어</option>
                     <option value="pl">Polski</option>
+                    <option value="ru">Русский</option>
                     <option value="th">ภาษาไทย</option>
                     <option value="zh-hans">中文（简体）</option>
                     <option value="zh-hant">中文（繁體）</option>
