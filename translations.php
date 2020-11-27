@@ -222,7 +222,7 @@
 			'en' => 'Miraheze is registered as Miraheze Limited in the United Kingdom. ' .
 				'We provide 100% free wikis as a non-profit that maintains the servers and keeps up with the development of our in house extensions.',
 			'bn' => 'মিরাহেজ, যুক্তরাজ্যে মিরাহেজ লিমিটেড হিসেবে নিবন্ধিত। ' .
-				'আমরা অলাভজনক হিসাবে ১০০% বিনামূল্যে উইকি সরবরাহ করি যারা সার্ভার রক্ষণাবেক্ষণ করাসহ এক্সটেশন উন্নয়ন করা বজায় রাখে।',
+				'আমরা অলাভজনক হিসাবে ১০০% বিনামূল্যে উইকি সরবরাহ করি একই সাথে সার্ভার রক্ষণাবেক্ষণ করাসহ এক্সটেশন উন্নয়ন করা বজায় রাখি।',
 			'cs' => 'Miraheze je ve Velké Británii registrována jako Miraheze Limited'.
 				'Poskytujeme 100% bezplatné wiki jako nezisková organizace, která udržuje servery a udržuje krok s vývojem našich vlastních rozšíření.',
 			'ja' => 'MirahezeはイギリスでMiraheze Limitedとして登録されています。' .
@@ -258,7 +258,7 @@
 			'en' => 'As a community, we all work together to achieve a common goal of being a great wiki farm! '.
 				'This allows us to achieve the best possible outcome for users, by allowing users to learn!',
 			'bn' => 'একটি বড় উইকি ফার্ম হওয়ার লক্ষ্য অর্জন করতে, আমরা সবাই একটি সম্প্রদায় হিসেবে একসাথে কাজ করি! '.
-				'এটি আমাদের ব্যবহারকারীদের জন্য সর্বোত্তম ফলাফল অর্জন করতে সাহায্য করে!',
+				'এটি আমাদেরকে ব্যবহারকারীদের জন্য সর্বোত্তম ফলাফল অর্জন করতে সাহায্য করে!',
 			'cs' => 'Jako komunita všichni společně pracujeme na dosažení společného cíle být skvělou wiki farmou! '.
 				'To nám umožňuje dosáhnout nejlepších možných výsledků pro uživatele tím, že jim umožníme učit se!',
 			'es' => '¡Como comunidad, todos trabajamos juntos para lograr el objetivo común de ser una gran granja de wikis! ' .
@@ -327,7 +327,7 @@
 			'en' => 'We have designed some of the most cutting edge extensions to help us grow and become one of the world\'s best wiki farms! ' .
 				'Our extensions allow communities to have more control over their own wikis, requiring little oversight from our staff. ' .
 				'We listen to community input over the management of their wikis.',
-			'bn' => 'আমরা আমাদের বৃদ্ধি অব্যাহত রাখতে এবং বিশ্বের অন্যতম সেরা উইকি ফার্মে পরিণত হতে সাহায্যের জন্য কিছু চমৎকার এক্সটেনশন নকশা করেছি! ' .
+			'bn' => 'আমরা আমাদের বৃদ্ধি অব্যাহত রাখতে এবং বিশ্বের অন্যতম সেরা উইকি ফার্মে পরিণত হতে কিছু চমৎকার এক্সটেনশন নকশা করেছি! ' .
 				'আমাদের এক্সটেনশন সম্প্রদায়কে তাদের নিজস্ব উইকিগুলিকে আরো নিয়ন্ত্রণ করতে অনুমতি দেয়, যার জন্য আমাদের কর্মীদের থেকে খুব সামান্য নজরদারির প্রয়োজন হয়। ' .
 				'আমরা উইকি ব্যবস্থাপনার থেকেও সম্প্রদায়ের মতামতকে গুরুত্ব দেই।',
 			'cs' => 'Navrhli jsme některá z nejmodernějších rozšíření, která nám pomohou růst a stát se jednou z nejlepších wiki farem na světě!' .
@@ -389,7 +389,7 @@
 				'সম্প্রদায়ের ক্রাউডফান্ডিং এবং ব্যক্তিগত বিনিয়োগের মাধ্যমে মিরাহেজ আনুষ্ঠানিকভাবে ২০১৫ সালের আগস্ট মাসে সেবা দেয়া শুরু করে। ' .
 				'বছরের পর বছর ধরে, প্রকল্পটি মিডিয়াউইকিতে বিশেষজ্ঞ হিসেবে বৃহত্তম এবং সবচেয়ে স্বীকৃত উইকি ফার্ম হয়ে উঠেছে। '.
 				'সাফল্য এবং বিবর্তন সত্ত্বেও, মিরাহেজের একটি দিক কখনও পরিবর্তিত হয়নি - আনুষ্ঠানিক অস্তিত্ব। ' .
-				'নভেম্বর ২০১৯ সালে, মিরাহেজ লিমিটেড হিসাবে মিরাহেজ যুক্তরাজ্যে একটি নিবন্ধিত অলাভজনকে পরিণত হয়।',
+				'নভেম্বর ২০১৯ সালে, মিরাহেজ লিমিটেড হিসাবে মিরাহেজ যুক্তরাজ্যে একটি নিবন্ধিত অলাভজনক কোম্পানিতে পরিণত হয়।',
 			'cs' => 'V červenci 2015 vytvořili John Lewis a Ferran Tufan novou wiki farmu - pojmenovanou Miraheze. ' .
 				'Prostřednictvím komunitního crowdfundingu a osobního investování Miraheze oficiálně začala fungovat v srpnu 2015.' .
 				'V průběhu několika let se projekt nesmírně rozrostl na jednu z největších a nejznámějších wiki farem specializovaných na nabídku MediaWiki.'.
