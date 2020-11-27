@@ -5,12 +5,14 @@
 		],
 		'header-menu-title' => [
 			'en' => 'Menu',
+			'bn' => 'মেনু',
 			'ja' => 'メニュー',
 			'ru' => 'Меню',
 			'th' => 'เมนู',
 		],
 		'header-menu-home' => [
 			'en' => 'Home',
+			'bn' => 'প্রধান পাতা',
 			'cs' => 'Domů',
 			'es' => 'Página principal',
 			'fr' => "Page d'accueil",
@@ -27,6 +29,7 @@
 		],
 		'header-menu-features' => [
 			'en' => 'Features',
+			'bn' => 'বৈশিষ্ট্য',
 			'cs' => 'Funkce',
 			'ja' => '特徴',
 			'ko' => '특징',
@@ -39,6 +42,7 @@
 		],
 		'header-menu-about' => [
 			'en' => 'About',
+			'bn' => 'সম্পর্কে',
 			'cs' => 'O nás',
 			'ja' => '概要',
 			'ko' => '소개',
@@ -51,6 +55,7 @@
 		],
 		'header-menu-wiki' => [
 			'en' => 'Wiki',
+			'bn' => 'উইকি',
 			'ja' => 'ウィキ',
 			'ko' => '위키',
 			'ru' => 'Вики',
@@ -58,6 +63,7 @@
 		],
 		'header-menu-blog' => [
 			'en' => 'Blog',
+			'bn' => 'ব্লগ',
 			'ja' => 'ブログ',
 			'ko' => '블로그',
 			'ru' => 'Блог',
@@ -67,6 +73,7 @@
 		],
 		'header-menu-status' => [
 			'en' => 'Status',
+			'bn' => 'অবস্থা',
 			'ko' => '상태',
 			'pt' => 'Status',
 			'ru' => 'Состояние',
@@ -76,6 +83,7 @@
 		],
 		'header-menu-donate' => [
 			'en' => 'Donate',
+			'bn' => 'দান করুন',
 			'cs' => 'Přispět',
 			'es' => '¡Donar',
 			'fr' => 'Faire un don',
@@ -92,6 +100,7 @@
 		],
 		'welcome-text' => [
 			'en' => 'Welcome to Miraheze!',
+			'bn' => 'Miraheze-তে স্বাগতম!',
 			'cs' => 'Vítejte na Miraheze',
 			'es' => '¡Bienvenido a Miraheze!',
 			'fr' => 'Bienvenue à Miraheze!', 
@@ -108,6 +117,7 @@
 		],
 		'description-text' => [
 			'en' => 'Miraheze is a non-profit, with a mission to provide a free community-centric wiki farm.',
+			'bn' => 'মিরাহেজ হল একটি অলাভজনক সাইট, যার উদ্দেশ্য হল বিনামূল্যে সম্প্রদায়-কেন্দ্রিক উইকি ফার্ম প্রদান করা।',
 			'cs' => 'Miraheze je nezisková organizace, jejímž úkolem je poskytovat bezplatnou wiki farmu zaměřenou na komunitu.',
 			'es' => 'Miraheze es una organización sin fines de lucro, con la misión de proporcionar una granja de wikis gratuita centrada en la comunidad.',
 			'fr' => "Miraheze est une organisation à but non lucratif dont la mission est de fournir une ferme d'hébergement wiki gratuite, centrée sur la communauté.",
@@ -123,6 +133,7 @@
 		],
 		'join-text' => [
 			'en' => 'Join Today!',
+			'bn' => 'আজই যোগ দিন!',
 			'cs' => 'Přidejte se dnes',
 			'ja' => '今日参加しましょう！',
 			'ko' => '지금 가입하세요!',
@@ -134,6 +145,7 @@
 		],
 		'donate-text' => [
 			'en' => 'Donate Today!',
+			'bn' => 'আজই দান করুন!',
 			'cs' => 'Přispějte dnes',
 			'es' => '¡Donar hoy!',
 			'fr' => "Faites un don aujourd'hui",
@@ -150,6 +162,7 @@
 		],
 		'features-text' => [
 			'en' => 'Features',
+			'bn' => 'বৈশিষ্ট্য',
 			'cs' => 'Funkce',
 			'ja' => '特徴',
 			'ko' => '특징',
@@ -162,12 +175,16 @@
 		],
 		'features-mediawiki' => [
 			'en' => 'MediaWiki',
+			'bn' => 'মিডিয়াউইকি',
 			'th' => 'มีเดียวิกิ',
 		],
 		'features-mediawiki-desc' => [
 			'en' => 'Miraheze runs the same software as Wikipedia, <a href="https://www.mediawiki.org">MediaWiki!</a> ' .
 				'You can do anything from uploading media such as images or videos, to writing articles or blogs. ' .
 				'We have over 200 extensions and over 15 skins to choose from to customize your experience with MediaWiki!',
+			'bn' => 'মিরাহেজ উইকিপিডিয়ার মত একই সফটওয়্যার দ্বারা চালিত, যার নাম <a href="https://www.mediawiki.org">মিডিয়াউইকি!</a> ' .
+				'আপনি মিডিয়া আপলোড করা থেকে শুরু করে, ছবি বা ভিডিও আপলোড করা, প্রবন্ধ বা ব্লগ লেখা পর্যন্ত যে কোনও কিছু করতে পারেন। ' .
+				'মিডিয়াউইকিতে আপনার অভিজ্ঞতা স্বনির্ধারিত করতে আমাদের ২০০টিরও বেশি এক্সটেনশন এবং ১৫টিরও বেশি আবরণ রয়েছে!',
 			'cs' => 'Miraheze používá stejný software jako Wikipedie, <a href="https://www.mediawiki.org">MediaWiki!</a> ' .
 				'Můžete dělat cokoli, od nahrávání médií, jako jsou obrázky nebo videa, až po psaní článků nebo blogů. ' .
 				'Máme přes 200 rozšíření a přes 15 vzhledů, ze kterých si můžete vybrat, a tak přispůsobit váš zážitek s MediaWiki!',
@@ -191,6 +208,7 @@
 		],
 		'features-non-profit-text' => [
 			'en' => 'Non-Profit',
+			'bn' => 'অলাভজনক',
 			'cs' => 'Nezisková organizace',
 			'ja' => '非営利',
 			'ko' => '비영리',
@@ -203,6 +221,8 @@
 		'features-non-profit-desc' => [
 			'en' => 'Miraheze is registered as Miraheze Limited in the United Kingdom. ' .
 				'We provide 100% free wikis as a non-profit that maintains the servers and keeps up with the development of our in house extensions.',
+			'bn' => 'মিরাহেজ, যুক্তরাজ্যে মিরাহেজ লিমিটেড হিসেবে নিবন্ধিত। ' .
+				'আমরা অলাভজনক হিসাবে ১০০% বিনামূল্যে উইকি সরবরাহ করি যারা সার্ভার রক্ষণাবেক্ষণ করাসহ এক্সটেশন উন্নয়ন করা বজায় রাখে।',
 			'cs' => 'Miraheze je ve Velké Británii registrována jako Miraheze Limited'.
 				'Poskytujeme 100% bezplatné wiki jako nezisková organizace, která udržuje servery a udržuje krok s vývojem našich vlastních rozšíření.',
 			'ja' => 'MirahezeはイギリスでMiraheze Limitedとして登録されています。' .
@@ -220,6 +240,7 @@
 		],
 		'features-community-text' => [
 			'en' => 'Community',
+			'bn' => 'সম্প্রদায়',
 			'cs' => 'Komunita',
 			'es' => '¡Comunidad',
 			'fr' => 'Communauté',
@@ -236,6 +257,8 @@
 		'features-community-desc' => [
 			'en' => 'As a community, we all work together to achieve a common goal of being a great wiki farm! '.
 				'This allows us to achieve the best possible outcome for users, by allowing users to learn!',
+			'bn' => 'একটি বড় উইকি ফার্ম হওয়ার লক্ষ্য অর্জন করতে, আমরা সবাই একটি সম্প্রদায় হিসেবে একসাথে কাজ করি! '.
+				'এটি আমাদের ব্যবহারকারীদের জন্য সর্বোত্তম ফলাফল অর্জন করতে সাহায্য করে!',
 			'cs' => 'Jako komunita všichni společně pracujeme na dosažení společného cíle být skvělou wiki farmou! '.
 				'To nám umožňuje dosáhnout nejlepších možných výsledků pro uživatele tím, že jim umožníme učit se!',
 			'es' => '¡Como comunidad, todos trabajamos juntos para lograr el objetivo común de ser una gran granja de wikis! ' .
@@ -264,6 +287,7 @@
 		],
 		'features-responsive-text' => [
 			'en' => 'Responsive',
+			'bn' => 'প্রতিক্রিয়াশীল',
 			'cs' => 'Responsivní',
 			'ja' => 'レスポンシブ',
 			'ko' => '반응형',
@@ -273,6 +297,7 @@
 		],
 		'features-responsive-desc' => [
 			'en' => 'All our wikis use MobileFrontend which makes the UI mobile friendly. We also allow you to switch this off by disabling it.',
+			'bn' => 'আমাদের সকল উইকি মোবাইলফ্রন্টএন্ড ব্যবহার করে যা UI-কে মোবাইলবান্ধব করে তোলে। এছাড়াও আমরা এটি নিষ্ক্রিয় করা থেকে এটি বন্ধ করার অনুমতি দিয়ে থাকি।',
 			'cs' => 'Všechny naše wiki používají rozšíření MobileFrontend, díky čemuž je uživatelské rozhraní mobile friendly. Také vám to umožňujeme to deaktivovat.',
 			'ja' => 'すべてのウィキは、UIをモバイルに最適化するMobileFrontendを使用しています。 また、これを無効にすることでオフにできます。',
 			'ko' => '우리의 모든 위키는 UI를 모바일 친화적으로 만드는 MobileFrontend를 사용합니다. 물론 당신이 이 기능을 끌 수도 있습니다.',
@@ -284,6 +309,7 @@
 		],
 		'features-extensions-text' => [
 			'en' => 'In-house extensions',
+			'bn' => 'আমাদের এক্সটেনশন',
 			'cs' => 'Naše rozšíření',
 			'es' => '¡En las extensiones de la casa',
 			'fr' => 'Des extensions internes',
@@ -301,6 +327,9 @@
 			'en' => 'We have designed some of the most cutting edge extensions to help us grow and become one of the world\'s best wiki farms! ' .
 				'Our extensions allow communities to have more control over their own wikis, requiring little oversight from our staff. ' .
 				'We listen to community input over the management of their wikis.',
+			'bn' => 'আমরা আমাদের বৃদ্ধি অব্যাহত রাখতে এবং বিশ্বের অন্যতম সেরা উইকি ফার্মে পরিণত হতে সাহায্যের জন্য কিছু চমৎকার এক্সটেনশন নকশা করেছি! ' .
+				'আমাদের এক্সটেনশন সম্প্রদায়কে তাদের নিজস্ব উইকিগুলিকে আরো নিয়ন্ত্রণ করতে অনুমতি দেয়, যার জন্য আমাদের কর্মীদের থেকে খুব সামান্য নজরদারির প্রয়োজন হয়। ' .
+				'আমরা উইকি ব্যবস্থাপনার থেকেও সম্প্রদায়ের মতামতকে গুরুত্ব দেই।',
 			'cs' => 'Navrhli jsme některá z nejmodernějších rozšíření, která nám pomohou růst a stát se jednou z nejlepších wiki farem na světě!' .
 				'Naše rozšíření umožňují komunitám mít větší kontrolu nad vlastními wikiprojekty, což vyžaduje malý dohled od našich zaměstnanců.' .
 				'Poslouchali jsme vstupy komunity o řízení jejich wikiprojektů.',
@@ -326,6 +355,7 @@
 		],
 		'features-more-desc' => [
 			'en' => 'And many more features!',
+			'bn' => 'এবং আরও অনেক বৈশিষ্ট্য!',
 			'cs' => 'A ještě více funkcí!',
 			'ja' => 'さらに多くの特徴！',
 			'ko' => '그리고 더 많은 기능이 있습니다!',
@@ -338,6 +368,7 @@
 		],
 		'about-title' => [
 			'en' => 'About',
+			'bn' => 'সম্পর্কে',
 			'cs' => 'O nás',
 			'ja' => '概要',
 			'ko' => '소개',
@@ -354,6 +385,11 @@
 				'Over the years, the project has grown immensely to be one of the largest and most recognizable wiki farms specializing in MediaWiki on offer. '.
 				'Despite the success and evolution, one aspect of Miraheze never changed - formal existence. ' .
 				'In November 2019, Miraheze became an registered non-profit in the UK as Miraheze Limited.',
+			'bn' => '২০১৫ সালের জুলাই মাসে, জন লুইস এবং ফেরান তুফান মিরাহেজ নামে একটি নতুন উইকি ফার্ম তৈরি করেন। ' .
+				'সম্প্রদায়ের ক্রাউডফান্ডিং এবং ব্যক্তিগত বিনিয়োগের মাধ্যমে মিরাহেজ আনুষ্ঠানিকভাবে ২০১৫ সালের আগস্ট মাসে সেবা দেয়া শুরু করে। ' .
+				'বছরের পর বছর ধরে, প্রকল্পটি মিডিয়াউইকিতে বিশেষজ্ঞ হিসেবে বৃহত্তম এবং সবচেয়ে স্বীকৃত উইকি ফার্ম হয়ে উঠেছে। '.
+				'সাফল্য এবং বিবর্তন সত্ত্বেও, মিরাহেজের একটি দিক কখনও পরিবর্তিত হয়নি - আনুষ্ঠানিক অস্তিত্ব। ' .
+				'নভেম্বর ২০১৯ সালে, মিরাহেজ লিমিটেড হিসাবে মিরাহেজ যুক্তরাজ্যে একটি নিবন্ধিত অলাভজনকে পরিণত হয়।',
 			'cs' => 'V červenci 2015 vytvořili John Lewis a Ferran Tufan novou wiki farmu - pojmenovanou Miraheze. ' .
 				'Prostřednictvím komunitního crowdfundingu a osobního investování Miraheze oficiálně začala fungovat v srpnu 2015.' .
 				'V průběhu několika let se projekt nesmírně rozrostl na jednu z největších a nejznámějších wiki farem specializovaných na nabídku MediaWiki.'.
@@ -392,6 +428,7 @@
 		],
 		'socialmedia-title' => [
 			'en' => 'Social Media',
+			'bn' => 'সামাজিক মাধ্যম',
 			'cs' => 'Sociální Média',
 			'ja' => 'ソーシャルメディア',
 			'ko' => '소셜 미디어',
@@ -407,6 +444,10 @@
 				'A company limited by guarantee registered in England and Wales company no. 12323854  <br />' .
 				'Except where otherwise noted, the content of this site is licensed under a ' .
 				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
+			'bn' => 'Miraheze Limited <br />' .
+				'ইংল্যান্ড ও ওয়েলস কোম্পানি নং 12323854 হিসেবে নিবন্ধিত গ্যারান্টি অনুযায়ী একটি লিমিটেড কোম্পানি <br />' .
+				'অন্যথায় উল্লেখ না করা হলে, এই সাইটের বিষয়বস্তু ' .
+				'<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.bn">এট্রিবিউশন-শেয়ারএলাইক ৪.০ আন্তর্জাতিক (সিসি বাই-এসএ ৪.০)</a>-এর অধীনে লাইসেন্সকৃত।',
 			'cs' => 'Miraheze Limited <br />' .
 				'Společnost s ručením omezeným registrovaná v Anglii a Walesu společnost pod číslem 12323854  <br />' .
 				'Není-li uvedeno jinak, je obsah těchto stránek licencován pod licencí' .
@@ -444,6 +485,7 @@
 		],
 		'footer-terms' => [
 			'en' => 'Terms of Use',
+			'bn' => 'ব্যবহারের শর্তাবলী',
 			'cs' => 'Podmínky Užití',
 			'es' => 'Términos de uso',
 			'fr' => 'Conditions d’utilisation',
@@ -460,6 +502,7 @@
 		],
 		'footer-privacy-policy' => [
 			'en' => 'Privacy Policy',
+			'bn' => 'গোপনীয়তার নীতি',
 			'cs' => 'Pravidla Ochrany Osobních Údajů',
 			'es' => 'Política de privacidad',
 			'fr' => 'Politique de confidentialité',
@@ -476,6 +519,7 @@
 		],
 		'footer-disclaimers' => [
 			'en' => 'Disclaimers',
+			'bn' => 'দাবিত্যাগ',
 			'cs' => 'Vyloučení odpovědnosti',
 			'es' => 'Renuncias',
 			'fr' => 'Avertissements',
@@ -492,6 +536,7 @@
 		],
 		'footer-cookie' => [
 			'en' => 'Cookie Statement',
+			'bn' => 'কুকির বিবৃতি',
 			'cs' => 'Prohlášení o cookies',
 			'es' => 'Declaración de cookies',
 			'fr' => 'Déclaration sur les cookies',
@@ -508,6 +553,7 @@
 		],
 		'footer-contact' => [
 			'en' => 'Contact Us',
+			'bn' => 'যোগাযোগ করুন',
 			'cs' => 'Kontaktujte nás',
 			'ja' => 'お問い合わせ',
 			'ko' => '문의하기',
@@ -520,6 +566,7 @@
 		],
 		'footer-faq' => [
 			'en' => 'FAQ',
+			'bn' => 'প্রাজিপ্র',
 			'pt' => 'Perguntas Frequentes',
 			'ru' => 'Часто задаваемые вопросы',
 			'th' => 'คำถามที่พบบ่อย',
@@ -528,6 +575,7 @@
 		],
 		'footer-translate' => [
 			'en' => 'Translate this page',
+			'bn' => 'এই পাতাটি অনুবাদ করুন',
 			'cs' => 'Přeložte tuto stránku',
 			'es' => 'Traducir esta página',
 			'fr' => 'Traduire cette page',
@@ -546,6 +594,7 @@
 		// Donate page
 		'header-donate-logo-text' => [
 			'en' => 'Miraheze Donate',
+			'bn' => 'Miraheze দান করুন',
 			'cs' => 'Přispějte Miraheze',
 			'ja' => 'Miraheze 寄付',
 			'ko' => 'Miraheze에 기부하기',
@@ -556,6 +605,7 @@
 		],
 		'header-menu-home' => [
 			'en' => 'Home',
+			'bn' => 'প্রধান পাতা',
 			'cs' => 'Domů',
 			'ja' => 'ホーム',
 			'ko' => '홈',
@@ -568,6 +618,7 @@
 		],
 		'donate-amount' => [
 			'en' => 'Amount',
+			'bn' => 'পরিমান',
 			'cs' => 'Množství',
 			'ja' => '金額',
 			'ko' => '금액',
@@ -581,6 +632,8 @@
 		'donate-note' => [
 			'en' => 'This form is for donations with PayPal (you may use credit/debit cards). ' .
 				'You should select your local currency using the dropdown on the page.',
+			'bn' => 'এই ফরমটি PayPal দিয়ে অনুদানের জন্য (আপনি ক্রেডিট/ডেবিট কার্ড ব্যবহার করতে পারেন)। ' .
+				'এই পৃষ্ঠার ড্রপডাউন ব্যবহার করে আপনি আপনার স্থানীয় মুদ্রা নির্বাচন করতে পারেন।',
 			'cs' => 'Tento formulář je určen pro příspěvky pomocí PayPalu (můžete použít kreditní/debetní karty).. ' .
 				'Měli byste vybrat místní měnu pomocí rozbalovací nabídky na stránce.',
 			'ja' => 'このフォームは、PayPalでの寄付用です（クレジットカード/デビットカードを使用できます）。' .
