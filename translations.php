@@ -118,7 +118,7 @@
 		],
 		'description-text' => [
 			'en' => 'Miraheze is a non-profit, with a mission to provide a free community-centric wiki farm.',
-			'bn' => 'Miraheze একটি অলাভজনক সংস্থা, বিনামূল্যে সম্প্রদায়-কেন্দ্রিক উইকি পরিষেবা দেয়া যেটির মূল উদ্দেশ্য',
+			'bn' => 'Miraheze একটি অলাভজনক সংস্থা, বিনামূল্যে সম্প্রদায়-কেন্দ্রিক উইকি পরিষেবা দেয়া যেটির মূল উদ্দেশ্য।',
 			'cs' => 'Miraheze je nezisková organizace, jejímž úkolem je poskytovat bezplatnou wiki farmu zaměřenou na komunitu.',
 			'es' => 'Miraheze es una organización sin fines de lucro, con la misión de proporcionar una granja de wikis gratuita centrada en la comunidad.',
 			'fr' => "Miraheze est une organisation à but non lucratif dont la mission est de fournir une ferme d'hébergement wiki gratuite, centrée sur la communauté.",
@@ -223,7 +223,7 @@
 			'en' => 'Miraheze is registered as Miraheze Limited in the United Kingdom. ' .
 				'We provide 100% free wikis as a non-profit that maintains the servers and keeps up with the development of our in house extensions.',
 			'bn' => 'Miraheze যুক্তরাজ্যে মিরাহেজ লিমিটেড হিসাবে (অলাভজনক প্রতিষ্ঠানের স্বীকৃতিসহ) নিবন্ধিত।' .
-				'আমরা শতভাগ বিনামূল্য উইকি সরবরাহ করে থাকি। অলাভজনক সংস্থা হিসেবে আমরা সার্ভার রক্ষণাবেক্ষণ ও নিজস্ব এক্সটেনশনগুলো উন্নয়নের কাজ করি।',
+				'আমরা শতভাগ বিনামূল্যে উইকি সরবরাহ করে থাকি। অলাভজনক সংস্থা হিসেবে আমরা সার্ভার রক্ষণাবেক্ষণ ও নিজস্ব এক্সটেনশনগুলো উন্নয়নের কাজ করি।',
 			'cs' => 'Miraheze je ve Velké Británii registrována jako Miraheze Limited'.
 				'Poskytujeme 100% bezplatné wiki jako nezisková organizace, která udržuje servery a udržuje krok s vývojem našich vlastních rozšíření.',
 			'ja' => 'MirahezeはイギリスでMiraheze Limitedとして登録されています。' .
@@ -298,7 +298,7 @@
 		],
 		'features-responsive-desc' => [
 			'en' => 'All our wikis use MobileFrontend which makes the UI mobile friendly. We also allow you to switch this off by disabling it.',
-			'bn' => 'আমাদের সকল উইকি MobileFrontend ব্যহার করে; যেটির ব্যবহারকারী ইন্টারফেস মোবাইলবান্ধব, আমরা এই সুবিধাটি অক্ষম করার মাধ্যমে এটি বন্ধ করার অনুমতিও দিয়ে থাকি।',
+			'bn' => 'আমাদের সকল উইকি MobileFrontend ব্যবহার করে; যেটির ব্যবহারকারী ইন্টারফেস মোবাইলবান্ধব, আমরা এই সুবিধাটি অক্ষম করার মাধ্যমে এটি বন্ধ করার অনুমতিও দিয়ে থাকি।',
 			'cs' => 'Všechny naše wiki používají rozšíření MobileFrontend, díky čemuž je uživatelské rozhraní mobile friendly. Také vám to umožňujeme to deaktivovat.',
 			'ja' => 'すべてのウィキは、UIをモバイルに最適化するMobileFrontendを使用しています。 また、これを無効にすることでオフにできます。',
 			'ko' => '우리의 모든 위키는 UI를 모바일 친화적으로 만드는 MobileFrontend를 사용합니다. 물론 당신이 이 기능을 끌 수도 있습니다.',
@@ -330,7 +330,7 @@
 				'We listen to community input over the management of their wikis.',
 			'bn' => 'আমরা নিজেদের উন্নয়ন ও মিরাহেজকে বিশ্বের শ্রেষ্ঠ উইকি ফার্ম হিসেবে গড়ে তুলতে কিছু সর্বাধুনিক মানের এক্সটেনশন তৈরি করেছি। ' .
 				'আমাদের এক্সটেনশনসমূহ সম্প্রদায়কে তাদের উইকির উপর আরো বেশি নিয়ন্ত্রণ দেয়। যদিও আমাদের কর্মীদের সামান্য তদারকি প্রয়োজন পড়ে। ' .
-				'আমরা সম্প্রদায়ের তাদের উইকি প্রকল্প পরিচালনার ক্ষেত্রে তাদের মতামতকে গুরুত্ব দেই।',
+				'আমরা সম্প্রদায়ের উইকি প্রকল্প পরিচালনার ক্ষেত্রে তাদের মতামতকে গুরুত্ব দেই।',
 			'cs' => 'Navrhli jsme některá z nejmodernějších rozšíření, která nám pomohou růst a stát se jednou z nejlepších wiki farem na světě!' .
 				'Naše rozšíření umožňují komunitám mít větší kontrolu nad vlastními wikiprojekty, což vyžaduje malý dohled od našich zaměstnanců.' .
 				'Poslouchali jsme vstupy komunity o řízení jejich wikiprojektů.',
@@ -633,7 +633,7 @@
 		'donate-note' => [
 			'en' => 'This form is for donations with PayPal (you may use credit/debit cards). ' .
 				'You should select your local currency using the dropdown on the page.',
-			'bn' => 'এই ফর্মটি পেপালের মাধ্যমে দান করার জন্য (আপনি ক্রেডিট/ডেবিট কার্ড ব্যবহার করতে পারেন)। ' .
+			'bn' => 'এই ফরমটি পেপালের মাধ্যমে দান করার জন্য (আপনি ক্রেডিট/ডেবিট কার্ড ব্যবহার করতে পারেন)। ' .
 				'পাতার ড্রপডাউন ব্যবহার করে আপনার স্থানীয় মুদ্রা নির্বাচন করা উচিত। ',
 			'cs' => 'Tento formulář je určen pro příspěvky pomocí PayPalu (můžete použít kreditní/debetní karty).. ' .
 				'Měli byste vybrat místní měnu pomocí rozbalovací nabídky na stránce.',
