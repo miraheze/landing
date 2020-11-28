@@ -259,7 +259,7 @@
 			'en' => 'As a community, we all work together to achieve a common goal of being a great wiki farm! '.
 				'This allows us to achieve the best possible outcome for users, by allowing users to learn!',
 			'bn' => 'সম্প্রদায় হিসেবে আমরা সবাই মিলে একক লক্ষ্য অর্জনের জন্য কাজ করি। সেটি হচ্ছে, শ্রেষ্ঠ উইকি ফার্ম বানানো! '.
-				'এটি আমাদেরকে ব্যবহারকারীদের জন্য সাম্ভাব্য সর্বোত্তম ফলাফল অর্জন করতে দেয়, ব্যবহারকারীদের শেখার সুযোগ দিয়ে!',
+				'আমরা ব্যবহারকারীদের শেখার সুযোগ দেই, এটি ব্যবহারকারীদেরকে সম্ভাব্য সর্বোত্তম ফলাফল অর্জন করতে সহায়তা করে!',
 			'cs' => 'Jako komunita všichni společně pracujeme na dosažení společného cíle být skvělou wiki farmou! '.
 				'To nám umožňuje dosáhnout nejlepších možných výsledků pro uživatele tím, že jim umožníme učit se!',
 			'es' => '¡Como comunidad, todos trabajamos juntos para lograr el objetivo común de ser una gran granja de wikis! ' .
@@ -329,7 +329,7 @@
 				'Our extensions allow communities to have more control over their own wikis, requiring little oversight from our staff. ' .
 				'We listen to community input over the management of their wikis.',
 			'bn' => 'আমরা নিজেদের উন্নয়ন ও মিরাহেজকে বিশ্বের শ্রেষ্ঠ উইকি ফার্ম হিসেবে গড়ে তুলতে কিছু সর্বাধুনিক মানের এক্সটেনশন তৈরি করেছি। ' .
-				'আমাদের এক্সটেনশনসমূহ সম্প্রদায়কে তাদের উইকির উপর আরো বেশি নিয়ন্ত্রণ দেয়। যদিও আমাদের কর্মীদের সামান্য তদারকি প্রয়োজন পড়ে। ' .
+				'আমাদের এক্সটেনশনসমূহ সম্প্রদায়কে তাদের উইকির উপর আরো বেশি নিয়ন্ত্রণ দেয়। এতে আমাদের কর্মীদের খুব সামান্য তদারকির প্রয়োজন পড়ে। ' .
 				'আমরা সম্প্রদায়ের উইকি প্রকল্প পরিচালনার ক্ষেত্রে তাদের মতামতকে গুরুত্ব দেই।',
 			'cs' => 'Navrhli jsme některá z nejmodernějších rozšíření, která nám pomohou růst a stát se jednou z nejlepších wiki farem na světě!' .
 				'Naše rozšíření umožňují komunitám mít větší kontrolu nad vlastními wikiprojekty, což vyžaduje malý dohled od našich zaměstnanců.' .
@@ -356,7 +356,7 @@
 		],
 		'features-more-desc' => [
 			'en' => 'And many more features!',
-			'bn' => 'এছাড়া আরো অনেক বৈশিষ্ট্য!',
+			'bn' => 'এছাড়াও রয়েছে আরো অনেক বৈশিষ্ট্য!',
 			'cs' => 'A ještě více funkcí!',
 			'ja' => 'さらに多くの特徴！',
 			'ko' => '그리고 더 많은 기능이 있습니다!',
@@ -387,7 +387,7 @@
 				'Despite the success and evolution, one aspect of Miraheze never changed - formal existence. ' .
 				'In November 2019, Miraheze became an registered non-profit in the UK as Miraheze Limited.',
 			'bn' => 'জুলাই ২০১৫ তে জন লুইস ও ফ্যারান তুফান একটি উইকি ফার্ম তৈরি করেন – Miraheze নামে। ' .
-				'সম্প্রদায়ের অনুদান ও ব্যক্তিগত বিনিয়োগের ফলে Miraheze ২০১৫ সালের আগস্ট মাসে আনুষ্ঠানিকভাবে জনসম্মুখে আসে। ' .
+				'সম্প্রদায়ের অনুদান ও ব্যক্তিগত বিনিয়োগের ফলে, Miraheze ২০১৫ সালের আগস্ট মাসে আনুষ্ঠানিকভাবে জনসম্মুখে আসে। ' .
 				'কয়েক বছরের মধ্যে প্রকল্পটি মিডিয়াউইকির সেবাদানকারী সবচেয়ে বড় এবং গ্রহণযোগ্য উইকিফার্ম হিসেবে ব্যাপকভাবে সমাদৃত হয়। '.
 				'সফলতা এবং পরিবর্তন সত্ত্বেও Miraheze-এর একটি দিক কখনো বদলে যায়নি – আনুষ্ঠানিক অস্তিত্ব। ' .
 				'২০১৯ সালের নভেম্বরে Miraheze ব্রিটেনে Miraheze Limited নামে অলাভজনক সংস্থা হিসেবে নিবন্ধিত হয়। ',
@@ -446,7 +446,7 @@
 				'Except where otherwise noted, the content of this site is licensed under a ' .
 				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
 			'bn' => 'Miraheze Limited <br />' .
-				'ইংল্যান্ড ও ওয়েলস কোম্পানি নং 12323854 হিসেবে নিবন্ধিত দায়বদ্ধ লিমিটেড কোম্পানি <br />' .
+				'ইংল্যান্ড ও ওয়েলসে কোম্পানি নং 12323854 হিসেবে একটি নিবন্ধিত দায়বদ্ধ লিমিটেড কোম্পানি <br />' .
 				'অন্যথায় উল্লেখ না করা হলে, এই সাইটের বিষয়বস্তু ' .
 				'<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.bn">এট্রিবিউশন-শেয়ারএলাইক ৪.০ আন্তর্জাতিক (সিসি বাই-এসএ ৪.০)</a>-এর অধীনে লাইসেন্সকৃত।',
 			'cs' => 'Miraheze Limited <br />' .
