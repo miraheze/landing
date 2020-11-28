@@ -45,6 +45,7 @@
 			'en' => 'About',
 			'bn' => 'সম্পর্কে',
 			'cs' => 'O nás',
+			'it' => 'Informazioni',
 			'ja' => '概要',
 			'ko' => '소개',
 			'pl' => 'O nas',
@@ -75,6 +76,7 @@
 		'header-menu-status' => [
 			'en' => 'Status',
 			'bn' => 'অবস্থা',
+			'it' => 'Stato',
 			'ko' => '상태',
 			'pt' => 'Status',
 			'ru' => 'Состояние',
@@ -136,6 +138,7 @@
 			'en' => 'Join Today!',
 			'bn' => 'আজই যোগ দিন!',
 			'cs' => 'Přidejte se dnes',
+			'it' => 'Unisciti!',
 			'ja' => '今日参加しましょう！',
 			'ko' => '지금 가입하세요!',
 			'pl' => 'Dołącz dzisiaj!',
@@ -290,6 +293,7 @@
 			'en' => 'Responsive',
 			'bn' => 'প্রতিক্রিয়াশীল',
 			'cs' => 'Responsivní',
+			'it' => 'Adattabile',
 			'ja' => 'レスポンシブ',
 			'ko' => '반응형',
 			'ru' => 'Адаптивность',
@@ -359,6 +363,7 @@
 			'bn' => 'এছাড়াও রয়েছে আরো অনেক বৈশিষ্ট্য!',
 			'cs' => 'A ještě více funkcí!',
 			'ja' => 'さらに多くの特徴！',
+			'it' => 'E molte altre funzionalità',
 			'ko' => '그리고 더 많은 기능이 있습니다!',
 			'pl' => 'I wiele innych funkcji!',
 			'pt' => 'E muito mais recursos!',
@@ -446,7 +451,7 @@
 				'Except where otherwise noted, the content of this site is licensed under a ' .
 				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
 			'bn' => 'Miraheze Limited <br />' .
-				'ইংল্যান্ড ও ওয়েলসে কোম্পানি নং 12323854 হিসেবে একটি নিবন্ধিত দায়বদ্ধ লিমিটেড কোম্পানি <br />' .
+				'ইংল্যান্ড ও ওয়েলসে কোম্পানি নং 12323854 হিসেবে নিবন্ধিত লিমিটেড কোম্পানি <br />' .
 				'অন্যথায় উল্লেখ না করা হলে, এই সাইটের বিষয়বস্তু ' .
 				'<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.bn">এট্রিবিউশন-শেয়ারএলাইক ৪.০ আন্তর্জাতিক (সিসি বাই-এসএ ৪.০)</a>-এর অধীনে লাইসেন্সকৃত।',
 			'cs' => 'Miraheze Limited <br />' .
