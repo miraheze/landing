@@ -82,6 +82,7 @@ require_once __DIR__ . '/translations.php';
                 <div></div>
                 <form action="index.php?lang="getElementByid("lang")"">
                   <select name="lang" onchange="this.form.submit()">
+                    <option value="bn">বাংলা</option>
                     <option value="en">English</option>
                     <option value="es">Español</option>
                     <option value="fr">Français</option>
