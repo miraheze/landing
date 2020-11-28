@@ -148,7 +148,7 @@
 			'tr' => 'Bugün bağış yapın!',
 			'zh-hans' => '立即捐款！',
 			'zh-hant' => '立即捐款！',
-		], 
+		],
 		'features-text' => [
 			'en' => 'Features',
 			'bn' => 'বৈশিষ্ট্যাবলী',
