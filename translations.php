@@ -445,7 +445,7 @@
 				'Except where otherwise noted, the content of this site is licensed under a ' .
 				'<a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.',
 			'bn' => 'Miraheze Limited <br />' .
-				'ইংল্যান্ড ও ওয়েলসে কোম্পানি নং 12323854 হিসেবে একটি নিবন্ধিত দায়বদ্ধ লিমিটেড কোম্পানি <br />' .
+				'ইংল্যান্ড ও ওয়েলসে কোম্পানি নং 12323854 হিসেবে নিবন্ধিত একটি লিমিটেড কোম্পানি <br />' .
 				'অন্যথায় উল্লেখ না করা হলে, এই সাইটের বিষয়বস্তু ' .
 				'<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.bn">এট্রিবিউশন-শেয়ারএলাইক ৪.০ আন্তর্জাতিক (সিসি বাই-এসএ ৪.০)</a>-এর অধীনে লাইসেন্সকৃত।',
 			'cs' => 'Miraheze Limited <br />' .
