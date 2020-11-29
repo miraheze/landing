@@ -1,8 +1,7 @@
 <?php
 	$translations = [
 		'header-logo-text' => [
-			'en' => 'Miraheze',
-			'bn' => 'মিরাহেজ',
+			'en' => 'Miraheze'
 		],
 		'header-menu-title' => [
 			'en' => 'Menu',
@@ -183,7 +182,7 @@
 			'en' => 'Miraheze runs the same software as Wikipedia, <a href="https://www.mediawiki.org">MediaWiki!</a> ' .
 				'You can do anything from uploading media such as images or videos, to writing articles or blogs. ' .
 				'We have over 200 extensions and over 15 skins to choose from to customize your experience with MediaWiki!',
-			'bn' => 'মিরাহেজ উইকিপিডিয়ার মত একই সফটওয়্যার দ্বারা চালিত, যার নাম <a href="https://www.mediawiki.org">মিডিয়াউইকি!</a> ' .
+			'bn' => 'Miraheze উইকিপিডিয়ার মত একই সফটওয়্যার দ্বারা চালিত, যার নাম <a href="https://www.mediawiki.org">মিডিয়াউইকি!</a> ' .
 				'আপনি মিডিয়া আপলোড করা থেকে শুরু করে, ছবি বা ভিডিও আপলোড করা, প্রবন্ধ বা ব্লগ লেখা পর্যন্ত যে কোনও কিছু করতে পারেন। ' .
 				'মিডিয়াউইকিতে আপনার অভিজ্ঞতা স্বনির্ধারিত করতে আমাদের ২০০টিরও বেশি এক্সটেনশন এবং ১৫টিরও বেশি আবরণ রয়েছে!',
 			'cs' => 'Miraheze používá stejný software jako Wikipedie, <a href="https://www.mediawiki.org">MediaWiki!</a> ' .
@@ -222,8 +221,8 @@
 		'features-non-profit-desc' => [
 			'en' => 'Miraheze is registered as Miraheze Limited in the United Kingdom. ' .
 				'We provide 100% free wikis as a non-profit that maintains the servers and keeps up with the development of our in house extensions.',
-			'bn' => 'Miraheze যুক্তরাজ্যে মিরাহেজ লিমিটেড হিসাবে (অলাভজনক প্রতিষ্ঠানের স্বীকৃতিসহ) নিবন্ধিত।' .
-				'আমরা শতভাগ বিনামূল্যে উইকি সরবরাহ করে থাকি। অলাভজনক সংস্থা হিসেবে আমরা সার্ভার রক্ষণাবেক্ষণ ও নিজস্ব এক্সটেনশনগুলো উন্নয়নের কাজ করি।',
+			'bn' => 'Miraheze যুক্তরাজ্যে Miraheze Limited হিসাবে নিবন্ধিত।' .
+				'আমরা অলাভজনক সংস্থা হিসাবে ১০০% ফ্রি উইকি সরবরাহ করি যা সার্ভারগুলি বজায় রাখে এবং আমাদের বাড়ির এক্সটেনশনের ক্ষেত্রে বিকাশ চালিয়ে যায়।',
 			'cs' => 'Miraheze je ve Velké Británii registrována jako Miraheze Limited'.
 				'Poskytujeme 100% bezplatné wiki jako nezisková organizace, která udržuje servery a udržuje krok s vývojem našich vlastních rozšíření.',
 			'ja' => 'MirahezeはイギリスでMiraheze Limitedとして登録されています。' .
@@ -258,7 +257,7 @@
 		'features-community-desc' => [
 			'en' => 'As a community, we all work together to achieve a common goal of being a great wiki farm! '.
 				'This allows us to achieve the best possible outcome for users, by allowing users to learn!',
-			'bn' => 'সম্প্রদায় হিসেবে আমরা সবাই মিলে একক লক্ষ্য অর্জনের জন্য কাজ করি। সেটি হচ্ছে, শ্রেষ্ঠ উইকি ফার্ম বানানো! '.
+			'bn' => 'সম্প্রদায় হিসেবে আমরা সবাই মিলে একক লক্ষ্য অর্জনের জন্য কাজ করি। সেটি হচ্ছে, শ্রেষ্ঠ উইকি খামার বানানো! '.
 				'আমরা ব্যবহারকারীদের শেখার সুযোগ দেই, এটি ব্যবহারকারীদেরকে সম্ভাব্য সর্বোত্তম ফলাফল অর্জন করতে সহায়তা করে!',
 			'cs' => 'Jako komunita všichni společně pracujeme na dosažení společného cíle být skvělou wiki farmou! '.
 				'To nám umožňuje dosáhnout nejlepších možných výsledků pro uživatele tím, že jim umožníme učit se!',
@@ -328,9 +327,9 @@
 			'en' => 'We have designed some of the most cutting edge extensions to help us grow and become one of the world\'s best wiki farms! ' .
 				'Our extensions allow communities to have more control over their own wikis, requiring little oversight from our staff. ' .
 				'We listen to community input over the management of their wikis.',
-			'bn' => 'আমরা নিজেদের উন্নয়ন ও মিরাহেজকে বিশ্বের শ্রেষ্ঠ উইকি ফার্ম হিসেবে গড়ে তুলতে কিছু সর্বাধুনিক মানের এক্সটেনশন তৈরি করেছি। ' .
+			'bn' => 'আমরা নিজেদের উন্নয়ন ও Miraheze-কে বিশ্বের শ্রেষ্ঠ উইকি খামার হিসেবে গড়ে তুলতে কিছু সর্বাধুনিক মানের এক্সটেনশন তৈরি করেছি! ' .
 				'আমাদের এক্সটেনশনসমূহ সম্প্রদায়কে তাদের উইকির উপর আরো বেশি নিয়ন্ত্রণ দেয়। এতে আমাদের কর্মীদের খুব সামান্য তদারকির প্রয়োজন পড়ে। ' .
-				'আমরা সম্প্রদায়ের উইকি প্রকল্প পরিচালনার ক্ষেত্রে তাদের মতামতকে গুরুত্ব দেই।',
+				'আমরা সম্প্রদায়ের উইকি প্রকল্প পরিচালনার ক্ষেত্রে তাদের মতামত শুনি।',
 			'cs' => 'Navrhli jsme některá z nejmodernějších rozšíření, která nám pomohou růst a stát se jednou z nejlepších wiki farem na světě!' .
 				'Naše rozšíření umožňují komunitám mít větší kontrolu nad vlastními wikiprojekty, což vyžaduje malý dohled od našich zaměstnanců.' .
 				'Poslouchali jsme vstupy komunity o řízení jejich wikiprojektů.',
@@ -386,11 +385,11 @@
 				'Over the years, the project has grown immensely to be one of the largest and most recognizable wiki farms specializing in MediaWiki on offer. '.
 				'Despite the success and evolution, one aspect of Miraheze never changed - formal existence. ' .
 				'In November 2019, Miraheze became an registered non-profit in the UK as Miraheze Limited.',
-			'bn' => 'জুলাই ২০১৫ তে জন লুইস ও ফ্যারান তুফান একটি উইকি ফার্ম তৈরি করেন – Miraheze নামে। ' .
-				'সম্প্রদায়ের অনুদান ও ব্যক্তিগত বিনিয়োগের ফলে, Miraheze ২০১৫ সালের আগস্ট মাসে আনুষ্ঠানিকভাবে জনসম্মুখে আসে। ' .
-				'কয়েক বছরের মধ্যে প্রকল্পটি মিডিয়াউইকির সেবাদানকারী সবচেয়ে বড় এবং গ্রহণযোগ্য উইকিফার্ম হিসেবে ব্যাপকভাবে সমাদৃত হয়। '.
+			'bn' => 'জুলাই ২০১৫-এ জন লুইস ও ফ্যারান টুফান একটি উইকি খামার তৈরি করেন – Miraheze নামে। ' .
+				'সম্প্রদায়ের অনুদান ও ব্যক্তিগত বিনিয়োগের মাধ্যমে, Miraheze ২০১৫ সালের আগস্ট মাসে আনুষ্ঠানিকভাবে জনসম্মুখে আসে। ' .
+				'কয়েক বছরের মধ্যে প্রকল্পটি মিডিয়াউইকির সেবাদানকারী সবচেয়ে বড় এবং গ্রহণযোগ্য উইকি খামার হিসেবে ব্যাপকভাবে সমাদৃত হয়। '.
 				'সফলতা এবং পরিবর্তন সত্ত্বেও Miraheze-এর একটি দিক কখনো বদলে যায়নি – আনুষ্ঠানিক অস্তিত্ব। ' .
-				'২০১৯ সালের নভেম্বরে Miraheze ব্রিটেনে Miraheze Limited নামে অলাভজনক সংস্থা হিসেবে নিবন্ধিত হয়। ',
+				'২০১৯ সালের নভেম্বরে Miraheze যুক্তরাজ্যে Miraheze Limited নামে একটি অলাভজনক সংস্থা হিসেবে নিবন্ধিত হয়। ',
 			'cs' => 'V červenci 2015 vytvořili John Lewis a Ferran Tufan novou wiki farmu - pojmenovanou Miraheze. ' .
 				'Prostřednictvím komunitního crowdfundingu a osobního investování Miraheze oficiálně začala fungovat v srpnu 2015.' .
 				'V průběhu několika let se projekt nesmírně rozrostl na jednu z největších a nejznámějších wiki farem specializovaných na nabídku MediaWiki.'.
@@ -429,7 +428,7 @@
 		],
 		'socialmedia-title' => [
 			'en' => 'Social Media',
-			'bn' => 'সামাজিক মাধ্যম',
+			'bn' => 'সামাজিক যোগাযোগ মাধ্যম',
 			'cs' => 'Sociální Média',
 			'ja' => 'ソーシャルメディア',
 			'ko' => '소셜 미디어',
@@ -554,7 +553,7 @@
 		],
 		'footer-contact' => [
 			'en' => 'Contact Us',
-			'bn' => 'আমাদের সাথে যোগাযোগ',
+			'bn' => 'আমাদের সাথে যোগাযোগ করুন',
 			'cs' => 'Kontaktujte nás',
 			'ja' => 'お問い合わせ',
 			'ko' => '문의하기',
@@ -633,7 +632,7 @@
 		'donate-note' => [
 			'en' => 'This form is for donations with PayPal (you may use credit/debit cards). ' .
 				'You should select your local currency using the dropdown on the page.',
-			'bn' => 'এই ফরমটি পেপালের মাধ্যমে দান করার জন্য (আপনি ক্রেডিট/ডেবিট কার্ড ব্যবহার করতে পারেন)। ' .
+			'bn' => 'এই ফরমটি PayPal-এর মাধ্যমে দান করার জন্য (আপনি ক্রেডিট/ডেবিট কার্ড ব্যবহার করতে পারেন)। ' .
 				'পাতার ড্রপডাউন ব্যবহার করে আপনার স্থানীয় মুদ্রা নির্বাচন করা উচিত। ',
 			'cs' => 'Tento formulář je určen pro příspěvky pomocí PayPalu (můžete použít kreditní/debetní karty).. ' .
 				'Měli byste vybrat místní měnu pomocí rozbalovací nabídky na stránce.',
