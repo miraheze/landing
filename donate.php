@@ -109,8 +109,8 @@ require_once __DIR__ . '/translations.php';
         <div class="row">
           <div class="col-lg-12 ml-auto">
             <p class="lead">
-                Miraheze is seeking donations to support a new plan to improve its infrastructure and allow communities to prosper. Read more on our <a href="https://www.gofundme.com/f/7uj22x-help-miraheze-stay-online">campaign page</a>.
-            </p>
+              Miraheze is a community-centric, ad free, and locally controlled wiki hosting platform funded 100% by donations. We've been fortunate to continue seeing impressive year-over-year traffic and community growth. With that growth, though, comes the need for additional infrastructure to manage increased capacity. So, we ask for you to consider chipping in with £5, £10, £20, or whatever amount you can afford. If 500 of Miraheze's 100,000+ users gave only £11.25 ($15 USD) once a year, Miraheze would exceed its budget requirements. Donate via our <a href="https://www.gofundme.com/f/help-miraheze-stay-online-in-2021">GoFundMe page</a>, <a href="https://paypal.me/mirahezelimited">PayPal</a> or <a href="https://github.com/sponsors/miraheze">GitHub Sponsors</a>! <br />
+              To thank you for your support, you have the option of on-wiki acknowledgement if you include your wiki username with your donation.            </p>
           </div>
         </div>
       </div>
