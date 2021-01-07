@@ -92,7 +92,7 @@ $lang = $_GET['lang'] ?? 'en';
             <li class="nav-item mx-0 mx-lg-1">
               <div class="form-group nav-link py-3 px-0 px-lg-3">
                 <div></div>
-                <form action="index.php?lang="getElementByid("lang")"">
+                <form action="index.php" method="get">
                   <select name="lang" onchange="this.form.submit()">
                     <option value="bn"<?php if ($lang == 'bn') echo " selected" ?>>বাংলা</option>
                     <option value="cs"<?php if ($lang == 'cs') echo " selected" ?>>Čeština</option>
