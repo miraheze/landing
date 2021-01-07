@@ -1,6 +1,6 @@
 <?php
 
-$lang = isset( $_GET['lang'] ) && $_GET['lang'] ? $_GET['lang'] : 'en';
+$lang = $_GET['lang'] ?? 'en';
 
 $translations = json_decode( file_get_contents( __DIR__ . "/i18n/{$lang}.json" ), true );
 
