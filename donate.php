@@ -83,20 +83,15 @@ $lang = $_GET['lang'] ?? 'en';
 								<div></div>
 								<form action="donate.php" method="get">
 									<select name="lang" onchange="this.form.submit()">
-										<option value="bn"<?php if ($lang == 'bn') echo " selected" ?>>বাংলা</option>
-										<option value="cs"<?php if ($lang == 'cs') echo " selected" ?>>Čeština</option>
-										<option value="en"<?php if ($lang == 'en') echo " selected" ?>>English</option>
-										<option value="es"<?php if ($lang == 'es') echo " selected" ?>>Español</option>
-										<option value="fr"<?php if ($lang == 'fr') echo " selected" ?>>Français</option>
-										<option value="it"<?php if ($lang == 'it') echo " selected" ?>>Italiano</option>
-										<option value="ja"<?php if ($lang == 'ja') echo " selected" ?>>日本語</option>
-										<option value="ko"<?php if ($lang == 'ko') echo " selected" ?>>한국어</option>
-										<option value="pl"<?php if ($lang == 'pl') echo " selected" ?>>Polski</option>
-										<option value="pt"<?php if ($lang == 'pt') echo " selected" ?>>Português</option>
-										<option value="ru"<?php if ($lang == 'ru') echo " selected" ?>>Русский</option>
-										<option value="th"<?php if ($lang == 'th') echo " selected" ?>>ภาษาไทย</option>
-										<option value="zh-hans"<?php if ($lang == 'zh-hans') echo " selected" ?>>中文（简体）</option>
-										<option value="zh-hant"<?php if ($lang == 'zh-hant') echo " selected" ?>>中文（繁體）</option>
+										<?php
+										$i18nDirectory = new DirectoryIterator( 'i18n' );
+										foreach ( $i18nDirectory as $i18nFile ) {
+											$languageCode = $i18nFile->getBasename( '.json' );
+											if ( !$i18nFile->isDot() && $languageCode !== 'qqq' ) {
+												echo( '<option value=' . $languageCode . ( $lang == $languageCode ?? ' selected' ) . '>' . LOCALE_GET_DISPLAY_LANGUAGE( $languageCode, $languageCode ) . '</option>' );
+											}
+										}
+										?>
 									</select>
 								</form>
 							</div>
