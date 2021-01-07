@@ -84,18 +84,20 @@ $lang = $_GET['lang'] ?? 'en';
                 <div></div>
                 <form action="index.php?lang="getElementByid("lang")"">
                   <select name="lang" onchange="this.form.submit()">
-                    <option value="bn">বাংলা</option>
-                    <option value="en">English</option>
-                    <option value="es">Español</option>
-                    <option value="fr">Français</option>
-                    <option value="it">Italiano</option>
-                    <option value="ja">日本語</option>
-                    <option value="ko">한국어</option>
-                    <option value="pl">Polski</option>
-                    <option value="ru">Русский</option>
-                    <option value="th">ภาษาไทย</option>
-                    <option value="zh-hans">中文（简体）</option>
-                    <option value="zh-hant">中文（繁體）</option>
+                    <option value="bn"<?php if ($lang == 'bn') echo " selected" ?>>বাংলা</option>
+                    <option value="cs"<?php if ($lang == 'cs') echo " selected" ?>>Čeština</option>
+                    <option value="en"<?php if ($lang == 'en') echo " selected" ?>>English</option>
+                    <option value="es"<?php if ($lang == 'es') echo " selected" ?>>Español</option>
+                    <option value="fr"<?php if ($lang == 'fr') echo " selected" ?>>Français</option>
+                    <option value="it"<?php if ($lang == 'it') echo " selected" ?>>Italiano</option>
+                    <option value="ja"<?php if ($lang == 'ja') echo " selected" ?>>日本語</option>
+                    <option value="ko"<?php if ($lang == 'ko') echo " selected" ?>>한국어</option>
+                    <option value="pl"<?php if ($lang == 'pl') echo " selected" ?>>Polski</option>
+                    <option value="pt"<?php if ($lang == 'pt') echo " selected" ?>>Português</option>
+                    <option value="ru"<?php if ($lang == 'ru') echo " selected" ?>>Русский</option>
+                    <option value="th"<?php if ($lang == 'th') echo " selected" ?>>ภาษาไทย</option>
+                    <option value="zh-hans"<?php if ($lang == 'zh-hans') echo " selected" ?>>中文（简体）</option>
+                    <option value="zh-hant"<?php if ($lang == 'zh-hant') echo " selected" ?>>中文（繁體）</option>
                   </select>
                 </form>
               </div>
