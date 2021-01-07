@@ -2,13 +2,17 @@
 
 $lang = isset( $_GET['lang'] ) && $_GET['lang'] ? $_GET['lang'] : 'en';
 
-function translate( $key ) {
-	global $lang, $translations;
+$translations = json_decode( file_get_contents( __DIR__ . "/i18n/{$lang}.json" ), true );
 
-	if ( isset( $translations[$key][$lang] ) && $translations[$key][$lang] ) {
-		return $translations[$key][$lang];
+unset( $translations['@metadata'] );
+
+function translate( $key ) {
+	global $translations;
+
+	if ( isset( $translations[$key] ) && $translations[$key] ) {
+		return $translations[$key];
 	} else {
-		return $translations[$key]['en'];
+		return json_decode( file_get_contents( __DIR__ . "/i18n/en.json" ), true )[$key];
 	}
 }
 ?>
