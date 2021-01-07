@@ -6,7 +6,7 @@ $translations = json_decode( file_get_contents( __DIR__ . "/i18n/{$lang}.json" )
 
 unset( $translations['@metadata'] );
 
-function translate( $key ) {
+function getTranslations( $key ) {
 	global $translations;
 
 	if ( isset( $translations[$key] ) && $translations[$key] ) {
