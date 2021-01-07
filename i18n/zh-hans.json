@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"header-menu-home": "首頁",
+	"header-menu-features": "特点",
+	"header-menu-about": "简介",
+	"header-menu-blog": "博客",
+	"header-menu-status": "状态",
+	"header-menu-donate": "捐款",
+	"welcome-text": "欢迎來到 Miraheze",
+	"donate-text": "立即捐款！",
+	"features-text": "特点",
+	"features-non-profit-text": "非营利",
+	"features-more-desc": "还有更多功能！",
+	"about-title": "简介",
+	"socialmedia-title": "社交媒体",
+	"footer-terms": "使用条款",
+	"footer-privacy-policy": "隐私政策",
+	"footer-disclaimers": "免责声明",
+	"footer-cookie": "Cookie 声明",
+	"footer-contact": "联络我们",
+	"footer-faq": "常见问题",
+	"footer-translate": "翻译这个页面",
+	"donate-amount": "金额"
+}
