@@ -96,7 +96,7 @@ $lang = $_GET['lang'] ?? 'en';
                   <select name="lang" onchange="this.form.submit()">
                     <option value="bn"<?php if ($lang == 'bn') echo " selected" ?>>বাংলা</option>
                     <option value="cs"<?php if ($lang == 'cs') echo " selected" ?>>Čeština</option>
-                    <option value="en"<?php if ($lang == 'en' || empty( $lang )) echo " selected" ?>>English</option>
+                    <option value="en"<?php if ($lang == 'en') echo " selected" ?>>English</option>
                     <option value="es"<?php if ($lang == 'es') echo " selected" ?>>Español</option>
                     <option value="fr"<?php if ($lang == 'fr') echo " selected" ?>>Français</option>
                     <option value="it"<?php if ($lang == 'it') echo " selected" ?>>Italiano</option>
