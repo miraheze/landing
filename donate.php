@@ -81,7 +81,7 @@ $lang = $_GET['lang'] ?? 'en';
 						<li class="nav-item mx-0 mx-lg-1">
 							<div class="form-group nav-link py-3 px-0 px-lg-3">
 								<div></div>
-								<form action="donate.php" method="get">
+								<form method="get">
 									<select name="lang" onchange="this.form.submit()">
 										<?php
 										$i18nDirectory = new DirectoryIterator( 'i18n' );
