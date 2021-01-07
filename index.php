@@ -23,7 +23,7 @@ THE SOFTWARE.
 -->
 
 <?php
-require_once __DIR__ . '/translations.php';
+require_once __DIR__ . '/getTranslations.php';
 
 $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
 ?>
@@ -39,7 +39,7 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title><?php echo( translate( 'header-logo-text' ) ); ?></title>
+    <title><?php echo( getTranslation( 'header-logo-text' ) ); ?></title>
 
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/miraheze.min.css">
@@ -51,42 +51,42 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
           <img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Logo" style="height:3em; width:3em; padding:0.5em;">
-          <?php echo( translate( 'header-logo-text' ) ); ?>
+          <?php echo( getTranslation( 'header-logo-text' ) ); ?>
         </a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <?php echo( translate( 'header-menu-title' ) ); ?>
+          <?php echo( getTranslation( 'header-menu-title' ) ); ?>
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#features">
-                <?php echo( translate( 'header-menu-features' ) ); ?>
+                <?php echo( getTranslation( 'header-menu-features' ) ); ?>
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">
-                <?php echo( translate( 'header-menu-about' ) ); ?>
+                <?php echo( getTranslation( 'header-menu-about' ) ); ?>
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://meta.miraheze.org/wiki/Miraheze">
-                <?php echo( translate( 'header-menu-wiki' ) ); ?>
+                <?php echo( getTranslation( 'header-menu-wiki' ) ); ?>
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://blog.miraheze.org">
-                <?php echo( translate( 'header-menu-blog' ) ); ?>
+                <?php echo( getTranslation( 'header-menu-blog' ) ); ?>
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://status.miraheze.wiki/">
-                <?php echo( translate( 'header-menu-status' ) ); ?>
+                <?php echo( getTranslation( 'header-menu-status' ) ); ?>
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://donate.miraheze.org">
-                <?php echo( translate( 'header-menu-donate' ) ); ?>
+                <?php echo( getTranslation( 'header-menu-donate' ) ); ?>
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
@@ -135,22 +135,22 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
       <div class="container d-flex align-items-center flex-column">
 
         <h1 class="masthead-heading text-uppercase mb-0">
-          <?php echo( translate( 'welcome-text' ) ); ?>
+          <?php echo( getTranslation( 'welcome-text' ) ); ?>
         </h1>
 
         <p class="masthead-subheading font-weight-light mb-0">
-          <?php echo( translate( 'description-text' ) ); ?>
+          <?php echo( getTranslation( 'description-text' ) ); ?>
         </p>
 
         <div>
           <a class="btn btn-xl btn-outline-light" href="https://meta.miraheze.org/w/index.php?title=Special:CreateAccount&returnto=Miraheze">
             <i class="fas fa-sign-in-alt mr-2"></i>
-            <?php echo( translate( 'join-text' ) ); ?>
+            <?php echo( getTranslation( 'join-text' ) ); ?>
           </a>
 
           <a class="btn btn-xl btn-outline-light" href="https://donate.miraheze.org">
             <i class="fas fa-donate mr-2"></i>
-            <?php echo( translate( 'donate-text' ) ); ?>
+            <?php echo( getTranslation( 'donate-text' ) ); ?>
           </a>
         </div>
 
@@ -164,7 +164,7 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="page-section-heading text-uppercase">
-              <?php echo( translate( 'features-text' ) ); ?>
+              <?php echo( getTranslation( 'features-text' ) ); ?>
             </h2>
           </div>
         </div>
@@ -177,10 +177,10 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
               <i class="fa fa-server fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">
-              <?php echo( translate( 'features-mediawiki' ) ); ?>
+              <?php echo( getTranslation( 'features-mediawiki' ) ); ?>
             </h4>
             <p class="text-muted">
-              <?php echo( translate( 'features-mediawiki-desc' ) ); ?>
+              <?php echo( getTranslation( 'features-mediawiki-desc' ) ); ?>
             </p>
           </div>
           <div class="col-md-4">
@@ -189,10 +189,10 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
               <i class="fas fa-donate fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">
-              <?php echo( translate( 'features-non-profit-text' ) ); ?>
+              <?php echo( getTranslation( 'features-non-profit-text' ) ); ?>
             </h4>
             <p class="text-muted">
-              <?php echo( translate( 'features-non-profit-desc' ) ); ?>
+              <?php echo( getTranslation( 'features-non-profit-desc' ) ); ?>
             </p>
           </div>
           <div class="col-md-4">
@@ -201,10 +201,10 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
               <i class="fas fa-users fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">
-              <?php echo( translate( 'features-community-text' ) ); ?>
+              <?php echo( getTranslation( 'features-community-text' ) ); ?>
             </h4>
             <p class="text-muted">
-              <?php echo( translate( 'features-community-desc' ) ); ?>
+              <?php echo( getTranslation( 'features-community-desc' ) ); ?>
             </p>
           </div>
         </div>
@@ -216,10 +216,10 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
               <i class="fas fa-mobile-alt fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">
-              <?php echo( translate( 'features-responsive-text' ) ); ?>
+              <?php echo( getTranslation( 'features-responsive-text' ) ); ?>
             </h4>
             <p class="text-muted">
-              <?php echo( translate( 'features-responsive-desc' ) ); ?>
+              <?php echo( getTranslation( 'features-responsive-desc' ) ); ?>
             </p>
           </div>
           <div class="col-md-4">
@@ -228,10 +228,10 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
               <i class="fas fa-cog fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">
-              <?php echo( translate( 'features-extensions-text' ) ); ?>
+              <?php echo( getTranslation( 'features-extensions-text' ) ); ?>
             </h4>
             <p class="text-muted">
-              <?php echo( translate( 'features-extensions-desc' ) ); ?>
+              <?php echo( getTranslation( 'features-extensions-desc' ) ); ?>
             </p>
           </div>
           <div class="col-md-4">
@@ -240,7 +240,7 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
               <i class="fas fa-angle-double-right fa-stack-1x fa-inverse"></i>
             </span>
             <p class="text-muted">
-              <?php echo( translate( 'features-more-desc' ) ); ?>
+              <?php echo( getTranslation( 'features-more-desc' ) ); ?>
             </p>
            </div>
         </div>
@@ -250,13 +250,13 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
     <section class="page-section text-white mb-0" id="about">
       <div class="container">
         <h2 class="page-section-heading text-center text-uppercase text-white">
-          <?php echo( translate( 'about-title' ) ); ?>
+          <?php echo( getTranslation( 'about-title' ) ); ?>
         </h2>
         <div class="divider-custom divider-light"></div>
         <div class="row">
           <div class="col-lg-12 ml-auto">
             <p class="lead">
-              <?php echo( translate( 'about-desc' ) ); ?>
+              <?php echo( getTranslation( 'about-desc' ) ); ?>
             </p>
           </div>
         </div>
@@ -268,7 +268,7 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
         <div class="row">
           <div class="col-lg-4 mb-5 mb-lg-0"></div>
           <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4"><?php echo( translate( 'socialmedia-title' ) ); ?></h4>
+            <h4 class="text-uppercase mb-4"><?php echo( getTranslation( 'socialmedia-title' ) ); ?></h4>
             <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/miraheze/">
               <i class="fab fa-fw fa-facebook-f"></i>
             </a>
@@ -282,44 +282,44 @@ $lang = isset( $_GET['lang'] ) ? $_GET['lang'] : '';
         </div>
         <div class="bottom-footer">
           <small>
-            <?php echo( translate( 'footer-desc' ) ); ?>
+            <?php echo( getTranslation( 'footer-desc' ) ); ?>
 
             <ul class="list-inline">
               <li class="list-inline-item">
                 <a href="https://meta.miraheze.org/wiki/Terms_of_Use">
-                  <?php echo( translate( 'footer-terms' ) ); ?>
+                  <?php echo( getTranslation( 'footer-terms' ) ); ?>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://meta.miraheze.org/wiki/Privacy_Policy">
-                  <?php echo( translate( 'footer-privacy-policy' ) ); ?>
+                  <?php echo( getTranslation( 'footer-privacy-policy' ) ); ?>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://meta.miraheze.org/wiki/Meta:General_disclaimer">
-                  <?php echo( translate( 'footer-disclaimers' ) ); ?>
+                  <?php echo( getTranslation( 'footer-disclaimers' ) ); ?>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://meta.miraheze.org/wiki/Privacy_Policy#4._Cookies">
-                  <?php echo( translate( 'footer-cookie' ) ); ?>
+                  <?php echo( getTranslation( 'footer-cookie' ) ); ?>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://meta.miraheze.org/wiki/Help_center">
-                  <?php echo( translate( 'footer-contact' ) ); ?>
+                  <?php echo( getTranslation( 'footer-contact' ) ); ?>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://meta.miraheze.org/wiki/FAQ">
-                  <?php echo( translate( 'footer-faq' ) ); ?>
+                  <?php echo( getTranslation( 'footer-faq' ) ); ?>
                 </a>
               </li>
             </ul>
             <ul class="list-inline">
               <li class="list-inline-item">
                 <a href="https://github.com/miraheze/landing">
-                  <?php echo( translate( 'footer-translate' ) ); ?>
+                  <?php echo( getTranslation( 'footer-translate' ) ); ?>
                 </a>
               </li>
             </ul>
