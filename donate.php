@@ -23,7 +23,7 @@ THE SOFTWARE.
 -->
 
 <?php
-require_once __DIR__ . '/translations.php';
+require_once __DIR__ . '/getTranslations.php';
 ?>
 
 <!DOCTYPE html>
@@ -37,7 +37,7 @@ require_once __DIR__ . '/translations.php';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title><?php echo( translate( 'header-donate-logo-text' ) ); ?></title>
+    <title><?php echo( getTranslation( 'header-donate-logo-text' ) ); ?></title>
 
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/miraheze.min.css">
@@ -49,32 +49,32 @@ require_once __DIR__ . '/translations.php';
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="https://miraheze.org">
           <img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Logo" style="height:3em; width:3em; padding:0.5em;">
-          <?php echo( translate( 'header-logo-text' ) ); ?>
+          <?php echo( getTranslation( 'header-logo-text' ) ); ?>
         </a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <?php echo( translate( 'header-menu-title' ) ); ?>
+          <?php echo( getTranslation( 'header-menu-title' ) ); ?>
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://miraheze.org">
-                <?php echo( translate( 'header-menu-home' ) ); ?>
+                <?php echo( getTranslation( 'header-menu-home' ) ); ?>
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://meta.miraheze.org/wiki/Miraheze">
-                <?php echo( translate( 'header-menu-wiki' ) ); ?>
+                <?php echo( getTranslation( 'header-menu-wiki' ) ); ?>
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://blog.miraheze.org">
-                <?php echo( translate( 'header-menu-blog' ) ); ?>
+                <?php echo( getTranslation( 'header-menu-blog' ) ); ?>
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://status.miraheze.wiki/">
-                <?php echo( translate( 'header-menu-status' ) ); ?>
+                <?php echo( getTranslation( 'header-menu-status' ) ); ?>
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
@@ -118,7 +118,7 @@ require_once __DIR__ . '/translations.php';
 
     <section class="page-section">
       <div class="container">
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"><?php echo( translate( 'header-menu-donate' ) ); ?></h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"><?php echo( getTranslation( 'header-menu-donate' ) ); ?></h2>
 
         <div class="divider-custom"></div>
 
@@ -127,19 +127,19 @@ require_once __DIR__ . '/translations.php';
             <form name="donate" id="donateForm" novalidate="novalidate">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label><?php echo( translate( 'donate-amount' ) ); ?></label>
-                  <input class="form-control" id="amountInput" type="number" placeholder="<?php echo( translate( 'donate-amount' ) ); ?>" oninput="_amountInput(this)">
+                  <label><?php echo( getTranslation( 'donate-amount' ) ); ?></label>
+                  <input class="form-control" id="amountInput" type="number" placeholder="<?php echo( getTranslation( 'donate-amount' ) ); ?>" oninput="_amountInput(this)">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <br>
               <div class="form-group">
                 <a id="donationHref" class="btn btn-primary btn-xl" href="https://paypal.me/mirahezelimited">
-                    <?php echo( translate( 'header-menu-donate' ) ); ?>
+                    <?php echo( getTranslation( 'header-menu-donate' ) ); ?>
                 </a>
                 <br />
                 <small>
-                <?php echo( translate( 'donate-note' ) ); ?>
+                <?php echo( getTranslation( 'donate-note' ) ); ?>
                 </small>
               </div>
             </form>
@@ -153,7 +153,7 @@ require_once __DIR__ . '/translations.php';
         <div class="row">
           <div class="col-lg-4 mb-5 mb-lg-0"></div>
           <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4"><?php echo( translate( 'socialmedia-title' ) ); ?></h4>
+            <h4 class="text-uppercase mb-4"><?php echo( getTranslation( 'socialmedia-title' ) ); ?></h4>
             <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/miraheze/">
               <i class="fab fa-fw fa-facebook-f"></i>
             </a>
@@ -167,44 +167,44 @@ require_once __DIR__ . '/translations.php';
         </div>
         <div class="bottom-footer">
           <small>
-            <?php echo( translate( 'footer-desc' ) ); ?>
+            <?php echo( getTranslation( 'footer-desc' ) ); ?>
 
             <ul class="list-inline">
               <li class="list-inline-item">
                 <a href="https://meta.miraheze.org/wiki/Terms_of_Use">
-                  <?php echo( translate( 'footer-terms' ) ); ?>
+                  <?php echo( getTranslation( 'footer-terms' ) ); ?>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://meta.miraheze.org/wiki/Privacy_Policy">
-                  <?php echo( translate( 'footer-privacy-policy' ) ); ?>
+                  <?php echo( getTranslation( 'footer-privacy-policy' ) ); ?>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://meta.miraheze.org/wiki/Meta:General_disclaimer">
-                  <?php echo( translate( 'footer-disclaimers' ) ); ?>
+                  <?php echo( getTranslation( 'footer-disclaimers' ) ); ?>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://meta.miraheze.org/wiki/Privacy_Policy#4._Cookies">
-                  <?php echo( translate( 'footer-cookie' ) ); ?>
+                  <?php echo( getTranslation( 'footer-cookie' ) ); ?>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://meta.miraheze.org/wiki/Help_center">
-                  <?php echo( translate( 'footer-contact' ) ); ?>
+                  <?php echo( getTranslation( 'footer-contact' ) ); ?>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://meta.miraheze.org/wiki/FAQ">
-                  <?php echo( translate( 'footer-faq' ) ); ?>
+                  <?php echo( getTranslation( 'footer-faq' ) ); ?>
                 </a>
               </li>
             </ul>
             <ul class="list-inline">
               <li class="list-inline-item">
                 <a href="https://github.com/miraheze/landing">
-                  <?php echo( translate( 'footer-translate' ) ); ?>
+                  <?php echo( getTranslation( 'footer-translate' ) ); ?>
                 </a>
               </li>
             </ul>
