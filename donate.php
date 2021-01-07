@@ -24,6 +24,8 @@ THE SOFTWARE.
 
 <?php
 require_once __DIR__ . '/getTranslations.php';
+
+$lang = $_GET['lang'] ?? 'en';
 ?>
 
 <!DOCTYPE html>
