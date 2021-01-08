@@ -96,7 +96,7 @@ $lang = $_GET['lang'] ?? 'en';
 										<?php
 
 										$i18nDirectory = new DirectoryIterator( 'i18n' );
-										sort( $i18nDirectory );
+										asort( $i18nDirectory );
 
 										foreach ( $i18nDirectory as $i18nFile ) {
 											$languageCode = $i18nFile->getBasename( '.json' );
