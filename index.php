@@ -95,7 +95,7 @@ $lang = $_GET['lang'] ?? 'en';
 									<select name="lang" onchange="this.form.submit()">
 										<?php
 
-										$i18nDirectory = (array)new DirectoryIterator( 'i18n' );
+										$i18nDirectory = new DirectoryIterator( 'i18n' );
 										sort( $i18nDirectory );
 
 										foreach ( $i18nDirectory as $i18nFile ) {
