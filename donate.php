@@ -85,6 +85,8 @@ $lang = $_GET['lang'] ?? 'en';
 									<select name="lang" onchange="this.form.submit()">
 										<?php
 										$i18nDirectory = new DirectoryIterator( 'i18n' );
+										sort( $i18nDirectory );
+
 										foreach ( $i18nDirectory as $i18nFile ) {
 											$languageCode = $i18nFile->getBasename( '.json' );
 											if ( !$i18nFile->isDot() && $languageCode !== 'qqq' ) {
