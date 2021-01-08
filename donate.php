@@ -84,6 +84,7 @@ $lang = $_GET['lang'] ?? 'en';
 								<form method="get">
 									<select name="lang" onchange="this.form.submit()">
 										<?php
+
 										$i18nDirectory = new DirectoryIterator( 'i18n' );
 										sort( $i18nDirectory );
 
@@ -93,6 +94,7 @@ $lang = $_GET['lang'] ?? 'en';
 												echo( '<option value="' . $languageCode . '"' . ( $lang == $languageCode ? ' selected' : null ) . '>' . LOCALE_GET_DISPLAY_LANGUAGE( $languageCode, $languageCode ) . '</option>' );
 											}
 										}
+
 										?>
 									</select>
 								</form>
