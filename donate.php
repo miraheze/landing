@@ -210,7 +210,7 @@ $lang = $_GET['lang'] ?? 'en';
 						</ul>
 						<ul class="list-inline">
 							<li class="list-inline-item">
-								<a href="https://github.com/miraheze/landing">
+								<a href="https://github.com/miraheze/landing/tree/master/i18n">
 									<?php echo( getTranslation( 'footer-translate' ) ); ?>
 								</a>
 							</li>
