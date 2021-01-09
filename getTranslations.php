@@ -7,7 +7,6 @@ if ( file_exists( __DIR__ . "/i18n/{$lang}.json" ) ) {
 	$translations = json_decode( file_get_contents( __DIR__ . "/i18n/en.json" ), true );
 }
 
-
 unset( $translations['@metadata'] );
 
 function getTranslation( $key ) {
