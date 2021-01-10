@@ -1,18 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Reception123"
+			"Reception123",
+			"Universal Omega"
 		]
 	},
 	"header-logo-text": "Header for Logo",
 	"header-menu-title": "Header for Menu",
-	"header-menu-home": "Header forHome",
+	"header-menu-home": "Header for Home",
 	"header-menu-features": "Header for Features",
 	"header-menu-about": "Header for About",
 	"header-menu-wiki": "Header for Wiki",
 	"header-menu-blog": "Header for Blog",
 	"header-menu-status": "Header for Status",
-	"header-menu-donate": "Header forDonate",
+	"header-menu-donate": "Header for Donate",
 	"welcome-text": "Welcome text",
 	"description-text": "Miraheze description",
 	"join-text": "Join text",
