@@ -5,7 +5,7 @@
 			"Universal Omega"
 		]
 	},
-	"header-logo-text": "Header for Logo",
+	"header-logo-text": "{{optional}}",
 	"header-menu-title": "Header for Menu",
 	"header-menu-home": "Header for Home",
 	"header-menu-features": "Header for Features",
