@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nike"
+		]
+	},
+	"header-menu-title": "Valikko",
+	"header-menu-home": "Koti",
+	"header-menu-features": "Ominaisuudet",
+	"header-menu-about": "Tietoja",
+	"header-menu-wiki": "Wiki",
+	"header-menu-blog": "Blogi",
+	"header-menu-donate": "Lahjoita",
+	"join-text": "Liity tänään!",
+	"donate-text": "Lahjoita tänään!",
+	"features-text": "Ominaisuudet",
+	"features-mediawiki": "MediaWiki"
+}
