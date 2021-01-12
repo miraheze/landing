@@ -99,7 +99,7 @@ $lang = $_GET['lang'] ?? 'en';
 										foreach ( $i18nDirectory as $i18nFile ) {
 											$languageCode = str_replace( '.json', '', $i18nFile );
 											if ( $languageCode !== 'qqq' && $languageCode !== '..' && $languageCode !== '.' ) {
-												echo( '<option value="' . $languageCode . '"' . ( $lang == $languageCode ? ' selected' : null ) . '>' . LOCALE_GET_DISPLAY_LANGUAGE( $languageCode, $languageCode ) . '</option>' );
+												echo( '<option value="' . $languageCode . '"' . ( $lang == $languageCode ? ' selected' : null ) . '>' . LOCALE_GET_DISPLAY_NAME( $languageCode, $languageCode ) . '</option>' );
 											}
 										}
 
