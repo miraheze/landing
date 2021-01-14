@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Narazeni"
+		]
+	},
+	"header-menu-title": "მენიუ",
+	"header-menu-home": "დუდხასჷლა",
+	"header-menu-features": "გიშნაგორა",
+	"header-menu-about": "გეშა",
+	"header-menu-wiki": "ვიკი",
+	"header-menu-blog": "ბლოგი",
+	"header-menu-status": "სტატუსი",
+	"header-menu-donate": "დონორალა",
+	"features-text": "გიშნაგორა",
+	"features-non-profit-text": "ვაკომერციულო",
+	"features-community-text": "ჯარალუა",
+	"about-title": "გეშა",
+	"socialmedia-title": "სოციალური მედია",
+	"footer-disclaimers": "გამამინჯალაშ ვარება",
+	"footer-contact": "ქემკმარსხით",
+	"footer-faq": "შდკ",
+	"donate-amount": "მუდანობა"
+}

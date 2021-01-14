@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"header-menu-title": "Menü",
+	"header-menu-about": "Iwwer",
+	"header-menu-wiki": "Wiki",
+	"header-menu-donate": "Maacht en Don",
+	"donate-text": "Maacht haut en Don!",
+	"features-text": "Funktiounen",
+	"features-mediawiki": "MediaWiki",
+	"features-community-text": "Communautéit",
+	"about-title": "Iwwer",
+	"socialmedia-title": "Sozial Medien",
+	"footer-terms": "Benotzungs-Bedingungen",
+	"footer-privacy-policy": "Dateschutz",
+	"footer-contact": "Kontaktéiert Eis",
+	"footer-faq": "FAQ",
+	"footer-translate": "Dës Säit iwwersetzen",
+	"donate-amount": "Betrag"
+}

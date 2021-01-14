@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"header-menu-title": "Menu",
+	"header-menu-home": "Pagina principale",
+	"header-menu-features": "Caratteristiche",
+	"header-menu-about": "Informazioni",
+	"header-menu-wiki": "Wiki",
+	"header-menu-blog": "Blog",
+	"header-menu-status": "Stato",
+	"header-menu-donate": "Dona",
+	"donate-text": "Dona oggi!",
+	"features-text": "Caratteristiche",
+	"features-mediawiki": "MediaWiki",
+	"features-community-text": "Comunità",
+	"about-title": "Informazioni",
+	"footer-terms": "Condizioni d'uso",
+	"footer-privacy-policy": "Informativa sulla privacy",
+	"footer-disclaimers": "Avvertenze",
+	"footer-cookie": "Dichiarazione sui cookie",
+	"footer-contact": "Contattaci",
+	"footer-faq": "Domande frequenti",
+	"footer-translate": "Traduci questa pagina",
+	"donate-amount": "Importo"
+}
