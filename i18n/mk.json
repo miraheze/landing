@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"header-menu-title": "Мени",
+	"header-menu-home": "Почетна",
+	"header-menu-features": "Можности",
+	"header-menu-about": "За нас",
+	"header-menu-wiki": "Вики",
+	"header-menu-blog": "Блог",
+	"header-menu-status": "Состојба",
+	"header-menu-donate": "Дарувајте",
+	"welcome-text": "Добре дојдовте на Мирахезе!",
+	"description-text": "Мирахезе е непрофитна организација која има за цел да овозможи викифарма сосредоточена на заедницата.",
+	"join-text": "Приклучете се!",
+	"donate-text": "Дарувајте!",
+	"features-text": "Можности",
+	"features-mediawiki": "МедијаВики",
+	"about-title": "За нас",
+	"footer-terms": "Услови на употреба",
+	"footer-privacy-policy": "За личните податоци",
+	"footer-disclaimers": "Одрекувања од одговорност",
+	"footer-cookie": "Изјава за колачиња",
+	"footer-contact": "Контактирајте нè",
+	"footer-faq": "ЧПП",
+	"footer-translate": "Преведете ја страницава",
+	"header-donate-logo-text": "Дарување на Мирахезе",
+	"donate-amount": "Износ"
+}
