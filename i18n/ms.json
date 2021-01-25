@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tofeiku"
+		]
+	},
+	"header-menu-title": "Menu",
+	"header-menu-about": "Perihal",
+	"header-menu-wiki": "Wiki",
+	"header-menu-blog": "Blog",
+	"header-menu-status": "Status",
+	"header-menu-donate": "Derma",
+	"welcome-text": "Selamat datang ke Miraheze!",
+	"join-text": "Sertai Hari Ini!",
+	"donate-text": "Derma Hari Ini!",
+	"features-mediawiki": "MediaWiki",
+	"features-community-text": "Masyarakat",
+	"about-title": "Perihal",
+	"socialmedia-title": "Media Sosial",
+	"footer-privacy-policy": "Dasar Privasi",
+	"footer-disclaimers": "Penafian",
+	"footer-cookie": "Kenyataan Kuki",
+	"footer-contact": "Hubungi Kami",
+	"footer-faq": "Soalan Lazim",
+	"footer-translate": "Terjemahkan laman ini",
+	"donate-amount": "Jumlah"
+}
