@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Colathewikian",
-			"Yfdyh000"
+			"Yfdyh000",
+			"铁桶"
 		]
 	},
 	"header-menu-title": "菜单",
 	"header-menu-home": "首页",
 	"header-menu-features": "特点",
 	"header-menu-about": "简介",
-	"header-menu-wiki": "Wiki",
+	"header-menu-wiki": "wiki",
 	"header-menu-blog": "博客",
 	"header-menu-status": "状态",
 	"header-menu-donate": "捐款",
@@ -31,7 +32,7 @@
 	"footer-cookie": "Cookie声明",
 	"footer-contact": "联络我们",
 	"footer-faq": "常见问题",
-	"footer-translate": "翻译这个页面",
+	"footer-translate": "翻译本页",
 	"header-donate-logo-text": "Miraheze捐款",
 	"donate-amount": "金额"
 }
