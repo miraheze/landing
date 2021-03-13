@@ -1,7 +1,7 @@
 <?php
 
 $lang = $_GET['lang'] ?? 'en';
-if ( file_exists( __DIR__ . "/i18n/{$lang}.json" ) ) {
+if ( file_exists( __DIR__ . "/i18n/{$lang}.json" ) && $lang !== 'qqq' ) {
 	$translations = json_decode( file_get_contents( __DIR__ . "/i18n/{$lang}.json" ), true );
 } else {
 	$translations = json_decode( file_get_contents( __DIR__ . "/i18n/en.json" ), true );
