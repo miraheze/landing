@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kkairri",
 			"Tmv"
 		]
 	},
@@ -10,6 +11,7 @@
 	"header-menu-about": "概要",
 	"header-menu-wiki": "ウィキ",
 	"header-menu-blog": "ブログ",
+	"header-menu-status": "状態",
 	"header-menu-donate": "寄付",
 	"welcome-text": "Mirahezeへようこそ！",
 	"description-text": "Mirahezeは非営利団体であり、コミュニティ中心の無料のウィキファームを提供することを使命としています。",
