@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"MITO",
 			"Nike"
 		]
 	},
@@ -10,9 +11,31 @@
 	"header-menu-about": "Tietoja",
 	"header-menu-wiki": "Wiki",
 	"header-menu-blog": "Blogi",
+	"header-menu-status": "Tila",
 	"header-menu-donate": "Lahjoita",
+	"welcome-text": "Tervetuloa Mirahezeen!",
+	"description-text": "Miraheze on voittoa tavoittelematon järjestö, jonka tehtävänä on tarjota ilmainen yhteisöllinen wikitila.",
 	"join-text": "Liity tänään!",
 	"donate-text": "Lahjoita tänään!",
 	"features-text": "Ominaisuudet",
-	"features-mediawiki": "MediaWiki"
+	"features-mediawiki": "MediaWiki",
+	"features-mediawiki-desc": "Miraheze käyttää <a href=\"https://www.mediawiki.org\">MediaWiki</a>-ohjelmistoa, eli samaa kuin Wikipedia! Voit tehdä mitä tahansa kuvien ja videoiden lataamisesta artikkeleiden ja blogien kirjoittamiseen. Meillä on yli 200 laajennusta ja yli 15 ulkoasua, joista voit valita ja muokata kokemustasi MediaWikiin!",
+	"features-non-profit-text": "Voittoa tavoittelematon",
+	"features-non-profit-desc": "Miraheze on rekisteröity Miraheze Limited -yritykseksi Yhdistyneessä kuningaskunnassa. Tarjoamme 100% ilmaisia wikejä voittoa tavoittelemattomana järjestönä, joka ylläpitää palvelimia ja pysyy mukana laajennusten kehityksessä.",
+	"features-community-text": "Yhteisö",
+	"features-community-desc": "Yhteisönä pyrimme kaikki yhdessä saavuttamaan yhteisen tavoitteemme olla suuri wikitila! Tämän avulla voimme saavuttaa parhaimman lopputuloksen käyttäjille antamalla heidän oppia!",
+	"features-responsive-text": "Laitekohtainen",
+	"features-responsive-desc": "Kaikki wikimme käyttävät MobileFrontend-laajennusta, mikä tekee käyttöliittymästä mobiiliystävällisen. Sallimme myös, jos poistat tämän käytöstä.",
+	"features-more-desc": "Ja monta muuta ominaisuutta!",
+	"about-title": "Tietoa",
+	"socialmedia-title": "Sosiaalinen media",
+	"footer-terms": "Käyttöehdot",
+	"footer-privacy-policy": "Tietosuojakäytäntö",
+	"footer-disclaimers": "Vastuuvapauslausekkeet",
+	"footer-cookie": "Evästekäytäntö",
+	"footer-contact": "Ota yhteyttä",
+	"footer-faq": "Usein kysyttyä",
+	"footer-translate": "Käännä tämä sivusto",
+	"header-donate-logo-text": "Miraheze Donate",
+	"donate-amount": "Määrä"
 }
