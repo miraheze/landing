@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Colathewikian",
+			"Lakejason0",
 			"Yfdyh000",
 			"Zhang8569",
 			"铁桶"
@@ -16,10 +17,12 @@
 	"header-menu-status": "状态",
 	"header-menu-donate": "捐款",
 	"welcome-text": "欢迎来到Miraheze！",
+	"description-text": "Miraheze是非营利组织，旨在提供免费的以社区为中心的wiki农场。",
 	"join-text": "立即加入！",
 	"donate-text": "立即捐款！",
 	"features-text": "特点",
 	"features-mediawiki": "MediaWiki",
+	"features-mediawiki-desc": "Miraheze运行于<a href=\"https://www.mediawiki.org\">MediaWiki</a>之上，这也是维基百科所采用的软件。在此，从上传媒体文件，例如图像和视频，到写作文章与博客，您都可以轻松做到。我们也同时提供超过200款扩展与15款以上的皮肤，让您轻松定制您的MediaWiki体验。",
 	"features-non-profit-text": "非营利",
 	"features-community-text": "社群",
 	"features-responsive-text": "响应式",

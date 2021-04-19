@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Beta16"
 		]
 	},
@@ -12,6 +13,7 @@
 	"header-menu-blog": "Blog",
 	"header-menu-status": "Stato",
 	"header-menu-donate": "Dona",
+	"welcome-text": "Benvenuta/o su Miraheze!",
 	"donate-text": "Dona oggi!",
 	"features-text": "Caratteristiche",
 	"features-mediawiki": "MediaWiki",
