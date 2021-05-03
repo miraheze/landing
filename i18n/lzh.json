@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"列维劳德"
+		]
+	},
+	"header-menu-title": "選單",
+	"header-menu-home": "卷首",
+	"header-menu-features": "卓著",
+	"header-menu-about": "有關",
+	"header-menu-wiki": "共筆",
+	"header-menu-blog": "網誌",
+	"header-menu-status": "狀態",
+	"header-menu-donate": "捐助",
+	"welcome-text": "歡迎蒞臨米拉赫茲！",
+	"features-text": "卓著",
+	"features-mediawiki": "共筆臺",
+	"about-title": "有關",
+	"footer-terms": "取用須知",
+	"footer-privacy-policy": "隱私通例",
+	"footer-disclaimers": "免責告示",
+	"footer-cookie": "鑑識聲明",
+	"footer-faq": "頻答問",
+	"footer-translate": "譯此頁"
+}
