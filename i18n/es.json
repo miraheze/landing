@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Agent",
 			"Alonso Biólogo",
 			"Fitoschido",
 			"Jakeukalane",
@@ -21,11 +22,11 @@
 	"donate-text": "Dona hoy!",
 	"features-text": "Características",
 	"features-mediawiki": "MediaWiki",
-	"features-mediawiki-desc": "Miraheze ejecuta el mismo software que la Wikipedia, <a href=\"https://www.mediawiki.org\">MediaWiki!</a>. Puedes hacer cualquier cosa, desde cargar multimedia, como imágenes o vídeos, hasta escribir artículos o blogs. Tenemos más de 200 extensiones y más de 15 temas para elegir para personalizar tu experiencia con MediaWiki.",
+	"features-mediawiki-desc": "Miraheze usa el mismo software que Wikipedia, <a href=\"https://www.mediawiki.org\">MediaWiki!</a>. Puedes hacer cualquier cosa, desde cargar multimedia, como imágenes o vídeos, hasta escribir artículos o blogs. Tenemos más de 200 extensiones y más de 15 temas para elegir para personalizar tu experiencia con MediaWiki.",
 	"features-non-profit-text": "Sin ánimo de lucro",
 	"features-non-profit-desc": "Miraheze está registrada como Miraheze Limited en el Reino Unido. Proporcionamos wikis 100% gratuitas como una organización sin fines de lucro que mantiene los servidores y continúa el desarrollo de nuestras extensiones internas.",
 	"features-community-text": "Comunidad",
-	"features-community-desc": "Como comunidad, todos trabajamos juntos para lograr el objetivo común: ¡ser una gran granja wiki! Esto nos permite lograr el mejor resultado posible para los usuarios, permitiéndoles aprender.",
+	"features-community-desc": "Como comunidad, todos trabajamos juntos para lograr el objetivo común: ¡ser una gran granja de wikis! Esto nos permite lograr el mejor resultado posible para los usuarios, permitiéndoles aprender.",
 	"features-responsive-text": "Adaptativo",
 	"features-responsive-desc": "Todas nuestras wikis usan MobileFrontend lo que hace que la interfaz de usuario sea amigable con los móviles. También permitimos desactivarlo.",
 	"features-extensions-text": "Extensiones internas",
