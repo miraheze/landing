@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArticleEditor404"
+		]
+	},
+	"header-menu-title": "Menüü",
+	"header-menu-home": "Kodu",
+	"header-menu-features": "Omadused",
+	"header-menu-about": "Teave",
+	"header-menu-wiki": "Viki",
+	"header-menu-blog": "Blogi",
+	"header-menu-status": "Olek",
+	"header-menu-donate": "Anneta",
+	"welcome-text": "Tere tulemast Miraheze'ile!",
+	"join-text": "Liitu juba täna!",
+	"donate-text": "Annetage täna!",
+	"footer-terms": "Kasutustingimused",
+	"footer-privacy-policy": "Andmekaitsereeglid",
+	"footer-translate": "Tõlgi see leht"
+}
