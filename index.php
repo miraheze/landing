@@ -344,18 +344,20 @@ $lang = $_GET['lang'] ?? 'en';
 		<script src="js/miraheze.min.js"></script>
 
 		<script>
-			var _paq = _paq || [];
+			var _paq = window._paq = window._paq || [];
+			_paq.push(['disableCookies']);
 			_paq.push(['trackPageView']);
 			_paq.push(['enableLinkTracking']);
 			(function() {
-				var u="https://matomo.miraheze.org/";
-				_paq.push(['setTrackerUrl', u+'piwik.php']);
-				_paq.push(['setSiteId', 4657]);
-				_paq.push(['addTracker', u + "piwik.php", 1]);
+				var u = 'https://matomo.miraheze.org/';
+				_paq.push(['setTrackerUrl', u+'matomo.php']);
+				_paq.push(['setDocumentTitle', 'Landing - Home']);
+				_paq.push(['setSiteId', 4658]);
+				_paq.push(['addTracker', u + 'matomo.php', 8590]);
 				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-				g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+				g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
 			})();
 		</script>
-		<noscript><p><img src="https://matomo.miraheze.org/piwik.php?idsite=1&amp;rec=1&amp;action_name=Miraheze" style="border:0;" alt="" /></p></noscript>
+		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4658&amp;rec=1&amp;action_name=Landing_Home" style="border:0;" alt="" /></p></noscript>
 	</body>
 </html>
