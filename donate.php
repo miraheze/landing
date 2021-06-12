@@ -123,7 +123,7 @@ $lang = $_GET['lang'] ?? 'en';
 			</div>
 		</section>-->
 
-		<section class="page-section">
+		<section class="page-section" style="padding: 10rem 0;">
 			<div class="container">
 				<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"><?php echo( getTranslation( 'header-menu-donate' ) ); ?></h2>
 
