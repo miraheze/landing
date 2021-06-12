@@ -103,7 +103,7 @@ $lang = $_GET['lang'] ?? 'en';
 			</div>
 		</nav>
 
-		<section class="page-section mb-0" id="siteNotice">
+		<!--<section class="page-section mb-0" id="siteNotice">
 			<div class="container">
 				<div class="divider-custom divider-light"></div>
 				<div class="row">
@@ -121,7 +121,7 @@ $lang = $_GET['lang'] ?? 'en';
 					</div>
 				</div>
 			</div>
-		</section>
+		</section>-->
 
 		<section class="page-section">
 			<div class="container">
