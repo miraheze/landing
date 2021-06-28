@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Kkairri",
-			"Tmv"
+			"Tmv",
+			"しぃ"
 		]
 	},
 	"header-menu-title": "メニュー",
 	"header-menu-home": "ホーム",
 	"header-menu-features": "特徴",
 	"header-menu-about": "概要",
-	"header-menu-wiki": "ウィキ",
+	"header-menu-wiki": "Wiki",
 	"header-menu-blog": "ブログ",
 	"header-menu-status": "状態",
 	"header-menu-donate": "寄付",
@@ -25,12 +26,12 @@
 	"features-community-text": "コミュニティ",
 	"features-community-desc": "コミュニティとして、私たちは皆、すばらしいWikiファームになるという共通の目標を達成するために協力しています！ これにより、ユーザーが学習できるようになり、ユーザーにとって可能な限り最良の結果を達成できます！",
 	"features-responsive-text": "レスポンシブ",
-	"features-responsive-desc": "すべてのウィキは、UIをモバイルに最適化するMobileFrontendを使用しています。 また、これを無効にすることでオフにできます。",
+	"features-responsive-desc": "すべてのWikiは、UIをモバイルに最適化するMobileFrontendを使用しています。 また、これを無効にすることでオフにできます。",
 	"features-extensions-text": "内部拡張機能",
-	"features-extensions-desc": "さらに多くの特徴！",
+	"features-extensions-desc": "私たちは、私たちが成長し、世界で最も優れたWikiファームの1つになるために、最も最先端の拡張機能を設計しました。私たちの拡張機能は、コミュニティが自分たちのWikiをよりコントロールできるようにするもので、私たちのスタッフによる監視はほとんど必要ありません。私たちは、自分たちのWikiの管理について、コミュニティの意見に耳を傾けます。",
 	"features-more-desc": "さらに多くの特徴！",
 	"about-title": "概要",
-	"about-desc": "2015年7月、John LewisとFerran TufanはMirahezeと呼ばれる新しいウィキファームを作成しました。 コミュニティクラウドファンディングと個人的投資を利用して、Mirahezeは2015年8月に正式に稼働しました。 長年にわたって、プロジェクトは非常に大きくなり、MediaWikiを専門とする最大かつ最も認識されるウィキファームの1つになりました。 成功と進化にもかかわらず、Mirahezeの1つの側面は変更されませんでした - 正式な存在。 2019年11月、Mirahezeは英国でMiraheze Limitedとして非営利団体として登録されました。",
+	"about-desc": "2015年7月、John LewisとFerran TufanはMirahezeと呼ばれる新しいWikiファームを作成しました。 コミュニティクラウドファンディングと個人的投資を利用して、Mirahezeは2015年8月に正式に稼働しました。 長年にわたって、プロジェクトは非常に大きくなり、MediaWikiを専門とする最大かつ最も認識されるWikiファームの1つになりました。 成功と進化にもかかわらず、Mirahezeの1つの側面は変更されませんでした - 正式な存在。 2019年11月、Mirahezeは英国でMiraheze Limitedとして非営利団体として登録されました。",
 	"socialmedia-title": "ソーシャルメディア",
 	"footer-desc": "Miraheze Limited <br /> イングランドおよびウェールズに登録された保証付き会社　no.12323854 <br /> 特に明記しない限り、このサイトのコンテンツは <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a> に基づいてライセンスされています。",
 	"footer-terms": "利用規約",
