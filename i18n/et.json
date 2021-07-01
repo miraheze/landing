@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"ArticleEditor404"
+			"ArticleEditor404",
+			"Pikne"
 		]
 	},
 	"header-menu-title": "Menüü",
@@ -12,9 +13,9 @@
 	"header-menu-blog": "Blogi",
 	"header-menu-status": "Olek",
 	"header-menu-donate": "Anneta",
-	"welcome-text": "Tere tulemast Miraheze'ile!",
+	"welcome-text": "Tere tulemast Mirahezesse!",
 	"join-text": "Liitu juba täna!",
-	"donate-text": "Annetage täna!",
+	"donate-text": "Anneta täna!",
 	"footer-terms": "Kasutustingimused",
 	"footer-privacy-policy": "Andmekaitsereeglid",
 	"footer-translate": "Tõlgi see leht"
