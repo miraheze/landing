@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"Winston Sung"
 		]
 	},
 	"header-menu-title": "選單",
@@ -20,7 +21,7 @@
 	"features-mediawiki": "MediaWiki",
 	"features-mediawiki-desc": "我們與維基百科一樣使用 <a href=\"https://mediawiki.org\">MediaWiki</a> 來運行這個 Wiki 農場！您可以在這裡上傳圖片、影片等各種多媒體，來寫條目或是部落格。我們另外有 200 多種擴充功能和 15 種外觀可供選擇，來自訂您對 MediaWiki 的體驗！",
 	"features-non-profit-text": "非營利",
-	"features-non-profit-desc": "Miraheze 在英國註冊為 Miraheze 有限公司。我們以非營利形式提供 100% 免費的 Wiki、伺服器維護，並與我們內部擴充的開發保持同步。",
+	"features-non-profit-desc": "Miraheze在英國註冊為Miraheze有限公司。我們以非營利形式提供100%免費的wiki、伺服器維護，並與我們內部開發的擴充功能保持同步。",
 	"features-community-text": "社群",
 	"features-community-desc": "作為一個社群，我們一起合作推動「建立一個優質的 Wiki 農場」這一個共同目標！透過允許使用者們學習，能讓我們為使用者帶來最佳結果！",
 	"features-responsive-text": "響應式",
