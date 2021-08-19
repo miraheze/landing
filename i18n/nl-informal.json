@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"features-mediawiki-desc": "Miraheze gebruikt dezelfde software als Wikipedia, dus <a href=\"https://www.mediawiki.org\">MediaWiki</a>. Je kunt van alles doen, van media uploaden zoals afbeeldingen of video's tot blogs of artikelen schrijven. We hebben meer dan 200 uitbreidingen en meer dan 15 vormgevingen waarmee je MediaWiki naar je hand kunt zetten.",
+	"features-responsive-desc": "Al onze wiki's gebruiken MobileFrontend, waardoor de gebruikersinterface mobielvriendelijk wordt, maar je kunt dit ook uitzetten.",
+	"donate-note": "Dit formulier is voor donaties met PayPal. Je kunt daarmee ook credit- en debetkaarten gebruiken. Je moet je lokale valuta kiezen uit de lijst op die pagina."
+}

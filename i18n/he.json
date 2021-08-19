@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"ImHouston",
+			"לואיקה"
+		]
+	},
+	"header-logo-text": "Miraheze",
+	"header-menu-title": "תפריט",
+	"header-menu-home": "דף הבית",
+	"header-menu-features": "תכונות",
+	"header-menu-about": "על אודות",
+	"header-menu-wiki": "ויקי",
+	"header-menu-blog": "בלוג",
+	"header-menu-status": "מצב",
+	"header-menu-donate": "תרומה",
+	"welcome-text": "ברוך בואך ל־Miraheze!",
+	"join-text": "הצטרפו היום!",
+	"donate-text": "תרמו היום!",
+	"features-text": "תכונות",
+	"features-mediawiki": "מדיה־ויקי",
+	"features-non-profit-text": "ללא כוונת רווח",
+	"features-community-text": "קהילה",
+	"about-title": "אודות",
+	"socialmedia-title": "רשת חברתית",
+	"footer-terms": "תנאי השימוש",
+	"footer-privacy-policy": "מדיניות פרטיות",
+	"footer-disclaimers": "הבהרות משפטיות",
+	"footer-cookie": "הצהרה על עוגיות",
+	"footer-contact": "יצירת קשר",
+	"footer-faq": "שאלות נפוצות",
+	"footer-translate": "תרגום דף זה",
+	"header-donate-logo-text": "תרומה ל־Miraheze",
+	"donate-amount": "סכום"
+}
