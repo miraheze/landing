@@ -1,6 +1,19 @@
 <?php
 
 $lang = $_GET['lang'] ?? 'en';
+
+$basePath = __DIR__ . '/i18n/';
+$realBasePath = realpath( $basePath );
+
+$languagePath = $basePath . "{$lang}.json";
+$realLanguagePath = realpath( $languagePath );
+
+// Check for path traversal.
+// Force language to 'en' if attempt was found.
+if ( $realLanguagePath === false || strpos( $realLanguagePath, $realBasePath ) !== 0 ) {
+	$lang = 'en';
+}
+  
 if ( file_exists( __DIR__ . "/i18n/{$lang}.json" ) && $lang !== 'qqq' ) {
 	$translations = json_decode( file_get_contents( __DIR__ . "/i18n/{$lang}.json" ), true );
 } else {
