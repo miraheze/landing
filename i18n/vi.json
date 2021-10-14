@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nghiemtrongdai VN",
+			"NguyenHung"
+		]
+	},
+	"header-menu-title": "Trình đơn",
+	"header-menu-home": "Trang chủ",
+	"header-menu-features": "Các tính năng",
+	"header-menu-about": "Giới thiệu",
+	"header-menu-wiki": "Wiki",
+	"header-menu-blog": "Theo dõi Blog",
+	"header-menu-status": "Trạng thái",
+	"header-menu-donate": "Quyên góp",
+	"welcome-text": "Chào mừng đến Miraheze!",
+	"description-text": "Miraheze là một tổ chức phi lợi nhuận, với sứ mệnh cung cấp một dịch vụ lưu trữ wiki tập trung vào cộng đồng miễn phí",
+	"join-text": "Tham gia ngày hôm nay!",
+	"donate-text": "Quyên góp ngày hôm nay!",
+	"features-text": "Các tính năng",
+	"features-mediawiki": "MediaWiki",
+	"features-mediawiki-desc": "Mỉraheze chạy một phần mềm giống như Wikipedia, <a href=\"https://www.mediawiki.org\">MediaWiki!</a> Bạn có thể làm tất cả từ khi tải lên tập tin lên như hình ảnh hoặc video, đến viết các bài viết hoặc blog. Chúng tôi có hơn 200 tiện ích mở rộng và hơn 15 \ngiao diện để lựa chọn để tuỳ chỉnh trải nghiệm của bạn với MediaWiki!",
+	"features-non-profit-text": "Phi lợi nhuận",
+	"features-non-profit-desc": "Miraheze được đăng ký là Công ty hữu hạn Miraheze tại Vương quốc Anh. Chúng tôi cung cấp wiki miễn phí 100% với tư cách là tổ chức phi lợi nhuận nhằm duy trì các máy chủ và theo kịp sự phát triển của các tiện ích mở rộng nội bộ của chúng tôi.",
+	"features-community-text": "Cộng đồng",
+	"features-community-desc": "Là một cộng đồng, tất cả chúng tôi làm việc với nhau để đạt được một mục tiêu chung của là trở thành một dịch vụ lưu trữ wiki tuyệt vời! Cái này cho phép chúng tôi đạt được kết quả tốt nhất có thể cho các người dùng, bằng cách cho phép các người dùng tìm hiểu!",
+	"features-responsive-text": "Phản ứng nhanh nhẹn",
+	"features-responsive-desc": "Tất cả các wiki của chúng tôi dùng MobileFrontend nhằm làm cho giao diện người dùng thân thiện với thiết bị di động. Chúng tôi cho phép bạn tắt nó bằng cách vô hiệu hoá nó",
+	"features-extensions-text": "Tiện ích nội bộ",
+	"about-title": "Giới thiệu",
+	"footer-terms": "Điều khoản sử dụng",
+	"footer-privacy-policy": "Quy định về quyền riêng tư",
+	"footer-disclaimers": "Phủ nhận",
+	"footer-cookie": "Tuyên bố về cookie",
+	"footer-contact": "Liên hệ với chúng tôi",
+	"footer-faq": "Câu thường hỏi",
+	"footer-translate": "Dịch trang này",
+	"header-donate-logo-text": "Quyên góp Miraheze",
+	"donate-amount": "Số lượng"
+}
