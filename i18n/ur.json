@@ -4,9 +4,11 @@
 			"Teashae"
 		]
 	},
+	"header-menu-home": "صفحہ اول",
 	"header-menu-features": "خصوصیات",
 	"header-menu-about": "تعارف",
 	"header-menu-wiki": "ویکی",
+	"header-menu-blog": "بلاگ",
 	"header-menu-status": "حیثیت",
 	"header-menu-donate": "عطیہ",
 	"welcome-text": "میراہیزی میں خوش آمدید!",
@@ -16,9 +18,13 @@
 	"features-mediawiki": "میڈیاویکی",
 	"features-community-text": "برادری",
 	"about-title": "تعارف",
+	"socialmedia-title": "سماجی میڈیا",
 	"footer-terms": "استعمال کے شرائط",
 	"footer-privacy-policy": "رازداری کی پالیسی",
 	"footer-disclaimers": "اظہار لا تعلقی",
+	"footer-contact": "ہم سے رابطہ کریں",
 	"footer-faq": "اکثر پوچھے جانے والے سوالات",
-	"footer-translate": "اس صفحہ کا ترجمہ کریں"
+	"footer-translate": "اس صفحہ کا ترجمہ کریں",
+	"header-donate-logo-text": "میراہیزی عطیہ",
+	"donate-amount": "رقم"
 }
