@@ -13,11 +13,11 @@ $realLanguagePath = realpath( $languagePath );
 if ( $realLanguagePath === false || strpos( $realLanguagePath, $realBasePath ) !== 0 ) {
 	$lang = 'en';
 }
-  
+
 if ( file_exists( __DIR__ . "/i18n/{$lang}.json" ) && $lang !== 'qqq' ) {
 	$translations = json_decode( file_get_contents( __DIR__ . "/i18n/{$lang}.json" ), true );
 } else {
-	$translations = json_decode( file_get_contents( __DIR__ . "/i18n/en.json" ), true );
+	$translations = getDefault();
 }
 
 unset( $translations['@metadata'] );
@@ -58,8 +58,24 @@ function getTranslation( $key ) {
 
 	if ( isset( $translations[$key] ) && $translations[$key] ) {
 		return $translations[$key];
-	}  else {	
-		return json_decode( file_get_contents( __DIR__ . "/i18n/en.json" ), true )[$key];
+	}  else {
+		return getFallback()[$key] ?? getDefault()[$key];
 	}
 }
+
+function getFallback() {
+	$lang = $_GET['lang'] ?? 'en';
+	$fallback = LOCALE_GET_PRIMARY_LANGUAGE( $lang );
+
+	if ( file_exists( __DIR__ . "/i18n/{$fallback}.json" ) ) {
+		return json_decode( file_get_contents( __DIR__ . "/i18n/{$fallback}.json" ), true );
+	}
+
+	return getDefault();
+}
+
+function getDefault() {
+	return json_decode( file_get_contents( __DIR__ . '/i18n/en.json' ), true );
+}
+
 ?>
