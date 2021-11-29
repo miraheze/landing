@@ -24,8 +24,6 @@ THE SOFTWARE.
 
 <?php
 require_once __DIR__ . '/getTranslations.php';
-
-$lang = $_GET['lang'] ?? 'en';
 ?>
 
 <!DOCTYPE html>
@@ -95,12 +93,11 @@ $lang = $_GET['lang'] ?? 'en';
 									<select name="lang" onchange="this.form.submit()">
 										<?php
 
-										$i18nDirectory = scandir( 'i18n' );
-										foreach ( $i18nDirectory as $i18nFile ) {
-											$languageCode = str_replace( '.json', '', $i18nFile );
-											if ( $languageCode !== 'qqq' && $languageCode !== '..' && $languageCode !== '.' ) {
-												echo( '<option value="' . $languageCode . '"' . ( $lang == $languageCode ? ' selected' : null ) . '>' . LOCALE_GET_DISPLAY_NAME( $languageCode, $languageCode ) . '</option>' );
-											}
+										$i18nDirectory = array_diff( scandir( 'i18n' ), [ '.', '..', 'qqq' ] );
+										$languageCodes = str_replace( '.json', '', $i18nDirectory );
+
+										foreach ( $languageCodes as $languageCode ) {
+											echo( '<option value="' . $languageCode . '"' . ( getLanguageCode() === $languageCode ? ' selected' : null ) . '>' . LOCALE_GET_DISPLAY_NAME( $languageCode, $languageCode ) . '</option>' );
 										}
 
 										?>
