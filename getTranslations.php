@@ -42,6 +42,10 @@ function getTranslation( $key ) {
 function getLanguageCode() {
 	$languageCode = $_GET['lang'] ?? 'en';
 
+	if ( $languageCode === 'qqx' ) {
+		return $languageCode;
+	}
+
 	$languagePath = $basePath . "{$languageCode}.json";
 	$realLanguagePath = realpath( $languagePath );
 
