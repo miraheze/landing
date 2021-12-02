@@ -46,6 +46,9 @@ function getLanguageCode() {
 		return $languageCode;
 	}
 
+	$basePath = __DIR__ . '/i18n/';
+	$realBasePath = realpath( $basePath );
+
 	$languagePath = $basePath . "{$languageCode}.json";
 	$realLanguagePath = realpath( $languagePath );
 
