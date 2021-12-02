@@ -1,29 +1,9 @@
 <?php
 
-$lang = $_GET['lang'] ?? 'en';
-
-$basePath = __DIR__ . '/i18n/';
-$realBasePath = realpath( $basePath );
-
-$languagePath = $basePath . "{$lang}.json";
-$realLanguagePath = realpath( $languagePath );
-
-// Check for path traversal.
-// Force language to 'en' if attempt was found.
-if ( $realLanguagePath === false || strpos( $realLanguagePath, $realBasePath ) !== 0 ) {
-	$lang = 'en';
-}
-
-if ( file_exists( __DIR__ . "/i18n/{$lang}.json" ) && $lang !== 'qqq' ) {
-	$translations = json_decode( file_get_contents( __DIR__ . "/i18n/{$lang}.json" ), true );
-} else {
-	$translations = getDefault();
-}
-
-unset( $translations['@metadata'] );
-
 function getTranslation( $key ) {
-	global $translations;
+	if ( getLanguageCode() === 'qqx' ) {
+		return "({$key})";
+	}
 	
 	switch ( json_last_error() ) {
 		case JSON_ERROR_NONE:
@@ -56,16 +36,46 @@ function getTranslation( $key ) {
 		throw new Exception( $error );
 	}
 
-	if ( isset( $translations[$key] ) && $translations[$key] ) {
-		return $translations[$key];
-	}  else {
-		return getFallback()[$key] ?? getDefault()[$key];
+	return getLocalisation()[$key] ?? getFallback()[$key] ?? getDefault()[$key];
+}
+
+function getLanguageCode() {
+	$languageCode = $_GET['lang'] ?? 'en';
+
+	if ( $languageCode === 'qqx' ) {
+		return $languageCode;
 	}
+
+	$basePath = __DIR__ . '/i18n/';
+	$realBasePath = realpath( $basePath );
+
+	$languagePath = $basePath . "{$languageCode}.json";
+	$realLanguagePath = realpath( $languagePath );
+
+	// Check for path traversal.
+	// Force language to 'en' if attempt was found.
+	if ( $realLanguagePath === false || strpos( $realLanguagePath, $realBasePath ) !== 0 ) {
+		$languageCode = 'en';
+	}
+
+	return $languageCode;
+}
+
+function getLocalisation() {
+	$lang = getLanguageCode();
+	if ( file_exists( __DIR__ . "/i18n/{$lang}.json" ) && $lang !== 'qqq' ) {
+		$translations = json_decode( file_get_contents( __DIR__ . "/i18n/{$lang}.json" ), true );
+	} else {
+		$translations = getDefault();
+	}
+
+	unset( $translations['@metadata'] );
+
+	return $translations;
 }
 
 function getFallback() {
-	$lang = $_GET['lang'] ?? 'en';
-	$fallback = LOCALE_GET_PRIMARY_LANGUAGE( $lang );
+	$fallback = LOCALE_GET_PRIMARY_LANGUAGE( getLanguageCode() );
 
 	if ( file_exists( __DIR__ . "/i18n/{$fallback}.json" ) ) {
 		return json_decode( file_get_contents( __DIR__ . "/i18n/{$fallback}.json" ), true );
