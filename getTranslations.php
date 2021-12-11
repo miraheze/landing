@@ -1,6 +1,6 @@
 <?php
 
-function getTranslation( $key, $arg = false ) {
+function getTranslation( $key ) {
 	if ( getLanguageCode() === 'qqx' ) {
 		return "({$key})";
 	}
