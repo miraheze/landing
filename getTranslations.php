@@ -1,6 +1,6 @@
 <?php
 
-function getTranslation( $key ) {
+function getTranslation( $key, $arg = false ) {
 	if ( getLanguageCode() === 'qqx' ) {
 		return "({$key})";
 	}
@@ -36,7 +36,7 @@ function getTranslation( $key ) {
 		throw new Exception( $error );
 	}
 
-	return getLocalisation()[$key] ?? getFallback()[$key] ?? getDefault()[$key];
+	return preg_replace( '/\[(.*)\|(.*)\]/i', '<a href="$1">$2</a>', htmlspecialchars( getLocalisation()[$key] ?? getFallback()[$key] ?? getDefault()[$key] ) );
 }
 
 function getLanguageCode() {
