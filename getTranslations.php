@@ -36,7 +36,11 @@ function getTranslation( $key ) {
 		throw new Exception( $error );
 	}
 
-	return getLocalisation()[$key] ?? getFallback()[$key] ?? getDefault()[$key];
+	return preg_replace( '/\[(.*?)\|(.*?)\]/', '<a href="$1">$2</a>',
+		nl2br( htmlspecialchars(
+			getLocalisation()[$key] ?? getFallback()[$key] ?? getDefault()[$key]
+		) )
+	);
 }
 
 function getLanguageCode() {
