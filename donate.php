@@ -83,7 +83,7 @@ require_once __DIR__ . '/getTranslations.php';
 									<select name="lang" onchange="this.form.submit()">
 										<?php
 
-										$i18nDirectory = array_diff( scandir( 'i18n' ), [ '.', '..', 'qqq' ] );
+										$i18nDirectory = array_diff( scandir( 'i18n' ), [ '.', '..', 'qqq.json' ] );
 										$languageCodes = str_replace( '.json', '', $i18nDirectory );
 
 										foreach ( $languageCodes as $languageCode ) {
