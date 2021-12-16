@@ -36,7 +36,7 @@ function getTranslation( $key ) {
 		throw new Exception( $error );
 	}
 
-	return preg_replace( '/\[(.*?)\|(.*?)\]/', '<a href="$1">$2</a>',
+	return preg_replace( '/\[(.*?)[\|| ](.*?)\]/', '<a href="$1">$2</a>',
 		nl2br( htmlspecialchars(
 			getLocalisation()[$key] ?? getFallback()[$key] ?? getDefault()[$key]
 		) )
