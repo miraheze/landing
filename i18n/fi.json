@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"MITO",
-			"Nike"
+			"Nike",
+			"Veikk0.ma"
 		]
 	},
 	"header-menu-title": "Valikko",
@@ -19,7 +20,7 @@
 	"donate-text": "Lahjoita tänään!",
 	"features-text": "Ominaisuudet",
 	"features-mediawiki": "MediaWiki",
-	"features-mediawiki-desc": "Miraheze käyttää <a href=\"https://www.mediawiki.org\">MediaWiki</a>-ohjelmistoa, eli samaa kuin Wikipedia! Voit tehdä mitä tahansa kuvien ja videoiden lataamisesta artikkeleiden ja blogien kirjoittamiseen. Meillä on yli 200 laajennusta ja yli 15 ulkoasua, joista voit valita ja muokata kokemustasi MediaWikiin!",
+	"features-mediawiki-desc": "Miraheze käyttää [https://www.mediawiki.org MediaWiki]-ohjelmistoa, eli samaa kuin Wikipedia! Voit tehdä mitä tahansa kuvien ja videoiden lataamisesta artikkeleiden ja blogien kirjoittamiseen. Meillä on yli 200 laajennusta ja yli 15 ulkoasua, joista voit valita ja muokata kokemustasi MediaWikiin!",
 	"features-non-profit-text": "Voittoa tavoittelematon",
 	"features-non-profit-desc": "Miraheze on rekisteröity Miraheze Limited -yritykseksi Yhdistyneessä kuningaskunnassa. Tarjoamme 100% ilmaisia wikejä voittoa tavoittelemattomana järjestönä, joka ylläpitää palvelimia ja pysyy mukana laajennusten kehityksessä.",
 	"features-community-text": "Yhteisö",
@@ -32,6 +33,7 @@
 	"about-title": "Tietoa",
 	"about-desc": "Heinäkuussa 2015 John Lewis ja Ferran Tufan loivat uuden wikitilan - Mirahezen. Yhteisön joukkorahoitusten ja henkilökohtaisten investointien avulla Miraheze otettiin virallisesti käyttöön vuoden 2015 elokuussa. Vuosien aikana projekti on kasvanut yhdeksi suurimmista ja tunnetuimmista MediaWikiin erikoistuneista wikitiloista. Menestyksestä huolimatta Mirahezen ainoa osa ei ole koskaan muuttunut - muodollinen olemassaolo. Marraskuussa 2019 Mirahezestä tuli voittoa tavoittelematon järjestö Yhdistyneessä kuningaskunnassa nimellä Miraheze Limited.",
 	"socialmedia-title": "Sosiaalinen media",
+	"footer-desc": "Miraheze Limited \n Englannissa ja Walesissä yhtiönumerolla 12323854 rekisteröity rajavastuuyhtiö \n Ellei toisin mainita, tämän sivuston sisältö on lisensoitu [https://creativecommons.org/licenses/by-sa/4.0/|Nimeä-JaaSamoin 4.0 Kansainvälinen (CC BY-SA 4.0)] -lisenssillä.",
 	"footer-terms": "Käyttöehdot",
 	"footer-privacy-policy": "Tietosuojakäytäntö",
 	"footer-disclaimers": "Vastuuvapauslausekkeet",
@@ -40,5 +42,6 @@
 	"footer-faq": "Usein kysyttyä",
 	"footer-translate": "Käännä tämä sivusto",
 	"header-donate-logo-text": "Miraheze Donate",
-	"donate-amount": "Määrä"
+	"donate-amount": "Määrä",
+	"donate-note": "Tämä lomake on PayPal-lahjoituksia varten (voit käyttää luotto- tai pankkikorttia). Valitse paikallinen valuuttasi lahjoitussivun pudotusvalikosta."
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"NFarras",
 			"Sonic Speedy"
 		]
 	},
@@ -18,7 +19,7 @@
 	"donate-text": "Donasikan sekarang!",
 	"features-text": "Fitur",
 	"features-mediawiki": "MediaWiki",
-	"features-mediawiki-desc": "Miraheze dijalankan oleh perangkat lunak yang sama seperti yang digunakan Wikipedia, <a href=\"https://www.mediawiki.org\">MediaWiki!</a> Kamu dapat melakukan apa saja mulai dari mengunggah media seperti gambar atau video, hingga menulis artikel atau blog. Kami memiliki lebih dari 200 ekstensi dan lebih dari 15 tampilan untuk dipilih untuk menyesuaikan pengalamanmu dengan MediaWiki!",
+	"features-mediawiki-desc": "Miraheze menggunakan perangkat lunak yang sama seperti yang digunakan Wikipedia, <a href=\"https://www.mediawiki.org\">MediaWiki!</a> Anda dapat melakukan apa saja mulai dari mengunggah media seperti gambar atau video, hingga menulis artikel atau blog. Kami memiliki lebih dari 200 ekstensi dan lebih dari 15 tampilan untuk dipilih untuk menyesuaikan pengalaman Anda dengan MediaWiki!",
 	"features-non-profit-text": "Nirlaba",
 	"features-non-profit-desc": "Miraheze terdaftar sebagai Miraheze Limited di Inggris Raya. Kami menyediakan 100% wiki gratis sebagai organisasi nirlaba yang memelihara server dan mengikuti perkembangan ekstensi internal kami.",
 	"features-community-text": "Komunitas",

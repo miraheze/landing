@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Colathewikian",
+			"GuoPC",
 			"Lakejason0",
 			"Yfdyh000",
 			"Zfshuo",
@@ -23,7 +24,7 @@
 	"donate-text": "立即捐款！",
 	"features-text": "特点",
 	"features-mediawiki": "MediaWiki",
-	"features-mediawiki-desc": "Miraheze运行于<a href=\"https://www.mediawiki.org\">MediaWiki</a>之上，这也是维基百科所采用的软件。在此，从上传媒体文件，例如图像和视频，到写作文章与博客，您都可以轻松做到。我们也同时提供超过200款扩展与15款以上的皮肤，让您轻松定制您的MediaWiki体验。",
+	"features-mediawiki-desc": "Miraheze运行于[https://www.mediawiki.org|MediaWiki]之上，这也是维基百科所采用的软件。在此，从上传媒体文件，例如图像和视频，到写作文章与博客，您都可以轻松做到。我们也同时提供超过200款扩展与15款以上的皮肤，让您轻松定制您的MediaWiki体验。",
 	"features-non-profit-text": "非营利",
 	"features-non-profit-desc": "Miraheze在英国注册为Miraheze Limited。我们作为非营利组织提供100％免费的wiki，且提供服务器的维护并与我们内部扩展的开发保持同步。",
 	"features-community-text": "社区",
@@ -36,7 +37,7 @@
 	"about-title": "简介",
 	"about-desc": "2015年7月，John Lewis和Ferran Tufan创造了一个被称为Miraheze的wiki农场。通过使用社区众筹和个人投资，Miraheze在2015年8月正式上线。这几年中，该项目已经极大地成长为了以提供MediaWiki为专长的，最大的，最具有辨识度的wiki农场之一。尽管经历了成功和进化，Miraheze的某个方面却从没有改变——那就是正式成立。在2019年9月，Miraheze成为了在英国注册的非营利组织，正如它计划的那样。",
 	"socialmedia-title": "社交媒体",
-	"footer-desc": "Miraheze Limited <br />于英格兰和威尔士注册的担保有限公司 No. 12323854 <br />除非另有说明，否则本网站的内容均在<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\"> 署名-相同方式分享 4.0 国际许可协议（CC BY -SA 4.0）</a>下提供。",
+	"footer-desc": "Miraheze Limited\n 于英格兰和威尔士注册的担保有限公司 No. 12323854\n 除非另有说明，否则本网站的内容均在[https://creativecommons.org/licenses/by-sa/4.0/|署名-相同方式分享 4.0 国际许可协议（CC BY -SA 4.0）]下提供。",
 	"footer-terms": "使用条款",
 	"footer-privacy-policy": "隐私政策",
 	"footer-disclaimers": "免责声明",

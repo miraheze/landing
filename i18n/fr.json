@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Gomoko",
 			"Reception123",
 			"Thibaut120094",
 			"Verdy p"
@@ -21,7 +22,7 @@
 	"donate-text": "Faites un don aujourd’hui !",
 	"features-text": "Fonctionnalités",
 	"features-mediawiki": "MediaWiki",
-	"features-mediawiki-desc": "Miraheze utilise le même logiciel que Wikipédia, <a href=\"https://www.mediawiki.org/\">MediaWiki </a> ! Vous avez plein de fonctionnalités : du téléversement de médias tels que des images ou des vidéos, la rédaction d’articles ou de blogues, etc. Nous avons plus de 200 extensions et plus de 15 habillages au choix pour personnaliser votre expérience avec MediaWiki !",
+	"features-mediawiki-desc": "Miraheze utilise le même logiciel que Wikipédia, [https://www.mediawiki.org MediaWiki ] ! Vous avez plein de fonctionnalités : du téléversement de médias tels que des images ou des vidéos, la rédaction d’articles ou de blogues, etc. Nous avons plus de 200 extensions et plus de 15 habillages au choix pour personnaliser votre expérience avec MediaWiki !",
 	"features-non-profit-text": "Organisation à but non lucratif",
 	"features-non-profit-desc": "Miraheze est enregistrée sous le nom de ''Miraheze Limited'' au Royaume-Uni. Nous fournissons des wikis 100 % gratuits en tant qu’organisation à but non lucratif qui maintient les serveurs et permet le développement de nos propres extensions.",
 	"features-community-text": "Communauté",
@@ -34,7 +35,7 @@
 	"about-title": "À propos",
 	"about-desc": "En juillet 2015, John Lewis et Ferran Tufan ont créé une nouvelle ferme de wikis — nommée Miraheze. Grâce à l’utilisation du financement participatif et à l’investissement personnel, Miraheze est officiellement entré en service en août 2015. Au fil des ans, le projet s’est énormément développé pour devenir l’une des fermes wiki les plus grandes et les plus reconnaissables spécialisées dans l’offre sur MediaWiki. Malgré le succès et l’évolution, un aspect de Miraheze n’a jamais changé : l’existence formelle. En novembre 2019, Miraheze est devenue une organisation à but non lucratif enregistrée au Royaume-Uni sous le nom de ''Miraheze Limited''.",
 	"socialmedia-title": "Réseaux sociaux",
-	"footer-desc": "''Miraheze Limited''<br /> Une société à responsabilité limitée par garantie enregistrée en Angleterre et au Pays de Galles, société nº 12323854 <br /> Sauf indication contraire, le contenu de ce site est fourni sous la licence <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.fr\">Attribution – Partage à l’identique 4.0 International (CC BY-SA 4.0)</a>.",
+	"footer-desc": "''Miraheze Limited''\nUne société à responsabilité limitée par garantie enregistrée en Angleterre et au Pays de Galles, société nº 12323854\nSauf indication contraire, le contenu de ce site est fourni sous la licence [https://creativecommons.org/licenses/by-sa/4.0/deed.fr Attribution – Partage à l’identique 4.0 International (CC BY-SA 4.0)].",
 	"footer-terms": "Conditions d’utilisation",
 	"footer-privacy-policy": "Politique de confidentialité",
 	"footer-disclaimers": "Désistements",
