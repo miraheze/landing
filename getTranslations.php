@@ -95,7 +95,7 @@ function getDefault() {
 function getSiteNotice() {
 	$siteNotice = getTranslation( 'sitenotice' );
 	$siteNotice = str_replace( '$1', '£12 ($16.35 USD)', $siteNotice );
-	$SiteNotice = str_replace( '$2', 'help-miraheze-stay-online-in-2022', $siteNotice );
+	$siteNotice = str_replace( '$2', 'help-miraheze-stay-online-in-2022', $siteNotice );
 
 	return $siteNotice;
 }
