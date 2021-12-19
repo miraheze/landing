@@ -110,7 +110,7 @@ require_once __DIR__ . '/getTranslations.php';
 			</div>
 		</nav>
  
-		<?php if ( getSiteNotice() ): ?>
+		<?php if ( getSiteNotice() ): ?>
 			<section class="page-section mb-0" id="siteNotice">
 				<div class="container">
 					<div class="divider-custom divider-light"></div>
@@ -123,7 +123,7 @@ require_once __DIR__ . '/getTranslations.php';
 					</div>
 				</div>
 			</section>
-		<?php endif; ?>
+		<?php endif; ?>
 
 		<header class="masthead bg-primary text-white text-center">
 			<div class="container d-flex align-items-center flex-column">
