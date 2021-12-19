@@ -110,18 +110,20 @@ require_once __DIR__ . '/getTranslations.php';
 			</div>
 		</nav>
  
-		<section class="page-section mb-0" id="siteNotice">
-			<div class="container">
-				<div class="divider-custom divider-light"></div>
-				<div class="row">
-					<div class="col-lg-12 ml-auto">
-						<p class="lead">
-							<?php echo getSiteNotice(); ?>
-						</p>
+		<?php if ( getSiteNotice() ): ?>
+			<section class="page-section mb-0" id="siteNotice">
+				<div class="container">
+					<div class="divider-custom divider-light"></div>
+					<div class="row">
+						<div class="col-lg-12 ml-auto">
+							<p class="lead">
+								<?php echo getSiteNotice(); ?>
+							</p>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
+		<?php endif; ?>
 
 		<header class="masthead bg-primary text-white text-center">
 			<div class="container d-flex align-items-center flex-column">
