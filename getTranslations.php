@@ -100,7 +100,7 @@ function getSiteNotice() {
 		$siteNotice = str_replace( '$2', 'help-miraheze-stay-online-in-2022', $siteNotice );
 	}
 
-	return $siteNotice ?? '';
+	return $siteNotice ?? false;
 }
 
 ?>
