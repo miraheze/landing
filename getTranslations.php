@@ -92,4 +92,15 @@ function getDefault() {
 	return json_decode( file_get_contents( __DIR__ . '/i18n/en.json' ), true );
 }
 
+function getSiteNotice() {
+	$enabled = false;
+	if ( $enabled ) {
+		$siteNotice = getTranslation( 'fundraising-sitenotice' );
+		$siteNotice = str_replace( '$1', '£12 ($16.35 USD)', $siteNotice );
+		$siteNotice = str_replace( '$2', 'help-miraheze-stay-online-in-2022', $siteNotice );
+	}
+
+	return $siteNotice ?? false;
+}
+
 ?>

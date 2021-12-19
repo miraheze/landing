@@ -110,25 +110,20 @@ require_once __DIR__ . '/getTranslations.php';
 			</div>
 		</nav>
  
-		<section class="page-section mb-0" id="siteNotice">
-			<div class="container">
-				<div class="divider-custom divider-light"></div>
-				<div class="row">
-					<div class="col-lg-12 ml-auto">
-						<p class="lead">
-							As all of you know, Miraheze is a community-centric, ad free, and community driven hosting platform funded 100% by donations.
-							We've been fortunate to once again continue seeing impressive year-over-year traffic and community growth.
-							With that growth, though, comes the need for additional infrastructure to manage increased capacity as well as paying for the already existing infrastructure.
-							So, we ask for you to consider chipping in with £5, £10, £20, or whatever amount you can afford.
-							If 500 of Miraheze's 100,000+ users gave only £12 ($16.35 USD) once a year, Miraheze would exceed its budget requirements.
-							Donate via our <a href="https://www.gofundme.com/f/help-miraheze-stay-online-in-2022">GoFundMe page</a>, 
-							<a href="https://paypal.me/mirahezelimited">PayPal</a> or <a href="https://github.com/sponsors/miraheze">GitHub Sponsors</a>! <br />
-							To thank you for your support, you have the option of on-wiki acknowledgement if you include your wiki username with your donation.
-						</p>
+		<?php if ( getSiteNotice() ): ?>
+			<section class="page-section mb-0" id="siteNotice">
+				<div class="container">
+					<div class="divider-custom divider-light"></div>
+					<div class="row">
+						<div class="col-lg-12 ml-auto">
+							<p class="lead">
+								<?php echo getSiteNotice(); ?>
+							</p>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
+		<?php endif; ?>
 
 		<header class="masthead bg-primary text-white text-center">
 			<div class="container d-flex align-items-center flex-column">
