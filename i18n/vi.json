@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Nghiemtrongdai VN",
+			"NguoiDungKhongDinhDanh",
 			"NguyenHung",
 			"Pisceskaze"
 		]
@@ -21,7 +22,7 @@
 	"donate-text": "Quyên góp ngay hôm nay!",
 	"features-text": "Các tính năng",
 	"features-mediawiki": "MediaWiki",
-	"features-mediawiki-desc": "Mỉraheze chạy cùng một phần mềm với Wikipedia, <a href=\"https://www.mediawiki.org\">MediaWiki!</a> Bạn có thể làm tất cả từ khi tải lên tập tin lên như hình ảnh hoặc video, đến viết các bài viết hoặc blog. Chúng tôi có hơn 200 tiện ích mở rộng và hơn 15 giao diện để lựa chọn để tuỳ chỉnh trải nghiệm của bạn với MediaWiki!",
+	"features-mediawiki-desc": "Mỉraheze chạy cùng một phần mềm với Wikipedia, [https://www.mediawiki.org MediaWiki]! Bạn có thể làm tất cả từ khi tải lên tập tin lên như hình ảnh hoặc video, đến viết các bài viết hoặc blog. Chúng tôi có hơn 200 tiện ích mở rộng và hơn 15 giao diện để lựa chọn để tuỳ chỉnh trải nghiệm của bạn với MediaWiki!",
 	"features-non-profit-text": "Phi lợi nhuận",
 	"features-non-profit-desc": "Miraheze được đăng ký là Công ty TNHH Miraheze tại Vương quốc Anh. Chúng tôi cung cấp wiki miễn phí 100% với tư cách là tổ chức phi lợi nhuận nhằm duy trì các máy chủ và theo kịp sự phát triển của các tiện ích mở rộng nội bộ của chúng tôi.",
 	"features-community-text": "Cộng đồng",
