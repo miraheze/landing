@@ -36,7 +36,7 @@
 	"about-title": "概要",
 	"about-desc": "2015年7月、John LewisとFerran TufanはMirahezeと呼ばれる新しいWikiファームを作成しました。 コミュニティクラウドファンディングと個人的投資を利用して、Mirahezeは2015年8月に正式に稼働しました。 長年にわたって、プロジェクトは非常に大きくなり、MediaWikiを専門とする最大かつ最も認識されるWikiファームの1つになりました。 成功と進化にもかかわらず、Mirahezeの1つの側面は変更されませんでした - 正式な存在。 2019年11月、Mirahezeは英国でMiraheze Limitedとして非営利団体として登録されました。",
 	"socialmedia-title": "ソーシャルメディア",
-	"footer-desc": "Miraheze Limited <br /> イングランドおよびウェールズに登録された保証付き会社　no.12323854 <br /> 特に明記しない限り、このサイトのコンテンツは <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a> に基づいてライセンスされています。",
+	"footer-desc": "Miraheze Limited\nイングランドおよびウェールズに登録された保証有限責任会社　no.12323854\n特に明記しない限り、このサイトのコンテンツは [https://creativecommons.org/licenses/by-sa/4.0/deed.ja|表示 - 継承 4.0 国際 (CC BY-SA 4.0)] に基づいてライセンスされています。",
 	"footer-terms": "利用規約",
 	"footer-privacy-policy": "プライバシー・ポリシー",
 	"footer-disclaimers": "免責事項",
@@ -46,5 +46,6 @@
 	"footer-translate": "このページを翻訳",
 	"header-donate-logo-text": "Miraheze 寄付",
 	"donate-amount": "金額",
-	"donate-note": "このフォームは、PayPalでの寄付用です（クレジットカード/デビットカードを使用できます）。ページのドロップダウンを使用して、現地通貨を選択する必要があります。"
+	"donate-note": "このフォームは、PayPalでの寄付用です（クレジットカード/デビットカードを使用できます）。ページのドロップダウンを使用して、現地通貨を選択する必要があります。",
+	"fundraising-sitenotice": "ご存知のように、Mirahezeは100％寄付によって運営されている、広告のない、コミュニティ中心のホスティングプラットフォームです。幸運なことに、今年もまた、前年比で目覚しいトラフィックとコミュニティの成長を続けることができました。しかし、その成長に伴い、既存のインフラへの支払いだけでなく、増加した容量を管理するための追加インフラが必要になってきました。そこで、5ポンド、10ポンド、20ポンドなど、お好きな金額を寄付していただけるようお願いします。10万人以上のユーザーのうち500人が年に一度だけ$1を寄付すれば、Mirahezeは必要な予算を超えることができるのです。[https://www.gofundme.com/f/$2|GoFundMe], [https://paypal.me/mirahezelimited|PayPal], [https://github.com/sponsors/miraheze|GitHub Sponsors]から寄付をお願いします。\n 寄付のお礼に、Wikiでの利用者名を添えていただければ、Wiki上で謝意を表すことができます。"
 }

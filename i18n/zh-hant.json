@@ -43,5 +43,6 @@
 	"footer-translate": "翻譯本頁",
 	"header-donate-logo-text": "捐款給 Miraheze",
 	"donate-amount": "金額",
-	"donate-note": "此表格用於透過 PayPal 進行捐款（您可以使用信用卡或是簽帳金融卡）。您可使用頁面上的下拉選單來選擇您的本地貨幣。"
+	"donate-note": "此表格用於透過 PayPal 進行捐款（您可以使用信用卡或是簽帳金融卡）。您可使用頁面上的下拉選單來選擇您的本地貨幣。",
+	"fundraising-sitenotice": "如各位所知，Miraheze 是一個以社群為中心、無廣告，以及 100% 透過捐款贊助來讓社群主導平台的托管。我們很幸運能一次次目睹到隨年增進的流量與社群成長。然而，隨著這些成長，有需要額外設施來管理增加的容量，以及支付現有設施的費用。所以，我們誠懇希望您能考慮以 £5 英鎊、£10 英鎊、£20 英鎊，或是提供您能負擔起的金額來捐贈。若 Miraheze 的 10 萬名以上使用者當中，只有 500 位願意每年給予 $1 美元額度，那麼 Miraheze 將會面臨到超出預算的狀況。請透過我們的 [https://www.gofundme.com/f/$2|GoFundMe 頁面]、[https://paypal.me/mirahezelimited|PayPal]，或是 [https://github.com/sponsors/miraheze|GitHub Sponsors] 來捐款！ \n感謝您的熱心支持，如果您的捐款裡有包含您的 wiki 使用者名稱，您可以選擇在 wiki 上確認。"
 }
