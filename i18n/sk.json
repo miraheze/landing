@@ -41,5 +41,6 @@
 	"footer-translate": "Preložiť túto stránku",
 	"header-donate-logo-text": "Darovať Miraheze",
 	"donate-amount": "Čiastka",
-	"donate-note": "Táto forma sa používa pre platby cez PayPal (dajú sa použiť aj platobné karty)."
+	"donate-note": "Táto forma sa používa pre platby cez PayPal (dajú sa použiť aj platobné karty).",
+	"fundraising-sitenotice": "Ako všetci viete, Miraheze je orientovaná na komunitu, je bez reklám a je je 100% financovaná príspevkami a dotáciami. Sme šťastný, že sa nám naša komunita rozrastá. S týmto rastom prichádza potreba dobre riadiť zvýšené kapacity a platiť už za existujúcu infraštruktúru. Chceme Vás teda požiadať, aby ste zvážili či si môžete dovoliť podporiť nás €5, €10, €20 či nejakou inou sumou. Keby len 500 z existujúcich viac než 100.000 používateľov Miraheze prispelo každý rok sumou $1, Miraheze by malo viac než je stanovený rozpočet. Prispejte cez našu [https://www.gofundme.com/f/$2|GoFundMe stránku], [https://paypal.me/mirahezelimited|PayPal], alebo [https://github.com/sponsors/miraheze|GitHub Sponsors]! Ďakujeme."
 }
