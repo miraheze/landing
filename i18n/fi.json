@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"MITO",
+			"Moj",
 			"Nike",
 			"Veikk0.ma"
 		]
@@ -43,5 +44,6 @@
 	"footer-translate": "Käännä tämä sivusto",
 	"header-donate-logo-text": "Miraheze Donate",
 	"donate-amount": "Määrä",
-	"donate-note": "Tämä lomake on PayPal-lahjoituksia varten (voit käyttää luotto- tai pankkikorttia). Valitse paikallinen valuuttasi lahjoitussivun pudotusvalikosta."
+	"donate-note": "Tämä lomake on PayPal-lahjoituksia varten (voit käyttää luotto- tai pankkikorttia). Valitse paikallinen valuuttasi lahjoitussivun pudotusvalikosta.",
+	"fundraising-sitenotice": "Kuten kaikki tiedätte, Miraheze on yhteisökeskeinen, mainokseton ja yhteisölähtöinen wikialusta, joka pyörii 100-prosenttisesti lahjoituksilla. Meillä on ollut onni nähdä liikenteen ja yhteisömme vaikuttavan vuosittaisen kasvun jatkuvan. Kasvun myötä tarvitaan kuitenkin lisäinfrastruktuuria lisääntyneen kapasiteetin hallintaan sekä varoja jo olemassa olevan infrastruktuurin maksamiseen. Pyydämmekin sinua harkitsemaan, lahjoittaisitko meille 5, 10, 20 puntaa tai minkä tahansa summan, johon sinulla on varaa. Jos vain 500 Mirahezen yli 100 000 käyttäjästä antaisi yhden dollarin ($1) kerran vuodessa, Mirahezen budjettitarve täyttyisi. Voit lahjoittaa [https://www.gofundme.com/f/$2 GoFundMe-sivumme], [https://paypal.me/mirahezelimited PayPalin] tai [https://github.com/sponsors/miraheze GitHub-sponsoriemme] kautta!\n Kiitokseksi tuestasi saat wikissä näkyvän tunnustuksen lahjoituksestasi, mikäli olet kertonut wikikäyttäjänimesi sen yhteydessä."
 }

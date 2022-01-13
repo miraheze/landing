@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"DraconicDark",
-			"Layke"
+			"Layke",
+			"Talex42"
 		]
 	},
 	"header-menu-title": "Menü",
@@ -19,7 +20,7 @@
 	"donate-text": "Spenden!",
 	"features-text": "Merkmale",
 	"features-mediawiki": "MediaWiki",
-	"features-mediawiki-desc": "Miraheze läuft auf der gleichen Software wie die Wikipedia, <a href=\"https://www.mediawiki.org\">MediaWiki</a>! Mit ihr ist es dir möglich, alles vom Hochladen von Medien wie etwa Bildern oder Videos bis hin zum Schreiben von Artikeln oder Blogs zu übernehmen. Wir haben über 200 auswählbare Erweiterungen und mehr als 15 Benutzeroberflächen, damit du MediaWiki an deine Bedürfnisse anpassen kannst!",
+	"features-mediawiki-desc": "Miraheze läuft auf der gleichen Software wie die Wikipedia, [https://www.mediawiki.org|MediaWiki]! Mit ihr ist es dir möglich, alles vom Hochladen von Medien wie etwa Bildern oder Videos bis hin zum Schreiben von Artikeln oder Blogs zu übernehmen. Wir haben über 200 auswählbare Erweiterungen und mehr als 15 Benutzeroberflächen, damit du MediaWiki an deine Bedürfnisse anpassen kannst!",
 	"features-non-profit-text": "Gemeinnützig",
 	"features-non-profit-desc": "Miraheze ist als Miraheze Limited im Vereinigten Königreich registriert. Als eine gemeinnützige Organisation bieten wir zu 100&nbsp;% kostenlose Wikis an und kümmern uns um das Betreiben der Server und die Instandhaltung unserer hauseigenen Erweiterungen.",
 	"features-community-text": "Gemeinschaft",
@@ -32,7 +33,7 @@
 	"about-title": "Über Miraheze",
 	"about-desc": "Im Juli 2015 starteten John Lewis und Ferran Tufan eine neue Wiki-Farm unter dem Namen Miraheze. Mithilfe von Crowdfunding und privaten Investments konnte Miraheze im August 2015 offiziell live gehen. Über die Jahre ist das Projekt deutlich zu einem der größten und wiedererkennbarsten Wiki-Farmen mit Spezialisierung in MediaWiki gewachsen. Trotz des Erfolgs und dieser Evolution hat sich ein Aspekt von Miraheze niemals geändert &ndash; die formale Existenz. Im November 2019 wurde Miraheze zu einer im Vereinigten Königreich als Miraheze Limited registrierten Non-Profit-Organisation.",
 	"socialmedia-title": "Soziale Medien",
-	"footer-desc": "Miraheze Limited <br /> Eine Gesellschaft mit beschränkter Haftung registriert in England und Wales, Unternehmensnummer 12323854  <br /> Der Inhalt dieser Seite ist, sofern nicht anders angegeben, lizenziert unter <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.",
+	"footer-desc": "Miraheze Limited\n Eine Gesellschaft mit beschränkter Haftung registriert in England und Wales, Unternehmensnummer 12323854\n Der Inhalt dieser Seite ist, sofern nicht anders angegeben, lizenziert unter [https://creativecommons.org/licenses/by-sa/4.0/|Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)].",
 	"footer-terms": "Nutzungsbedingungen",
 	"footer-privacy-policy": "Datenschutzerklärung",
 	"footer-disclaimers": "Haftungsausschlüsse",
