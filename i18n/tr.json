@@ -4,6 +4,7 @@
 			"Hedda",
 			"Joseph",
 			"MuratTheTurkish",
+			"SaldırganSincap",
 			"Selcuksntrk"
 		]
 	},
@@ -22,7 +23,7 @@
 	"donate-text": "Şimdi Bağış Yapın!",
 	"features-text": "Özellikler",
 	"features-mediawiki": "MediaWiki",
-	"features-mediawiki-desc": "Miraheze, Vikipedi ile aynı yazılım olan <a href=\"https://www.mediawiki.org\">MediaWiki</a> ile çalışır! Resim veya video gibi medya yüklemeyle madde veya blog göndermeye kadar her şeyi yapabilirsiniz. MediaWiki deneyiminizi özelleştirmeniz için 200'den fazla uzantımız ve 15'in üzerinde temamız var!",
+	"features-mediawiki-desc": "Miraheze, Vikipedi ile aynı yazılım olan [https://www.mediawiki.org|MediaWiki] ile çalışır! Resim veya video gibi medya yüklemeyle madde veya blog göndermeye kadar her şeyi yapabilirsiniz. MediaWiki deneyiminizi özelleştirmeniz için 200'den fazla uzantımız ve 15'in üzerinde temamız var!",
 	"features-non-profit-text": "Kâr Amacı Gütmeyen",
 	"features-non-profit-desc": "Miraheze, Birleşik Krallık'ta Miraheze Limited olarak kayıtlıdır. Kâr amacı gütmeyen, sunucuları koruyan ve şirket içi uzantılarımızın geliştirilmesine ayak uyduran %100 ücretsiz vikiler sağlıyoruz.",
 	"features-community-text": "Topluluk",
@@ -35,7 +36,7 @@
 	"about-title": "Hakkında",
 	"about-desc": "Temmuz 2015'te John Lewis ve Ferran Tufan, Miraheze adında yeni bir viki çiftliği oluşturdu. Topluluk kitle fonlaması ve kişisel yatırımın kullanılmasıyla Miraheze, Ağustos 2015'te resmen hayata geçti. Yıllar geçtikçe proje, MediaWiki'de uzmanlaşmış en büyük ve en tanınmış viki çiftliklerinden biri hâline geldi. Başarıya ve gelişime rağmen Miraheze'nin \"resmi var oluş\" yönü asla değişmedi. Kasım 2019'da Miraheze, İngiltere'de Miraheze Limited adıyla kayıtlı kâr amacı gütmeyen bir kuruluş oldu.",
 	"socialmedia-title": "Sosyal Medya",
-	"footer-desc": "Miraheze Limited <br /> İngiltere ve Galler'de 12323854 numaralı kayıtlı bir şirkettir.<br /> Aksi belirtilmedikçe, bu sitenin içeriği <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.tr\">Atıf-BenzerPaylaşım 4.0 Uluslararası (CC BY-SA 4.0)</a> altında lisanslanmıştır.",
+	"footer-desc": "Miraheze Limited\n İngiltere ve Galler'de 12323854 numaralı kayıtlı bir şirkettir.\n Aksi belirtilmedikçe, bu sitenin içeriği [https://creativecommons.org/licenses/by-sa/4.0/deed.tr|Atıf-BenzerPaylaşım 4.0 Uluslararası (CC BY-SA 4.0)] altında lisanslanmıştır.",
 	"footer-terms": "Kullanım Şartları",
 	"footer-privacy-policy": "Gizlilik İlkesi",
 	"footer-disclaimers": "Sorumluluk Reddi",
