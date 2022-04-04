@@ -4,6 +4,7 @@
 			"Colathewikian",
 			"GuoPC",
 			"Lakejason0",
+			"StarrySky",
 			"Yfdyh000",
 			"Zfshuo",
 			"Zhang8569",
@@ -47,5 +48,6 @@
 	"footer-translate": "翻译本页",
 	"header-donate-logo-text": "Miraheze捐款",
 	"donate-amount": "金额",
-	"donate-note": "此表单用于通过PayPal进行捐赠（当然您可以使用信用卡/借记卡）。请使用页面上的下拉菜单选择您的本地货币。"
+	"donate-note": "此表单用于通过PayPal进行捐赠（当然您可以使用信用卡/借记卡）。请使用页面上的下拉菜单选择您的本地货币。",
+	"fundraising-sitenotice": "众所周知，Miraheze 是一个以社区为中心、无广告且由社区驱动的托管平台，100% 由捐赠资助。 我们很幸运再次继续看到令人印象深刻的同比流量和社区增长。 然而，随着这种增长，需要额外的基础设施来管理增加的容量以及为现有的基础设施付费。 因此，我们要求您考虑以 5 英镑、10 英镑、20 英镑或任何您能负担得起的金额进行筹款。 如果 Miraheze 的 100,000 多名用户中有 500 名每年只捐赠 $1，那么 Miraheze 将超出其预算要求。 通过我们的 [https://www.gofundme.com/f/$2 GoFundMe页面]、[https://paypal.me/mirahezelimited PayPal] 或 [https://github.com/sponsors/miraheze GitHub] 捐款！\n  为了感谢您的支持，如果您在捐款中包含您的 wiki 用户名，您可以选择在 wiki 上致谢。"
 }
