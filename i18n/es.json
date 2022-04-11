@@ -3,6 +3,7 @@
 		"authors": [
 			"Agent",
 			"Alonso Biólogo",
+			"Danniel07",
 			"Fitoschido",
 			"Jakeukalane",
 			"MarleneR329"
@@ -45,5 +46,6 @@
 	"footer-translate": "Traducir esta página",
 	"header-donate-logo-text": "Donar a Miraheze",
 	"donate-amount": "Monto",
-	"donate-note": "Este formulario es para donaciones con PayPal (puedes usar tarjetas de débito o crédito). Deberías seleccionar tu moneda local usando el desplegable de la página."
+	"donate-note": "Este formulario es para donaciones con PayPal (puedes usar tarjetas de débito o crédito). Deberías seleccionar tu moneda local usando el desplegable de la página.",
+	"fundraising-sitenotice": "Como todos saben, Miraheze es una plataforma de alojamiento centrada y manejada en y por su comunidad, libre de anuncios y financiada 100% por donaciones. Hemos sido afortunados de una vez más continuar viendo un crecimiento impresionante de tráfico y de comunidad año tras año. Con ese crecimiento, sin embargo, llega una necesidad de infraestructura adicional para manejar una capacidad incrementada así como también de pagar por la infraestructura ya existente. De esta forma, te pedimos considerar apoyarnos con £5, £10, £20 o cualquier otra cantidad que puedas costear. Si 500 de los más de 100,000 usuarios de Miraheze dieran solo $1 al año, Miraheze excedería sus requisitos presupuestarios. ¡Dona a través de nuestra página [https://www.gofundme.com/f/$2|GoFundMe], [https://paypal.me/mirahezelimited|PayPal] o [https://github.com/sponsors/miraheze|GitHub Sponsors]! Para agradecerte por tu apoyo, tienes la opción de un reconocimiento si incluyes tu nombre de usuario wiki con tu donación."
 }
