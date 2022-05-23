@@ -46,5 +46,6 @@
 	"footer-translate": "Bu sayfayı çevir",
 	"header-donate-logo-text": "Miraheze'ya Bağış Yapın",
 	"donate-amount": "Miktar",
-	"donate-note": "Bu form PayPal ile yapılan bağışlar içindir (kredi/banka kartlarını kullanabilirsiniz). Sayfadaki açılır menüyü kullanarak yerel para biriminizi seçmelisiniz."
+	"donate-note": "Bu form PayPal ile yapılan bağışlar içindir (kredi/banka kartlarını kullanabilirsiniz). Sayfadaki açılır menüyü kullanarak yerel para biriminizi seçmelisiniz.",
+	"fundraising-sitenotice": "Hepinizin bildiği gibi Miraheze, %100 bağışlarla finanse edilen topluluk merkezli, reklamsız ve topluluk odaklı bir barındırma platformudur. Etkileyici yıldan yıla trafik ve topluluk büyümesini görmeye devam ettiğimiz için bir kez daha şanslıyız. Ancak bu büyümeyle birlikte, artan kapasiteyi yönetmek için ek altyapı ihtiyacının yanı sıra halihazırda var olan altyapının ödemesini de beraberinde getiriyor. Bu nedenle, sizden 5 £, 10 £, 20 £ veya karşılayabileceğiniz herhangi bir miktarla talaş eklemeyi düşünmenizi rica ediyoruz. Miraheze'nin 100.000'den fazla kullanıcısının 500'ü yılda yalnızca $1 verse, Miraheze bütçe gereksinimlerini aşacaktır.  [https://www.gofundme.com/f/$2|GoFundMe sayfamızı], [https://paypal.me/mirahezelimited|PayPal] veya [https://github.com/sponsors/miraheze|GitHub Sponsorlardan] bağış yapın!\n Desteğiniz için teşekkür etmek için, bağışınıza viki kullanıcı adınızı eklerseniz, viki üzerinden onay seçeneğiniz vardır."
 }
