@@ -32,7 +32,7 @@ require_once __DIR__ . '/getTranslations.php';
 		<meta charset="UTF-8">
 		<meta name="description" content="Miraheze is an open source project that offers free MediaWiki hosting, for everyone. Request your free wiki today!">
 		<meta name="revisit-after" content="2 days">
-		<meta name="keywords" content="miraheze, free, wiki hosting, mediawiki, mediawiki hosting, open source, hosting, donate, non-profit">
+		<meta name="keywords" content="miraheze, free, wiki hosting, mediawiki, mediawiki hosting, open source, hosting, donate, not-for-profit">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
