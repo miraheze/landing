@@ -183,10 +183,10 @@ require_once __DIR__ . '/getTranslations.php';
 							<i class="fas fa-donate fa-stack-1x fa-inverse"></i>
 						</span>
 						<h4 class="service-heading">
-							<?php echo( getTranslation( 'features-non-profit-text' ) ); ?>
+							<?php echo( getTranslation( 'features-not-for-profit-text' ) ); ?>
 						</h4>
 						<p class="text-muted">
-							<?php echo( getTranslation( 'features-non-profit-desc' ) ); ?>
+							<?php echo( getTranslation( 'features-not-for-profit-desc' ) ); ?>
 						</p>
 					</div>
 					<div class="col-md-4">
