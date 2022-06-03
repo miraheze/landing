@@ -8,7 +8,7 @@ require_once __DIR__ . '/getTranslations.php';
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<meta name="description" content="" />
-		<title><?php echo( getTranslation( 'header-text' ) ); ?></title>
+		<title>Miraheze</title>
 		<link rel="icon" type="image/x-icon" href="https://meta.miraheze.org/favicon.ico" />
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
@@ -19,20 +19,20 @@ require_once __DIR__ . '/getTranslations.php';
 			<div class="container">
 				<a class="navbar-brand" href="#">
 					<img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Logo" style="height:3em; width:3em; padding:0.5em;">
-					<?php echo( getTranslation( 'header-text' ) ); ?>
+					Miraheze
 				</a>
 
-				<div class="btn-group btn-group-lg" role="group">
+				<div class="btn-group" role="group">
 					<a class="btn btn-secondary" href="#about">
 						About
 					</a>
 					<a class="btn btn-secondary" href="#features">
 						Features
 					</a>
-					<a class="btn btn-secondary" href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ">
+					<a class="btn btn-secondary d-sm-none" href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ">
 						FAQ
 					</a>
-					<a class="btn btn-secondary" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center">
+					<a class="btn btn-secondary d-sm-none" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center">
 						Help Center
 					</a>
 					<a class="btn btn-primary" href="https://meta.miraheze.org/wiki/Special:CreateAccount">
@@ -72,8 +72,8 @@ require_once __DIR__ . '/getTranslations.php';
 							</h5>
 						</div>
 						<center>
-							<div class="btn-group btn-group-lg" role="group">
-								<a class="btn btn-xl btn-outline-light" href="https://meta.miraheze.org/wiki/Special:CreateAccount">
+							<div class="btn-group" role="group">
+								<a class="btn btn-xl btn-outline-light d-sm-none" href="https://meta.miraheze.org/wiki/Special:CreateAccount">
 									<i class="bi bi-box-arrow-in-right"></i>
 									Sign Up!
 								</a>
@@ -186,6 +186,12 @@ require_once __DIR__ . '/getTranslations.php';
 										<a class="dropdown-item" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Organisation">
 											Organisation information
 										</a>
+										<a class="dropdown-item d-lg-none" href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ">
+											FAQ
+										</a>
+										<a class="dropdown-item d-lg-none" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center">
+											Help Center
+										</a>
 									</div>
 								</div>
 							</div>
@@ -202,7 +208,7 @@ require_once __DIR__ . '/getTranslations.php';
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<section class="page-section text-dark" style="margin: 1em; padding: 0 10em 2em;">
+						<section class="page-section text-dark" style="margin: 1em; padding-bottom: 2em;">
 							<div class="container">
 								<h2 class="page-section-heading text-center text-uppercase text-dark">
 									About
@@ -220,22 +226,10 @@ require_once __DIR__ . '/getTranslations.php';
 					</div>
 					<div class="carousel-item">
 						<center>
-							<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="d-block w-50 mb-5" alt="Miraheze Meta's Main Page">
+							<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="d-block w-100 mb-5" alt="Miraheze Meta's Main Page">
 						</center>
-						<!--<div class="carousel-caption d-none d-md-block">
-							<h5>Miraheze Meta's Main Page</h5>
-							<p>This is how the main page of our central wiki (Miraheze Meta) looks while using the default skin (Vector).</p>
-						</div>-->
 					</div>
 				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#about-slides" data-bs-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#about-slides" data-bs-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
-				</button>
 			</div>
 		</section>
 		<section id="features" class="features-icons bg-light text-center">
