@@ -7976,7 +7976,7 @@ textarea.form-control-lg {
 	visibility: hidden !important;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 	.float-sm-start {
 		float: left !important;
 	}
