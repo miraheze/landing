@@ -1,355 +1,371 @@
-<!--
-The MIT License (MIT)
-
-Copyright (c) 2013-2019 Blackrock Digital LLC
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
--->
-
 <?php
 require_once __DIR__ . '/getTranslations.php';
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<meta name="description" content="Miraheze is an open source project that offers free MediaWiki hosting, for everyone. Request your free wiki today!">
-		<meta name="revisit-after" content="2 days">
-		<meta name="keywords" content="miraheze, free, wiki hosting, mediawiki, mediawiki hosting, open source, hosting">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-		<title><?php echo( getTranslation( 'header-logo-text' ) ); ?></title>
-
-		<link rel="stylesheet" href="css/all.min.css">
-		<link rel="stylesheet" href="css/miraheze.min.css">
-		<link rel="icon" href="https://meta.miraheze.org/favicon.ico">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta name="description" content="" />
+		<title><?php echo( getTranslation( 'header-text' ) ); ?></title>
+		<link rel="icon" type="image/x-icon" href="https://meta.miraheze.org/favicon.ico" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+		<link href="css/styles.css" rel="stylesheet" />
 	</head>
-
-	<body id="page-top">
-		<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+	<body>
+		<nav class="navbar navbar-light bg-light sticky-top">
 			<div class="container">
-				<a class="navbar-brand js-scroll-trigger" href="#page-top">
+				<a class="navbar-brand" href="#">
 					<img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Logo" style="height:3em; width:3em; padding:0.5em;">
-					<?php echo( getTranslation( 'header-logo-text' ) ); ?>
+					<?php echo( getTranslation( 'header-text' ) ); ?>
 				</a>
-				<button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-					<?php echo( getTranslation( 'header-menu-title' ) ); ?>
-					<i class="fas fa-bars"></i>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item mx-0 mx-lg-1">
-							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#features">
-								<?php echo( getTranslation( 'header-menu-features' ) ); ?>
-							</a>
-						</li>
-						<li class="nav-item mx-0 mx-lg-1">
-							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">
-								<?php echo( getTranslation( 'header-menu-about' ) ); ?>
-							</a>
-						</li>
-						<li class="nav-item mx-0 mx-lg-1">
-							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://meta.miraheze.org/wiki/Miraheze">
-								<?php echo( getTranslation( 'header-menu-wiki' ) ); ?>
-							</a>
-						</li>
-						<li class="nav-item mx-0 mx-lg-1">
-							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://blog.miraheze.org">
-								<?php echo( getTranslation( 'header-menu-blog' ) ); ?>
-							</a>
-						</li>
-						<li class="nav-item mx-0 mx-lg-1">
-							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://status.miraheze.wiki/">
-								<?php echo( getTranslation( 'header-menu-status' ) ); ?>
-							</a>
-						</li>
-						<li class="nav-item mx-0 mx-lg-1">
-							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://donate.miraheze.org">
-								<?php echo( getTranslation( 'header-menu-donate' ) ); ?>
-							</a>
-						</li>
-						<li class="nav-item mx-0 mx-lg-1">
-							<div class="form-group nav-link py-3 px-0 px-lg-3">
-								<div></div>
-								<form method="get">
-									<select name="lang" onchange="this.form.submit()">
-										<?php
 
-										$i18nDirectory = array_diff( scandir( 'i18n' ), [ '.', '..', 'qqq.json' ] );
-										$languageCodes = str_replace( '.json', '', $i18nDirectory );
-
-										foreach ( $languageCodes as $languageCode ) {
-											echo( '<option value="' . $languageCode . '"' . ( getLanguageCode() === $languageCode ? ' selected' : null ) . '>' . LOCALE_GET_DISPLAY_NAME( $languageCode, $languageCode ) . '</option>' );
-										}
-
-										?>
-									</select>
-								</form>
-							</div>
-						</li>
-					</ul>
+				<div class="btn-group btn-group-lg" role="group">
+					<a class="btn btn-secondary" href="#about">
+						About
+					</a>
+					<a class="btn btn-secondary" href="#features">
+						Features
+					</a>
+					<a class="btn btn-secondary" href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ">
+						FAQ
+					</a>
+					<a class="btn btn-secondary" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center">
+						Help Center
+					</a>
+					<a class="btn btn-primary" href="https://meta.miraheze.org/wiki/Special:CreateAccount">
+						Sign Up
+					</a>
 				</div>
 			</div>
 		</nav>
- 
-		<?php if ( getSiteNotice() ): ?>
-			<section class="page-section mb-0" id="siteNotice">
-				<div class="container">
-					<div class="divider-custom divider-light"></div>
-					<div class="row">
-						<div class="col-lg-12 ml-auto">
-							<p class="lead">
-								<?php echo getSiteNotice(); ?>
+		<section class="sitenotice">
+			<div class="card">
+				<div class="row g-0">
+					<div class="col-md-2 d-flex justify-content-center align-items-center">
+						<img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" class="img-fluid rounded-start" alt="Miraheze Logo">
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<h5 class="card-title">Help Us!</h5>
+							<p class="card-text">
+								For over six years now, Miraheze has provided it's over 300,000+ users with free hosting. Help us keep going for six more years and longer! We're powered 100% by donations from people just like you. We're grateful to keep seeing impressive year-over-year traffic and community growth. With our impressive growth though, we need more infrastructure to handle increased demand. We ask you, earnestly, consider chipping in £5, £10, £20, or whatever you can afford. If 500 of Miraheze's 300,000+ users gave only £12 (16.35 USD) once a year, Miraheze would exceed its budget requirements.
 							</p>
+							<a href="https://miraheze.wiki/Fundraiser" class="btn btn-primary">Learn how to help!</a>
 						</div>
 					</div>
 				</div>
-			</section>
-		<?php endif; ?>
-
-		<header class="masthead bg-primary text-white text-center">
-			<div class="container d-flex align-items-center flex-column">
-
-				<h1 class="masthead-heading text-uppercase mb-0">
-					<?php echo( getTranslation( 'welcome-text' ) ); ?>
-				</h1>
-
-				<p class="masthead-subheading font-weight-light mb-0">
-					<?php echo( getTranslation( 'description-text' ) ); ?>
-				</p>
-
-				<div>
-					<a class="btn btn-xl btn-outline-light" href="https://meta.miraheze.org/w/index.php?title=Special:CreateAccount&returnto=Miraheze">
-						<i class="fas fa-sign-in-alt mr-2"></i>
-						<?php echo( getTranslation( 'join-text' ) ); ?>
-					</a>
-
-					<a class="btn btn-xl btn-outline-light" href="https://donate.miraheze.org">
-						<i class="fas fa-donate mr-2"></i>
-						<?php echo( getTranslation( 'donate-text' ) ); ?>
-					</a>
+			</div>
+		</section>
+		<header class="masthead">
+			<div class="container position-relative">
+				<div class="row justify-content-center">
+					<div class="col-xl-6">
+						<div class="text-center text-white">
+							<h1 class="mb-2 text-uppercase">
+								Welcome to Miraheze
+							</h1>
+							<h5 class="mb-3 font-weight-light">
+								Miraheze is a not-for-profit, with a mission to provide a free community-centric wiki farm.
+							</h5>
+						</div>
+						<center>
+							<div class="btn-group btn-group-lg" role="group">
+								<a class="btn btn-xl btn-outline-light" href="https://meta.miraheze.org/wiki/Special:CreateAccount">
+									<i class="bi bi-box-arrow-in-right"></i>
+									Sign Up!
+								</a>
+								<a class="btn btn-xl btn-outline-light" href="https://donate.miraheze.org">
+									<i class="bi bi-cash-coin"></i>
+									Support Us!
+								</a>
+								<div class="btn-group" role="group">
+									<button id="dropdown-language" type="button" class="btn btn-xl btn-outline-light dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										English
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdown-language">
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+										<a class="dropdown-item" href="?lang=en">
+											English
+										</a>
+									</div>
+								</div>
+								<div class="btn-group" role="group">
+									<button id="dropdown-more" type="button" class="btn btn-xl btn-outline-light dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										More
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdown-more">
+										<a class="dropdown-item" href="https://meta.miraheze.org/wiki/Special:WikiDiscover">
+											Discover wikis
+										</a>
+										<a class="dropdown-item" href="https://meta.miraheze.org/wiki/Special:RequestWiki">
+											Request wiki
+										</a>
+										<a class="dropdown-item" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Organisation">
+											Organisation information
+										</a>
+									</div>
+								</div>
+							</div>
+						</center>
+					</div>
 				</div>
-
-				<img class="img-fluid" src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" alt="Logo" width="1500">
-
 			</div>
 		</header>
+		<section id="about" class="section-about bg-light text-center">
+			<div id="about-slides" class="carousel carousel-dark slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#about-slides" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#about-slides" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<section class="page-section text-dark" style="margin: 1em; padding: 0 10em 2em;">
+							<div class="container">
+								<h2 class="page-section-heading text-center text-uppercase text-dark">
+									About
+								</h2>
 
-		<section class="page-section features" id="features">
+								<div class="row">
+									<div class="col-lg-12 ml-auto">
+										<p class="lead">
+											In July 2015, John Lewis and Ferran Tufan created a new wiki farm - named Miraheze. Through the use of community crowdfunding and personal investment, Miraheze officially went live in August of 2015. Over the years, the project has grown immensely to be one of the largest and most recognizable wiki farms specializing in MediaWiki on offer. Despite the success and evolution, one aspect of Miraheze never changed - formal existence. In November 2019, Miraheze became a registered not-for-profit in the UK as Miraheze Limited.
+										</p>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="carousel-item">
+						<center>
+							<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="d-block w-50 mb-5" alt="Miraheze Meta's Main Page">
+						</center>
+						<!--<div class="carousel-caption d-none d-md-block">
+							<h5>Miraheze Meta's Main Page</h5>
+							<p>This is how the main page of our central wiki (Miraheze Meta) looks while using the default skin (Vector).</p>
+						</div>-->
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#about-slides" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#about-slides" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+		<section id="features" class="features-icons bg-light text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<h2 class="page-section-heading text-uppercase">
-							<?php echo( getTranslation( 'features-text' ) ); ?>
+							Features
 						</h2>
 					</div>
-				</div>
-
-				<div class="divider-custom divider-light"></div>
-				<div class="row text-center">
-					<div class="col-md-4">
-						<span class="fa-stack fa-4x">
-							<i class="fas fa-circle fa-stack-2x text-primary"></i>
-							<i class="fa fa-server fa-stack-1x fa-inverse"></i>
-						</span>
-						<h4 class="service-heading">
-							<?php echo( getTranslation( 'features-mediawiki' ) ); ?>
-						</h4>
-						<p class="text-muted">
-							<?php echo( getTranslation( 'features-mediawiki-desc' ) ); ?>
-						</p>
+					<div class="col-lg-4">
+						<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+							<div class="features-icons-icon d-flex"><i class="bi-hdd-stack m-auto text-primary"></i></div>
+							<h3>MediaWiki</h3>
+							<p class="lead mb-0">
+								Miraheze runs the same software as Wikipedia, MediaWiki! You can do anything from uploading media such as images or videos, to writing articles or blogs. We have over 200 extensions and over 15 skins to choose from to customize your experience with MediaWiki!
+							</p>
+						</div>
 					</div>
-					<div class="col-md-4">
-						<span class="fa-stack fa-4x">
-							<i class="fas fa-circle fa-stack-2x text-primary"></i>
-							<i class="fas fa-donate fa-stack-1x fa-inverse"></i>
-						</span>
-						<h4 class="service-heading">
-							<?php echo( getTranslation( 'features-not-for-profit-text' ) ); ?>
-						</h4>
-						<p class="text-muted">
-							<?php echo( getTranslation( 'features-not-for-profit-desc' ) ); ?>
-						</p>
+					<div class="col-lg-4">
+						<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+							<div class="features-icons-icon d-flex"><i class="bi-cash-coin m-auto text-primary"></i></div>
+							<h3>Not-For-Profit</h3>
+							<p class="lead mb-0">
+								Miraheze is registered as Miraheze Limited in the United Kingdom. We provide 100% free wikis as a not-for-profit that maintains the servers and keeps up with the development of our in house extensions.
+							</p>
+						</div>
 					</div>
-					<div class="col-md-4">
-						<span class="fa-stack fa-4x">
-							<i class="fas fa-circle fa-stack-2x text-primary"></i>
-							<i class="fas fa-users fa-stack-1x fa-inverse"></i>
-						</span>
-						<h4 class="service-heading">
-							<?php echo( getTranslation( 'features-community-text' ) ); ?>
-						</h4>
-						<p class="text-muted">
-							<?php echo( getTranslation( 'features-community-desc' ) ); ?>
-						</p>
+					<div class="col-lg-4">
+						<div class="features-icons-item mx-auto mb-0 mb-lg-3">
+							<div class="features-icons-icon d-flex"><i class="bi-people m-auto text-primary"></i></div>
+							<h3>Community</h3>
+							<p class="lead mb-0">
+								As a community, we all work together to achieve a common goal of being a great wiki farm! This allows us to achieve the best possible outcome for users, by allowing users to learn!
+							</p>
+						</div>
 					</div>
-				</div>
-
-				<div class="row text-center">
-					<div class="col-md-4">
-						<span class="fa-stack fa-4x">
-							<i class="fas fa-circle fa-stack-2x text-primary"></i>
-							<i class="fas fa-mobile-alt fa-stack-1x fa-inverse"></i>
-						</span>
-						<h4 class="service-heading">
-							<?php echo( getTranslation( 'features-responsive-text' ) ); ?>
-						</h4>
-						<p class="text-muted">
-							<?php echo( getTranslation( 'features-responsive-desc' ) ); ?>
-						</p>
+					<div class="col-lg-4">
+						<div class="features-icons-item mx-auto mb-0 mb-lg-3">
+							<div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
+							<h3>Responsive</h3>
+							<p class="lead mb-0">
+								All our wikis use MobileFrontend which makes the UI mobile friendly. We also allow you to switch this off by disabling it.
+							</p>
+						</div>
 					</div>
-					<div class="col-md-4">
-						<span class="fa-stack fa-4x">
-							<i class="fas fa-circle fa-stack-2x text-primary"></i>
-							<i class="fas fa-cog fa-stack-1x fa-inverse"></i>
-						</span>
-						<h4 class="service-heading">
-							<?php echo( getTranslation( 'features-extensions-text' ) ); ?>
-						</h4>
-						<p class="text-muted">
-							<?php echo( getTranslation( 'features-extensions-desc' ) ); ?>
-						</p>
+					<div class="col-lg-4">
+						<div class="features-icons-item mx-auto mb-0 mb-lg-3">
+							<div class="features-icons-icon d-flex"><i class="bi-gear m-auto text-primary"></i></div>
+							<h3>In-house extensions</h3>
+							<p class="lead mb-0">
+								We have designed some of the most cutting edge extensions to help us grow and become one of the world's best wiki farms! Our extensions allow communities to have more control over their own wikis, requiring little oversight from our staff. We listen to community input over the management of their wikis.
+							</p>
+						</div>
 					</div>
-					<div class="col-md-4">
-						<span class="fa-stack fa-4x">
-							<i class="fas fa-circle fa-stack-2x text-primary"></i>
-							<i class="fas fa-angle-double-right fa-stack-1x fa-inverse"></i>
-						</span>
-						<p class="text-muted">
-							<?php echo( getTranslation( 'features-more-desc' ) ); ?>
-						</p>
-					 </div>
-				</div>
-			</div>
-		</section>
-
-		<section class="page-section text-white mb-0" id="about">
-			<div class="container">
-				<h2 class="page-section-heading text-center text-uppercase text-white">
-					<?php echo( getTranslation( 'about-title' ) ); ?>
-				</h2>
-				<div class="divider-custom divider-light"></div>
-				<div class="row">
-					<div class="col-lg-12 ml-auto">
-						<p class="lead">
-							<?php echo( getTranslation( 'about-desc' ) ); ?>
-						</p>
+					<div class="col-lg-4">
+						<div class="features-icons-item mx-auto mb-0 mb-lg-3">
+							<div class="features-icons-icon d-flex"><i class="bi-chevron-double-right m-auto text-primary"></i></div>
+							<p class="lead mb-0">
+								And many more features!
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-
-		<footer class="footer text-center">
+		<footer id="footer" class="footer bg-dark">
 			<div class="container">
+				<small>
+					<p style="text-align-last: center;">
+						Miraheze Limited <br>
+						A company limited by guarantee registered in England and Wales company no. 12323854 <br>
+						Except where otherwise noted, the content of this site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.
+					</p>
+				</small>
 				<div class="row">
-					<div class="col-lg-4 mb-5 mb-lg-0"></div>
-					<div class="col-lg-4 mb-5 mb-lg-0">
-						<h4 class="text-uppercase mb-4"><?php echo( getTranslation( 'socialmedia-title' ) ); ?></h4>
-						<a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/miraheze/">
-							<i class="fab fa-fw fa-facebook-f"></i>
-						</a>
-						<a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/miraheze">
-							<i class="fab fa-fw fa-twitter"></i>
-						</a>
-						<a class="btn btn-outline-light btn-social mx-1" href="https://miraheze.org/discord">
-							<i class="fab fa-fw fa-discord"></i>
+					<div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+						<ul class="list-inline mb-2">
+							<li class="list-inline-item"><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Content_Policy">Content Policy</a></li>
+							<li class="list-inline-item">⋅</li>
+							<li class="list-inline-item"><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Terms_of_Use">Terms of Use</a></li>
+							<li class="list-inline-item">⋅</li>
+							<li class="list-inline-item"><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy">Privacy Policy</a></li>
+							<li class="list-inline-item">⋅</li>
+							<li class="list-inline-item"><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Meta:General_disclaimer">Disclaimer</a></li>
+							<li class="list-inline-item">⋅</li>
+							<li class="list-inline-item"><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy#4._Cookies">Cookie Statement</a></li>
+
+						</ul>
+						<a class="small mb-4 mb-lg-0" href="https://translatewiki.net/wiki/Special:Translate?group=mwgithub-mirahezelanding">
+							Translate this page
 						</a>
 					</div>
-				</div>
-				<div class="bottom-footer">
-					<small>
-						<?php echo( getTranslation( 'footer-desc' ) ); ?>
-
-						<ul class="list-inline">
-							<li class="list-inline-item">
-								<a href="https://meta.miraheze.org/wiki/Terms_of_Use">
-									<?php echo( getTranslation( 'footer-terms' ) ); ?>
-								</a>
+					<div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+						<ul class="list-inline mb-0">
+							<li class="list-inline-item me-4">
+								<a href="https://www.facebook.com/miraheze"><i class="bi-facebook fs-3"></i></a>
+							</li>
+							<li class="list-inline-item me-4">
+								<a href="https://twitter.com/miraheze"><i class="bi-twitter fs-3"></i></a>
 							</li>
 							<li class="list-inline-item">
-								<a href="https://meta.miraheze.org/wiki/Privacy_Policy">
-									<?php echo( getTranslation( 'footer-privacy-policy' ) ); ?>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="https://meta.miraheze.org/wiki/Meta:General_disclaimer">
-									<?php echo( getTranslation( 'footer-disclaimers' ) ); ?>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="https://meta.miraheze.org/wiki/Privacy_Policy#4._Cookies">
-									<?php echo( getTranslation( 'footer-cookie' ) ); ?>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="https://meta.miraheze.org/wiki/Help_center">
-									<?php echo( getTranslation( 'footer-contact' ) ); ?>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="https://meta.miraheze.org/wiki/FAQ">
-									<?php echo( getTranslation( 'footer-faq' ) ); ?>
-								</a>
+								<a href="https://miraheze.org/discord"><i class="bi-discord fs-3"></i></a>
 							</li>
 						</ul>
-						<ul class="list-inline">
-							<li class="list-inline-item">
-								<a href="https://translatewiki.net/wiki/Special:Translate?group=mwgithub-mirahezelanding">
-									<?php echo( getTranslation( 'footer-translate' ) ); ?>
-								</a>
-							</li>
-						</ul>
-					</small>
+					</div>
 				</div>
 			</div>
 		</footer>
-
-		<div class="scroll-to-top d-lg-none position-fixed ">
-			<a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-				<i class="fa fa-chevron-up"></i>
+		<div id="scroll-to-top">
+			<a class="text-light" href="#">
+				<i class="bi bi-chevron-up"></i>
 			</a>
 		</div>
 
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.bundle.min.js"></script>
-
-		<script src="js/jquery.easing.min.js"></script>
-
-		<script src="js/miraheze.min.js"></script>
-
 		<script>
-			var _paq = window._paq = window._paq || [];
-			_paq.push(['disableCookies']);
-			_paq.push(['trackPageView']);
-			_paq.push(['enableLinkTracking']);
-			(function() {
-				var u = 'https://matomo.miraheze.org/';
-				_paq.push(['setTrackerUrl', u+'matomo.php']);
-				_paq.push(['setDocumentTitle', 'Landing - Home']);
-				_paq.push(['setSiteId', 4657]);
-				_paq.push(['addTracker', u + 'matomo.php', 8590]);
-				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-				g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-			})();
+			scrollbutton = document.getElementById( 'scroll-to-top' );
+			window.onscroll = function() {
+				scrollFunction()
+			};
+
+			function scrollFunction() {
+				if ( document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ) {
+					scrollbutton.style.display = 'block';
+				} else {
+					scrollbutton.style.display = 'none';
+				}
+			}
 		</script>
-		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4657&amp;rec=1&amp;action_name=Landing_Home" style="border:0;" alt="" /></p></noscript>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
