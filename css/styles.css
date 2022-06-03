@@ -640,7 +640,7 @@ progress {
 	margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 	.container-sm, .container {
 		max-width: 540px;
 	}
@@ -891,7 +891,7 @@ progress {
 	--bs-gutter-y: 3rem;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 	.col-sm {
 		flex: 1 0 0%;
 	}
@@ -3593,7 +3593,7 @@ textarea.form-control-lg {
 	left: auto;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 	.dropdown-menu-sm-start {
 		--bs-position: start;
 	}
@@ -4122,7 +4122,7 @@ textarea.form-control-lg {
 	overflow-y: auto;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 	.navbar-expand-sm {
 		flex-wrap: nowrap;
 		justify-content: flex-start;
@@ -4627,7 +4627,7 @@ textarea.form-control-lg {
 .card-group > .card {
 	margin-bottom: 0.75rem;
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 	.card-group {
 		display: flex;
 		flex-flow: row wrap;
@@ -5150,7 +5150,7 @@ textarea.form-control-lg {
 	border-left-width: 1px;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 	.list-group-horizontal-sm {
 		flex-direction: row;
 	}
@@ -5598,7 +5598,7 @@ textarea.form-control-lg {
 	margin: 0.25rem;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 	.modal-dialog {
 		max-width: 500px;
 		margin: 1.75rem auto;
@@ -6547,7 +6547,7 @@ textarea.form-control-lg {
 	z-index: 1020;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 	.sticky-sm-top {
 		position: -webkit-sticky;
 		position: sticky;
@@ -11406,4 +11406,22 @@ footer.footer.bg-dark {
 	padding: 15px;
 	border-radius: 10px;
 	font-size: 18px;
+}
+
+@media (min-width: 768px) {
+	.w-md-75 {
+		width: 75% !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.w-lg-50 {
+		width: 50% !important;
+	}
+}
+
+@media (max-width: 576px) {
+	.w-sm-100 {
+		width: 100% !important;
+	}
 }
