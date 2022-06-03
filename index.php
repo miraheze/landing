@@ -226,7 +226,7 @@ require_once __DIR__ . '/getTranslations.php';
 					</div>
 					<div class="carousel-item">
 						<center>
-							<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="d-block w-100 mb-5" alt="Miraheze Meta's Main Page">
+							<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="d-block w-lg-50 w-md-75 w-sm-100 mb-5" alt="Miraheze Meta's Main Page">
 						</center>
 					</div>
 				</div>
