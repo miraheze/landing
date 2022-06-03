@@ -29,10 +29,10 @@ require_once __DIR__ . '/getTranslations.php';
 					<a class="btn btn-secondary" href="#features">
 						Features
 					</a>
-					<a class="btn btn-secondary d-sm-none" href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ">
+					<a class="btn btn-secondary d-none d-md-inline-block" href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ">
 						FAQ
 					</a>
-					<a class="btn btn-secondary d-sm-none" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center">
+					<a class="btn btn-secondary d-none d-md-inline-block" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center">
 						Help Center
 					</a>
 					<a class="btn btn-primary" href="https://meta.miraheze.org/wiki/Special:CreateAccount">
@@ -73,11 +73,11 @@ require_once __DIR__ . '/getTranslations.php';
 						</div>
 						<center>
 							<div class="btn-group" role="group">
-								<a class="btn btn-xl btn-outline-light d-sm-none" href="https://meta.miraheze.org/wiki/Special:CreateAccount">
+								<a class="btn btn-outline-light d-none d-md-inline-block" href="https://meta.miraheze.org/wiki/Special:CreateAccount">
 									<i class="bi bi-box-arrow-in-right"></i>
 									Sign Up!
 								</a>
-								<a class="btn btn-xl btn-outline-light" href="https://donate.miraheze.org">
+								<a class="btn btn-outline-light" href="https://donate.miraheze.org">
 									<i class="bi bi-cash-coin"></i>
 									Support Us!
 								</a>
@@ -186,10 +186,10 @@ require_once __DIR__ . '/getTranslations.php';
 										<a class="dropdown-item" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Organisation">
 											Organisation information
 										</a>
-										<a class="dropdown-item d-lg-none" href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ">
+										<a class="dropdown-item d-md-none" href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ">
 											FAQ
 										</a>
-										<a class="dropdown-item d-lg-none" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center">
+										<a class="dropdown-item d-md-none" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center">
 											Help Center
 										</a>
 									</div>
@@ -226,7 +226,7 @@ require_once __DIR__ . '/getTranslations.php';
 					</div>
 					<div class="carousel-item">
 						<center>
-							<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="d-block w-lg-50 w-md-75 w-sm-100 mb-5" alt="Miraheze Meta's Main Page">
+							<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="d-block w-100 w-lg-50 w-md-75 mb-5" alt="Miraheze Meta's Main Page">
 						</center>
 					</div>
 				</div>
