@@ -37,6 +37,7 @@
 
 						<div class="btn-group" role="group">
 							<button id="dropdown-language" type="button" class="btn btn-outline-light dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="bi bi-translate"></i>
 								<?php echo LOCALE_GET_DISPLAY_NAME( getLanguageCode(), getLanguageCode() ); ?>
 							</button>
 							<div class="dropdown-menu" aria-labelledby="dropdown-language">
