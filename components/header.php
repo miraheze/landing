@@ -8,10 +8,10 @@
 					</h1>
 					<h5 class="mb-3 font-weight-light">
 						<?php
-							if ( $_SERVER['SCRIPT_NAME'] !== '/donate.php' ) {
-								echo getTranslation( 'description-text' );
-							} else {
+							if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ) {
 								echo getTranslation( 'description-donate' );
+							} else {
+								echo getTranslation( 'description-text' );
 							}
 						?>
 					</h5>
@@ -23,15 +23,15 @@
 							<?php echo getTranslation( 'sign-up' ); ?>
 						</a>
 
-						<?php if ( $_SERVER['SCRIPT_NAME'] !== '/donate.php' ): ?>
+						<?php if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ): ?>
 							<a class="btn btn-outline-light" href="https://donate.miraheze.org">
 								<i class="bi bi-cash-coin"></i>
-								<?php echo getTranslation( 'support-us' ); ?>
+								<?php echo getTranslation( 'home' ); ?>
 							</a>
 						<?php else: ?>
 							<a class="btn btn-outline-light" href="https://miraheze.org">
 								<i class="bi bi-house"></i>
-								<?php echo getTranslation( 'home' ); ?>
+								<?php echo getTranslation( 'support-us' ); ?>
 							</a>
 						<?php endif; ?>
 
