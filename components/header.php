@@ -2,7 +2,7 @@
 	<div class="container position-relative">
 		<div class="row justify-content-center">
 			<div class="col-xl-6">
-				<div class="text-center text-white">
+				<div class="text-center text-light">
 					<h1 class="mb-2 text-uppercase">
 						<?php echo getTranslation( 'welcome-text' ); ?>
 					</h1>
@@ -15,8 +15,6 @@
 							}
 						?>
 					</h5>
-				</div>
-				<center>
 					<div class="btn-group" role="group">
 						<a class="btn btn-outline-light d-none d-md-inline-block" href="https://meta.miraheze.org/wiki/Special:CreateAccount">
 							<i class="bi bi-box-arrow-in-right"></i>
@@ -82,7 +80,7 @@
 							</div>
 						</div>
 					</div>
-				</center>
+				</div>
 			</div>
 		</div>
 	</div>
