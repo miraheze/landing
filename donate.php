@@ -9,17 +9,16 @@
 			include_once __DIR__ . '/components/sitenotice.php';
 			include_once __DIR__ . '/components/header.php';
 		?>
-		<section id="donate" class="section-donate bg-light text-center" style="padding: 5rem 0;">
+		<section id="donate" class="section-donate bg-light" style="padding: 5rem 0;">
 			<div class="container">
-				<h2 class="page-section-heading text-uppercase">
-					<?php echo( getTranslation( 'donate-heading' ) ); ?>
+				<h2 class="page-section-heading text-center text-uppercase">
+					<?php echo getTranslation( 'donate-heading' ); ?>
 				</h2>
 				<div class="row">
 					<div class="col-lg-8 mx-auto">
 						<form name="donate" id="donateForm" novalidate="novalidate">
 							<div class="control-group">
 								<div class="form-group floating-label-form-group controls mb-0 pb-2">
-									<label><?php echo getTranslation( 'donate-amount' ); ?></label>
 									<input class="form-control" id="amountInput" type="number" placeholder="<?php echo getTranslation( 'donate-amount' ); ?>" oninput="_amountInput(this)">
 								</div>
 							</div>
