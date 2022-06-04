@@ -92,13 +92,8 @@ function getDefault() {
 	return json_decode( file_get_contents( __DIR__ . '/i18n/en.json' ), true );
 }
 
-function getSiteNotice() {
-	$enabled = true;
-	if ( $enabled ) {
-		$siteNotice = getTranslation( 'fundraising-sitenotice' );
-	}
-
-	return $siteNotice ?? false;
+function isSiteNoticeEnabled() {
+	return true;
 }
 
 ?>
