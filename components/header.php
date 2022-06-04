@@ -83,7 +83,7 @@
 						</div>
 					</div>
 					<?php if ( $_SERVER['SCRIPT_NAME'] === '/index.php' ): ?>
-						<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="d-block w-100 w-lg-50 w-md-75 mb-5" alt="Miraheze Meta's Main Page">
+						<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="d-block w-100 w-lg-50 w-md-75 mb-5" alt="Miraheze Meta's Main Page" />
 					<?php endif; ?>
 				</center>
 			</div>
