@@ -149,7 +149,7 @@ require_once __DIR__ . '/getTranslations.php';
 								<div class="row">
 									<div class="col-lg-12 ml-auto">
 										<p class="lead">
-											<?php echo getTranslation( 'about-text' ); ?>
+											<?php echo getTranslation( 'about-desc' ); ?>
 										</p>
 									</div>
 								</div>
