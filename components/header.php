@@ -81,9 +81,6 @@
 						</div>
 					</div>
 				</div>
-				<?php if ( $_SERVER['SCRIPT_NAME'] === '/index.php' ): ?>
-					<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="d-block w-100" alt="Miraheze Meta's Main Page" />
-				<?php endif; ?>
 			</div>
 		</div>
 	</div>
