@@ -41,5 +41,32 @@
 		</section>
 
 		<?php include_once __DIR__ . '/components/footer.php'; ?>
+		<script>
+			var _paq = window._paq = window._paq || [];
+			_paq.push(['disableCookies']);
+			_paq.push(['trackPageView']);
+			_paq.push(['enableLinkTracking']);
+			( function() {
+				var u = 'https://matomo.miraheze.org/';
+				_paq.push(['setTrackerUrl', u+'matomo.php']);
+				_paq.push(['setDocumentTitle', 'Landing - Donate']);
+				_paq.push(['setSiteId', 4657]);
+				_paq.push(['addTracker', u + 'matomo.php', 8590]);
+				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+				g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+			} )();
+
+			function _amountInput( ele ) {
+				var value;
+				if (ele && ele.value) {
+					value = '/' + ele.value + '/';
+				} else {
+					value = '';
+				}
+				var a = document.getElementById('donationHref');
+				a.setAttribute( 'href', 'https://paypal.me/mirahezelimited' + value );
+			}
+		</script>
+		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4657&amp;rec=1&amp;action_name=Landing_Donate" style="border:0;" alt="" /></p></noscript>
 	</body>
 </html>
