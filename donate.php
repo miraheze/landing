@@ -12,7 +12,7 @@
 		<section id="donate" class="section-donate bg-light text-center" style="padding: 5rem 0;">
 			<div class="container">
 				<h2 class="page-section-heading text-uppercase">
-					<?php echo( getTranslation( 'donate' ) ); ?>
+					<?php echo( getTranslation( 'donate-heading' ) ); ?>
 				</h2>
 				<div class="row">
 					<div class="col-lg-8 mx-auto">
@@ -26,7 +26,7 @@
 							<br />
 							<div class="form-group">
 								<a id="donationHref" class="btn btn-primary btn-xl" href="https://paypal.me/mirahezelimited">
-									<?php echo getTranslation( 'donate-text' ); ?>
+									<?php echo getTranslation( 'donate-heading' ); ?>
 								</a>
 								<br />
 								<small>
