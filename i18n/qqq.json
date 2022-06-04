@@ -35,6 +35,8 @@
 	"footer-translate": "Button that allows users to translate page",
 	"help-center": "Help center text",
 	"faq": "FAQ text\n{{identical|FAQ}}",
+	"blog": "Blog text",
+	"status": "Status text",
 	"more": "More text\n{{identical|More}}",
 	"wikidiscover-text": "WikiDiscover link text",
 	"requestwiki-text": "RequestWiki link text",
