@@ -20,7 +20,7 @@
 	"features-community-text": "Community",
 	"features-community-desc": "As a community, we all work together to achieve a common goal of being a great wiki farm! This allows us to achieve the best possible outcome for users, by allowing users to learn!",
 	"features-responsive-text": "Responsive",
-	"features-responsive-desc": "All our wikis use MobileFrontend which makes the UI mobile friendly. We also allow you to switch this off by disabling it.",
+	"features-responsive-desc": "All of our wikis support using MobileFrontend which makes the UI mobile friendly. This is enabled by default, however, we also allow you to switch this off by disabling it.",
 	"features-extensions-text": "In-house extensions",
 	"features-extensions-desc": "We have designed some of the most cutting edge extensions to help us grow and become one of the world's best wiki farms! Our extensions allow communities to have more control over their own wikis, requiring little oversight from our staff. We listen to community input over the management of their wikis.",
 	"features-more-desc": "And many more features!",
