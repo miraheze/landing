@@ -4,7 +4,13 @@
 			<div class="col-xl-6">
 				<div class="text-center text-white">
 					<h1 class="mb-2 text-uppercase">
-						<?php echo getTranslation( 'welcome-text' ); ?>
+						<?php
+							if ( $_SERVER['SCRIPT_NAME'] !== '/donate.php' ) {
+								echo getTranslation( 'welcome-text' );
+							} else {
+								echo getTranslation( 'welcome-text-donate' );
+							}
+						?>
 					</h1>
 					<h5 class="mb-3 font-weight-light">
 						<?php echo getTranslation( 'description-text' ); ?>
