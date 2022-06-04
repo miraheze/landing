@@ -11,7 +11,7 @@
 		?>
 		<section id="about" class="section-about bg-light text-center">
 			<div class="container">
-				<h2 class="page-section-heading text-center text-uppercase text-dark">
+				<h2 class="page-section-heading text-uppercase">
 					<?php echo getTranslation( 'about-heading' ); ?>
 				</h2>
 
@@ -24,10 +24,10 @@
 				</div>
 			</div>
 		</section>
-		<section id="features" class="features-icons bg-light text-center">
+		<section id="features" class="section-features features-icons bg-light text-center">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12 text-center">
+					<div class="col-lg-12">
 						<h2 class="page-section-heading text-uppercase">
 							<?php echo getTranslation( 'features-heading' ); ?>
 						</h2>
