@@ -177,7 +177,7 @@ require_once __DIR__ . '/getTranslations.php';
 							<div class="features-icons-icon d-flex"><i class="bi-hdd-stack m-auto text-primary"></i></div>
 							<h3><?php echo getTranslation( 'features-mediawiki' ); ?></h3>
 							<p class="lead mb-0">
-								<?php echo getTranslation( 'features-meadiawiki-desc' ); ?>
+								<?php echo getTranslation( 'features-mediawiki-desc' ); ?>
 							</p>
 						</div>
 					</div>
