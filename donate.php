@@ -1,10 +1,8 @@
-<?php
-require_once __DIR__ . '/getTranslations.php';
-$page = 'donate';
-?>
+<?php require_once __DIR__ . '/getTranslations.php'; ?>
 
 <!DOCTYPE html>
 <html lang="<?php echo getLanguageCode(); ?>">
+	<?php echo $_SERVER['REQUEST_URI'] ?>
 	<?php include_once __DIR__ . '/components/head.php'; ?>
 	<body>
 		<?php
