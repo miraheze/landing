@@ -17,7 +17,7 @@
 							<?php echo getTranslation( 'sign-up' ); ?>
 						</a>
 
-						<?php if ( $_SERVER['SCRIPT_NAME'] !== '\donate.php' ): ?>
+						<?php if ( $_SERVER['SCRIPT_NAME'] !== '/donate.php' ): ?>
 							<a class="btn btn-outline-light" href="https://donate.miraheze.org">
 								<i class="bi bi-cash-coin"></i>
 								<?php echo getTranslation( 'support-us' ); ?>
