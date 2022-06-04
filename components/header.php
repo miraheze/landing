@@ -1,4 +1,4 @@
-<header class="masthead mb-5">
+<header class="masthead">
 	<div class="container position-relative">
 		<div class="row justify-content-center">
 			<div class="col-xl-6">
