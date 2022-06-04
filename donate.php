@@ -11,7 +11,7 @@
 		?>
 		<section id="donate" class="section-donate bg-light text-center" style="padding: 5rem 0;">
 			<div class="container">
-				<h2 class="text-center text-uppercase mb-0">
+				<h2 class="page-section-heading text-uppercase">
 					<?php echo( getTranslation( 'donate' ) ); ?>
 				</h2>
 				<div class="row">
