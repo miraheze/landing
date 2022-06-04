@@ -3,13 +3,13 @@
 <!DOCTYPE html>
 <html lang="<?php echo getLanguageCode(); ?>">
 	<?php include_once __DIR__ . '/components/head.php'; ?>
-	<body>
+	<body class="bg-light">
 		<?php
 			include_once __DIR__ . '/components/navigation.php';
 			include_once __DIR__ . '/components/sitenotice.php';
 			include_once __DIR__ . '/components/header.php';
 		?>
-		<section id="about" class="section-about bg-light text-center">
+		<section id="about" class="section-about text-center mt-5">
 			<div class="container">
 				<h2 class="page-section-heading text-uppercase">
 					<?php echo getTranslation( 'about-heading' ); ?>
@@ -21,7 +21,7 @@
 				</p>
 			</div>
 		</section>
-		<section id="features" class="section-features features-icons bg-light text-center">
+		<section id="features" class="section-features features-icons text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
