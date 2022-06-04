@@ -1,4 +1,7 @@
-<?php require_once __DIR__ . '/getTranslations.php'; ?>
+<?php
+require_once __DIR__ . '/getTranslations.php';
+$page = 'home';
+?>
 
 <!DOCTYPE html>
 <html lang="<?php echo getLanguageCode(); ?>">
