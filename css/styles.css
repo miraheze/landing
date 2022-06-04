@@ -11305,23 +11305,12 @@ textarea.form-control-lg {
 }
 
 header.masthead {
-	position: relative;
 	background-color: #ffb60d;
-	background: url("../assets/background.jpg") no-repeat center center;
-	background-size: cover;
+    	background-image: linear-gradient( #ffb60d 0, #f07654 74% );
 	padding-top: 8rem;
 	padding-bottom: 8rem;
 }
-header.masthead:before {
-	content: "";
-	position: absolute;
-	background-color: #1c375e;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	opacity: 0.5;
-}
+
 header.masthead h1, header.masthead .h1 {
 	font-size: 2rem;
 }
