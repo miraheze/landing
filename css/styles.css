@@ -11353,15 +11353,3 @@ footer.footer.bg-dark {
 	border-radius: 10px;
 	font-size: 18px;
 }
-
-@media (min-width: 768px) {
-	.w-md-75 {
-		width: 75% !important;
-	}
-}
-
-@media (min-width: 992px) {
-	.w-lg-50 {
-		width: 50% !important;
-	}
-}
