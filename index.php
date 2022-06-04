@@ -17,31 +17,10 @@ require_once __DIR__ . '/getTranslations.php';
 		<link href="css/styles.css" rel="stylesheet" />
 	</head>
 	<body>
-		<?php include __DIR__ . '/navigation.php' ?>
-		<?php if ( getSiteNotice() ): ?>
-			<section class="sitenotice">
-				<div class="card">
-					<div class="row g-0">
-						<div class="col-md-2 d-flex justify-content-center align-items-center">
-							<img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" class="img-fluid rounded-start" alt="Miraheze Logo">
-						</div>
-						<div class="col-md-8">
-							<div class="card-body">
-								<h5 class="card-title">
-									<?php echo getTranslation( 'fundraiser-sitenotice-title' ); ?>
-								</h5>
-								<p class="card-text">
-									<?php echo getTranslation( 'fundraising-sitenotice' ); ?>
-								</p>
-								<a href="https://miraheze.wiki/Fundraiser" class="btn btn-primary">
-									<?php echo getTranslation( 'fundraising-sitenotice-button-text' ); ?>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		<?php endif; ?>
+		<?php
+			include_once __DIR__ . '/components/navigation.php';
+			include_once __DIR__ . '/components/sitenotice.php';
+		?>
 		<header class="masthead">
 			<div class="container position-relative">
 				<div class="row justify-content-center">
