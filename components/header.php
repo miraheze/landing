@@ -66,7 +66,7 @@
 								<a class="dropdown-item" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Organisation">
 									<?php echo getTranslation( 'organisation-text' ); ?>
 								</a>
-								<a class="dropdown-item" href="https://blog.miraheze.wiki">
+								<a class="dropdown-item" href="https://blog.miraheze.org">
 									<?php echo getTranslation( 'blog-text' ); ?>
 								</a>
 								<a class="dropdown-item" href="https://status.miraheze.wiki">
