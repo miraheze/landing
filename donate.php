@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="<?php echo getLanguageCode(); ?>">
-	<?php echo $_SERVER['REQUEST_URI'] ?>
+	<?php print_r( $_SERVER) ?>
 	<?php include_once __DIR__ . '/components/head.php'; ?>
 	<body>
 		<?php
