@@ -9,7 +9,7 @@
 			include_once __DIR__ . '/components/sitenotice.php';
 			include_once __DIR__ . '/components/header.php';
 		?>
-		<section class="page-section" style="padding: 10rem 0;">
+		<section class="page-section" style="padding: 5rem 0;">
 			<div class="container">
 				<h1 class="text-center text-uppercase mb-0">
 					<?php echo( getTranslation( 'donate' ) ); ?>
