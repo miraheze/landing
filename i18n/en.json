@@ -41,7 +41,7 @@
 	"organisation-text": "Organisation information",
 	"blog-text": "Blog",
 	"status-text": "Status",
-	"donate-text": "Donate",
+	"donate-heading": "Donate",
 	"header-donate-logo-text": "Miraheze Donate",
 	"donate-amount": "Amount",
 	"donate-note": "This form is for donations with PayPal (you may use credit/debit cards). You should select your local currency using the dropdown on the page.",
