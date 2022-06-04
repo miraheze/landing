@@ -23,6 +23,12 @@
 			<a class="btn btn-secondary d-none d-md-inline-block" href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ">
 				<?php echo getTranslation( 'faq' ); ?>
 			</a>
+			<a class="btn btn-secondary d-none d-md-inline-block" href="https://blog.miraheze.wiki">
+				<?php echo getTranslation( 'blog' ); ?>
+			</a>
+			<a class="btn btn-secondary d-none d-md-inline-block" href="https://status.miraheze.wiki">
+				<?php echo getTranslation( 'status' ); ?>
+			</a>
 			<a class="btn btn-secondary d-none d-md-inline-block" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center">
 				<?php echo getTranslation( 'help-center' ); ?>
 			</a>
