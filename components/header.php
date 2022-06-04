@@ -25,12 +25,12 @@
 
 						<?php if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ): ?>
 							<a class="btn btn-outline-light" href="https://donate.miraheze.org">
-								<i class="bi bi-cash-coin"></i>
+								<i class="bi bi-house"></i>
 								<?php echo getTranslation( 'home' ); ?>
 							</a>
 						<?php else: ?>
 							<a class="btn btn-outline-light" href="https://miraheze.org">
-								<i class="bi bi-house"></i>
+								<i class="bi bi-cash-coin"></i>
 								<?php echo getTranslation( 'support-us' ); ?>
 							</a>
 						<?php endif; ?>
