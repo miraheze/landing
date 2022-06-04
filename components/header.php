@@ -58,7 +58,7 @@
 									<?php echo getTranslation( 'requestwiki-text' ); ?>
 								</a>
 								<a class="dropdown-item" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Organisation">
-									<?php echo getTranslation( 'organisation-text' ); ?> information
+									<?php echo getTranslation( 'organisation-text' ); ?>
 								</a>
 								<a class="dropdown-item d-md-none" href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ">
 									<?php echo getTranslation( 'faq' ); ?>
