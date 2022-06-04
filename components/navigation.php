@@ -12,7 +12,11 @@
 		</a>
 
 		<div class="btn-group" role="group">
-			<?php if ( $_SERVER['SCRIPT_NAME'] === '/index.php' ): ?>
+			<?php if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ): ?>
+				<a class="btn btn-secondary" href="#donate">
+					<?php echo getTranslation( 'donate-heading' ); ?>
+				</a>
+			<?php else: ?>
 				<a class="btn btn-secondary" href="#about">
 					<?php echo getTranslation( 'about-heading' ); ?>
 				</a>
