@@ -1,8 +1,8 @@
-<header class="masthead">
+<header class="masthead mb-5">
 	<div class="container position-relative">
 		<div class="row justify-content-center">
 			<div class="col-xl-6">
-				<div class="text-center text-white">
+				<div class="text-center text-light">
 					<h1 class="mb-2 text-uppercase">
 						<?php echo getTranslation( 'welcome-text' ); ?>
 					</h1>
@@ -15,8 +15,6 @@
 							}
 						?>
 					</h5>
-				</div>
-				<center>
 					<div class="btn-group" role="group">
 						<a class="btn btn-outline-light d-none d-md-inline-block" href="https://meta.miraheze.org/wiki/Special:CreateAccount">
 							<i class="bi bi-box-arrow-in-right"></i>
@@ -82,10 +80,10 @@
 							</div>
 						</div>
 					</div>
-					<?php if ( $_SERVER['SCRIPT_NAME'] === '/index.php' ): ?>
-						<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="d-block w-100 w-lg-50 w-md-75 mb-5" alt="Miraheze Meta's Main Page" />
-					<?php endif; ?>
-				</center>
+				</div>
+				<?php if ( $_SERVER['SCRIPT_NAME'] === '/index.php' ): ?>
+					<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="d-block w-100" alt="Miraheze Meta's Main Page" />
+				<?php endif; ?>
 			</div>
 		</div>
 	</div>
