@@ -10,33 +10,16 @@
 			include_once __DIR__ . '/components/header.php';
 		?>
 		<section id="about" class="section-about bg-light text-center">
-			<div id="about-slides" class="carousel carousel-dark slide" data-bs-ride="carousel">
-				<div class="carousel-indicators">
-					<button type="button" data-bs-target="#about-slides" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-					<button type="button" data-bs-target="#about-slides" data-bs-slide-to="1" aria-label="Slide 2"></button>
-				</div>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<section class="page-section text-dark" style="margin: 1em; padding-bottom: 2em;">
-							<div class="container">
-								<h2 class="page-section-heading text-center text-uppercase text-dark">
-									<?php echo getTranslation( 'about-heading' ); ?>
-								</h2>
+			<div class="container">
+				<h2 class="page-section-heading text-center text-uppercase text-dark">
+					<?php echo getTranslation( 'about-heading' ); ?>
+				</h2>
 
-								<div class="row">
-									<div class="col-lg-12 ml-auto">
-										<p class="lead">
-											<?php echo getTranslation( 'about-desc' ); ?>
-										</p>
-									</div>
-								</div>
-							</div>
-						</section>
-					</div>
-					<div class="carousel-item">
-						<center>
-							<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="d-block w-100 w-lg-50 w-md-75 mb-5" alt="Miraheze Meta's Main Page">
-						</center>
+				<div class="row">
+					<div class="col-lg-12 ml-auto">
+						<p class="lead">
+							<?php echo getTranslation( 'about-desc' ); ?>
+						</p>
 					</div>
 				</div>
 			</div>
