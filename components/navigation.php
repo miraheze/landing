@@ -6,12 +6,14 @@
 		</a>
 
 		<div class="btn-group" role="group">
-			<a class="btn btn-secondary" href="#about">
-				<?php echo getTranslation( 'about-heading' ); ?>
-			</a>
-			<a class="btn btn-secondary" href="#features">
-				<?php echo getTranslation( 'features-heading' ); ?>
-			</a>
+			<?php if ( $_SERVER['SCRIPT_NAME'] === '/index.php' ): ?>
+				<a class="btn btn-secondary" href="#about">
+					<?php echo getTranslation( 'about-heading' ); ?>
+				</a>
+				<a class="btn btn-secondary" href="#features">
+					<?php echo getTranslation( 'features-heading' ); ?>
+				</a>
+			<?php endif; ?>
 			<a class="btn btn-secondary d-none d-md-inline-block" href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ">
 				<?php echo getTranslation( 'faq' ); ?>
 			</a>
