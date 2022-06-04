@@ -9,11 +9,11 @@
 			include_once __DIR__ . '/components/sitenotice.php';
 			include_once __DIR__ . '/components/header.php';
 		?>
-		<section class="page-section" style="padding: 5rem 0;">
+		<section id="donate" class="section-donate bg-light text-center" style="padding: 5rem 0;">
 			<div class="container">
-				<h1 class="text-center text-uppercase mb-0">
+				<h2 class="text-center text-uppercase mb-0">
 					<?php echo( getTranslation( 'donate' ) ); ?>
-				</h1>
+				</h2>
 				<div class="row">
 					<div class="col-lg-8 mx-auto">
 						<form name="donate" id="donateForm" novalidate="novalidate">
@@ -21,17 +21,16 @@
 								<div class="form-group floating-label-form-group controls mb-0 pb-2">
 									<label><?php echo getTranslation( 'donate-amount' ); ?></label>
 									<input class="form-control" id="amountInput" type="number" placeholder="<?php echo getTranslation( 'donate-amount' ); ?>" oninput="_amountInput(this)">
-									<p class="help-block text-danger"></p>
 								</div>
 							</div>
-							<br>
+							<br />
 							<div class="form-group">
 								<a id="donationHref" class="btn btn-primary btn-xl" href="https://paypal.me/mirahezelimited">
-										<?php echo getTranslation( 'donate' ); ?>
+									<?php echo getTranslation( 'donate-text' ); ?>
 								</a>
 								<br />
 								<small>
-								<?php echo getTranslation( 'donate-note' ); ?>
+									<?php echo getTranslation( 'donate-note' ); ?>
 								</small>
 							</div>
 						</form>
