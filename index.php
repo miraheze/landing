@@ -16,14 +16,9 @@
 				</h2>
 
 				<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="w-100 w-lg-50 w-md-75" alt="Miraheze Meta's Main Page" />
-
-				<div class="row">
-					<div class="col-lg-12 ml-auto">
-						<p class="lead">
-							<?php echo getTranslation( 'about-desc' ); ?>
-						</p>
-					</div>
-				</div>
+				<p class="lead mb-0">
+					<?php echo getTranslation( 'about-desc' ); ?>
+				</p>
 			</div>
 		</section>
 		<section id="features" class="section-features features-icons bg-light text-center">
