@@ -41,7 +41,7 @@
 	"organisation-text": "Organisation information",
 	"blog-text": "Blog text",
 	"status-text": "Status text",
-	"donate-text": "Donate text",
+	"donate-heading": "Heading for Donate",
 	"header-donate-logo-text": "Miraheze Donate text",
 	"donate-amount": "Amount text",
 	"donate-note": "Donate note",
