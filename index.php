@@ -21,7 +21,7 @@
 				</p>
 			</div>
 		</section>
-		<section id="features" class="section-features features-icons text-center">
+		<section id="features" class="section-features features-icons text-center pt-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
