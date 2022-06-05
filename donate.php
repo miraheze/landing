@@ -14,7 +14,7 @@
 				<h2 class="page-section-heading text-center text-uppercase">
 					<?php echo getTranslation( 'donate-heading' ); ?>
 				</h2>
-				<form name="donate" id="donateForm" novalidate="novalidate">
+				<form name="donate" id="donateForm">
 					<div class="form-control-lg mb-0 pb-2 col-lg-8 mx-auto">
 						<input class="form-control" id="amountInput" type="number" placeholder="<?php echo getTranslation( 'donate-amount' ); ?>" oninput="_amountInput(this)">
 
