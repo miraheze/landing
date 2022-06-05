@@ -3,7 +3,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<meta name="description" content="Miraheze is an open source project that offers free MediaWiki hosting, for everyone. Request your free wiki today!" />
 	<meta name="revisit-after" content="2 days" />
-	<meta name="keywords" content="miraheze, free, wiki hosting, mediawiki, mediawiki hosting, open source, hosting, donate, not-for-profit" />
+	<meta name="keywords" content="miraheze, free, ad-free, ad free, wiki hosting, mediawiki, mediawiki hosting, open source, hosting, donate, not-for-profit" />
 	<title>
 		<?php
 			if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ) {
