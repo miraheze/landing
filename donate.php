@@ -14,23 +14,16 @@
 				<h2 class="page-section-heading text-center text-uppercase">
 					<?php echo getTranslation( 'donate-heading' ); ?>
 				</h2>
-				<div class="row">
-					<div class="col-lg-8 mx-auto">
-						<form name="donate" id="donateForm" novalidate="novalidate">
-							<div class="control-group">
-								<div class="form-group floating-label-form-group controls mb-0 pb-2">
-									<input class="form-control" id="amountInput" type="number" placeholder="<?php echo getTranslation( 'donate-amount' ); ?>" oninput="_amountInput(this)">
-								</div>
-							</div>
-							<div class="form-group">
-								<a id="donationHref" class="btn btn-primary btn-xl" href="https://paypal.me/mirahezelimited">
-									<?php echo getTranslation( 'donate-heading' ); ?>
-								</a>
-								<p class="small"><?php echo getTranslation( 'donate-note' ); ?></p>
-							</div>
-						</form>
+				<form name="donate" id="donateForm" novalidate="novalidate">
+					<div class="form-control-lg mb-0 pb-2">
+						<input class="form-control" id="amountInput" type="number" placeholder="<?php echo getTranslation( 'donate-amount' ); ?>" oninput="_amountInput(this)">
+
+						<a id="donationHref" class="btn btn-primary mt-1" href="https://paypal.me/mirahezelimited">
+							<?php echo getTranslation( 'donate-heading' ); ?>
+						</a>
+						<p class="col-form-label-sm py-0"><?php echo getTranslation( 'donate-note' ); ?></p>
 					</div>
-				</div>
+				</form>
 			</div>
 		</section>
 
@@ -61,6 +54,6 @@
 				a.setAttribute( 'href', 'https://paypal.me/mirahezelimited' + value );
 			}
 		</script>
-		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4657&amp;rec=1&amp;action_name=Landing_Donate" style="border:0;" alt="" /></p></noscript>
+		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4657&amp;rec=1&amp;action_name=Landing_Donate" style="border: 0;" alt="" /></p></noscript>
 	</body>
 </html>
