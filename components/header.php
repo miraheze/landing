@@ -6,7 +6,7 @@
 					<h1 class="mb-2 text-uppercase">
 						<?php echo getTranslation( 'welcome-text' ); ?>
 					</h1>
-					<h5 class="mb-3 font-weight-light">
+					<h5 class="mb-3 fw-normal">
 						<?php
 							if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ) {
 								echo getTranslation( 'description-donate' );
