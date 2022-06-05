@@ -3,13 +3,13 @@
 <!DOCTYPE html>
 <html lang="<?php echo getLanguageCode(); ?>">
 	<?php include_once __DIR__ . '/components/head.php'; ?>
-	<body>
+	<body class="bg-white">
 		<?php
 			include_once __DIR__ . '/components/navigation.php';
 			include_once __DIR__ . '/components/sitenotice.php';
 			include_once __DIR__ . '/components/header.php';
 		?>
-		<section id="donate" class="section-donate bg-light" style="padding: 5rem 0;">
+		<section id="donate" class="section-donate my-5">
 			<div class="container">
 				<h2 class="page-section-heading text-center text-uppercase">
 					<?php echo getTranslation( 'donate-heading' ); ?>
