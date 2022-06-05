@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="<?php echo getLanguageCode(); ?>">
 	<?php include_once __DIR__ . '/components/head.php'; ?>
-	<body class="bg-light">
+	<body class="bg-white">
 		<?php
 			include_once __DIR__ . '/components/navigation.php';
 			include_once __DIR__ . '/components/sitenotice.php';
