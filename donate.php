@@ -22,15 +22,11 @@
 									<input class="form-control" id="amountInput" type="number" placeholder="<?php echo getTranslation( 'donate-amount' ); ?>" oninput="_amountInput(this)">
 								</div>
 							</div>
-							<br />
 							<div class="form-group">
 								<a id="donationHref" class="btn btn-primary btn-xl" href="https://paypal.me/mirahezelimited">
 									<?php echo getTranslation( 'donate-heading' ); ?>
 								</a>
-								<br />
-								<small>
-									<?php echo getTranslation( 'donate-note' ); ?>
-								</small>
+								<p class="small"><?php echo getTranslation( 'donate-note' ); ?></p>
 							</div>
 						</form>
 					</div>
