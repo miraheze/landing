@@ -15,7 +15,7 @@
 					<?php echo getTranslation( 'donate-heading' ); ?>
 				</h2>
 				<form name="donate" id="donateForm" novalidate="novalidate">
-					<div class="form-control-lg mb-0 pb-2">
+					<div class="form-control-lg mb-0 pb-2 col-lg-8 mx-auto">
 						<input class="form-control" id="amountInput" type="number" placeholder="<?php echo getTranslation( 'donate-amount' ); ?>" oninput="_amountInput(this)">
 
 						<a id="donationHref" class="btn btn-primary mt-1" href="https://paypal.me/mirahezelimited">
