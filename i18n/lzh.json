@@ -4,22 +4,19 @@
 			"列维劳德"
 		]
 	},
-	"header-menu-title": "選單",
-	"header-menu-home": "卷首",
-	"header-menu-features": "卓著",
-	"header-menu-about": "有關",
-	"header-menu-wiki": "共筆",
-	"header-menu-blog": "網誌",
-	"header-menu-status": "狀態",
-	"header-menu-donate": "捐助",
+	"features-heading": "卓著",
+	"about-heading": "有關",
 	"welcome-text": "歡迎蒞臨米拉赫茲！",
 	"features-text": "卓著",
 	"features-mediawiki": "共筆臺",
-	"about-title": "有關",
 	"footer-terms": "取用須知",
 	"footer-privacy-policy": "隱私通例",
 	"footer-disclaimers": "免責告示",
 	"footer-cookie": "鑑識聲明",
-	"footer-faq": "頻答問",
-	"footer-translate": "譯此頁"
+	"footer-translate": "譯此頁",
+	"home": "卷首",
+	"faq": "頻答問",
+	"blog-text": "網誌",
+	"status-text": "狀態",
+	"donate-heading": "捐助"
 }

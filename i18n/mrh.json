@@ -4,17 +4,14 @@
 			"Reihpaleituh"
 		]
 	},
-	"header-menu-home": "Tôhpipa",
-	"header-menu-about": "Thâtih",
-	"header-menu-wiki": "Wiki",
-	"header-menu-blog": "Blog",
-	"header-menu-status": "Chhichâna",
-	"header-menu-donate": "Thyuna",
+	"about-heading": "Thâtih",
 	"features-mediawiki": "MediaWiki",
-	"about-title": "Thâtih",
 	"footer-privacy-policy": "Thlahlôhna Pawlisi",
-	"footer-contact": "Miah A vaw zao teih",
-	"footer-faq": "FAQ",
+	"home": "Tôhpipa",
+	"faq": "FAQ",
+	"blog-text": "Blog",
+	"status-text": "Chhichâna",
+	"donate-heading": "Thyuna",
 	"header-donate-logo-text": "Miraheze Donate",
 	"donate-amount": "Mâ"
 }

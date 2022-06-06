@@ -5,18 +5,14 @@
 			"Pikne"
 		]
 	},
-	"header-menu-title": "Menüü",
-	"header-menu-home": "Kodu",
-	"header-menu-features": "Omadused",
-	"header-menu-about": "Teave",
-	"header-menu-wiki": "Viki",
-	"header-menu-blog": "Blogi",
-	"header-menu-status": "Olek",
-	"header-menu-donate": "Anneta",
+	"features-heading": "Omadused",
+	"about-heading": "Teave",
 	"welcome-text": "Tere tulemast Mirahezesse!",
-	"join-text": "Liitu juba täna!",
-	"donate-text": "Anneta täna!",
 	"footer-terms": "Kasutustingimused",
 	"footer-privacy-policy": "Andmekaitsereeglid",
-	"footer-translate": "Tõlgi see leht"
+	"footer-translate": "Tõlgi see leht",
+	"home": "Kodu",
+	"blog-text": "Blogi",
+	"status-text": "Olek",
+	"donate-heading": "Anneta"
 }

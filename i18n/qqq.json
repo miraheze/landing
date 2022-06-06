@@ -1,18 +1,12 @@
 {
 	"@metadata": {
-		"authors": [
-			"Reception123",
-			"Robby",
-			"Universal Omega"
-		]
+		"authors": []
 	},
 	"header-logo-text": "{{optional}}",
-	"features-heading": "Heading for Features",
-	"about-heading": "Heading for About",
+	"features-heading": "Header for Features",
+	"about-heading": "Header for About",
 	"welcome-text": "Welcome text",
 	"description-text": "Miraheze description",
-	"sign-up": "Sign up text",
-	"support-us": "Support us text",
 	"features-text": "Features text",
 	"features-mediawiki": "MediaWiki text",
 	"features-mediawiki-desc": "MediaWiki software description",
@@ -29,23 +23,16 @@
 	"footer-desc": "Text that goes in the footer",
 	"footer-terms": "Terms of Use text",
 	"footer-privacy-policy": "Privacy Policy text",
-	"footer-content-policy": "Content Policy text",
-	"footer-disclaimers": "Disclaimer text",
+	"footer-disclaimers": "Disclaimers text",
 	"footer-cookie": "Cookie Statement text",
 	"footer-translate": "Button that allows users to translate page",
-	"help-center": "Help center text",
+	"home": "Header for Home",
 	"faq": "FAQ text\n{{identical|FAQ}}",
-	"more": "More text\n{{identical|More}}",
-	"wikidiscover-text": "WikiDiscover link text",
-	"requestwiki-text": "RequestWiki link text",
-	"organisation-text": "Organisation information",
-	"blog-text": "Blog text",
-	"status-text": "Status text",
-	"donate-heading": "Heading for Donate",
+	"blog-text": "Header for Blog",
+	"status-text": "Header for Status",
+	"donate-heading": "Header for Donate",
 	"header-donate-logo-text": "Miraheze Donate text",
 	"donate-amount": "Amount text",
 	"donate-note": "Donate note",
-	"fundraising-sitenotice": "Fundraising sitenotice body"
-	"fundraiser-sitenotice-title": "Fundraising sitenotice title",
-	"fundraising-sitenotice-button-text": "Fundraising sitenotice button text"
+	"fundraising-sitenotice": "Annual fundraising sitenotice"
 }

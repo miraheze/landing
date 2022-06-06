@@ -4,19 +4,16 @@
 			"Ajeje Brazorf"
 		]
 	},
-	"header-menu-title": "Menu",
-	"header-menu-home": "Pàggina principali",
-	"header-menu-about": "Nfurmazzioni",
-	"header-menu-wiki": "Wiki",
-	"header-menu-blog": "Blog",
-	"header-menu-status": "Statu",
+	"about-heading": "Nfurmazzioni",
 	"welcome-text": "Bimminuta/i ntô Miraheze!",
 	"features-mediawiki": "MediaWiki",
 	"features-community-text": "Cumunità",
-	"about-title": "Nfurmazzioni",
 	"footer-terms": "Cunnizzioni d'usu",
 	"footer-privacy-policy": "Pulìtica supra la privacy",
 	"footer-disclaimers": "Avvirtenzi",
-	"footer-faq": "FAQ",
-	"footer-translate": "Traduci sta pàggina"
+	"footer-translate": "Traduci sta pàggina",
+	"home": "Pàggina principali",
+	"faq": "FAQ",
+	"blog-text": "Blog",
+	"status-text": "Statu"
 }

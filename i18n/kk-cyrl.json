@@ -4,20 +4,16 @@
 			"Hedeyohu22"
 		]
 	},
-	"header-menu-title": "Мәзір",
-	"header-menu-home": "Басты бет",
-	"header-menu-features": "Өзгешеліктері",
-	"header-menu-about": "Miraheze туралы",
-	"header-menu-wiki": "Уики",
-	"header-menu-blog": "Блог",
-	"header-menu-status": "Күйі",
-	"header-menu-donate": "Ақша беру",
+	"features-heading": "Өзгешеліктері",
+	"about-heading": "Miraheze туралы",
 	"welcome-text": "Miraheze-ге қош келдіңіз!",
 	"description-text": "Miraheze — коммерциялық емес, оның мақсаты қоғамға бағытталған тегін уики фермасын қамтамасыз ету.",
-	"join-text": "Бүгін тіркеліңіз!",
-	"donate-text": "Бүгін демеу беріңіз!",
 	"features-text": "Өзгешеліктері",
 	"features-mediawiki": "МедиаУики",
 	"features-not-for-profit-text": "Коммерциялық емес",
-	"features-community-text": "Қоғам"
+	"features-community-text": "Қоғам",
+	"home": "Басты бет",
+	"blog-text": "Блог",
+	"status-text": "Күйі",
+	"donate-heading": "Ақша беру"
 }
