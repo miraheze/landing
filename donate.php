@@ -55,7 +55,7 @@
 			}
 
 			function onSubmit() {
-				value = document.forms[0].donateForm.value;
+				value = document.forms.donate[0].value;
 				document.location.href = 'https://paypal.me/mirahezelimited/' + value;
 			}
 		</script>
