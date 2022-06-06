@@ -23,6 +23,7 @@
 						</a>
 					</div>
 					<p class="col-form-label-sm py-0"><?php echo getTranslation( 'donate-note' ); ?></p>
+					<input type="submit" style="display: none;" />
 				</form>
 			</div>
 		</section>
