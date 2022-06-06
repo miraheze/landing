@@ -56,7 +56,7 @@
 
 			function onSubmit() {
 				value = document.forms[0].donateForm.value;
-				document.location.href( 'https://paypal.me/mirahezelimited/' + value' );
+				document.location.href( 'https://paypal.me/mirahezelimited/' + value );
 			}
 		</script>
 		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4657&amp;rec=1&amp;action_name=Landing_Donate" style="border: 0;" alt="" /></p></noscript>
