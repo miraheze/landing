@@ -14,15 +14,14 @@
 				<h2 class="page-section-heading text-center text-uppercase">
 					<?php echo getTranslation( 'donate-heading' ); ?>
 				</h2>
-				<form name="donate" id="donateForm">
-					<div class="form-control-lg mb-0 pb-2 col-lg-8 mx-auto">
-						<input class="form-control" id="amountInput" type="number" placeholder="<?php echo getTranslation( 'donate-amount' ); ?>" oninput="_amountInput(this)">
-
-						<a id="donationHref" class="btn btn-primary mt-1" href="https://paypal.me/mirahezelimited">
-							<?php echo getTranslation( 'donate-heading' ); ?>
-						</a>
-						<p class="col-form-label-sm py-0"><?php echo getTranslation( 'donate-note' ); ?></p>
+				<form class="pb-5 col-lg-8 mx-auto" id="donateForm" name="donate">
+					<div class="input-group mb-3">
+						<input class="form-control form-control-lg" id="amountInput" type="number" placeholder="<?php echo getTranslation( 'donate-amount' ); ?>" oninput="_amountInput(this)" />
+							<a id="donationHref" class="btn btn-primary btn-lg" href="https://paypal.me/mirahezelimited">
+								<?php echo getTranslation( 'donate-heading' ); ?>
+							</a>
 					</div>
+					<p class="col-form-label-sm py-0"><?php echo getTranslation( 'donate-note' ); ?></p>
 				</form>
 			</div>
 		</section>
