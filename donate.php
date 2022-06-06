@@ -14,7 +14,7 @@
 				<h2 class="page-section-heading text-center text-uppercase">
 					<?php echo getTranslation( 'donate-heading' ); ?>
 				</h2>
-				<form class="pb-5 col-lg-8 mx-auto" id="donateForm" name="donate" onsubmit="onSubmit()">
+				<form class="pb-5 col-lg-8 mx-auto" id="donateForm" name="donate" onsubmit="onSubmit()" action="" method="get">
 					<div class="input-group">
 						<span class="input-group-text">£</span>
 						<input class="form-control form-control-lg" id="amountInput" type="number" placeholder="<?php echo getTranslation( 'donate-amount' ); ?>" oninput="_amountInput(this)" />
