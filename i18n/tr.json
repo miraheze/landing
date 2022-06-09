@@ -3,6 +3,7 @@
 		"authors": [
 			"Hedda",
 			"Joseph",
+			"LisafBia",
 			"MuratTheTurkish",
 			"SaldırganSincap",
 			"Selcuksntrk"
@@ -12,7 +13,10 @@
 	"features-heading": "Özellikler",
 	"about-heading": "Hakkında",
 	"welcome-text": "Miraheze'ye hoş geldiniz!",
-	"description-text": "Miraheze, ücretsiz bir topluluk merkezli viki çiftliği sağlama misyonuna sahip, kâr amacı gütmeyen bir kuruluştur.",
+	"description-text": "Miraheze, ücretsiz bir topluluk merkezli viki çiftliği sağlama misyonuyla kar amacı gütmeyen bir kuruluştur.",
+	"description-donate": "Bu sayfa Miraheze'ye bağış yapmak için kullanılabilir. Miraheze'nin finanse edilmesinin birincil yolu bağışlardır. Her bağış, altyapıyı desteklemeye ve topluluk büyüdükçe genişlemeye gidiyor. İlginiz için teşekkür ederiz!",
+	"sign-up": "Kaydol!",
+	"support-us": "Destekle!",
 	"features-text": "Özellikler",
 	"features-mediawiki": "MediaWiki",
 	"features-mediawiki-desc": "Miraheze, Vikipedi ile aynı yazılım olan [https://www.mediawiki.org|MediaWiki] ile çalışır! Resim veya video gibi medya yüklemeyle madde veya blog göndermeye kadar her şeyi yapabilirsiniz. MediaWiki deneyiminizi özelleştirmeniz için 200'den fazla uzantımız ve 15'in üzerinde temamız var!",
