@@ -19,11 +19,11 @@
 	"features-not-for-profit-text": "非營利",
 	"features-not-for-profit-desc": "Miraheze 在英國註冊為 Miraheze 有限公司。我們以非營利形式提供 100% 免費的 wiki、伺服器維護，並與我們內部開發的擴充功能保持同步。",
 	"features-community-text": "社群",
-	"features-community-desc": "作為一個社群，我們一起合作推動「建立一個優質的 Wiki 農場」這一個共同目標！透過允許使用者們學習，能讓我們為使用者帶來最佳結果！",
+	"features-community-desc": "作為一個社群，我們一起合作推動「建立一個優質的 wiki 農場」這一個共同目標！透過允許使用者們學習，能讓我們為使用者帶來最佳結果！",
 	"features-responsive-text": "回應式",
 	"features-responsive-desc": "我們所有的 wiki 都支援對 UI 行動裝置友好的 MobileFrontend，在預設上是開啟的。當然，我們也允許您關閉這個功能。",
 	"features-extensions-text": "自家製作的擴充功能",
-	"features-extensions-desc": "我們設計了一些最新的擴充功能，幫助我們建立一個優質 Wiki 農場！我們的擴充功能容許社群更容易管理他們的 Wiki，幾乎不需要我們的人員來巡查。我們也會繼續聽取社群在 Wiki 管理方面的意見。",
+	"features-extensions-desc": "我們設計了一些最新的擴充功能，幫助我們建立一個優質 wiki 農場！我們的擴充功能容許社群更容易管理他們的 wiki，幾乎不需要我們的人員來巡查。我們也會繼續聽取社群在 wiki 管理方面的意見。",
 	"features-more-desc": "還有更多功能！",
 	"about-desc": "在 2015 年 7 月，John Lewis 與 Ferran Tufan 創建了一種名為 Miraheze 的新型 wiki 農場。透過社群募資和個人投資之下，Miraheze 於 2015 年 8 月正式上線。多年以來，該專案已發展成為最大、最知名、專精在提供 MediaWiki 的 wiki 農場之一。儘管取得了成功和發展，不過 Miraheze 有一個方向從未改變 - 那就是正式成立。在 2019 年 11 月，Miraheze 在英國註冊為非營利組織的 Miraheze 有限公司。",
 	"footer-desc": "Miraheze Limited \n是在英格蘭和威爾士註冊的擔保有限公司 公司編號︰12323854\n除非另有註明，本網站所有內容皆以[https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW|姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)] 條款授權。",
@@ -48,5 +48,5 @@
 	"donate-note": "此表格用於透過 PayPal 進行捐款（您可以使用信用卡或是簽帳金融卡）。您可使用頁面上的下拉選單來選擇您的本地貨幣。",
 	"fundraising-sitenotice": "六年多以來，Miraheze 已對超過 300000 名使用者提供免費的託管服務。請幫助我們繼續走向下一個六年甚至更遠的未來！我們所能運作下去的費用，100% 來自於像您這樣慷慨的人所提供的捐款。我們很欣慰持續見到每一年流量的增加與社群的成長。不過，隨著我們這樣驚人的成長，我們需要更多的設施來應付不斷增加的需求。在此我們真誠地邀請您，考慮捐贈 5 英鎊、10 英鎊、20 英鎊，或是任何您能負擔的費用。如果 Miraheze 的 300000 多名使用者當中，只有 500 名每年捐贈 12 英鎊（16.35 美元），那將會超出 Miraheze 的預算要求。",
 	"fundraiser-sitenotice-title": "幫助我們！",
-	"fundraising-sitenotice-button-text": "學習如何幫助！"
+	"fundraising-sitenotice-button-text": "了解如何幫助！"
 }
