@@ -6,7 +6,8 @@
 			"Danniel07",
 			"Fitoschido",
 			"Jakeukalane",
-			"MarleneR329"
+			"MarleneR329",
+			"OriginReboot"
 		]
 	},
 	"features-heading": "Características",
@@ -34,6 +35,7 @@
 	"footer-translate": "Traducir esta página",
 	"home": "Inicio",
 	"faq": "Preguntas frecuentes",
+	"requestwiki-text": "Solicitar una wiki",
 	"blog-text": "Blog",
 	"status-text": "Estado",
 	"donate-heading": "Donar",
