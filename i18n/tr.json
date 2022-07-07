@@ -19,13 +19,13 @@
 	"support-us": "Destekle!",
 	"features-text": "Özellikler",
 	"features-mediawiki": "MediaWiki",
-	"features-mediawiki-desc": "Miraheze, Vikipedi ile aynı yazılım olan [https://www.mediawiki.org|MediaWiki] ile çalışır! Resim veya video gibi medya yüklemeyle madde veya blog göndermeye kadar her şeyi yapabilirsiniz. MediaWiki deneyiminizi özelleştirmeniz için 200'den fazla uzantımız ve 15'in üzerinde temamız var!",
+	"features-mediawiki-desc": "Miraheze, Vikipedi ile aynı yazılım olan [https://www.mediawiki.org|MediaWiki] ile çalışır! Resim veya video gibi medya yüklemeyle madde veya blog göndermeye kadar her şeyi yapabilirsiniz. MediaWiki deneyiminizi özelleştirmeniz için 300'den fazla uzantımız ve 25'in üzerinde temamız var!",
 	"features-not-for-profit-text": "Kâr Amacı Gütmeyen",
 	"features-not-for-profit-desc": "Miraheze, Birleşik Krallık'ta Miraheze Limited olarak kayıtlıdır. Kâr amacı gütmeyen, sunucuları koruyan ve şirket içi uzantılarımızın geliştirilmesine ayak uyduran %100 ücretsiz vikiler sağlıyoruz.",
 	"features-community-text": "Topluluk",
 	"features-community-desc": "Topluluk olarak, harika bir viki çiftliği olma ortak hedefine ulaşmak için hepimiz birlikte çalışıyoruz! Bu durum, kullanıcıların öğrenmesine izin vererek kullanıcılar için mümkün olan en iyi sonucu elde etmemizi sağlar!",
 	"features-responsive-text": "Duyarlı",
-	"features-responsive-desc": "Tüm vikilerimiz, kullanıcı arayüzünü mobil uyumlu hale getiren MobileFrontend kullanır. Ayrıca devre dışı bırakarak bunu kapatmanıza da izin veriyoruz.",
+	"features-responsive-desc": "Tüm vikilerimiz, kullanıcı arayüzünü mobil uyumlu hâle getiren MobileFrontend'i destekler. Bu, varsayılan olarak etkindir, ancak bunu devre dışı bırakarak da kapatmanıza izin veriyoruz.",
 	"features-extensions-text": "Şirket içi uzantılar",
 	"features-extensions-desc": "Büyümemize ve dünyanın en iyi viki çiftliklerinden biri olmamıza yardımcı olmak için en yeni uzantılardan bazılarını tasarladık! Uzantılarımız, toplulukların kendi vikileri üzerinde daha fazla kontrole sahip olmalarına olanak tanıyor ve personelimizin çok az gözetimi gerektiriyor. Topluluğun vikilerinin yönetimi konusundaki görüşlerini dinliyoruz.",
 	"features-more-desc": "Ve daha birçok özellik!",
@@ -33,7 +33,7 @@
 	"footer-desc": "Miraheze Limited\n İngiltere ve Galler'de 12323854 numaralı kayıtlı bir şirkettir.\n Aksi belirtilmedikçe, bu sitenin içeriği [https://creativecommons.org/licenses/by-sa/4.0/deed.tr|Atıf-BenzerPaylaşım 4.0 Uluslararası (CC BY-SA 4.0)] altında lisanslanmıştır.",
 	"footer-terms": "Kullanım Şartları",
 	"footer-privacy-policy": "Gizlilik İlkesi",
-	"footer-disclaimers": "Sorumluluk Reddi",
+	"footer-disclaimers": "Sorumluluk reddi",
 	"footer-cookie": "Çerez Bildirimi",
 	"footer-translate": "Bu sayfayı çevir",
 	"home": "Anasayfa",
@@ -44,5 +44,5 @@
 	"header-donate-logo-text": "Miraheze'ya Bağış Yapın",
 	"donate-amount": "Miktar",
 	"donate-note": "Bu form PayPal ile yapılan bağışlar içindir (kredi/banka kartlarını kullanabilirsiniz). Sayfadaki açılır menüyü kullanarak yerel para biriminizi seçmelisiniz.",
-	"fundraising-sitenotice": "Hepinizin bildiği gibi Miraheze, %100 bağışlarla finanse edilen topluluk merkezli, reklamsız ve topluluk odaklı bir barındırma platformudur. Etkileyici yıldan yıla trafik ve topluluk büyümesini görmeye devam ettiğimiz için bir kez daha şanslıyız. Ancak bu büyümeyle birlikte, artan kapasiteyi yönetmek için ek altyapı ihtiyacının yanı sıra halihazırda var olan altyapının ödemesini de beraberinde getiriyor. Bu nedenle, sizden 5 £, 10 £, 20 £ veya karşılayabileceğiniz herhangi bir miktarla talaş eklemeyi düşünmenizi rica ediyoruz. Miraheze'nin 100.000'den fazla kullanıcısının 500'ü yılda yalnızca $1 verse, Miraheze bütçe gereksinimlerini aşacaktır.  [https://www.gofundme.com/f/$2|GoFundMe sayfamızı], [https://paypal.me/mirahezelimited|PayPal] veya [https://github.com/sponsors/miraheze|GitHub Sponsorlardan] bağış yapın!\n Desteğiniz için teşekkür etmek için, bağışınıza viki kullanıcı adınızı eklerseniz, viki üzerinden onay seçeneğiniz vardır."
+	"fundraising-sitenotice": "Altı yılı aşkın bir süredir Miraheze, 300.000'den fazla kullanıcıya ücretsiz barındırma hizmeti sağladı. Altı yıl ve daha uzun süre devam etmemize yardımcı olun! Gücümüz %100 sizin gibi insanlardan gelen bağışlarla sağlanıyor. Etkileyici yıldan yıla trafik ve topluluk büyümesi görmeye devam ettiğimiz için minnettarız. Etkileyici büyümemize rağmen, artan talebi karşılamak için daha fazla altyapıya ihtiyacımız var. Sizden ciddiyetle, £5, £10, £20 veya gücünüzün yettiği her şeyde talaş almayı düşünmenizi rica ediyoruz. Miraheze'nin 300.000'den fazla kullanıcısının 500'ü yılda yalnızca £12 (16.35 USD) verseydi, Miraheze bütçe gereksinimlerini aşacaktı."
 }
