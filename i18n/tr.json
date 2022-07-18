@@ -5,6 +5,7 @@
 			"Joseph",
 			"LisafBia",
 			"MuratTheTurkish",
+			"Qwea1",
 			"SaldırganSincap",
 			"Selcuksntrk"
 		]
@@ -33,16 +34,21 @@
 	"footer-desc": "Miraheze Limited\n İngiltere ve Galler'de 12323854 numaralı kayıtlı bir şirkettir.\n Aksi belirtilmedikçe, bu sitenin içeriği [https://creativecommons.org/licenses/by-sa/4.0/deed.tr|Atıf-BenzerPaylaşım 4.0 Uluslararası (CC BY-SA 4.0)] altında lisanslanmıştır.",
 	"footer-terms": "Kullanım Şartları",
 	"footer-privacy-policy": "Gizlilik İlkesi",
+	"footer-content-policy": "İçerik Politikası",
 	"footer-disclaimers": "Sorumluluk reddi",
 	"footer-cookie": "Çerez Bildirimi",
 	"footer-translate": "Bu sayfayı çevir",
+	"help-center": "Yardım Merkezi",
 	"home": "Anasayfa",
 	"faq": "SSS",
+	"more": "Daha fazla",
 	"blog-text": "Blog",
 	"status-text": "Durum",
 	"donate-heading": "Bağış yap",
 	"header-donate-logo-text": "Miraheze'ya Bağış Yapın",
 	"donate-amount": "Miktar",
 	"donate-note": "Bu form PayPal ile yapılan bağışlar içindir (kredi/banka kartlarını kullanabilirsiniz). Sayfadaki açılır menüyü kullanarak yerel para biriminizi seçmelisiniz.",
-	"fundraising-sitenotice": "Altı yılı aşkın bir süredir Miraheze, 300.000'den fazla kullanıcıya ücretsiz barındırma hizmeti sağladı. Altı yıl ve daha uzun süre devam etmemize yardımcı olun! Gücümüz %100 sizin gibi insanlardan gelen bağışlarla sağlanıyor. Etkileyici yıldan yıla trafik ve topluluk büyümesi görmeye devam ettiğimiz için minnettarız. Etkileyici büyümemize rağmen, artan talebi karşılamak için daha fazla altyapıya ihtiyacımız var. Sizden ciddiyetle, £5, £10, £20 veya gücünüzün yettiği her şeyde talaş almayı düşünmenizi rica ediyoruz. Miraheze'nin 300.000'den fazla kullanıcısının 500'ü yılda yalnızca £12 (16.35 USD) verseydi, Miraheze bütçe gereksinimlerini aşacaktı."
+	"fundraising-sitenotice": "Altı yılı aşkın bir süredir Miraheze, 300.000'den fazla kullanıcıya ücretsiz barındırma hizmeti sağladı. Altı yıl ve daha uzun süre devam etmemize yardımcı olun! Gücümüz %100 sizin gibi insanlardan gelen bağışlarla sağlanıyor. Etkileyici yıldan yıla trafik ve topluluk büyümesi görmeye devam ettiğimiz için minnettarız. Etkileyici büyümemize rağmen, artan talebi karşılamak için daha fazla altyapıya ihtiyacımız var. Sizden ciddiyetle, £5, £10, £20 veya gücünüzün yettiği her şeyde talaş almayı düşünmenizi rica ediyoruz. Miraheze'nin 300.000'den fazla kullanıcısının 500'ü yılda yalnızca £12 (16.35 USD) verseydi, Miraheze bütçe gereksinimlerini aşacaktı.",
+	"fundraiser-sitenotice-title": "Bize Yardım Et!",
+	"fundraising-sitenotice-button-text": "Nasıl yardım edeceğinizi öğrenin!"
 }
