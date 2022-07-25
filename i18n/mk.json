@@ -1,25 +1,34 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bjankuloski06"
+			"Bjankuloski06",
+			"Vlad5250"
 		]
 	},
 	"features-heading": "Можности",
 	"about-heading": "За нас",
 	"welcome-text": "Добре дојдовте на Мирахезе!",
 	"description-text": "Мирахезе е непрофитна организација која има за цел да овозможи викифарма сосредоточена на заедницата.",
+	"support-us": "Поддржете нè!",
 	"features-text": "Можности",
 	"features-mediawiki": "МедијаВики",
+	"features-community-text": "Заедница",
 	"footer-terms": "Услови на употреба",
 	"footer-privacy-policy": "За личните податоци",
-	"footer-disclaimers": "Одрекувања од одговорност",
+	"footer-disclaimers": "Одрекување од одговорност",
 	"footer-cookie": "Изјава за колачиња",
 	"footer-translate": "Преведете ја страницава",
+	"help-center": "Центар за помош",
 	"home": "Почетна",
 	"faq": "ЧПП",
+	"more": "Повеќе",
+	"requestwiki-text": "Побарај вики",
+	"organisation-text": "Информации за организацијата",
 	"blog-text": "Блог",
 	"status-text": "Состојба",
 	"donate-heading": "Дарувајте",
 	"header-donate-logo-text": "Дарување на Мирахезе",
-	"donate-amount": "Износ"
+	"donate-amount": "Износ",
+	"fundraiser-sitenotice-title": "Помогнете ни!",
+	"fundraising-sitenotice-button-text": "Дознајте како да помогнете!"
 }
