@@ -14,7 +14,7 @@
 	"description-text": "Miraheze là một tổ chức không dành cho phi lợi nhuận, với sứ mệnh cung cấp một dịch vụ lưu trữ wiki tập trung vào cộng đồng miễn phí",
 	"description-donate": "Trang này có thể được sử dụng để quyên góp cho Miraheze. Quyên góp là cách chính Miraheze được tài trợ. Mọi khoản quyên góp đều được dùng để hỗ trợ cơ sở hạ tầng và mở rộng khi cộng đồng phát triển. Cám ơn bạn đã xem xét!",
 	"sign-up": "Đăng ký!",
-	"support-us": "Hỗ trợ chúng tôi!",
+	"support-us": "Hãy hỗ trợ chúng tôi!",
 	"features-text": "Các tính năng",
 	"features-mediawiki": "MediaWiki",
 	"features-mediawiki-desc": "Mỉraheze chạy cùng một phần mềm với Wikipedia, [https://www.mediawiki.org MediaWiki]! Bạn có thể làm tất cả từ khi tải lên tập tin lên như hình ảnh hoặc video, đến viết các bài viết hoặc blog. Chúng tôi có hơn 300 tiện ích mở rộng và hơn 25 giao diện để lựa chọn để tuỳ chỉnh trải nghiệm của bạn với MediaWiki!",
@@ -49,6 +49,6 @@
 	"donate-amount": "Số tiền",
 	"donate-note": "Biểu mẫu này dành cho các khoản đóng góp bằng PayPal (bạn có thể sử dụng thẻ tín dụng / thẻ ghi nợ). Bạn nên chọn nội tệ của mình bằng cách sử dụng menu thả xuống trên trang.",
 	"fundraising-sitenotice": "Trong hơn sáu năm nay, Miraheze đã cung cấp cho hơn 300.000 người dùng dịch vụ lưu trữ miễn phí. Giúp chúng tôi tiếp tục phát triển trong sáu năm nữa và lâu hơn nữa! Chúng tôi được hỗ trợ 100% bởi sự đóng góp từ những người giống như bạn. Chúng tôi rất biết ơn khi tiếp tục chứng kiến lưu lượng truy cập ấn tượng qua từng năm và tăng trưởng cộng đồng. Tuy nhiên, với sự tăng trưởng ấn tượng của chúng tôi, chúng tôi cần thêm cơ sở hạ tầng để đáp ứng nhu cầu ngày càng tăng. Chúng tôi tha thiết yêu cầu bạn cân nhắc việc chi £ 5, £ 10, £ 20 hoặc bất cứ thứ gì bạn có thể mua được. Nếu 500 trong số hơn 300.000 người dùng của Miraheze chỉ trả 12 bảng Anh (16,35 USD) mỗi năm một lần, Miraheze sẽ vượt quá yêu cầu ngân sách của mình.",
-	"fundraiser-sitenotice-title": "Giúp chúng tôi!",
+	"fundraiser-sitenotice-title": "Hãy giúp đỡ chúng tôi!",
 	"fundraising-sitenotice-button-text": "Tìm hiểu cách giúp đỡ!"
 }
