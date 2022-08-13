@@ -93,7 +93,7 @@ function getDefault() {
 }
 
 function isSiteNoticeEnabled() {
-	return true;
+	return false;
 }
 
 ?>
