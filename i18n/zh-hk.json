@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"铁桶"
+		]
+	},
+	"features-responsive-desc": "我們所有的wiki都支援使用MobileFrontend，來讓用戶介面對流動裝置更加友好。這個擴充功能是預設啟用的，當然，我們也允許您通過停用它來關閉這個擴充功能。"
+}
