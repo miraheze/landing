@@ -3,6 +3,7 @@
 		"authors": [
 			"Daud I.F. Argana",
 			"NFarras",
+			"Rex",
 			"Sonic Speedy",
 			"Veracious"
 		]
@@ -10,7 +11,7 @@
 	"features-heading": "Fitur",
 	"about-heading": "Tentang",
 	"welcome-text": "Selamat datang di Miraheze!",
-	"description-text": "Miraheze adalah organisasi nirlaba, dengan misi untuk menyediakan wiki-farm yang berpusat pada komunitas secara gratis.",
+	"description-text": "Miraheze adalah organisasi nirlaba, dengan misi untuk menyediakan ''wiki-farm'' gratis yang berpusat pada komunitas.",
 	"features-text": "Fitur",
 	"features-mediawiki": "MediaWiki",
 	"features-mediawiki-desc": "Miraheze menggunakan perangkat lunak yang sama seperti yang digunakan Wikipedia, <a href=\"https://www.mediawiki.org\">MediaWiki</a>! Anda dapat melakukan apa saja mulai dari mengunggah media seperti gambar atau video, hingga menulis artikel atau blog. Kami memiliki lebih dari 200 ekstensi dan lebih dari 15 tampilan untuk dipilih untuk menyesuaikan pengalaman Anda dengan MediaWiki!",
