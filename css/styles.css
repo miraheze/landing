@@ -11305,8 +11305,7 @@ textarea.form-control-lg {
 }
 
 header.masthead {
-	background-color: #ffb60d;
-    	background-image: linear-gradient( #ffb60d 0, #f07654 74% );
+    	background-image: url( '/header-background.jpg' );
 	padding-top: 8rem;
 	padding-bottom: 8rem;
 }
