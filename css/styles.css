@@ -78,7 +78,7 @@
 
 body {
 	margin: 0;
-	font-family: var(--bs-body-font-family);
+	font-family: var(--bs-font-sans-serif);
 	font-size: var(--bs-body-font-size);
 	font-weight: var(--bs-body-font-weight);
 	line-height: var(--bs-body-line-height);
@@ -11305,8 +11305,8 @@ textarea.form-control-lg {
 }
 
 header.masthead {
-	background-color: #ffb60d;
-    	background-image: linear-gradient( #ffb60d 0, #f07654 74% );
+	background-image: url( '/header-background.jpg' );
+	background-size: cover;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
 }

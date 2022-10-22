@@ -1,7 +1,7 @@
 <?php require_once __DIR__ . '/getTranslations.php'; ?>
 
 <!DOCTYPE html>
-<html lang="<?php echo getLanguageCode(); ?>">
+<html lang="<?php echo getLanguageCode(); ?>" prefix="og: http://ogp.me/ns#">
 	<?php include_once __DIR__ . '/components/head.php'; ?>
 	<body class="bg-white">
 		<?php
@@ -11,9 +11,9 @@
 		?>
 		<section id="about" class="section-about text-center mt-5">
 			<div class="container">
-				<h2 class="page-section-heading text-uppercase">
+				<h3 class="page-section-heading text-uppercase">
 					<?php echo getTranslation( 'about-heading' ); ?>
-				</h2>
+				</h3>
 
 				<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="w-100 w-lg-50 w-md-75" alt="Miraheze Meta's Main Page" />
 				<p class="lead mb-0">
@@ -25,14 +25,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<h2 class="page-section-heading text-uppercase">
+						<h3 class="page-section-heading text-uppercase">
 							<?php echo getTranslation( 'features-heading' ); ?>
-						</h2>
+						</h3>
 					</div>
 					<div class="col-lg-4">
 						<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
 							<div class="features-icons-icon d-flex"><i class="bi-hdd-stack m-auto text-primary"></i></div>
-							<h3><?php echo getTranslation( 'features-mediawiki' ); ?></h3>
+							<h4><?php echo getTranslation( 'features-mediawiki' ); ?></h4>
 							<p class="lead mb-0">
 								<?php echo getTranslation( 'features-mediawiki-desc' ); ?>
 							</p>
@@ -41,7 +41,7 @@
 					<div class="col-lg-4">
 						<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
 							<div class="features-icons-icon d-flex"><i class="bi-cash-coin m-auto text-primary"></i></div>
-							<h3><?php echo getTranslation( 'features-not-for-profit-text' ); ?></h3>
+							<h4><?php echo getTranslation( 'features-not-for-profit-text' ); ?></h4>
 							<p class="lead mb-0">
 								<?php echo getTranslation( 'features-not-for-profit-desc' ); ?>
 							</p>
@@ -50,7 +50,7 @@
 					<div class="col-lg-4">
 						<div class="features-icons-item mx-auto mb-0 mb-lg-3">
 							<div class="features-icons-icon d-flex"><i class="bi-people m-auto text-primary"></i></div>
-							<h3><?php echo getTranslation( 'features-community-text' ); ?></h3>
+							<h4><?php echo getTranslation( 'features-community-text' ); ?></h4>
 							<p class="lead mb-0">
 								<?php echo getTranslation( 'features-community-desc' ); ?>
 							</p>
@@ -59,7 +59,7 @@
 					<div class="col-lg-4">
 						<div class="features-icons-item mx-auto mb-0 mb-lg-3">
 							<div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
-							<h3><?php echo getTranslation( 'features-responsive-text' ); ?></h3>
+							<h4><?php echo getTranslation( 'features-responsive-text' ); ?></h4>
 							<p class="lead mb-0">
 								<?php echo getTranslation( 'features-responsive-desc' ); ?>
 							</p>
@@ -68,7 +68,7 @@
 					<div class="col-lg-4">
 						<div class="features-icons-item mx-auto mb-0 mb-lg-3">
 							<div class="features-icons-icon d-flex"><i class="bi-gear m-auto text-primary"></i></div>
-							<h3><?php echo getTranslation( 'features-extensions-text' ); ?></h3>
+							<h4><?php echo getTranslation( 'features-extensions-text' ); ?></h4>
 							<p class="lead mb-0">
 								<?php echo getTranslation( 'features-extensions-desc' ); ?>
 							</p>
@@ -102,6 +102,6 @@
 				g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
 			})();
 		</script>
-		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4657&amp;rec=1&amp;action_name=Landing_Home" style="border:0;" alt="" /></p></noscript>
+		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4657&amp;rec=1&amp;action_name=Landing_Home" style="border:0;" alt="Matomo" /></p></noscript>
 	</body>
 </html>
