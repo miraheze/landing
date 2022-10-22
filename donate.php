@@ -1,7 +1,7 @@
 <?php require_once __DIR__ . '/getTranslations.php'; ?>
 
 <!DOCTYPE html>
-<html lang="<?php echo getLanguageCode(); ?>">
+<html lang="<?php echo getLanguageCode(); ?>" prefix="og: http://ogp.me/ns#">
 	<?php include_once __DIR__ . '/components/head.php'; ?>
 	<body class="bg-white">
 		<?php
