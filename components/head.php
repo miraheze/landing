@@ -36,7 +36,7 @@
 
 		echo "<link rel=\"alternate\" href=\"https://{$hostname}\" hreflang=\"x-default\" />";
 		echo "<link rel=\"canonical\" href=\"https://{$hostname}\" />";
-		echo "<meta property=\"og:url\" content=\"https://{$hostname}\" />"
+		echo "<meta property=\"og:url\" content=\"https://{$hostname}\" />";
 	?>
 	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
