@@ -54,6 +54,6 @@
 				a.setAttribute( 'href', 'https://paypal.me/mirahezelimited' + value );
 			}
 		</script>
-		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4657&amp;rec=1&amp;action_name=Landing_Donate" style="border: 0;" alt="" /></p></noscript>
+		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4657&amp;rec=1&amp;action_name=Landing_Donate" style="border: 0;" alt="Matomo" /></p></noscript>
 	</body>
 </html>
