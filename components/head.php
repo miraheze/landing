@@ -6,7 +6,6 @@
 	<meta name="description" content="Miraheze is a community-centric, ad free, 100% open-source, and free wiki hosting platform powered by MediaWiki, the software that powers Wikipedia." />
 	<meta name="twitter:description" content="Miraheze is a community-centric, ad free, 100% open-source, and free wiki hosting platform powered by MediaWiki, the software that powers Wikipedia." />
 	<meta property="og:description" content="Miraheze is a community-centric, ad free, 100% open-source, and free wiki hosting platform powered by MediaWiki, the software that powers Wikipedia." />
-	<meta property="og:locale" content="en_GB" />
 	<meta property="og:title" content="Miraheze" />
 	<meta property="og:site_name" content="Miraheze" />
 	<meta name="twitter:card" content="summary" />
