@@ -13,7 +13,7 @@
 						<p class="card-text">
 							<?php echo getTranslation( 'fundraising-sitenotice' ); ?>
 						</p>
-						<a href="https://miraheze.wiki/Fundraiser" class="btn btn-primary">
+						<a href="https://miraheze.wiki/Fundraiser" class="btn btn-primary" title="<?php echo getTranslation( 'fundraising-sitenotice-button-text' ); ?>">
 							<?php echo getTranslation( 'fundraising-sitenotice-button-text' ); ?>
 						</a>
 					</div>
