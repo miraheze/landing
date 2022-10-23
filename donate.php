@@ -18,7 +18,7 @@
 					<div class="form-control-lg mb-0 pb-2 col-lg-8 mx-auto">
 						<input class="form-control" id="amountInput" type="number" placeholder="<?php echo getTranslation( 'donate-amount' ); ?>" oninput="_amountInput(this)">
 
-						<a id="donationHref" class="btn btn-primary mt-1" href="https://paypal.me/mirahezelimited">
+						<a id="donationHref" class="btn btn-primary mt-1" href="https://paypal.me/mirahezelimited" title="<?php echo getTranslation( 'donate-heading' ); ?>">
 							<?php echo getTranslation( 'donate-heading' ); ?>
 						</a>
 						<p class="col-form-label-sm py-0"><?php echo getTranslation( 'donate-note' ); ?></p>
