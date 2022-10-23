@@ -16,7 +16,7 @@
 			if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ) {
 				echo 'Miraheze | Donate';
 			} else {
-				echo 'Miraheze | Free MediaWiki Hosting!';
+				echo 'Miraheze';
 			}
 		?>
 	</title>
