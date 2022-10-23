@@ -9,49 +9,55 @@
 			<div class="col-lg-6 h-100 text-center text-lg-start my-auto">
 				<ul class="list-inline mb-2">
 					<li class="list-inline-item">
-						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Content_Policy">
+						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Content_Policy" title="<?php echo getTranslation( 'footer-content-policy' ); ?>">
 							<?php echo getTranslation( 'footer-content-policy' ); ?>
 						</a>
 					</li>
 					<li class="list-inline-item">⋅</li>
 					<li class="list-inline-item">
-						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Terms_of_Use">
+						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Terms_of_Use" title="<?php echo getTranslation( 'footer-terms' ); ?>">
 							<?php echo getTranslation( 'footer-terms' ); ?>
 						</a>
 					</li>
 					<li class="list-inline-item">⋅</li>
 					<li class="list-inline-item">
-						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy">
+						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy" title="<?php echo getTranslation( 'footer-privacy-policy' ); ?>">
 							<?php echo getTranslation( 'footer-privacy-policy' ); ?>
 						</a>
 					</li>
 					<li class="list-inline-item">⋅</li>
 					<li class="list-inline-item">
-						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Meta:General_disclaimer">
+						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Meta:General_disclaimer" title="<?php echo getTranslation( 'footer-disclaimers' ); ?>">
 							<?php echo getTranslation( 'footer-disclaimers' ); ?>
 						</a>
 					</li>
 					<li class="list-inline-item">⋅</li>
 					<li class="list-inline-item">
-						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy#4._Cookies">
+						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy#4._Cookies" title="<?php echo getTranslation( 'footer-cookie' ); ?>">
 							<?php echo getTranslation( 'footer-cookie' ); ?>
 						</a>
 					</li>
 				</ul>
-				<a class="small mb-4 mb-lg-0" href="https://translatewiki.net/wiki/Special:Translate?group=mwgithub-mirahezelanding">
+				<a class="small mb-4 mb-lg-0" href="https://translatewiki.net/wiki/Special:Translate?group=mwgithub-mirahezelanding" title="<?php echo getTranslation( 'footer-translate' ); ?>">
 					<?php echo getTranslation( 'footer-translate' ); ?>
 				</a>
 			</div>
 			<div class="col-lg-6 h-100 text-center text-lg-end my-auto">
 				<ul class="list-inline mb-0">
 					<li class="list-inline-item me-4">
-						<a href="https://www.facebook.com/miraheze"><i class="bi-facebook fs-3"></i></a>
+						<a href="https://www.facebook.com/miraheze" title="<?php echo getTranslation( 'footer-facebook-title' ); ?>">
+							<i class="bi-facebook fs-3"></i>
+						</a>
 					</li>
 					<li class="list-inline-item me-4">
-						<a href="https://twitter.com/miraheze"><i class="bi-twitter fs-3"></i></a>
+						<a href="https://twitter.com/miraheze" title="<?php echo getTranslation( 'footer-twitter-title' ); ?>">
+							<i class="bi-twitter fs-3"></i>
+						</a>
 					</li>
 					<li class="list-inline-item">
-						<a href="https://miraheze.org/discord"><i class="bi-discord fs-3"></i></a>
+						<a href="https://miraheze.org/discord" title="<?php echo getTranslation( 'footer-discord-title' ); ?>">
+							<i class="bi-discord fs-3"></i>
+						</a>
 					</li>
 				</ul>
 			</div>
@@ -59,7 +65,7 @@
 	</div>
 </footer>
 <div id="scroll-to-top">
-	<a class="text-light" href="#">
+	<a class="text-light" href="#" title="<?php echo getTranslation( 'back-to-top-title' ); ?>">
 		<i class="bi bi-chevron-up"></i>
 	</a>
 </div>
