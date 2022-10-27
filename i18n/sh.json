@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vipz"
+			"Vipz",
+			"Vlad5250"
 		]
 	},
 	"features-heading": "Značajke",
@@ -31,6 +32,10 @@
 	"footer-disclaimers": "Odricanje odgovornosti",
 	"footer-cookie": "Izjava o kolačićima",
 	"footer-translate": "Prevedi ovu stranicu",
+	"footer-facebook-title": "Facebook",
+	"footer-twitter-title": "Twitter",
+	"footer-discord-title": "Discord",
+	"back-to-top-title": "Nazad na vrh",
 	"help-center": "Centar za pomoć",
 	"home": "Početna strana",
 	"faq": "Često postavljena pitanja",
