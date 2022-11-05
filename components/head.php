@@ -3,9 +3,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="revisit-after" content="2 days" />
 	<meta name="keywords" content="miraheze, free, ad-free, ad free, wiki hosting, wiki farm, wiki farms, sign up, mediawiki, mediawiki hosting, open source, hosting, donate, not-for-profit, not for profit, notforprofit, non-profit, non profit, nonprofit" />
-	<meta name="description" content="Miraheze is a community-centric, ad free, 100% open-source, and free wiki hosting platform powered by MediaWiki, the software that powers Wikipedia." />
-	<meta name="twitter:description" content="Miraheze is a community-centric, ad free, 100% open-source, and free wiki hosting platform powered by MediaWiki, the software that powers Wikipedia." />
-	<meta property="og:description" content="Miraheze is a community-centric, ad free, 100% open-source, and free wiki hosting platform powered by MediaWiki, the software that powers Wikipedia." />
+	<meta name="description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
+	<meta name="twitter:description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
+	<meta property="og:description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Miraheze" />
 	<meta property="og:site_name" content="Miraheze" />
