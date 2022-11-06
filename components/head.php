@@ -6,6 +6,15 @@
 	<meta name="description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
 	<meta name="twitter:description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
 	<meta property="og:description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
+	<meta property="og:image" content="/resources/Miraheze-Logo-1200px.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="1200" />
+	<meta property="og:image" content="/resources/Miraheze-Logo-800px.png" />
+	<meta property="og:image:width" content="800" />
+	<meta property="og:image:height" content="800" />
+	<meta property="og:image" content="/resources/Miraheze-Logo-640px.png" />
+	<meta property="og:image:width" content="640" />
+	<meta property="og:image:height" content="640" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Miraheze" />
 	<meta property="og:site_name" content="Miraheze" />
