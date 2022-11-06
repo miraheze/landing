@@ -36,8 +36,8 @@
 			$hostname = 'donate.miraheze.org';
 		}
 
-		echo "<link rel=\"canonical\" href=\"https://{$hostname}\" />";
-		echo "<meta property=\"og:url\" content=\"https://{$hostname}\" />";
+		echo "<link rel=\"canonical\" href=\"https://{$hostname}\" />\n";
+		echo "<meta property=\"og:url\" content=\"https://{$hostname}\" />\n";
 	?>
 	<link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
 	<link rel="apple-touch-icon" href="/static/apple-touch-icon.png" />
