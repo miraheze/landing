@@ -6,13 +6,13 @@
 	<meta name="description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
 	<meta name="twitter:description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
 	<meta property="og:description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
-	<meta property="og:image" content="/resources/Miraheze-Logo-1200px.png" />
+	<meta property="og:image" content="/static/Miraheze-Logo-1200px.png" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="1200" />
-	<meta property="og:image" content="/resources/Miraheze-Logo-800px.png" />
+	<meta property="og:image" content="/static/Miraheze-Logo-800px.png" />
 	<meta property="og:image:width" content="800" />
 	<meta property="og:image:height" content="800" />
-	<meta property="og:image" content="/resources/Miraheze-Logo-640px.png" />
+	<meta property="og:image" content="/static/Miraheze-Logo-640px.png" />
 	<meta property="og:image:width" content="640" />
 	<meta property="og:image:height" content="640" />
 	<meta property="og:type" content="website" />
@@ -39,8 +39,8 @@
 		echo "<link rel=\"canonical\" href=\"https://{$hostname}\" />";
 		echo "<meta property=\"og:url\" content=\"https://{$hostname}\" />";
 	?>
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
+	<link rel="apple-touch-icon" href="/static/apple-touch-icon.png" />
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
 	<link href="css/styles.css" rel="stylesheet" />
