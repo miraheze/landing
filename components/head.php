@@ -43,5 +43,5 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
 	<link href="css/styles.css" rel="stylesheet" />
-	<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebPage","headline":"Miraheze Home Page","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}]</script>
+	<script type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"Miraheze Home Page","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}]</script>
 </head>
