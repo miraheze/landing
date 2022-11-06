@@ -11305,7 +11305,7 @@ textarea.form-control-lg {
 }
 
 header.masthead {
-	background-image: url( '/static/header-background.jpg' );
+	background-image: url( '/images/header-background.jpg' );
 	background-size: cover;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
