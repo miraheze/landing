@@ -21,15 +21,14 @@
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Miraheze" />
 	<meta name="twitter:site" content="@miraheze" />
-	<title>
-		<?php
-			if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ) {
-				echo 'Miraheze | Donate';
-			} else {
-				echo 'Miraheze';
-			}
-		?>
-	</title>
+	<meta name="twitter:image" content="https://miraheze.org/static/Miraheze-Logo-1200px.png" />
+	<title><?php
+		if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ) {
+			echo 'Miraheze | Donate';
+		} else {
+			echo 'Miraheze';
+		}
+	?></title>
 	<?php
 		$hostname = 'miraheze.org';
 		if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ) {
