@@ -46,7 +46,7 @@
 
 								foreach ( $languageCodes as $languageCode ) {
 									$displayName = LOCALE_GET_DISPLAY_NAME( $languageCode, $languageCode );
-									echo "<a class=\"dropdown-item\" href=\"?lang={$languageCode}\" title=\"{$displayName}\">" . $displayName . '</a>';
+									echo "<a class=\"dropdown-item\" href=\"/{$languageCode}\" title=\"{$displayName}\">" . $displayName . '</a>';
 								}
 
 								?>
