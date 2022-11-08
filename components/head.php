@@ -34,6 +34,9 @@
 			$hostname = 'donate.miraheze.org';
 		}
 
+		echo "<link rel=\"canonical\" href=\"https://{$hostname}\" />\n";
+		echo "\t<meta property=\"og:url\" content=\"https://{$hostname}\" />\n";
+
 		$i18nDirectory = array_diff( scandir( 'i18n' ), [ '.', '..', 'qqq.json' ] );
 		$languageCodes = str_replace( '.json', '', $i18nDirectory );
 
@@ -42,9 +45,6 @@
 		}
 
 		echo "\t<link rel=\"alternate\" href=\"https://{$hostname}\" hreflang=\"x-default\" />\n";
-
-		echo "\t<link rel=\"canonical\" href=\"https://{$hostname}\" />\n";
-		echo "\t<meta property=\"og:url\" content=\"https://{$hostname}\" />\n";
 	?>
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
 	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
