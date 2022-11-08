@@ -34,6 +34,15 @@
 			$hostname = 'donate.miraheze.org';
 		}
 
+		$i18nDirectory = array_diff( scandir( 'i18n' ), [ '.', '..', 'qqq.json' ] );
+		$languageCodes = str_replace( '.json', '', $i18nDirectory );
+
+		foreach ( $languageCodes as $languageCode ) {
+			echo "<link rel=\"alternate\" hreflang=\"{$languageCode}\" href=\"https://{$hostname}/{$languageCode}\" />\n";
+		}
+
+		echo "<link rel=\"alternate\" href=\"https://{$hostname}\" hreflang=\"x-default\" />\n";
+
 		echo "<link rel=\"canonical\" href=\"https://{$hostname}\" />\n";
 		echo "<meta property=\"og:url\" content=\"https://{$hostname}\" />\n";
 	?>
