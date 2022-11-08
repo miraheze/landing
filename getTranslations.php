@@ -44,7 +44,7 @@ function getTranslation( $key ) {
 }
 
 function getLanguageCode() {
-	$languageCode = $_GET['lang'] ?? 'en';
+	$languageCode = $_GET['uselang'] ?? 'en';
 
 	if ( $languageCode === 'qqx' ) {
 		return $languageCode;
