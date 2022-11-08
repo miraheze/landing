@@ -2,212 +2,171 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://miraheze.org/</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>1.00</priority>
+		<priority>1</priority>
+		<changefreq>always</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/ar</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/bn</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/de</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/el</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/en</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/es</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/et</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/fi</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/fr</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/he</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/hi</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/hyw</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/ia</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/id</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/it</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/ja</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/kk-cyrl</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/ko</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/lb</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/lzh</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/mk</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/mrh</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/ms</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/nl-informal</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/nl</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/pt-br</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/pt</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/ru</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/scn</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/sh</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/sk</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/sv</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/th</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/tr</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/uk</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/ur</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/vi</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/xmf</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/zh-hans</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/zh-hant</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/zh-hk</loc>
-		<lastmod>2022-11-08T00:59:00+00:00</lastmod>
-		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
 	</url>
 </urlset>
