@@ -41,6 +41,10 @@
 		$languageCodes = str_replace( '.json', '', $i18nDirectory );
 
 		foreach ( $languageCodes as $languageCode ) {
+			if ( $languageCode === 'nl-informal' ) {
+				continue;
+			}
+
 			echo "\t<link rel=\"alternate\" hreflang=\"{$languageCode}\" href=\"https://{$hostname}/{$languageCode}\" />\n";
 		}
 
