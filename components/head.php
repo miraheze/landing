@@ -1,5 +1,12 @@
 <head>
 	<meta charset="utf-8" />
+	<title><?php
+		if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ) {
+			echo 'Miraheze | Donate';
+		} else {
+			echo 'Miraheze';
+		}
+	?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="keywords" content="miraheze, free, ad-free, ad free, wiki hosting, wiki farm, wiki farms, sign up, mediawiki, mediawiki hosting, open source, hosting, donate, not-for-profit, not for profit, notforprofit, non-profit, non profit, nonprofit" />
 	<meta name="description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
@@ -21,13 +28,6 @@
 	<meta name="twitter:title" content="Miraheze" />
 	<meta name="twitter:site" content="@miraheze" />
 	<meta name="twitter:image" content="https://miraheze.org/images/Miraheze-Logo-1200px.png" />
-	<title><?php
-		if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ) {
-			echo 'Miraheze | Donate';
-		} else {
-			echo 'Miraheze';
-		}
-	?></title>
 	<?php
 		$hostname = 'miraheze.org';
 		if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ) {
