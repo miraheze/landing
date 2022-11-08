@@ -38,13 +38,13 @@
 		$languageCodes = str_replace( '.json', '', $i18nDirectory );
 
 		foreach ( $languageCodes as $languageCode ) {
-			echo "<link rel=\"alternate\" hreflang=\"{$languageCode}\" href=\"https://{$hostname}/{$languageCode}\" />\n";
+			echo "\t<link rel=\"alternate\" hreflang=\"{$languageCode}\" href=\"https://{$hostname}/{$languageCode}\" />\n";
 		}
 
-		echo "<link rel=\"alternate\" href=\"https://{$hostname}\" hreflang=\"x-default\" />\n";
+		echo "\t<link rel=\"alternate\" href=\"https://{$hostname}\" hreflang=\"x-default\" />\n";
 
-		echo "<link rel=\"canonical\" href=\"https://{$hostname}\" />\n";
-		echo "<meta property=\"og:url\" content=\"https://{$hostname}\" />\n";
+		echo "\t<link rel=\"canonical\" href=\"https://{$hostname}\" />\n";
+		echo "\t<meta property=\"og:url\" content=\"https://{$hostname}\" />\n";
 	?>
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
 	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
