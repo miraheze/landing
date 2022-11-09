@@ -12,13 +12,13 @@
 	<meta name="description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
 	<meta name="twitter:description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
 	<meta property="og:description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
-	<meta property="og:image" content="/images/Miraheze-Logo-1200px.png" />
+	<meta property="og:image" content="https://miraheze.org/images/Miraheze-Logo-1200px.png" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="1200" />
-	<meta property="og:image" content="/images/Miraheze-Logo-800px.png" />
+	<meta property="og:image" content="https://miraheze.org/images/Miraheze-Logo-800px.png" />
 	<meta property="og:image:width" content="800" />
 	<meta property="og:image:height" content="800" />
-	<meta property="og:image" content="/images/Miraheze-Logo-640px.png" />
+	<meta property="og:image" content="https://miraheze.org/images/Miraheze-Logo-640px.png" />
 	<meta property="og:image:width" content="640" />
 	<meta property="og:image:height" content="640" />
 	<meta property="og:type" content="website" />
@@ -55,8 +55,8 @@
 
 		echo "\t<link rel=\"alternate\" href=\"https://{$hostname}\" hreflang=\"x-default\" />\n";
 	?>
-	<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+	<link rel="icon" type="image/x-icon" href="https://miraheze.org/images/favicon.ico" />
+	<link rel="apple-touch-icon" href="https://miraheze.org/images/apple-touch-icon.png" />
 	<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" />
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
