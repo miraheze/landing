@@ -45,6 +45,11 @@
 				continue;
 			}
 
+			if ( $languageCode === 'en' ) {
+				echo "\t<link rel=\"alternate\" hreflang=\"{$languageCode}\" href=\"https://{$hostname}\" />\n";
+				continue;
+			}
+
 			echo "\t<link rel=\"alternate\" hreflang=\"{$languageCode}\" href=\"https://{$hostname}/{$languageCode}\" />\n";
 		}
 
