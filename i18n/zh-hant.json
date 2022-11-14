@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
+			"Willy1018",
 			"Winston Sung",
 			"铁桶"
 		]
 	},
 	"features-heading": "特點",
 	"about-heading": "簡介",
-	"welcome-text": "歡迎來到Miraheze！",
+	"welcome-text": "歡迎來到Miraheze",
 	"description-text": "Miraheze是一個以社群為中心、無廣告、100&開源和免費的wiki託管平台，由支援維基百科的軟體MediaWiki提供支援。",
 	"description-donate": "本頁可用於向Miraheze捐款。捐款是Miraheze獲取資金的主要渠道。每筆捐款都將用於支援隨著社區發展而擴大的基礎設施。感謝您的關照！",
 	"sign-up": "註冊！",
