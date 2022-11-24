@@ -28,6 +28,7 @@
 	<meta name="twitter:title" content="Miraheze" />
 	<meta name="twitter:site" content="@miraheze" />
 	<meta name="twitter:image" content="https://miraheze.org/images/Miraheze-Logo-1200px.png" />
+	<link rel="prefetch" href="/images/header-background.jpg" />
 	<?php
 		$hostname = 'miraheze.org';
 		if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ) {
