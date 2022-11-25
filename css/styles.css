@@ -1379,7 +1379,7 @@ progress {
 
 	.col-lg-4 {
 		flex: 0 0 auto;
-		width: 33.33333333%;
+		width: 33.33333333% !important;
 	}
 
 	.col-lg-5 {
