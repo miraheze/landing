@@ -2,12 +2,12 @@
 	<div class="container">
 		<?php if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ): ?>
 			<a class="navbar-brand" href="#" title="<?php echo getTranslation( 'header-donate-logo-text' ); ?>">
-				<img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Miraheze Logo" style="height:3em; width:3em; padding:0.5em;" />
+				<img class="logo" src="https://static-new.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Miraheze Logo" style="height:3em; width:3em; padding:0.5em;" />
 				<?php echo getTranslation( 'header-donate-logo-text' ); ?>
 			</a>
 		<?php else: ?>
 			<a class="navbar-brand" href="#" title="<?php echo getTranslation( 'header-logo-text' ); ?>">
-				<img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Miraheze Logo" style="height:3em; width:3em; padding:0.5em;" />
+				<img class="logo" src="https://static-new.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Miraheze Logo" style="height:3em; width:3em; padding:0.5em;" />
 				<?php echo getTranslation( 'header-logo-text' ); ?>
 			</a>
 		<?php endif; ?>	

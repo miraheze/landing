@@ -15,7 +15,7 @@
 					<?php echo getTranslation( 'about-heading' ); ?>
 				</h3>
 
-				<img src="https://static.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="w-100 w-lg-50 w-md-75" alt="Miraheze Meta's Main Page" />
+				<img src="https://static-new.miraheze.org/metawiki/0/03/Meta_Main_Page.png" class="w-100 w-lg-50 w-md-75" alt="Miraheze Meta's Main Page" />
 				<p class="lead mb-0">
 					<?php echo getTranslation( 'about-desc' ); ?>
 				</p>
