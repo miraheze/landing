@@ -3,7 +3,7 @@
 		<div class="card">
 			<div class="row g-0">
 				<div class="col-md-2 d-none d-md-flex justify-content-center align-items-center">
-					<img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" class="img-fluid rounded-start" alt="Miraheze Logo" />
+					<img src="https://static-new.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" class="img-fluid rounded-start" alt="Miraheze Logo" />
 				</div>
 				<div class="col-md-8">
 					<div class="card-body">
