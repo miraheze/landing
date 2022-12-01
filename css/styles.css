@@ -1980,10 +1980,6 @@ footer.footer.bg-dark {
 	padding-right: 3rem !important;
 	padding-left: 3rem !important;
 }
-.py-0 {
-	padding-top: 0 !important;
-	padding-bottom: 0 !important;
-}
 .pt-0 {
 	padding-top: 0 !important;
 }
@@ -2450,7 +2446,7 @@ footer.footer.bg-dark {
 	font-size: 4.5rem;
 }
 header.masthead {
-	background-image: url('/images/header-background.jpg');
+	background-image: url(https://miraheze.org/images/header-background.jpg);
 	background-size: cover;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
@@ -3116,9 +3112,4 @@ footer.footer.bg-dark a {
 	padding: 1rem 1.25rem;
 	font-size: 1.25rem;
 	border-radius: 0.3rem;
-}
-.col-form-label-sm {
-	padding-top: calc(0.5rem + 1px);
-	padding-bottom: calc(0.5rem + 1px);
-	font-size: 0.875rem;
 }
