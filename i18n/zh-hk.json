@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"捍粵者",
 			"铁桶"
 		]
 	},
@@ -13,15 +14,15 @@
 	"support-us": "支援我們！",
 	"features-text": "特點",
 	"features-mediawiki": "MediaWiki",
-	"features-mediawiki-desc": "Miraheze運行著與維基百科所用的相同軟件——[https://www.mediawiki.org|MediaWiki]！什麼事情您都可以做到，上至上傳圖片或影片等媒體，下至編寫條目或網誌。我們有超過300個擴充功能和25種外觀可供選擇，讓您定制自己的MediaWiki體驗！",
+	"features-mediawiki-desc": "運行Miraheze的軟件與維基百科——[https://www.mediawiki.org|MediaWiki]一樣！您什麼事情都可以做到，上至上傳圖片或影片等媒體，下至編寫條目或網誌。我們有超過三百種擴充功能和廿五種外觀可供選擇，隨您定制自己的MediaWiki體驗！",
 	"features-not-for-profit-text": "非營利",
 	"features-not-for-profit-desc": "Miraheze在英國註冊為Miraheze Limited。我們以一個非營利組織提供100%免費的wiki，並且提供伺服器的維護和支援我們自製擴充功能的發展。",
 	"features-community-text": "社群",
-	"features-community-desc": "作為一個社群，我們一起努力實現成為一個出色的wiki農場的共同目標！透過可以讓用戶們學習，我們能够為用戶們取得最佳結果！",
+	"features-community-desc": "身為社群一份子，我們要努力成為出色的wiki農場，一起實現此共同目標！使用者這樣可從中學習，我們也能為使用者取得最佳結果！",
 	"features-responsive-text": "響應式",
 	"features-responsive-desc": "我們所有的wiki都支援使用MobileFrontend，來讓用戶介面對流動裝置更加友好。這個擴充功能是預設啟用的，當然，我們也允許您通過停用它來關閉這個擴充功能。",
 	"features-extensions-text": "我们自製的擴充功能",
-	"features-extensions-desc": "我們設計了一些最前沿的擴充功能，來幫助我們發展成為世界上最好的wiki農場之一！我們的擴充功能使社群能夠更好地掌管自己的wiki，幾乎不需要我們的工作人員照管。我們也會聽取社群在其wiki管理方面的意見。",
+	"features-extensions-desc": "我們設計了一些頂尖的擴充功能來幫我們發展成絕佳的wiki農場！我們的擴充功能使社群更能掌管自己的wiki，幾乎不需我們的工作人員照管。我們也會聽取社群在管理其wiki的意見。",
 	"features-more-desc": "還有更多特點！",
 	"about-desc": "2015年7月，約翰·路易士（John Lewis）和費蘭·圖凡（Ferran Tufan）建立了一個新的wiki農場——Miraheze。通過社群眾籌和個人投資，Miraheze於2015年8月正式上線。長年累月，這個專案已經發展成為最大最知名並專精提供MediaWiki託管服務的wiki農場之一。儘管取得了成功和進步，不過Miraheze有一個方向從未改變——正式成立。2019年11月，Miraheze在英國注册成為非營利組織——Miraheze Limited。",
 	"footer-desc": "Miraheze Limited\n 是在英格蘭和威爾斯註冊的擔保有限公司 註冊號碼︰12323854\n 除非另有聲明，本網站的內容均在[https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW|署名-相同方式共享 4.0 國際授權條款 (CC BY-SA 4.0)]下提供。",
@@ -47,7 +48,7 @@
 	"donate-heading": "捐款",
 	"header-donate-logo-text": "Miraheze捐款",
 	"donate-amount": "金額",
-	"donate-note": "本表單用於透過PayPal進行捐款（您也可以使用信用卡及扣賬卡）。請使用頁面上的下拉式選單選擇自己的當地貨幣。",
+	"donate-note": "本表單用於PayPal捐款（您也可用信用卡及扣賬卡），請用下拉選單選擇自己的貨幣。",
 	"fundraising-sitenotice": "六年多來，Miraheze已為30多萬用戶提供了免費託管服務。幫助我們繼續走向下一個六年甚至更遠的未來！我們的動力100%源自像您一樣的人的捐款。我們很欣慰一直看到每年令人印象深刻的流量的增長和社群的壯大。不過，隨著這種發展，我們需要更多的基礎設施來應付發展的需求。我們懇請您考慮捐款5英鎊、10英鎊、20英鎊或任何您能負擔的金額。如果Miraheze的30多萬用戶中，有500人每年捐款20英鎊（16.35美元），就將超出Miraheze的預算要求。",
 	"fundraiser-sitenotice-title": "幫助我們！",
 	"fundraising-sitenotice-button-text": "了解如何幫助！"

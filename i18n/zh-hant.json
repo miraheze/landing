@@ -4,6 +4,7 @@
 			"Kly",
 			"Willy1018",
 			"Winston Sung",
+			"捍粵者",
 			"铁桶"
 		]
 	},
@@ -20,7 +21,7 @@
 	"features-not-for-profit-text": "非營利",
 	"features-not-for-profit-desc": "Miraheze在英國註冊為Miraheze Limited。我們以一個非營利組織提供100%免費的wiki，並且提供伺服器的維護和支援我們自製擴充功能的發展。",
 	"features-community-text": "社群",
-	"features-community-desc": "作為一個社群，我們一起努力實現成為一個出色的wiki農場的共同目標！透過可以讓使用者們學習，我們能够為使用者們取得最佳結果！",
+	"features-community-desc": "身為社群一份子，我們要努力成為出色的wiki農場，一起實現此共同目標！使用者這樣可從中學習，我們也能為使用者取得最佳結果！",
 	"features-responsive-text": "回應式",
 	"features-responsive-desc": "我們所有的wiki都支援使用MobileFrontend，來讓使用者介面對行動裝置更加友好。這個擴充功能是預設啟用的，當然，我們也允許您通過停用它來關閉這個擴充功能。",
 	"features-extensions-text": "我们自製的擴充功能",
