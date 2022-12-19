@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Funa-enpitu",
 			"Kkairri",
 			"MathXplore",
 			"MirukuPC",
@@ -13,7 +14,7 @@
 	"features-heading": "特徴",
 	"about-heading": "概要",
 	"welcome-text": "Mirahezeへようこそ！",
-	"description-text": "Mirahezeは非営利団体であり、コミュニティ中心の無料のウィキファームを提供することを使命としています。",
+	"description-text": "Mirahezeは非営利団体であり、コミュニティ中心の無料のウィキファームを提供することを使命としています。是非無料のウィキをリクエストしてみてください！",
 	"sign-up": "利用者登録",
 	"features-text": "特徴",
 	"features-mediawiki": "MediaWiki",
