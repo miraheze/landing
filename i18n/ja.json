@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Buehl",
 			"Funa-enpitu",
 			"Kkairri",
 			"MathXplore",
@@ -44,6 +45,7 @@
 	"home": "ホーム",
 	"faq": "よくある質問と回答",
 	"more": "もっと見る",
+	"wikidiscover-text": "ウィキを見付ける",
 	"requestwiki-text": "Wikiを申請する",
 	"organisation-text": "団体情報",
 	"blog-text": "ブログ",
@@ -52,5 +54,7 @@
 	"header-donate-logo-text": "Miraheze 寄付",
 	"donate-amount": "金額",
 	"donate-note": "このフォームは、PayPalでの寄付用です（クレジットカード/デビットカードを使用できます）。ページのドロップダウンを使用して、現地通貨を選択する必要があります。",
-	"fundraising-sitenotice": "ご存知のように、Mirahezeは100％寄付によって運営されている、広告のない、コミュニティ中心のホスティングプラットフォームです。幸運なことに、今年もまた、前年比で目覚しいトラフィックとコミュニティの成長を続けることができました。しかし、その成長に伴い、既存のインフラへの支払いだけでなく、増加した容量を管理するための追加インフラが必要になってきました。そこで、5ポンド、10ポンド、20ポンドなど、お好きな金額を寄付していただけるようお願いします。10万人以上のユーザーのうち500人が年に一度だけ$1を寄付すれば、Mirahezeは必要な予算を超えることができるのです。[https://www.gofundme.com/f/$2|GoFundMe], [https://paypal.me/mirahezelimited|PayPal], [https://github.com/sponsors/miraheze|GitHub Sponsors]から寄付をお願いします。\n 寄付のお礼に、Wikiでの利用者名を添えていただければ、Wiki上で謝意を表すことができます。"
+	"fundraising-sitenotice": "ご存知のように、Mirahezeは100％寄付によって運営されている、広告のない、コミュニティ中心のホスティングプラットフォームです。幸運なことに、今年もまた、前年比で目覚しいトラフィックとコミュニティの成長を続けることができました。しかし、その成長に伴い、既存のインフラへの支払いだけでなく、増加した容量を管理するための追加インフラが必要になってきました。そこで、5ポンド、10ポンド、20ポンドなど、お好きな金額を寄付していただけるようお願いします。10万人以上のユーザーのうち500人が年に一度だけ$1を寄付すれば、Mirahezeは必要な予算を超えることができるのです。[https://www.gofundme.com/f/$2|GoFundMe], [https://paypal.me/mirahezelimited|PayPal], [https://github.com/sponsors/miraheze|GitHub Sponsors]から寄付をお願いします。\n 寄付のお礼に、Wikiでの利用者名を添えていただければ、Wiki上で謝意を表すことができます。",
+	"fundraiser-sitenotice-title": "助けて！",
+	"fundraising-sitenotice-button-text": "編集方法を学ぶ"
 }
