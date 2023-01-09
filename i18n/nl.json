@@ -11,6 +11,7 @@
 	"about-heading": "Over",
 	"welcome-text": "Welkom bij Miraheze",
 	"description-text": "Miraheze is een advertentievrij en gemeenschapsgericht wiki-hostingplatform waar iedereen gratis een door MediaWiki aangedreven wiki kan maken. Vraag vandaag nog uw gratis wiki aan!",
+	"description-donate": "Op deze pagina kunt u doneren aan Miraheze. Donaties zijn de belangrijkste bron van inkomsten van Miraheze. Elke donatie gaat naar ondersteuning van de infrastructuur en uitbreiding naarmate de gemeenschap groeit. Bedankt voor uw begrip!",
 	"sign-up": "Registreren!",
 	"support-us": "Ondersteun ons!",
 	"features-text": "Functies",
@@ -33,6 +34,10 @@
 	"footer-disclaimers": "Vrijwaring",
 	"footer-cookie": "Cookieverklaring",
 	"footer-translate": "Deze pagina vertalen",
+	"footer-facebook-title": "Facebook",
+	"footer-twitter-title": "Twitter",
+	"footer-discord-title": "Discord",
+	"back-to-top-title": "Terug naar boven",
 	"help-center": "Hulpcentrum",
 	"home": "Startpagina",
 	"faq": "Vraag en antwoord",
@@ -46,6 +51,7 @@
 	"header-donate-logo-text": "Doneren aan Miraheze",
 	"donate-amount": "Bedrag",
 	"donate-note": "Dit formulier is voor donaties met PayPal. U kunt daarmee ook credit- en debetkaarten gebruiken. U moet uw lokale valuta selecteren uit de keuzelijst op die pagina.",
+	"fundraising-sitenotice": "Al meer dan zes jaar biedt Miraheze zijn meer dan 300.000 gebruikers gratis wiki-onderdak. Help ons nog eens zes jaar door te gaan! We bestaan voor 100% dankzij donaties van mensen zoals u. De jaarlijkse groei van het verkeer en de gemeenschap is indrukwekkend en dat maakt ons blij. Wel hebben we meer infrastructuur nodig om de toegenomen vraag aan te kunnen. We vragen u oprecht om te overwegen om €5, €10, €20, of wat u zich ook kunt veroorloven, bij te dragen. Als 500 van Miraheze's meer dan 300.000 gebruikers slechts €15 per jaar zouden geven, zou Miraheze al meer dan genoeg hebben.",
 	"fundraiser-sitenotice-title": "Help ons!",
 	"fundraising-sitenotice-button-text": "Bekijk hoe u kunt bijdragen!"
 }
