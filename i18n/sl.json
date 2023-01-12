@@ -6,7 +6,7 @@
 	},
 	"features-heading": "Možnosti",
 	"about-heading": "O mestu",
-	"welcome-text": "Pozdravljeni v Miraheze",
+	"welcome-text": "Pozdravljeni v Mirahezeju",
 	"description-text": "Miraheze je v skupnost usmerjena platforma brez oglasov za gostovanje vikijev, v kateri lahko vsakdo ustvari prost viki, ki ga poganja programje MediaWiki. Zaprosite za svoj prosti viki še danes!",
 	"description-donate": "To stran lahko uporabite za donacije Mirahezeju. Donacije so glavni način financiranja Mirahezeja. Vsaka donacija je namenjena podpori infrastrukture in širjenju, ko skupnost raste. Hvala za pozornost!",
 	"sign-up": "Vpišite se!",
@@ -43,12 +43,12 @@
 	"requestwiki-text": "Zaprosite za viki",
 	"organisation-text": "Informacije o organizaciji",
 	"blog-text": "Blog",
-	"status-text": "Status",
+	"status-text": "Stanje",
 	"donate-heading": "Donirajte",
 	"header-donate-logo-text": "Donirajte Mirahezeju",
 	"donate-amount": "Znesek",
 	"donate-note": "#Ta obrazec je namenjen donacijam s PayPalom (uporabite lahko tudi kreditne/debetne kartice). S spustnim menijem na strani izberite svojo lokalno valuto.",
-	"fundraising-sitenotice": "Že več kot šest let Miraheze zagotavlja več kot 300.000 uporabnikom prosto gostovanje. Pomagajte nam nadaljevati še naslednjih šest in več let. 100-odstotno smo financirani z donacijami ljudi, kot ste vi. Hvaležno opažamo impresivno vsakoletno rast prometa in skupnosti. Zaradi naše hitre rasti pa potrebujemo dodatno infrastrukturo za obvladovanje povečanih potreb. Iskreno vas prosimo, da prispevate 5&nbsp;£, 10&nbsp;£, 20&nbsp;£ ali kolikor si lahko privoščite. Že če bi 500 od Mirahezejevih več kot 300.000 uporabnikov enkrat letno doniralo samo 12&nbsp;£ (14,05&nbsp;€), bi Miraheze presegel proračunske potrebe.",
+	"fundraising-sitenotice": "Miraheze že več kot šest let zagotavlja prosto gostovanje zdaj že več kot 300.000 uporabnikom. Pomagajte nam nadaljevati še naslednjih šest in več let. 100-odstotno se financiramo z donacijami ljudi, kot ste vi. Hvaležno opažamo impresivno vsakoletno rast prometa in skupnosti. Zaradi naše hitre rasti pa potrebujemo dodatno infrastrukturo za obvladovanje povečanih potreb. Iskreno vas prosimo, da prispevate 5&nbsp;£, 10&nbsp;£, 20&nbsp;£ ali kolikor si lahko privoščite. Že če bi 500 od Mirahezejevih več kot 300.000 uporabnikov enkrat letno doniralo samo 12&nbsp;£ (14,05&nbsp;€), bi Miraheze presegel proračunske potrebe.",
 	"fundraiser-sitenotice-title": "Pomagajte nam!",
 	"fundraising-sitenotice-button-text": "Seznanite se, kako nam lahko pomagate!"
 }
