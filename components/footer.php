@@ -54,6 +54,11 @@
 							<i class="bi-twitter fs-3"></i>
 						</a>
 					</li>
+					<li class="list-inline-item me-4">
+						<a rel="me" href="https://mastodon.social/@miraheze" title="<?php echo getTranslation( 'footer-mastodon-title' ); ?>">
+							<i class="bi-mastodon fs-3"></i>
+						</a>
+					</li>
 					<li class="list-inline-item">
 						<a href="https://miraheze.org/discord" title="<?php echo getTranslation( 'footer-discord-title' ); ?>">
 							<i class="bi-discord fs-3"></i>
