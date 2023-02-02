@@ -28,6 +28,7 @@
 	"footer-translate": "Button that allows users to translate page",
 	"footer-facebook-title": "Title for Facebook link in footer",
 	"footer-twitter-title": "Title for Twitter link in footer",
+	"footer-mastodon-title": "Title for Mastodon link in footer",
 	"footer-discord-title": "Title for Discord link in footer",
 	"back-to-top-title": "Title for back to top link",
 	"home": "Header for Home",
