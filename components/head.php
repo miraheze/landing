@@ -4,7 +4,7 @@
 		if ( $_SERVER['SCRIPT_NAME'] === '/donate.php' ) {
 			echo 'Miraheze | Donate';
 		} else {
-			echo 'Miraheze';
+			echo 'Miraheze - 100% ad-free, free wiki hosting';
 		}
 	?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
