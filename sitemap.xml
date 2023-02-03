@@ -126,6 +126,10 @@
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
+		<loc>https://miraheze.org/sl</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
 		<loc>https://miraheze.org/sv</loc>
 		<changefreq>weekly</changefreq>
 	</url>
@@ -290,6 +294,10 @@
 	</url>
 	<url>
 		<loc>https://donate.miraheze.org/sk</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>https://donate.miraheze.org/sl</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
