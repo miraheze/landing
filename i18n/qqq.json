@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Verdy p"
+		]
 	},
 	"header-logo-text": "{{optional}}",
 	"features-heading": "Header for Features",
@@ -28,7 +30,7 @@
 	"footer-translate": "Button that allows users to translate page",
 	"footer-facebook-title": "Title for Facebook link in footer",
 	"footer-twitter-title": "Title for Twitter link in footer",
-	"footer-mastodon-title": "Title for Mastodon link in footer",
+	"footer-mastodon-title": "Title for Mastodon link in footer.\n\n'''This is a brand name for a social network and software for microblogging. Do not translate as if it was an animal!''' This should probably not be translated and kept as is, except if there are specific alternate names for non-Latin script (see '''https://mastodon.social/''' and their '''[https://joinmastodon.org/trademark Trademark Policy]''').",
 	"footer-discord-title": "Title for Discord link in footer",
 	"back-to-top-title": "Title for back to top link",
 	"home": "Header for Home",

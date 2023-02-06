@@ -3,7 +3,8 @@
 		"authors": [
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
-			"Lakelimbo"
+			"Lakelimbo",
+			"Robertpontes"
 		]
 	},
 	"header-logo-text": "Miraheze",
@@ -34,6 +35,7 @@
 	"footer-disclaimers": "Termo de responsabilidade",
 	"footer-cookie": "Declaração de cookies",
 	"footer-translate": "Traduzir esta página",
+	"footer-mastodon-title": "Mastodon",
 	"help-center": "Centro de Ajuda",
 	"home": "Início",
 	"faq": "FAQ",

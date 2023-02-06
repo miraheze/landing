@@ -7,6 +7,7 @@
 			"Vistaus"
 		]
 	},
+	"header-logo-text": "Miraheze",
 	"features-heading": "Functies",
 	"about-heading": "Over",
 	"welcome-text": "Welkom bij Miraheze",
@@ -36,6 +37,7 @@
 	"footer-translate": "Deze pagina vertalen",
 	"footer-facebook-title": "Facebook",
 	"footer-twitter-title": "Twitter",
+	"footer-mastodon-title": "Mastodon",
 	"footer-discord-title": "Discord",
 	"back-to-top-title": "Terug naar boven",
 	"help-center": "Hulpcentrum",
