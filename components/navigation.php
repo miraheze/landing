@@ -16,7 +16,7 @@
 				<a class="btn btn-secondary" href="#donate" title="<?php echo getTranslation( 'donate-heading' ); ?>">
 					<?php echo getTranslation( 'donate-heading' ); ?>
 				</a>
-			<?php else: ?>
+			<?php elif ( $_SERVER['SCRIPT_NAME'] === '/index.php' ): ?>
 				<a class="btn btn-secondary" href="#about" title="<?php echo getTranslation( 'about-heading' ); ?>">
 					<?php echo getTranslation( 'about-heading' ); ?>
 				</a>
