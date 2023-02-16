@@ -21,16 +21,17 @@
 							<?php echo getTranslation( 'sign-up' ); ?>
 						</a>
 
-						<?php if ( $_SERVER['SCRIPT_NAME'] !== '/donate.php' ): ?>
-							<a class="btn btn-outline-light" href="https://donate.miraheze.org" title="<?php echo getTranslation( 'support-us' ); ?>">
-								<i class="bi bi-cash-coin"></i>
-								<?php echo getTranslation( 'support-us' ); ?>
-							</a>
-						<?php endif; ?>
 						<?php if ( $_SERVER['SCRIPT_NAME'] !== '/index.php' ): ?>
 							<a class="btn btn-outline-light" href="https://miraheze.org" title="<?php echo getTranslation( 'home' ); ?>">
 								<i class="bi bi-house"></i>
 								<?php echo getTranslation( 'home' ); ?>
+							</a>
+						<?php endif; ?>
+
+						<?php if ( $_SERVER['SCRIPT_NAME'] !== '/donate.php' ): ?>
+							<a class="btn btn-outline-light" href="https://donate.miraheze.org" title="<?php echo getTranslation( 'support-us' ); ?>">
+								<i class="bi bi-cash-coin"></i>
+								<?php echo getTranslation( 'support-us' ); ?>
 							</a>
 						<?php endif; ?>
 
