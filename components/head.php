@@ -37,7 +37,7 @@
 		echo "<link rel=\"canonical\" href=\"https://{$hostname}\" />\n";
 		echo "\t<meta property=\"og:url\" content=\"https://{$hostname}\" />\n";
 
-		$i18nDirectory = array_diff( scandir( 'i18n' ), [ '.', '..', 'qqq.json' ] );
+		$i18nDirectory = array_diff( scandir( 'i18n' ), [ '.', '..', 'kk-cyrl.json', 'nl-informal.json', 'qqq.json' ] );
 		$languageCodes = str_replace( '.json', '', $i18nDirectory );
 
 		foreach ( $languageCodes as $languageCode ) {
