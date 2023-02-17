@@ -14,7 +14,7 @@
 								echo getTranslation( 'description-text' );
 							}
 						?>
-					</h5>
+					</h2>
 					<div class="btn-group" role="group">
 						<a class="btn btn-outline-light d-none d-md-inline-block" href="https://meta.miraheze.org/wiki/Special:CreateAccount" title="<?php echo getTranslation( 'sign-up' ); ?>">
 							<i class="bi bi-box-arrow-in-right"></i>
