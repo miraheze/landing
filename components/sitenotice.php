@@ -1,4 +1,4 @@
-<?php if ( isSiteNoticeEnabled() ): ?>
+<?php if ( $shouldEnableSiteNotice ): ?>
 	<section class="sitenotice">
 		<div class="card">
 			<div class="row g-0">
