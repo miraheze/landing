@@ -1,3 +1,3 @@
 <?php
 
-$enableSiteNotice = false;
+$shouldEnableSiteNotice = false;
