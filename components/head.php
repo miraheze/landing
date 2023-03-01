@@ -8,7 +8,7 @@
 		}
 	?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="keywords" content="miraheze, free, ad-free, ad free, wiki hosting, free wiki hosting, wiki hosting sites, wiki farms, sign up, mediawiki, mediawiki hosting, open source, donate, not-for-profit" />
+	<meta name="keywords" content="miraheze, free, ad-free, ad free, no ads, without ads, wiki hosting, free wiki hosting, wiki hosting sites, wiki farms, sign up, mediawiki, mediawiki hosting, open source, donate, not-for-profit" />
 	<meta name="description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
 	<meta name="twitter:description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
 	<meta property="og:description" content="Miraheze is an ad-free and community-centric wiki hosting platform where anyone can create a free MediaWiki-powered wiki. Request your free wiki today!" />
@@ -37,7 +37,7 @@
 		echo "<link rel=\"canonical\" href=\"https://{$hostname}\" />\n";
 		echo "\t<meta property=\"og:url\" content=\"https://{$hostname}\" />\n";
 
-		$i18nDirectory = array_diff( scandir( 'i18n' ), [ '.', '..', 'qqq.json' ] );
+		$i18nDirectory = array_diff( scandir( 'i18n' ), [ '.', '..', 'kk-cyrl.json', 'nl-informal.json', 'qqq.json' ] );
 		$languageCodes = str_replace( '.json', '', $i18nDirectory );
 
 		foreach ( $languageCodes as $languageCode ) {

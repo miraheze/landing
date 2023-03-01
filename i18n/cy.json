@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Afalau"
+		]
+	},
+	"features-heading": "Nodweddion",
+	"welcome-text": "Croeso i Miraheze",
+	"sign-up": "Creu cyfrif!",
+	"features-text": "Nodweddion",
+	"features-mediawiki": "MediaWici",
+	"features-not-for-profit-text": "Nid-Er-Elw",
+	"features-community-text": "Cymuned",
+	"features-responsive-text": "Ymatebol",
+	"footer-terms": "Telerau Gwasanaeth",
+	"footer-privacy-policy": "Polisi Preifatrwydd",
+	"footer-content-policy": "Polisi Cynnwys",
+	"footer-disclaimers": "Gwadiad",
+	"footer-cookie": "Datganiad Cwcis",
+	"footer-translate": "Cyfieithu'r dudalen hon",
+	"footer-facebook-title": "Facebook",
+	"footer-twitter-title": "Twitter",
+	"footer-mastodon-title": "Mastodon",
+	"footer-discord-title": "Discord",
+	"back-to-top-title": "Nôl i'r brig",
+	"help-center": "Canolfan Gymorth",
+	"home": "Hafan",
+	"faq": "Cwestiynau Cyffredin",
+	"more": "Rhagor",
+	"blog-text": "Blog",
+	"status-text": "Statws",
+	"donate-heading": "Rhoi arian",
+	"donate-amount": "Swm"
+}
