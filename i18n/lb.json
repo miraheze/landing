@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"about-heading": "Iwwer",
+	"welcome-text": "Wëllkomm op Miraheze",
+	"sign-up": "Mellt Iech un!",
+	"support-us": "Ënnerstëtzt eis!",
 	"features-text": "Funktiounen",
 	"features-mediawiki": "MediaWiki",
 	"features-not-for-profit-text": "Ouni Gewënnzweck",
@@ -12,10 +16,21 @@
 	"footer-terms": "Benotzungs-Bedingungen",
 	"footer-privacy-policy": "Dateschutz",
 	"footer-translate": "Dës Säit iwwersetzen",
+	"footer-facebook-title": "Facebook",
 	"footer-twitter-title": "Twitter",
 	"footer-mastodon-title": "Mastodon",
+	"footer-discord-title": "Discord",
 	"back-to-top-title": "Zréck no uewen",
+	"home": "Haaptsäit",
 	"faq": "FAQ",
+	"more": "Méi",
+	"wikidiscover-text": "Wikien entdecken",
+	"requestwiki-text": "Wiki ufroen",
+	"organisation-text": "Informatiounen iwwer d'Organisatioun",
+	"blog-text": "Blog",
+	"status-text": "Status",
 	"donate-heading": "Maacht en Don",
-	"donate-amount": "Betrag"
+	"donate-amount": "Betrag",
+	"fundraiser-sitenotice-title": "Hëlleft eis!",
+	"fundraising-sitenotice-button-text": "Gitt gewuer, wéi Dir hëllefe kënnt!"
 }
