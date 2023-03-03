@@ -92,8 +92,4 @@ function getDefault() {
 	return json_decode( file_get_contents( __DIR__ . '/i18n/en.json' ), true );
 }
 
-function isSiteNoticeEnabled() {
-	return false;
-}
-
 ?>
