@@ -11,7 +11,7 @@
 	"features-heading": "特點",
 	"about-heading": "簡介",
 	"welcome-text": "歡迎來到Miraheze",
-	"description-text": "Miraheze 是一個無廣告、以社群為中心的 wiki 託管平台，任何人都可以在上面建立由 MediaWiki 提供支援的免費 wiki。現在就申請一個您的免費 wiki 吧！",
+	"description-text": "Miraheze是一個無廣告、以社群為中心的wiki託管平台，任何人都可以在這裡建立一個由MediaWiki驅動的免費wiki。現在就申請您的免費wiki吧！",
 	"description-donate": "本頁可用於向Miraheze捐款。捐款是Miraheze獲取資金的主要渠道。每筆捐款都將用於支援隨著社區發展而擴大的基礎設施。感謝您的關照！",
 	"sign-up": "註冊！",
 	"support-us": "支援我們！",
@@ -53,7 +53,7 @@
 	"header-donate-logo-text": "Miraheze捐款",
 	"donate-amount": "金額",
 	"donate-note": "本表單用於透過PayPal進行捐款（您也可以使用信用卡及簽帳金融卡）。請使用頁面上的下拉式選單選擇自己的當地貨幣。",
-	"fundraising-sitenotice": "六年多來，Miraheze已為30多萬使用者提供了免費託管服務。幫助我們繼續走向下一個六年甚至更遠的未來！我們的動力100%源自像您一樣的人的捐款。我們很欣慰一直看到每年令人印象深刻的流量的增長和社群的壯大。不過，隨著這種發展，我們需要更多的基礎設施來應付發展的需求。我們懇請您考慮捐款5英鎊、10英鎊、20英鎊或任何您能負擔的金額。如果Miraheze的30多萬使用者中，有500人每年捐款20英鎊（16.35美元），就將超出Miraheze的預算要求。",
+	"fundraising-sitenotice": "近八年來，Miraheze已為30多萬使用者提供了免費託管服務。幫助我們繼續走向下一個八年甚至更遠的未來！我們的動力100%源自像您一樣的人的捐款。我們很欣慰一直看到每年令人印象深刻的流量的增長和社群的壯大。不過，隨著這種發展，我們需要更多的基礎設施來應付發展的需求。我們懇請您考慮捐款5英鎊、10英鎊、20英鎊或是任何您能負擔的金額。如果Miraheze的30多萬使用者中，有550人願意每年捐款20英鎊（16.35美元），就能滿足Miraheze的預算需求。",
 	"fundraiser-sitenotice-title": "幫助我們！",
 	"fundraising-sitenotice-button-text": "了解如何幫助！"
 }
