@@ -34,6 +34,7 @@
 	"footer-translate": "Prevedi ovu stranicu",
 	"footer-facebook-title": "Facebook",
 	"footer-twitter-title": "Twitter",
+	"footer-mastodon-title": "Mastodon",
 	"footer-discord-title": "Discord",
 	"back-to-top-title": "Nazad na vrh",
 	"help-center": "Centar za pomoć",
@@ -49,7 +50,7 @@
 	"header-donate-logo-text": "Miraheze Donacije",
 	"donate-amount": "Iznos",
 	"donate-note": "Ovaj obrazac je za donacije putem PayPal-a (možete koristiti kreditne/debitne kartice). Trebalo bi da izaberete svoju lokalnu valutu koristeći padajući meni na stranici.",
-	"fundraising-sitenotice": "Već više od šest godina, Miraheze obezbeđuje besplatan hosting za više od 300.000 korisnika. Pomozite nam da tako nastavimo na još šest godina i duže! Projekt se 100% napaja donacijama ljudi poput vas. Zahvalni smo što nastavljamo da vidimo impresivan promet iz godine u godinu i rast zajednice. Međutim, sa našim impresivnim rastom, potrebno nam je više infrastrukture da bismo odgovorili na povećanu potražnju. Molimo vas, iskreno, da razmislite o ubacivanju £5, £10, £20, ili koliko god možete da priuštite. Ako bi 500 od 300.000+ korisnika Mirahezea dalo samo 12 funti (16,35 američkih dolara) jednom godišnje, Miraheze bi premašio svoje budžetske potrebe.",
+	"fundraising-sitenotice": "Već skoro osam godina, Miraheze obezbeđuje besplatan hosting za više od 300.000 korisnika. Pomozite nam da tako nastavimo na još osam godina i duže! Projekt se 100% napaja donacijama ljudi poput vas. Zahvalni smo što nastavljamo da vidimo impresivan promet iz godine u godinu i rast zajednice. Međutim, sa našim impresivnim rastom, potrebno nam je više infrastrukture da bismo odgovorili na povećanu potražnju. Molimo vas, iskreno, da razmislite o ubacivanju £5, £10, £20, ili koliko god možete da priuštite. Ako bi 550 od 300.000+ korisnika Mirahezea dalo samo 12 funti (16,35 američkih dolara) jednom godišnje, Miraheze bi premašio svoje budžetske potrebe.",
 	"fundraiser-sitenotice-title": "Pomozite nam!",
 	"fundraising-sitenotice-button-text": "Doznajte kako nam možete pomoći!"
 }
