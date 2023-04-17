@@ -23,7 +23,7 @@
 	"features-community-text": "社群",
 	"features-community-desc": "身為社群一份子，我們要努力成為出色的wiki農場，一起實現此共同目標！使用者這樣可從中學習，我們也能為使用者取得最佳結果！",
 	"features-responsive-text": "回應式",
-	"features-responsive-desc": "我們所有的wiki都支援使用MobileFrontend，來讓使用者介面對行動裝置更加友好。這個擴充功能是預設啟用的，當然，我們也允許您通過停用它來關閉這個擴充功能。",
+	"features-responsive-desc": "我們所有的wiki都支援使用行動前端（MobileFrontend），來讓使用者介面對行動裝置更加友好。這個擴充功能是預設啟用的，當然，我們也允許您透過停用它來關閉這個擴充功能。",
 	"features-extensions-text": "我們自製的擴充功能",
 	"features-extensions-desc": "我們設計了一些最前沿的擴充功能，來幫助我們發展成為世界上最好的wiki農場之一！我們的擴充功能使社群能夠更好地掌管自己的wiki，幾乎不需要我們的工作人員照管。我們也會聽取社群在其wiki管理方面的意見。",
 	"features-more-desc": "還有更多特點！",
