@@ -17,7 +17,7 @@ jobs:
         with:
           access_token: ${{ github.token }}
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: PHP ${{ matrix.php }} 
         uses: shivammathur/setup-php@v2
