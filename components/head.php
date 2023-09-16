@@ -63,6 +63,6 @@
 			$headline = 'Miraheze Donate';
 		}
 
-		echo '<script type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"' . $headline . '","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}]</script>' . "\n";
+		echo '<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"' . $headline . '","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}</script>' . "\n";
 	?>
 </head>
