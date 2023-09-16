@@ -1,7 +1,9 @@
 <?php require_once __DIR__ . '/config.php'; ?>
 <?php require_once __DIR__ . '/getTranslations.php'; ?>
 
-<?php header('Cache-Control: max-age=300, must-revalidate'); ?>
+<?php
+    ob_start();
+?>
 
 <!DOCTYPE html>
 <html lang="<?php echo getLanguageCode(); ?>" prefix="og: http://ogp.me/ns#">
@@ -60,3 +62,11 @@
 		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4657&amp;rec=1&amp;action_name=Landing_Donate" style="border: 0;" alt="Matomo" /></p></noscript>
 	</body>
 </html>
+
+<?php
+    header('Cache-control: max-age=300, must-revalidate');
+?>
+
+<?php
+    ob_flush();
+?>
