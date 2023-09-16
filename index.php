@@ -1,6 +1,8 @@
 <?php require_once __DIR__ . '/config.php'; ?>
 <?php require_once __DIR__ . '/getTranslations.php'; ?>
 
+<?php header('Cache-Control: max-age=300, must-revalidate'); ?>
+
 <!DOCTYPE html>
 <html lang="<?php echo getLanguageCode(); ?>" prefix="og: http://ogp.me/ns#">
 	<?php include_once __DIR__ . '/components/head.php'; ?>
