@@ -1,7 +1,3 @@
-<?php
-    ob_start();
-?>
-
 <?php require_once __DIR__ . '/config.php'; ?>
 <?php require_once __DIR__ . '/getTranslations.php'; ?>
 
@@ -110,11 +106,3 @@
 		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4657&amp;rec=1&amp;action_name=Landing_Home" style="border:0;" alt="Matomo" /></p></noscript>
 	</body>
 </html>
-
-<?php
-    header('Cache-control: max-age=300, must-revalidate');
-?>
-
-<?php
-    ob_flush();
-?>
