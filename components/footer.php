@@ -51,7 +51,7 @@
 					</li>
 					<li class="list-inline-item me-4">
 						<a href="https://twitter.com/miraheze" title="<?php echo getTranslation( 'footer-twitter-title' ); ?>">
-							<i class="bi-twitter fs-3"></i>
+							<i class="bi-twitter-x fs-3"></i>
 						</a>
 					</li>
 					<li class="list-inline-item me-4">
