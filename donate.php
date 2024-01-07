@@ -19,7 +19,7 @@
 					<div class="form-control-lg mb-0 pb-2 col-lg-8 mx-auto">
 						<input class="form-control" id="amountInput" type="number" placeholder="<?php echo getTranslation( 'donate-amount' ); ?>" oninput="_amountInput(this)">
 
-						<a id="donationHref" class="btn btn-primary mt-1" href="https://paypal.me/mirahezelimited" title="<?php echo getTranslation( 'donate-heading' ); ?>">
+						<a id="donationHref" class="btn btn-primary mt-1" href="https://www.paypal.com/donate/?hosted_button_id=Q8ZN29LJVXP7L" title="<?php echo getTranslation( 'donate-heading' ); ?>">
 							<?php echo getTranslation( 'donate-heading' ); ?>
 						</a>
 						<p class="col-form-label-sm py-0"><?php echo getTranslation( 'donate-note' ); ?></p>
@@ -52,7 +52,7 @@
 					value = '';
 				}
 				var a = document.getElementById('donationHref');
-				a.setAttribute( 'href', 'https://paypal.me/mirahezelimited' + value );
+				a.setAttribute( 'href', 'https://www.paypal.com/donate/?hosted_button_id=Q8ZN29LJVXP7L' + value );
 			}
 		</script>
 		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4657&amp;rec=1&amp;action_name=Landing_Donate" style="border: 0;" alt="Matomo" /></p></noscript>
