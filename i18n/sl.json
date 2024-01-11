@@ -15,7 +15,7 @@
 	"features-mediawiki": "MediaWiki",
 	"features-mediawiki-desc": "Miraheze poganja isto programje kot Wikipedijo, [https://www.mediawiki.org|MediaWiki]! Počnete lahko kar koli, od nalaganja predstavnosti, kot so slike ali videoposnetki, do pisanja člankov ali blogov. Imamo več kot 300 razširitev in več kot 25 preoblek, med katerimi lahko izbirate, da si prilagodite izkušnjo z MediaWikijem!",
 	"features-not-for-profit-text": "Neprofitno",
-	"features-not-for-profit-desc": "Miraheze je registriran kot Miraheze Limited v Združenem kraljestvu. Kot neprofitna organizacija, ki vzdržuje strežnike, ponujamo 100-odstotno brezplačne vikije in razvijamo razširitve zanje.",
+	"features-not-for-profit-desc": "Miraheze uparvlja fundacija WikiTide v Združenih državah Amerike. Kot neprofitna organizacija, ki vzdržuje strežnike, ponujamo 100-odstotno brezplačne vikije in razvijamo razširitve zanje.",
 	"features-community-text": "Skupnost",
 	"features-community-desc": "Kot skupnost si vsi prizadevamo za skupni cilj, da postanemo odlična vikifarma! Tako lahko dosegamo najboljše možne rezultate za uporabnike in jim omogočamo učenje!",
 	"features-responsive-text": "Odzivno",
@@ -23,8 +23,8 @@
 	"features-extensions-text": "Lastne razširitve",
 	"features-extensions-desc": "Zasnovali smo nekaj najsodobnejših razširitev, ki nam pomagajo rasti in postati ena najboljših vikifarm na svetu! Naše razširitve omogočajo skupnostim večji nadzor nad lastnimi vikiji, tako da je potrebnega le malo nadzora našega osebja. Poslušamo mnenja skupnosti o upravljanju njenih vikijev.",
 	"features-more-desc": "In še številne druge možnosti!",
-	"about-desc": "Julija 2015 sta John Lewis in Ferran Tufan ustvarila novo vikifarmo, imenovano Miraheze. Z uporabo skupnostnega množičnega financiranja in osebnih naložb je Miraheze uradno začel delovati avgusta 2015. Z leti je projekt izjemno zrasel in postal ena največjih in najbolj prepoznavnih vikifarm, specializiranih za ponujanje MediaWikija. Kljub uspehu in razvoju se en vidik Miraheze nikoli ni spremenil – formalni obstoj. Novembra 2019 je Miraheze postal v Združenem kraljestvu registrirana neprofitna organizacija.",
-	"footer-desc": "Miraheze Limited\n Družba z omejeno odgovornostjo, registrirana v Angliji in Walesu pod št. 12323854\n Razen če je navedeno drugače, je vsebina tega mesta na voljo pod licenco [https://creativecommons.org/licenses/by-sa/4.0/deed.sl|Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)].",
+	"about-desc": "Julija 2015 sta John Lewis in Ferran Tufan ustvarila novo vikifarmo, imenovano Miraheze. Z uporabo skupnostnega množičnega financiranja in osebnih naložb je Miraheze uradno začel delovati avgusta 2015. Z leti je projekt izjemno zrasel in postal ena največjih in najbolj prepoznavnih vikifarm, specializiranih za ponujanje MediaWikija. Kljub uspehu in razvoju se en vidik Miraheze nikoli ni spremenil – formalni obstoj. Novembra 2019 je Miraheze postal v Združenem kraljestvu registrirana neprofitna organizacija. Januarja 2024 je bilo poslovanje preneseno na fundacijo WikiTide.",
+	"footer-desc": "WikiTide Foundation\n Registrirana neprofitna družba 501(c)(3) s št. 5312868 v Združenih državah Amerike.\n Razen če je navedeno drugače, je vsebina tega mesta na voljo pod licenco [https://creativecommons.org/licenses/by-sa/4.0/deed.sl|Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)].",
 	"footer-terms": "Pogoji uporabe",
 	"footer-privacy-policy": "Pravilnik o zasebnosti",
 	"footer-content-policy": "Pravilnik o vsebini",
@@ -49,7 +49,7 @@
 	"header-donate-logo-text": "Donirajte Mirahezeju",
 	"donate-amount": "Znesek",
 	"donate-note": "#Ta obrazec je namenjen donacijam s PayPalom (uporabite lahko tudi kreditne/debetne kartice). S spustnim menijem na strani izberite svojo lokalno valuto.",
-	"fundraising-sitenotice": "Miraheze že skoraj osem let zagotavlja prosto gostovanje zdaj že več kot 300.000 uporabnikom. Pomagajte nam nadaljevati še naslednjih osem in več let. 100-odstotno se financiramo z donacijami ljudi, kot ste vi. Hvaležno opažamo impresivno vsakoletno rast prometa in skupnosti. Zaradi naše hitre rasti pa potrebujemo dodatno infrastrukturo za obvladovanje povečanih potreb. Iskreno vas prosimo, da prispevate 5&nbsp;£, 10&nbsp;£, 20&nbsp;£ ali kolikor si lahko privoščite. Že če bi 550 od Mirahezejevih več kot 300.000 uporabnikov enkrat letno doniralo samo 12&nbsp;£ (14,05&nbsp;€), bi Miraheze presegel proračunske potrebe.",
+	"fundraising-sitenotice": "Miraheze že skoraj osem let zagotavlja prosto gostovanje zdaj že več kot 300.000 uporabnikom. Pomagajte nam nadaljevati še naslednjih osem in več let. 100-odstotno se financiramo z donacijami ljudi, kot ste vi. Hvaležno opažamo impresivno vsakoletno rast prometa in skupnosti. Zaradi naše hitre rasti pa potrebujemo dodatno infrastrukturo za obvladovanje povečanih potreb. Iskreno vas prosimo, da prispevate 5&nbsp;$, 10&nbsp;$, 20&nbsp;$ ali kolikor si lahko privoščite. Že če bi 550 od Mirahezejevih več kot 300.000 uporabnikov enkrat letno doniralo samo 16&nbsp;$ (14,60&nbsp;€), bi Miraheze presegel proračunske potrebe.<!--$5, $10, $20, $16-->",
 	"fundraiser-sitenotice-title": "Pomagajte nam!",
 	"fundraising-sitenotice-button-text": "Seznanite se, kako nam lahko pomagate!"
 }

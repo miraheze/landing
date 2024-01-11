@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jon Harald Søby",
 			"Sabelöga"
 		]
 	},
@@ -49,7 +50,7 @@
 	"header-donate-logo-text": "Donera till Miraheze",
 	"donate-amount": "Belopp",
 	"donate-note": "Det här formuläret är till för donationer med PayPal (du kan använda kreditkort). Du bör välja din lokala valuta i sidans rullgardinsmeny.",
-	"fundraising-sitenotice": "I över sex år nu har Miraheze försett sina över 300 000+ användare med gratis hosting. Hjälp oss att fortsätta i sex år till och längre! Vi drivs till 100 % av donationer från människor som du. Vi är tacksamma för att kunna fortsätta se imponerande trafik från år till år och tillväxt i samhället. Men med vår imponerande tillväxt behöver vi mer infrastruktur för att hantera ökad efterfrågan. Vi ber dig, uppriktigt, överväga att lägga in £5, £10, £20 eller vad du nu har råd med. Om 500 av Mirahezes 300 000+ användare bara gav £12 (16,35 USD) en gång om året, skulle Miraheze överskrida sina budgetkrav.",
+	"fundraising-sitenotice": "I över åtta år nu har Miraheze försett sina över 300 000+ användare med gratis hosting. Hjälp oss att fortsätta i åtta år till och längre! Vi drivs till 100 % av donationer från människor som du. Vi är tacksamma för att kunna fortsätta se imponerande trafik från år till år och tillväxt i samhället. Men med vår imponerande tillväxt behöver vi mer infrastruktur för att hantera ökad efterfrågan. Vi ber dig, uppriktigt, överväga att lägga in $5, $10, $20 eller vad du nu har råd med. Om 500 av Mirahezes 300 000+ användare bara gav $16 en gång om året, skulle Miraheze överskrida sina budgetkrav.",
 	"fundraiser-sitenotice-title": "Hjälp oss!",
 	"fundraising-sitenotice-button-text": "Lär dig att hjälpa!"
 }
