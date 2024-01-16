@@ -55,6 +55,6 @@
 				a.setAttribute( 'href', 'https://www.paypal.com/donate/?hosted_button_id=Q8ZN29LJVXP7L' + value );
 			}
 		</script>
-		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4657&amp;rec=1&amp;action_name=Landing_Donate" style="border: 0;" alt="Matomo" /></p></noscript>
+		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=9838&amp;rec=1&amp;action_name=Landing_Donate" style="border: 0;" alt="Matomo" /></p></noscript>
 	</body>
 </html>
