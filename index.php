@@ -97,8 +97,8 @@
 				var u = 'https://matomo.miraheze.org/';
 				_paq.push(['setTrackerUrl', u+'matomo.php']);
 				_paq.push(['setDocumentTitle', 'Landing - Home']);
-				_paq.push(['setSiteId', 4657]);
-				_paq.push(['addTracker', u + 'matomo.php', 8590]);
+				_paq.push(['setSiteId', 9838]);
+				_paq.push(['addTracker', u + 'matomo.php', 1]);
 				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
 				g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
 			})();
