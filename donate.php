@@ -38,8 +38,8 @@
 				var u = 'https://matomo.miraheze.org/';
 				_paq.push(['setTrackerUrl', u+'matomo.php']);
 				_paq.push(['setDocumentTitle', 'Landing - Donate']);
-				_paq.push(['setSiteId', 4657]);
-				_paq.push(['addTracker', u + 'matomo.php', 8590]);
+				_paq.push(['setSiteId', 9838]);
+				_paq.push(['addTracker', u + 'matomo.php', 1]);
 				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
 				g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
 			} )();
@@ -55,6 +55,6 @@
 				a.setAttribute( 'href', 'https://www.paypal.com/donate/?hosted_button_id=Q8ZN29LJVXP7L' + value );
 			}
 		</script>
-		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=4657&amp;rec=1&amp;action_name=Landing_Donate" style="border: 0;" alt="Matomo" /></p></noscript>
+		<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=9838&amp;rec=1&amp;action_name=Landing_Donate" style="border: 0;" alt="Matomo" /></p></noscript>
 	</body>
 </html>
