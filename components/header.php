@@ -94,3 +94,49 @@
 		</div>
 	</div>
 </header>
+
+<header>
+	<div class="container-xxl position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <h1 class="m-0">Miraheze</h1>
+                <!-- <img src="https://static.wikitide.net/commonswiki/2/2c/WikiTide_wordmark.png" width="135" alt="Miraheze"> -->
+		    </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto py-0">
+                    <a href="/" class="nav-item nav-link active">Home</a>
+                    <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze:About" class="nav-item nav-link" title="<?php echo getTranslation( 'faq' ); ?>">
+						<?php echo getTranslation( 'faq' ); ?>
+					</a>
+                    <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Donate" class="nav-item nav-link" title="<?php echo getTranslation( 'donate' ); ?>">
+						<?php echo getTranslation( 'donate' ); ?>
+					</a>
+                    <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ" class="nav-item nav-link">FAQ</a>
+                    <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" class="nav-item nav-link">Contact us</a>
+                </div>
+                <a href="https://meta.miraheze.org/wiki/Special:UserLogin" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Sign in</a>
+                <a href="https://meta.miraheze.org/wiki/Special:RequestWiki" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Start a wiki</a>
+            </div>
+        </nav>
+
+        <div class="container-xxl bg-primary hero-header">
+            <div class="container px-lg-5">
+                <div class="row g-5 align-items-end">
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <h1 class="text-white mb-4 animated slideInDown">Ad-free wiki hosting, powered by expert MediaWiki volunteers</h1>
+                        <p class="text-white pb-3 animated slideInDown">Focus on what you love and let us take care of the technical details. Join Miraheze and make your wiki today, powered by a non-profit whose mission is to serve you!</p>
+                        <a href="https://meta.miraheze.org/wiki/Special:RequestWiki" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Start a wiki</a>
+                        <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Donate" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Donate to Miraheze</a>
+                    </div>
+
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <img class="img-fluid animated zoomIn" src="https://miraheze.org/img/hero.png" alt="Join Miraheze!">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

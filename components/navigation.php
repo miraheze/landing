@@ -36,3 +36,44 @@
 		</div>
 	</div>
 </nav>
+
+<header>
+<nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+    <a href="" class="navbar-brand p-0">
+        <h1 class="m-0">Miraheze</h1>
+        <!-- <img src="https://static.wikitide.net/commonswiki/2/2c/WikiTide_wordmark.png" width="135" alt="Miraheze"> -->
+	</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="fa fa-bars"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav mx-auto py-0">
+			<?php if ( $_SERVER['SCRIPT_NAME'] === '/index.php' ): ?>
+        	    <a href="/" class="nav-item nav-link active" title="<?php echo getTranslation( 'home' ); ?>">
+					<?php echo getTranslation( 'home' ); ?>
+				</a>
+			<?php elseif ( $_SERVER['SCRIPT_NAME'] === '/index.php' ): ?>
+				<a href="https://miraheze.org" class="nav-item nav-link">
+					<?php echo getTranslation( 'donate-heading' ); ?>
+				</a>
+            <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze:About" class="nav-item nav-link" title="<?php echo getTranslation( 'about-heading' ); ?>">
+				<?php echo getTranslation( 'about-heading' ); ?>
+			</a>
+            <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Donate" class="nav-item nav-link" title="<?php echo getTranslation( 'donate-heading' ); ?>">
+				<?php echo getTranslation( 'donate-heading' ); ?>
+			</a>
+            <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ" class="nav-item nav-link"title="<?php echo getTranslation( 'faq' ); ?>">
+				<?php echo getTranslation( 'faq' ); ?>
+			</a>
+            <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" class="nav-item nav-link"title="<?php echo getTranslation( 'help-center' ); ?>">
+				<?php echo getTranslation( 'help-center' ); ?>
+			</a>
+        </div>
+        <a href="https://meta.miraheze.org/wiki/Special:UserLogin" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block"title="<?php echo getTranslation( 'sign-up' ); ?>">
+				<?php echo getTranslation( 'sign-up' ); ?>
+			</a>
+        <a href="https://meta.miraheze.org/wiki/Special:RequestWiki" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block"title="<?php echo getTranslation( 'requestwiki-text' ); ?>">
+				<?php echo getTranslation( 'requestwiki-text' ); ?>
+			</a>
+    </div>
+</nav>
