@@ -53,14 +53,6 @@
 
 <body>
     <div class="container-xxl bg-white p-0">
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-        <!-- Spinner End -->
-
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
@@ -347,12 +339,12 @@
                         <p class="section-title text-white h5 mb-4">Contact us<span></span></p>
                         <p><i class="fa fa-envelope me-3"></i>sre [at] miraheze.org</p>
                         <p><i class="fa fa-globe me-3"></i><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" style="color: white;">On-wiki</p>
-                       <p><i class="fa fa-flag-checkered me-3"></i><a href="https://issue-tracker.miraheze.org" style="color: white;">Issue tracker</p>
+                       <p><i class="fa fa-flag-checkered me-3"></i><a href="https://phabricator.miraheze.org" style="color: white;">Phabricator</p>
 
                         <div class="d-flex pt-2">
-                            <a rel="me" class="btn btn-outline-light btn-social" href="https://mastodon.social/@wikitide"><i class="fab fa-mastodon"></i></a>
+                            <a rel="me" class="btn btn-outline-light btn-social" href="https://mastodon.social/@miraheze"><i class="fab fa-mastodon"></i></a>
                             <a class="btn btn-outline-light btn-social" href="https://facebook.com/Miraheze"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="https://github.com/WikiTideOrg"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://github.com/miraheze"><i class="fab fa-github"></i></a>
                             <a class="btn btn-outline-light btn-social" href="https://miraheze.org/discord"><i class="fab fa-discord"></i></a>
                         </div>
                     </div>
