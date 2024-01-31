@@ -28,7 +28,7 @@
     <meta name="application-name" content="Miraheze" />
     <meta name="apple-mobile-web-app-title" content="Miraheze" />
     <link rel="canonical" href="https://miraheze.org" />
-    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="https://miraheze.org/img/favicon.ico" />
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
     <script type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"Miraheze","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}]</script>
 
@@ -143,7 +143,7 @@
 							</a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-start">
-                            <img class="img-fluid" width="1200px" height="600px" src="https://miraheze.org/img/hero.webp" alt="Join Miraheze!">
+                            <img rel="preload" fetchpriority="high" as="image" class="img-fluid" width="1200px" height="600px" src="https://miraheze.org/img/hero.webp" alt="Join Miraheze!">
                         </div>
                     </div>
                 </div>
@@ -436,17 +436,7 @@
         <!-- Footer End -->
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top" title="Back to top"><i class="fa fa-arrow-up"></i></a>
     </div>
-
-    <!-- JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://miraheze.org/lib/wow/wow.min.js"></script>
-    <script src="https://miraheze.org/lib/easing/easing.min.js"></script>
-    <script src="https://miraheze.org/lib/waypoints/waypoints.min.js"></script>
-    <script src="https://miraheze.org/lib/counterup/counterup.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="https://miraheze.org/js/main.js"></script>
 </body>
 </html>
