@@ -42,6 +42,9 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="https://wikitide.org/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Template Stylesheet -->
     <link href="https://miraheze.org/css/style.css" rel="stylesheet">
 
