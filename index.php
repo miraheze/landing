@@ -120,7 +120,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="https://meta.miraheze.org/wiki/Special:UserLogin" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Sign in</a>
+                    <a href="https://meta.miraheze.org/wiki/Special:UserLogin" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block" title="<?php echo getTranslation( 'description-text' ); ?>"><?php echo getTranslation( 'sign-in' ); ?></a>
                     <a href="https://meta.miraheze.org/wiki/Special:RequestWiki" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block" title="<?php echo getTranslation( 'requestwiki-text' ); ?>">
 						<?php echo getTranslation( 'requestwiki-text' ); ?>
 					</a>
@@ -138,7 +138,7 @@
 								<?php echo getTranslation( 'description-text' ); ?>
 							</p>
                             <a href="https://meta.miraheze.org/wiki/Special:RequestWiki" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">
-								<?php echo getTranslation( 'requestwiki-heading' ); ?>
+								<?php echo getTranslation( 'requestwiki-text' ); ?>
 							</a>
                             <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Donate" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">
 								<?php echo getTranslation( 'donate-heading' ); ?>
@@ -412,7 +412,7 @@
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                             <span class="border-bottom">
-								<?php echo getTranslation( 'footer-desc' ); ?>. 
+								<?php echo getTranslation( 'footer-desc' ); ?>
 	                     </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
