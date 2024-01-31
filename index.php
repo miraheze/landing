@@ -292,10 +292,10 @@
                                 <i class="fa fa-window-restore fa-2x"></i>
                             </div>
                             <h5 class="mb-3">
-								<?php echo getTranslation( 'features-customdomains' ); ?>
+								<?php echo getTranslation( 'features-customdomain' ); ?>
 							</h5>
                             <p class="m-0">
-								<?php echo getTranslation( 'features-customdomains-desc' ); ?>
+								<?php echo getTranslation( 'features-customdomain-desc' ); ?>
 							</p>
                             <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Custom_domains"><i class="fa fa-arrow-right"></i></a>
                         </div>
