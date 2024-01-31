@@ -98,6 +98,27 @@
                         <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" class="nav-item nav-link" title="<?php echo getTranslation( 'help-center' ); ?>">
 							<?php echo getTranslation( 'help-center' ); ?>
 						</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Languages</a>
+                            <div class="dropdown-menu m-0">
+                                <?php
+
+                                $i18nDirectory = array_diff( scandir( 'i18n' ), [ '.', '..', 'qqq.json' ] );
+                                $languageCodes = str_replace( '.json', '', $i18nDirectory );
+
+                                foreach ( $languageCodes as $languageCode ) {
+                                    $displayName = LOCALE_GET_DISPLAY_NAME( $languageCode, $languageCode );
+
+                                        if ( $languageCode === 'en' ) {
+                                            echo "<a class=\"dropdown-item\" href=\"/\" title=\"{$displayName}\">" . $displayName . '</a>';
+                                            continue;
+                                        }
+
+                                        echo "<a class=\"dropdown-item\" href=\"/{$languageCode}\" title=\"{$displayName}\">" . $displayName . '</a>';
+                                }
+                                ?>
+                            </div>
+                        </div>
                     </div>
                     <a href="https://meta.miraheze.org/wiki/Special:UserLogin" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Sign in</a>
                     <a href="https://meta.miraheze.org/wiki/Special:RequestWiki" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block" title="<?php echo getTranslation( 'requestwiki-text' ); ?>">
