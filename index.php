@@ -76,7 +76,7 @@
                     <h1 class="m-0">Miraheze</h1>
                     <!-- <img src="https://static.wikitide.net/commonswiki/2/2c/WikiTide_wordmark.png" width="135" alt="Miraheze"> -->
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" title="Navigation menu">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -129,16 +129,16 @@
                 <div class="container px-lg-5">
                     <div class="row g-5 align-items-end">
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="text-white mb-4 animated slideInDown">
+                            <h1 class="text-white mb-4">
 								<?php echo getTranslation( 'welcome-text' ); ?>
 							</h1>
-                            <p class="text-white pb-3 animated slideInDown">
+                            <p class="text-white pb-3">
 								<?php echo getTranslation( 'description-text' ); ?>
 							</p>
-                            <a href="https://meta.miraheze.org/wiki/Special:RequestWiki" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">
+                            <a href="https://meta.miraheze.org/wiki/Special:RequestWiki" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3" title="<?php echo getTranslation( 'reuestwiki-text' ); ?>">
 								<?php echo getTranslation( 'requestwiki-text' ); ?>
 							</a>
-                            <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Donate" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">
+                            <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Donate" class="btn btn-light py-sm-3 px-sm-5 rounded-pill" title="<?php echo getTranslation( 'donate-heading' ); ?>">
 								<?php echo getTranslation( 'donate-heading' ); ?>
 							</a>
                         </div>
@@ -253,7 +253,7 @@
                             <p class="m-0">
 								<?php echo getTranslation( 'features-adfree-desc' ); ?>
 							</p>
-                            <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Advertisements"><i class="fa fa-arrow-right"></i></a>
+                            <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Advertisements" title="<?php echo getTranslation( 'learn-more' ); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -267,7 +267,7 @@
                             <p class="m-0">
 								<?php echo getTranslation( 'features-configure-desc' ); ?>
 							</p>
-                            <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/ManageWiki"><i class="fa fa-arrow-right"></i></a>
+                            <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/ManageWiki" title="<?php echo getTranslation( 'learn-more' ); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -281,7 +281,7 @@
                             <p class="m-0">
 								<?php echo getTranslation( 'features-customizability-desc' ); ?>
 							</p>
-                            <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Extensions"><i class="fa fa-arrow-right"></i></a>
+                            <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Extensions" title="<?php echo getTranslation( 'learn-more' ); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -295,7 +295,7 @@
                             <p class="m-0">
 								<?php echo getTranslation( 'features-customdomain-desc' ); ?>
 							</p>
-                            <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Custom_domains"><i class="fa fa-arrow-right"></i></a>
+                            <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Custom_domains" title="<?php echo getTranslation( 'learn-more' ); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -309,7 +309,7 @@
                             <p class="m-0">
 								<?php echo getTranslation( 'features-support-desc' ); ?>
 							</p>
-                            <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center"><i class="fa fa-arrow-right"></i></a>
+                            <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" title="<?php echo getTranslation( 'learn-more' ); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -323,7 +323,7 @@
                             <p class="m-0">
 								<?php echo getTranslation( 'features-visualeditor-desc' ); ?>
 							</p>
-                            <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/VisualEditor"><i class="fa fa-arrow-right"></i></a>
+                            <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/VisualEditor" title="<?php echo getTranslation( 'learn-more' ); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -375,32 +375,32 @@
                     <div class="col-md-6 col-lg-3">
                         <p class="section-title text-white h5 mb-4">Contact us<span></span></p>
                         <p><i class="fa fa-envelope me-3"></i>sre [at] miraheze.org</p>
-                        <p><i class="fa fa-globe me-3"></i><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" style="color: white;">On-wiki</p>
-                       <p><i class="fa fa-flag-checkered me-3"></i><a href="https://phabricator.miraheze.org" style="color: white;">Phabricator</p>
+                        <p><i class="fa fa-globe me-3"></i><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" style="color: white;" title="On-wiki">On-wiki</p>
+                       <p><i class="fa fa-flag-checkered me-3"></i><a href="https://phabricator.miraheze.org" style="color: white;" title="Phabricator issue trakcer">Phabricator</p>
 
                         <div class="d-flex pt-2">
-                            <a rel="me" class="btn btn-outline-light btn-social" href="https://mastodon.social/@miraheze"><i class="fab fa-mastodon"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="https://facebook.com/Miraheze"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="https://twitter.com/miraheze"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="https://github.com/miraheze"><i class="fab fa-github"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="https://miraheze.org/discord"><i class="fab fa-discord"></i></a>
+                            <a rel="me" class="btn btn-outline-light btn-social" href="https://mastodon.social/@miraheze" title="Mastodon"><i class="fab fa-mastodon"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://facebook.com/Miraheze" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://twitter.com/miraheze"><i class="fab fa-twitter" title="Twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://github.com/miraheze"><i class="fab fa-github" title="GitHub"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://miraheze.org/discord"><i class="fab fa-discord" title="Discord"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <p class="section-title text-white h5 mb-4">Quick Links<span></span></p>
-                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze:About_us">
+                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze:About_us" title="<?php echo getTranslation( 'about-heading' ); ?>">
 							<?php echo getTranslation( 'about-heading' ); ?>
 						</a>
-                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center">
+                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" title="<?php echo getTranslation( 'help-center' ); ?>">
 							<?php echo getTranslation( 'help-center' ); ?>
 						</a>
-                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy">
+                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy" title="<?php echo getTranslation( 'footer-privacy-policy' ); ?>">
 							<?php echo getTranslation( 'footer-privacy-policy' ); ?>
 						</a>
-                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Terms_of_Use">
+                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Terms_of_Use"  title="<?php echo getTranslation( 'footer-terms' ); ?>">
 							<?php echo getTranslation( 'footer-terms' ); ?>
 						</a>
-                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Content_Policy">
+                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Content_Policy" title="<?php echo getTranslation( 'footer-content-policy' ); ?>">
 							<?php echo getTranslation( 'footer-content-policy' ); ?>
 						</a>
                     </div>
@@ -418,13 +418,13 @@
                                 <a href="/">
 									<?php echo getTranslation( 'home' ); ?>
 								</a>
-                                <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy#Cookies">
+                                <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy#Cookies" title="<?php echo getTranslation( 'footer-cookie' ); ?>">
 									<?php echo getTranslation( 'footer-cookie' ); ?>
 								</a>
-                                <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center">
+                                <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" title="<?php echo getTranslation( 'help-center' ); ?>">
 									<?php echo getTranslation( 'help-center' ); ?>
 								</a>
-                                <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ">
+                                <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ" title="<?php echo getTranslation( 'faq' ); ?>">
 									<?php echo getTranslation( 'faq' ); ?>
 								</a>
                             </div>
