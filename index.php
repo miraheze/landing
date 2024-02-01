@@ -161,7 +161,7 @@
                     <p class="text-center">
 						<?php echo getTranslation( 'wikitype-desc' ); ?>
 					</p>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
                             <h5 class="mb-3">
@@ -172,7 +172,7 @@
 							</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.1s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-gamepad text-primary mb-4"></i>
                             <h5 class="mb-3">
@@ -183,7 +183,7 @@
 							</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.3s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-masks-theater text-primary mb-4"></i>
                             <h5 class="mb-3">
@@ -194,7 +194,7 @@
 							</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-flask-vial text-primary mb-4"></i>
                             <h5 class="mb-3">
@@ -205,7 +205,7 @@
 							</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
                             <h5 class="mb-3">
@@ -216,7 +216,7 @@
 							</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-bullhorn text-primary mb-4"></i>
                             <h5 class="mb-3">
@@ -242,7 +242,7 @@
 					</h1>
                 </div>
                 <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp d-flex" data-wow-delay="0.1s">
                         <div class="service-item d-flex flex-column text-center rounded">
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-rectangle-ad fa-2x"></i>
@@ -256,7 +256,7 @@
                             <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Advertisements" title="<?php echo getTranslation( 'learn-more' ); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp d-flex" data-wow-delay="0.3s">
                         <div class="service-item d-flex flex-column text-center rounded">
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-screwdriver-wrench fa-2x"></i>
@@ -270,7 +270,7 @@
                             <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/ManageWiki" title="<?php echo getTranslation( 'learn-more' ); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp d-flex" data-wow-delay="0.5s">
                         <div class="service-item d-flex flex-column text-center rounded">
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-swatchbook fa-2x"></i>
@@ -284,7 +284,7 @@
                             <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Extensions" title="<?php echo getTranslation( 'learn-more' ); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp d-flex" data-wow-delay="0.1s">
                         <div class="service-item d-flex flex-column text-center rounded">
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-window-restore fa-2x"></i>
@@ -298,7 +298,7 @@
                             <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Custom_domains" title="<?php echo getTranslation( 'learn-more' ); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp d-flex" data-wow-delay="0.3s">
                         <div class="service-item d-flex flex-column text-center rounded">
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-headset fa-2x"></i>
@@ -312,7 +312,7 @@
                             <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" title="<?php echo getTranslation( 'learn-more' ); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp d-flex" data-wow-delay="0.5s">
                         <div class="service-item d-flex flex-column text-center rounded">
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-pen-ruler fa-2x"></i>
