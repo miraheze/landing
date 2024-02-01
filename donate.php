@@ -92,7 +92,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-auto py-0">
-                        <a href="/" class="nav-item nav-link">
+                        <a href="https://miraheze.org" class="nav-item nav-link">
 							<?php echo getTranslation( 'home' ); ?>
 						</a>
                         <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze:About" class="nav-item nav-link" title="<?php echo getTranslation( 'about-heading' ); ?>">
