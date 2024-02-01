@@ -17,23 +17,23 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Donate to Miraheze" />
     <meta property="og:site_name" content="Miraheze" />
-    <meta property="og:url" content="https://miraheze.org/" />
+    <meta property="og:url" content="https://donate.miraheze.org/" />
     <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:image" content="https://miraheze.org/embed.png">
+    <meta name="twitter:image" content="https://donate.miraheze.org/embed.png">
     <meta name="twitter:title" content="Donate to Miraheze" />
     <meta name="twitter:site" content="Miraheze" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="application-name" content="Miraheze" />
     <meta name="apple-mobile-web-app-title" content="Miraheze" />
-    <link rel="canonical" href="https://miraheze.org" />
-    <link rel="icon" type="image/x-icon" href="https://miraheze.org/img/favicon.ico" />
+    <link rel="canonical" href="https://donate.miraheze.org" />
+    <link rel="icon" type="image/x-icon" href="https://donate.miraheze.org/img/favicon.ico" />
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
     <script type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"Miraheze","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}]</script>
 
     <!-- Favicon -->
-    <link href="https://miraheze.org/img/favicon.ico" rel="icon">
+    <link href="https://donate.miraheze.org/img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,28 +43,39 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="https://miraheze.org/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://donate.miraheze.org/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="https://miraheze.org/css/style.css" rel="stylesheet">
+    <link href="https://donate.miraheze.org/css/style.css" rel="stylesheet">
 
     <!-- Matomo analytics -->
     <script>
-	    var _paq = window._paq = window._paq || [];
+		var _paq = window._paq = window._paq || [];
 		_paq.push(['disableCookies']);
 		_paq.push(['trackPageView']);
 		_paq.push(['enableLinkTracking']);
-		(function() {
+		( function() {
 			var u = 'https://matomo.miraheze.org/';
 			_paq.push(['setTrackerUrl', u+'matomo.php']);
-			_paq.push(['setDocumentTitle', 'Landing - Home']);
+			_paq.push(['setDocumentTitle', 'Landing - Donate']);
 			_paq.push(['setSiteId', 9838]);
 			_paq.push(['addTracker', u + 'matomo.php', 1]);
 			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
 			g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-		})();
+		} )();
+
+		function _amountInput( ele ) {
+			var value;
+			if (ele && ele.value) {
+				value = '/' + ele.value + '/';
+			} else {
+				value = '';
+			}
+			var a = document.getElementById('donationHref');
+			a.setAttribute( 'href', 'https://www.paypal.com/donate/?hosted_button_id=Q8ZN29LJVXP7L' + value );
+		}
 	</script>
-	<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=9838&amp;rec=1&amp;action_name=Landing_Home" style="border:0;" alt="Matomo" /></p></noscript>
+	<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=9838&amp;rec=1&amp;action_name=Landing_Donate" style="border: 0;" alt="Matomo" /></p></noscript>
 </head>
 
 <body>
@@ -81,13 +92,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-auto py-0">
-                        <a href="/" class="nav-item nav-link active">
+                        <a href="/" class="nav-item nav-link">
 							<?php echo getTranslation( 'home' ); ?>
 						</a>
                         <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze:About" class="nav-item nav-link" title="<?php echo getTranslation( 'about-heading' ); ?>">
 							<?php echo getTranslation( 'about-heading' ); ?>
 						</a>
-                        <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Donate" class="nav-item nav-link" title="<?php echo getTranslation( 'donate-heading' ); ?>">
+                        <a href="#" class="nav-item nav-link active" title="<?php echo getTranslation( 'donate-heading' ); ?>">
 							<?php echo getTranslation( 'donate-heading' ); ?>
 						</a>
                         <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ" class="nav-item nav-link" title="<?php echo getTranslation( 'faq' ); ?>">
