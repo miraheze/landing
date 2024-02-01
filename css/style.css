@@ -6,6 +6,34 @@
     --dark: #04000B;
 }
 
+/*** Dark mode ***/
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #181818;
+        color: #E4E6EB;
+    }
+
+    .bg-white {
+        background-color: #282828 !important;
+    }
+
+    h1, h5 {
+        color: #fff;
+    }
+
+    .bg-light, .service-item {
+        background-color: #404040 !important;
+    }
+
+    .hero-header.background {
+        filter: invert(100%);
+
+    }
+
+    .bg-primary {
+        background-color: #3A147A !important;
+    }
+}
 
 /*** Spinner ***/
 #spinner {
