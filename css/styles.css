@@ -7819,7 +7819,7 @@ textarea.form-control-lg {
 }
 
 .bg-header {
-	background-color: linear-gradient(45deg, #850062, #9f8500) !important;
+	background: linear-gradient(45deg, #ffb5db, #ffefb3) !important;
 }
 
 .bg-success {

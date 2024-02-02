@@ -21,6 +21,9 @@
         color: #fff;
     }
 
+    .text-darkmode {
+        color: #7f4200 !important;
+    }
     .bg-light, .service-item {
         background-color: #404040 !important;
     }
@@ -35,7 +38,7 @@
     }
 
     .bg-header {
-        background-color: linear-gradient(45deg, #ffb5db, #ffefb3) !important;
+        background: linear-gradient(45deg, #850062, #9f8500) !important;
     }
 }
 
@@ -151,7 +154,6 @@ h6,
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: var(--light) !important;
     outline: none;
     transition: .5s;
 }
