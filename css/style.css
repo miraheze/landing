@@ -33,6 +33,10 @@
     .bg-primary {
         background-color: #3A147A !important;
     }
+
+    .bg-header {
+        background-color: linear-gradient(45deg, #ffb5db, #ffefb3) !important;
+    }
 }
 
 /*** Spinner ***/
@@ -77,6 +81,20 @@ h6,
     font-weight: 500 !important;
 }
 
+/*** Logo and workmark ***/
+.logo {
+    float: left;
+    width: 90px;
+    height: 90px;
+}
+
+.wordmark {
+    position: relative;
+    top: 13px;
+    right: 7px;
+    font-size: 2.0rem;
+    padding-right: 5.5rem;
+}
 
 /*** Button ***/
 .btn {
