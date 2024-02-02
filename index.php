@@ -129,10 +129,10 @@
                 <div class="container px-lg-5">
                     <div class="row g-5 align-items-end">
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="text-white mb-4 text-lightmode">
+                            <h1 class="text-lightmode mb-4">
 								<?php echo getTranslation( 'welcome-text' ); ?>
 							</h1>
-                            <p class="text-white pb-3 text-lightmode">
+                            <p class="text-lightmode pb-3">
 								<?php echo getTranslation( 'description-text' ); ?>
 							</p>
                             <a href="https://meta.miraheze.org/wiki/Special:RequestWiki" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3" title="<?php echo getTranslation( 'reuestwiki-text' ); ?>">
@@ -337,29 +337,29 @@
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
                         <i class="fa fa-certificate fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-white mb-2" data-toggle="counter-up">8800</h1>
-                        <p class="text-white mb-0">
+                        <h1 class="text-lightmode mb-2" data-toggle="counter-up">8800</h1>
+                        <p class="text-lightmode mb-0">
 							<?php echo getTranslation( 'statistics-wikis' ); ?>
 						</p>
                     </div>
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
                         <i class="fa fa-users-cog fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-white mb-2" data-toggle="counter-up">40000</h1>
-                        <p class="text-white mb-0">
+                        <h1 class="text-lightmode mb-2" data-toggle="counter-up">40000</h1>
+                        <p class="text-lightmode mb-0">
 							<?php echo getTranslation( 'statistics-requests' ); ?>
 						</p>
                     </div>
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
                         <i class="fa fa-users fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-white mb-2" data-toggle="counter-up">450000</h1>
-                        <p class="text-white mb-0">
+                        <h1 class="text-lightmode mb-2" data-toggle="counter-up">450000</h1>
+                        <p class="text-lightmode mb-0">
 							<?php echo getTranslation( 'statistics-users' ); ?>
 						</p>
                     </div>
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
                         <i class="fa fa-check fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-white mb-2"><span data-toggle="counter-up">100</span>%</h1>
-                        <p class="text-white mb-0">
+                        <h1 class="text-lightmode mb-2"><span data-toggle="counter-up">100</span>%</h1>
+                        <p class="text-lightmode mb-0">
 							<?php echo getTranslation( 'statistics-powered' ); ?>
 						</p>
                     </div>
@@ -373,10 +373,10 @@
             <div class="container py-5 px-lg-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-3">
-                        <p class="section-title text-white h5 mb-4">Contact us<span></span></p>
-                        <p><i class="fa fa-envelope me-3"></i>sre [at] miraheze.org</p>
-                        <p><i class="fa fa-globe me-3"></i><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" style="color: white;" title="On-wiki">On-wiki</a></p>
-                        <p><i class="fa fa-flag-checkered me-3"></i><a href="https://phabricator.miraheze.org" style="color: white;" title="Phabricator issue tracker">Phabricator</a></p>
+                        <p class="section-title text-lightmode h5 mb-4">Contact us<span></span></p>
+                        <p><i class="fa fa-envelope me-3"></i><span class="text-lightmode">sre [at] miraheze.org</span></p>
+                        <p><i class="fa fa-globe me-3"></i><a class="text-lightmode" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" title="On-wiki">On-wiki</a></p>
+                        <p><i class="fa fa-flag-checkered me-3"></i><a class="text-lightmode" href="https://phabricator.miraheze.org" title="Phabricator issue tracker">Phabricator</a></p>
 
                         <div class="d-flex pt-2">
                             <a rel="me" class="btn btn-outline-light btn-social" href="https://mastodon.social/@miraheze" title="Mastodon"><i class="fab fa-mastodon"></i></a>
@@ -387,20 +387,20 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <p class="section-title text-white h5 mb-4">Quick Links<span></span></p>
-                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze:About_us" title="<?php echo getTranslation( 'about-heading' ); ?>">
+                        <p class="section-title text-lightmode h5 mb-4">Quick Links<span></span></p>
+                        <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze:About_us" title="<?php echo getTranslation( 'about-heading' ); ?>">
 							<?php echo getTranslation( 'about-heading' ); ?>
 						</a>
-                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" title="<?php echo getTranslation( 'help-center' ); ?>">
+                        <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" title="<?php echo getTranslation( 'help-center' ); ?>">
 							<?php echo getTranslation( 'help-center' ); ?>
 						</a>
-                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy" title="<?php echo getTranslation( 'footer-privacy-policy' ); ?>">
+                        <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy" title="<?php echo getTranslation( 'footer-privacy-policy' ); ?>">
 							<?php echo getTranslation( 'footer-privacy-policy' ); ?>
 						</a>
-                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Terms_of_Use"  title="<?php echo getTranslation( 'footer-terms' ); ?>">
+                        <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Terms_of_Use"  title="<?php echo getTranslation( 'footer-terms' ); ?>">
 							<?php echo getTranslation( 'footer-terms' ); ?>
 						</a>
-                        <a class="btn btn-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Content_Policy" title="<?php echo getTranslation( 'footer-content-policy' ); ?>">
+                        <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Content_Policy" title="<?php echo getTranslation( 'footer-content-policy' ); ?>">
 							<?php echo getTranslation( 'footer-content-policy' ); ?>
 						</a>
                     </div>
@@ -410,21 +410,21 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            <span class="border-bottom">
+                            <span class="border-bottom text-lightmode">
 								<?php echo getTranslation( 'footer-desc' ); ?>
 	                     </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
-                                <a href="/">
+                                <a class="text-lightmode" href="/">
 									<?php echo getTranslation( 'home' ); ?>
 								</a>
-                                <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy#Cookies" title="<?php echo getTranslation( 'footer-cookie' ); ?>">
+                                <a class="text-lightmode" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy#Cookies" title="<?php echo getTranslation( 'footer-cookie' ); ?>">
 									<?php echo getTranslation( 'footer-cookie' ); ?>
 								</a>
-                                <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" title="<?php echo getTranslation( 'help-center' ); ?>">
+                                <a class="text-lightmode" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" title="<?php echo getTranslation( 'help-center' ); ?>">
 									<?php echo getTranslation( 'help-center' ); ?>
 								</a>
-                                <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ" title="<?php echo getTranslation( 'faq' ); ?>">
+                                <a class="text-lightmode" href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ" title="<?php echo getTranslation( 'faq' ); ?>">
 									<?php echo getTranslation( 'faq' ); ?>
 								</a>
                             </div>
