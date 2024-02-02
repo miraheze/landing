@@ -74,26 +74,26 @@
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
                     <img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" width="135" alt="Miraheze">
-                    <h1 class="m-0 wordmark text-darkmode">Miraheze</h1>
+                    <h1 class="m-0 wordmark text-lightmode">Miraheze</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" title="Navigation menu">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-auto py-0">
-                        <a href="/" class="nav-item nav-link active text-darkmode">
+                        <a href="/" class="nav-item nav-link active text-lightmode">
 							<?php echo getTranslation( 'home' ); ?>
 						</a>
-                        <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze:About" class="nav-item nav-link text-darkmode" title="<?php echo getTranslation( 'about-heading' ); ?>">
+                        <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze:About" class="nav-item nav-link text-lightmode" title="<?php echo getTranslation( 'about-heading' ); ?>">
 							<?php echo getTranslation( 'about-heading' ); ?>
 						</a>
-                        <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Donate" class="nav-item nav-link text-darkmode" title="<?php echo getTranslation( 'donate-heading' ); ?>">
+                        <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Donate" class="nav-item nav-link text-lightmode" title="<?php echo getTranslation( 'donate-heading' ); ?>">
 							<?php echo getTranslation( 'donate-heading' ); ?>
 						</a>
-                        <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ" class="nav-item nav-link text-darkmode" title="<?php echo getTranslation( 'faq' ); ?>">
+                        <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ" class="nav-item nav-link text-lightmode" title="<?php echo getTranslation( 'faq' ); ?>">
 							<?php echo getTranslation( 'faq' ); ?>
 						</a>
-                        <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" class="nav-item nav-link text-darkmode" title="<?php echo getTranslation( 'help-center' ); ?>">
+                        <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" class="nav-item nav-link text-lightmode" title="<?php echo getTranslation( 'help-center' ); ?>">
 							<?php echo getTranslation( 'help-center' ); ?>
 						</a>
                         <div class="nav-item dropdown">
@@ -125,14 +125,14 @@
                 </div>
             </nav>
 
-            <div class="container-xxl bg-header hero-header">
+            <div class="container-xxl bg-primary hero-header">
                 <div class="container px-lg-5">
                     <div class="row g-5 align-items-end">
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="text-white mb-4 text-darkmode">
+                            <h1 class="text-white mb-4 text-lightmode">
 								<?php echo getTranslation( 'welcome-text' ); ?>
 							</h1>
-                            <p class="text-white pb-3 text-darkmode">
+                            <p class="text-white pb-3 text-lightmode">
 								<?php echo getTranslation( 'description-text' ); ?>
 							</p>
                             <a href="https://meta.miraheze.org/wiki/Special:RequestWiki" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3" title="<?php echo getTranslation( 'reuestwiki-text' ); ?>">

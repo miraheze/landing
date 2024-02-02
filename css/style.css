@@ -21,9 +21,6 @@
         color: #fff;
     }
 
-    .text-darkmode {
-        color: #7f4200 !important;
-    }
     .bg-light, .service-item {
         background-color: #404040 !important;
     }
@@ -34,14 +31,17 @@
     }
 
     .bg-primary {
-        background-color: #3A147A !important;
-    }
-
-    .bg-header {
+        --bs-bg-opacity: 1;
         background: linear-gradient(45deg, #850062, #9f8500) !important;
     }
 }
 
+/*** Light mode ***/
+@media (prefers-color-scheme: light) {
+    .text-lightmode {
+        color: #7f4200 !important;
+    }
+}
 /*** Spinner ***/
 #spinner {
     opacity: 0;

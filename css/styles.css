@@ -7810,16 +7810,12 @@ textarea.form-control-lg {
 
 .bg-primary {
 	--bs-bg-opacity: 1;
-	background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+	background: linear-gradient(45deg, #ffb5db, #ffefb3) !important;
 }
 
 .bg-secondary {
 	--bs-bg-opacity: 1;
 	background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-header {
-	background: linear-gradient(45deg, #ffb5db, #ffefb3) !important;
 }
 
 .bg-success {
