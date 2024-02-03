@@ -135,7 +135,7 @@
                             <p class="text-white pb-3 text-lightmode">
 								<?php echo getTranslation( 'description-text' ); ?>
 							</p>
-                            <a href="https://meta.miraheze.org/wiki/Special:RequestWiki" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3" title="<?php echo getTranslation( 'reuestwiki-text' ); ?>">
+                            <a href="https://meta.miraheze.org/wiki/Special:RequestWiki" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3" title="<?php echo getTranslation( 'requestwiki-text' ); ?>">
 								<?php echo getTranslation( 'requestwiki-text' ); ?>
 							</a>
                             <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Donate" class="btn btn-light py-sm-3 px-sm-5 rounded-pill" title="<?php echo getTranslation( 'donate-heading' ); ?>">
