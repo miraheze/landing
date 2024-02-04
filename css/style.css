@@ -261,12 +261,13 @@ h6,
     margin-bottom: 6rem;
     padding: 18rem 0;
     background:
-        url(../img/blob-top-left.webp),
-        url(../img/blob-top-right.webp),
-        url(../img/blob-bottom-left.webp),
-        url(../img/blob-bottom-right.webp),
-        url(../img/blob-center.webp),
-        url(../img/bg-bottom.webp);
+    url(../img/blob-top-left.webp),
+    url(../img/blob-top-right.webp),        
+    url(../img/blob-bottom-left.webp),        
+    url(../img/blob-bottom-right.webp),        
+    url(../img/blob-center.webp),        
+    url(../img/bg-bottom.webp), 
+    linear-gradient(45deg, #ffb5db, #ffefb3);
     background-position:
         left 0px top 0px,
         right 0px top 0px,
