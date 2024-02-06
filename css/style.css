@@ -4,16 +4,31 @@
     --secondary: #FBA504;
     --light: #F6F4F9;
     --dark: #04000B;
+    --gradient-base: linear-gradient(45deg, #ffb5db, #ffefb3);
+    --gradient-detail: #e75492;
 }
 
 /*** Dark mode ***/
 @media (prefers-color-scheme: dark) {
+    :root {
+        /*
+        --primary: #6222CC;
+        --secondary: #FBA504;
+        --light: #F6F4F9;
+        --dark: #04000B;
+        */
+        --gradient-base: linear-gradient(45deg, #850062, #9f8500);
+        --gradient-detail: #ffffff;
+    }
+
     body {
         background-color: #181818;
         color: #E4E6EB;
     }
 
-    .bg-white {
+    .bg-white,
+    .hero-header::after,
+    .footer::after {
         background-color: #282828 !important;
     }
 
@@ -25,15 +40,6 @@
         background-color: #404040 !important;
     }
 
-    .hero-header.background {
-        filter: invert(100%);
-
-    }
-
-    .bg-primary {
-        --bs-bg-opacity: 1;
-        background: linear-gradient(45deg, #850062, #9f8500) !important;
-    }
 }
 
 /*** Light mode ***/
@@ -42,6 +48,7 @@
         color: #7f4200 !important;
     }
 }
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -259,22 +266,9 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     margin-bottom: 6rem;
-    padding: 18rem 0;
-    background:
-    url(../img/blob-top-left.webp),
-    url(../img/blob-top-right.webp),        
-    url(../img/blob-bottom-left.webp),        
-    url(../img/blob-bottom-right.webp),        
-    url(../img/blob-center.webp),        
-    url(../img/bg-bottom.webp), 
-    linear-gradient(45deg, #ffb5db, #ffefb3);
-    background-position:
-        left 0px top 0px,
-        right 0px top 0px,
-        left 0px bottom 0px,
-        right 0px bottom 0px,
-        center center,
-        center bottom;
+    padding: 16rem 0;
+    padding-bottom: 22rem;
+    background: var(--gradient-base);
     background-repeat: no-repeat;
 }
 
@@ -284,6 +278,48 @@ h6,
     }
 }
 
+/* Hero Header overlay - blobs */
+.hero-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    mask-image: 
+        url(../img/blob-top-left.webp),
+        url(../img/blob-top-right.webp),        
+        url(../img/blob-bottom-left.webp),        
+        url(../img/blob-bottom-right.webp),        
+        url(../img/blob-center.webp);
+    mask-position:
+        left 0px top 0px,
+        right 0px top 0px,
+        left 0px bottom 0px,
+        right 0px bottom 0px,
+        center center;
+    mask-repeat: no-repeat;
+    background-color: var(--gradient-detail);   
+}
+
+/* Hero Header overlay - wave image */
+.hero-header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    mask-image: url(../img/bg-bottom.webp);
+    mask-repeat: no-repeat;
+    mask-position: bottom;
+    mask-size: contain;
+    background-color: white;   
+}
+
+.hero-header > .container {
+    position: relative;  /* avoid being covered by the blob images */
+}
 
 /*** Section Title ***/
 .section-title {
@@ -368,19 +404,31 @@ h6,
 
 /*** Fact ***/
 .fact {
-    background:
+    background: var(--gradient-base);
+    position: relative;
+}
+
+.fact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    mask-image:
         url(../img/blob-top-left.webp),
         url(../img/blob-top-right.webp),
         url(../img/blob-bottom-left.webp),
         url(../img/blob-bottom-right.webp),
         url(../img/blob-center.webp);
-    background-position:
+    mask-position:
         left 0px top 0px,
         right 0px top 0px,
         left 0px bottom 0px,
         right 0px bottom 0px,
         center center;
-    background-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: var(--gradient-detail);
 }
 
 
@@ -559,15 +607,44 @@ h6,
 
 /*** Footer ***/
 .footer {
+    position: relative;
     margin-top: 6rem;
-    padding-top: 9rem;
-    background:
-        url(../img/bg-top.webp),
-        url(../img/map.webp);
-    background-position:
-        center top,
-        center center;
+    padding-top: 15rem;
+    background: var(--gradient-base);
+    background-position: center;
     background-repeat: no-repeat;
+}
+
+/* Footer overlay - map image */
+.footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;  
+    mask-image: url(../img/map.webp);
+    -webkit-mask-image: url(../img/map.webp);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+    background-color: var(--gradient-detail);
+}
+
+/* Footer overlay - wave image */
+.footer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;  
+    mask-image: url(../img/bg-top.webp);
+    mask-repeat: no-repeat;
+    mask-position: top;
+    mask-size: contain;
+    background-color: #ffffff;
 }
 
 .footer .btn.btn-social {

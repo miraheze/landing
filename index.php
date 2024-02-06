@@ -42,11 +42,11 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="https://miraheze.org/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet https://miraheze.org-->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="https://miraheze.org/css/style.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 
     <!-- Matomo analytics -->
     <script>
@@ -125,7 +125,7 @@
                 </div>
             </nav>
 
-            <div class="container-fluid bg-primary hero-header">
+            <div class="container-fluid hero-header">
                 <div class="container px-lg-5">
                     <div class="row g-5 align-items-end">
                         <div class="col-lg-6 text-center text-lg-start">
@@ -332,7 +332,7 @@
         <!-- Service End -->
 
         <!-- Facts Start -->
-        <div class="container-fluid bg-primary fact py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-fluid fact py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container py-5 px-lg-5">
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
@@ -369,7 +369,7 @@
         <!-- Facts End -->      
 
         <!-- Footer Start -->
-        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+        <div class="container-fluid text-light footer wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5 px-lg-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-3">
