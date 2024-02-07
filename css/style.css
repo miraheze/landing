@@ -326,13 +326,26 @@ h6,
         url(../img/blob-bottom-left.webp),        
         url(../img/blob-bottom-right.webp),        
         url(../img/blob-center.webp);
+    -webkit-mask-image: 
+        url(../img/blob-top-left.webp),
+        url(../img/blob-top-right.webp),        
+        url(../img/blob-bottom-left.webp),        
+        url(../img/blob-bottom-right.webp),        
+        url(../img/blob-center.webp);
     mask-position:
         left 0px top 0px,
         right 0px top 0px,
         left 0px bottom 0px,
         right 0px bottom 0px,
         center center;
+    -webkit-mask-position:
+        left 0px top 0px,
+        right 0px top 0px,
+        left 0px bottom 0px,
+        right 0px bottom 0px,
+        center center;
     mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
     background-color: var(--gradient-detail);   
 }
 
@@ -345,9 +358,13 @@ h6,
     left: 0;
     right: 0;
     mask-image: url(../img/bg-bottom.webp);
+    -webkit-mask-image: url(../img/bg-bottom.webp);
     mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
     mask-position: bottom;
+    -webkit-mask-position: bottom;
     mask-size: contain;
+    -webkit-mask-size: contain;
     background-color: white;   
 }
 
@@ -457,13 +474,26 @@ h6,
         url(../img/blob-bottom-left.webp),
         url(../img/blob-bottom-right.webp),
         url(../img/blob-center.webp);
+    -webkit-mask-image:
+        url(../img/blob-top-left.webp),
+        url(../img/blob-top-right.webp),
+        url(../img/blob-bottom-left.webp),
+        url(../img/blob-bottom-right.webp),
+        url(../img/blob-center.webp);
     mask-position:
         left 0px top 0px,
         right 0px top 0px,
         left 0px bottom 0px,
         right 0px bottom 0px,
         center center;
+    -webkit-mask-position:
+        left 0px top 0px,
+        right 0px top 0px,
+        left 0px bottom 0px,
+        right 0px bottom 0px,
+        center center;
     mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
     background-color: var(--gradient-detail);
 }
 
@@ -677,9 +707,13 @@ h6,
     left: 0;
     right: 0;  
     mask-image: url(../img/bg-top.webp);
+    -webkit-mask-image: url(../img/bg-top.webp);
     mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
     mask-position: top;
+    -webkit-mask-position: top;
     mask-size: contain;
+    -webkit-mask-size: contain;
     background-color: #ffffff;
 }
 
