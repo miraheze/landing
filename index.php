@@ -55,7 +55,7 @@
 		_paq.push(['trackPageView']);
 		_paq.push(['enableLinkTracking']);
 		(function() {
-			var u = 'https://matomo.miraheze.org/';
+			var u = 'https://analytics.wikitide.net/';
 			_paq.push(['setTrackerUrl', u+'matomo.php']);
 			_paq.push(['setDocumentTitle', 'Landing - Home']);
 			_paq.push(['setSiteId', 9838]);
@@ -64,7 +64,7 @@
 			g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
 		})();
 	</script>
-	<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=9838&amp;rec=1&amp;action_name=Landing_Home" style="border:0;" alt="Matomo" /></p></noscript>
+	<noscript><p><img src="https://analytics.wikitide.net/matomo.php?idsite=9838&amp;rec=1&amp;action_name=Landing_Home" style="border:0;" alt="Matomo" /></p></noscript>
 </head>
 
 <body>

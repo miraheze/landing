@@ -55,7 +55,7 @@
 		_paq.push(['trackPageView']);
 		_paq.push(['enableLinkTracking']);
 		( function() {
-			var u = 'https://matomo.miraheze.org/';
+			var u = 'https://analytics.wikitide.net/';
 			_paq.push(['setTrackerUrl', u+'matomo.php']);
 			_paq.push(['setDocumentTitle', 'Landing - Donate']);
 			_paq.push(['setSiteId', 9838]);
@@ -75,7 +75,7 @@
 			a.setAttribute( 'href', 'https://www.paypal.com/donate/?hosted_button_id=Q8ZN29LJVXP7L' + value );
 		}
 	</script>
-	<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=9838&amp;rec=1&amp;action_name=Landing_Donate" style="border: 0;" alt="Matomo" /></p></noscript>
+	<noscript><p><img src="https://analytics.wikitide.net/matomo.php?idsite=9838&amp;rec=1&amp;action_name=Landing_Donate" style="border: 0;" alt="Matomo" /></p></noscript>
 </head>
 
 <body>
