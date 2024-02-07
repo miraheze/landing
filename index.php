@@ -376,7 +376,7 @@
                         <p class="section-title text-accent h5 mb-4">Contact us<span></span></p>
                         <p><i class="fa fa-envelope me-3"></i><span class="text-accent">sre [at] miraheze.org</span></p>
                         <p><i class="fa fa-globe me-3"></i><a class="text-accent" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" title="On-wiki">On-wiki</a></p>
-                        <p><i class="fa fa-flag-checkered me-3"></i><a class="text-accent" href="https://phabricator.miraheze.org" title="Phabricator issue tracker">Phabricator</a></p>
+                        <p><i class="fa fa-flag-checkered me-3"></i><a class="text-accent" href="https://issue-tracker.miraheze.org" title="Issue tracker">Issue tracker</a></p>
 
                         <div class="d-flex pt-2">
                             <a rel="me" class="btn btn-outline-light btn-social" href="https://mastodon.social/@miraheze" title="Mastodon"><i class="fab fa-mastodon"></i></a>
