@@ -43,10 +43,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://miraheze.org/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="./css/style.css" rel="stylesheet">
+    <link href="https://miraheze.org/css/style.css" rel="stylesheet">
 
     <!-- Matomo analytics -->
     <script>
