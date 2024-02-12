@@ -9,7 +9,7 @@
 	"welcome-text": "Wëllkomm op Miraheze",
 	"sign-up": "Mellt Iech un!",
 	"support-us": "Ënnerstëtzt eis!",
-	"features-text": "Funktiounen",
+	"features-text": "Firwat Miraheze wielen?",
 	"features-mediawiki": "MediaWiki",
 	"features-not-for-profit-text": "Ouni Gewënnzweck",
 	"features-community-text": "Communautéit",
@@ -29,8 +29,9 @@
 	"organisation-text": "Informatiounen iwwer d'Organisatioun",
 	"blog-text": "Blog",
 	"status-text": "Status",
-	"donate-heading": "Maacht en Don",
+	"donate-heading": "Maacht en Don fir Miraheze",
 	"donate-amount": "Betrag",
 	"fundraiser-sitenotice-title": "Hëlleft eis!",
-	"fundraising-sitenotice-button-text": "Gitt gewuer, wéi Dir hëllefe kënnt!"
+	"fundraising-sitenotice-button-text": "Gitt gewuer, wéi Dir hëllefe kënnt!",
+	"wikitype-science": "Wëssenschaften"
 }
