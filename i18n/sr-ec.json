@@ -7,9 +7,12 @@
 	"features-heading": "Могућности",
 	"about-heading": "О",
 	"sign-up": "Регистрација",
+	"sign-in": "Пријава",
 	"support-us": "Подржите нас",
 	"learn-more": "Сазнајте више",
 	"features-text": "Могућности",
+	"features-header": "ШТА НУДИМО",
+	"features-adfree": "Без огласа",
 	"features-mediawiki": "Медијавики",
 	"features-community-text": "Заједница",
 	"footer-desc": "WikiTide Foundation је непрофитна организација регистрована у САД-у.",
@@ -27,7 +30,9 @@
 	"donate-heading": "Донација",
 	"donate-amount": "Износ",
 	"statistics-wikis": "Викији",
+	"statistics-users": "Корисници",
 	"wikitype-technology": "Технологија",
 	"wikitype-games": "Игре",
+	"wikitype-science": "Наука",
 	"wikitype-education": "Образовање"
 }

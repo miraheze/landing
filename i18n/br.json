@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adriendelucca"
+		]
+	},
+	"about-heading": "Diwar-benn",
+	"sign-up": "Lakait hoc'h anv!",
+	"sign-in": "Kevreañ",
+	"support-us": "Skoazellit ac'hanomp!",
+	"learn-more": "Gouzout hiroc'h",
+	"features-text": "Perak e tibabfec'h Miraheze?",
+	"features-header": "AR PEZH A GINNIGOMP",
+	"features-adfree": "Kuit a vruderezh",
+	"features-mediawiki": "MediaWiki",
+	"features-community-text": "Kumuniezh",
+	"footer-terms": "Termenoù implijout",
+	"footer-privacy-policy": "Reolennoù prevezded",
+	"footer-translate": "Treiñ ar bajenn-mañ",
+	"footer-facebook-title": "Facebook",
+	"footer-twitter-title": "Twitter",
+	"footer-mastodon-title": "Mastodon",
+	"footer-discord-title": "Discord",
+	"back-to-top-title": "Distreiñ da grec'h ar bajenn",
+	"help-center": "Kreizenn sikour",
+	"home": "Degemer",
+	"faq": "FAG",
+	"more": "Muioc'h",
+	"blog-text": "Blog",
+	"status-text": "Statud",
+	"donate-heading": "Ober un donezon da vMiraheze",
+	"donate-amount": "Sammad",
+	"fundraiser-sitenotice-title": "Skoazellit ac'hanomp!",
+	"statistics-wikis": "Wikioù",
+	"statistics-users": "Implijerien",
+	"wikitype-technology": "Teknologiezh",
+	"wikitype-games": "C'hoarioù",
+	"wikitype-science": "Skiantoù",
+	"wikitype-education": "Deskadurezh"
+}
