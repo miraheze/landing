@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kizule",
 			"Milicevic01"
 		]
 	},
@@ -10,7 +11,7 @@
 	"sign-in": "Пријава",
 	"support-us": "Подржите нас",
 	"learn-more": "Сазнајте више",
-	"features-text": "Могућности",
+	"features-text": "Зашто одабрати Miraheze?",
 	"features-header": "ШТА НУДИМО",
 	"features-adfree": "Без огласа",
 	"features-mediawiki": "Медијавики",

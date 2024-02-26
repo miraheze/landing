@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Iamthedutchdude",
 			"McDutchie",
 			"Mitsjol",
 			"SPQRobin",
@@ -32,7 +33,7 @@
 	"features-extensions-desc": "We hebben enkele zeer geavanceerde uitbreidingen ontworpen om ons te helpen groeien en een van 's werelds beste wiki-farms te worden. Met onze uitbreidingen hebben gemeenschappen meer controle over hun eigen wiki's, waarbij weinig toezicht van ons personeel nodig is. We luisteren naar wat de gemeenschap te zeggen heeft over het beheer van hun wiki's.",
 	"features-more-desc": "En nog veel meer functies!",
 	"about-desc": "In juli 2015 maakten John Lewis en Ferran Tufan een nieuwe wikifarm met de naam Miraheze. Gesteund door crowdfunding vanuit de gemeenschap en door persoonlijke investeringen, ging Miraheze in augustus 2015 officieel de lucht in. In de loop der jaren is het project enorm gegroeid tot een van de grootste en meest herkenbare wikifarms die in MediaWiki gespecialiseerd zijn. Ondanks het succes en de vooruitgang is één aspect van Miraheze nooit veranderd: het formele bestaan. In november 2019 werd Miraheze een geregistreerde non-profit in het VK onder de naam Miraheze Limited. In januari 2024 werden de activiteiten overgedragen aan de WikiTide Foundation.",
-	"footer-desc": "WikiTide Foundation\n Een geregistreerd 501(c)(3) non-profitbedrijf nr. 5312868 in de Verenigde Staten. \n Tenzij anders vermeld, is de inhoud van deze site gelicentieerd onder een [https://creativecommons.org/licenses/by-sa/4.0/|Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)].",
+	"footer-desc": "WikiTide Foundation\n Een geregistreerd 501(c)(3) non-profitbedrijf nr. 5312868 in de Verenigde Staten.",
 	"footer-terms": "Gebruiksvoorwaarden",
 	"footer-privacy-policy": "Privacybeleid",
 	"footer-content-policy": "Inhoudsbeleid",
