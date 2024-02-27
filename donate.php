@@ -185,7 +185,7 @@
                         <p class="section-title text-white h5 mb-4">Contact us<span></span></p>
                         <p><i class="fa fa-envelope me-3"></i>sre [at] miraheze.org</p>
                         <p><i class="fa fa-globe me-3"></i><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" style="color: white;" title="On-wiki">On-wiki</a></p>
-                        <p><i class="fa fa-flag-checkered me-3"></i><a href="https://issue-tracker.miraheze.org" style="color: white;" title="Issue trakcer">Issue tracker</a></p>
+                        <p><i class="fa fa-flag-checkered me-3"></i><a href="https://issue-tracker.miraheze.org" style="color: white;" title="Issue tracker">Issue tracker</a></p>
 
                         <div class="d-flex pt-2">
                             <a rel="me" class="btn btn-outline-light btn-social" href="https://mastodon.social/@miraheze" title="Mastodon"><i class="fab fa-mastodon"></i></a>
