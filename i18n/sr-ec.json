@@ -1,17 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kizule",
 			"Milicevic01"
 		]
 	},
 	"features-heading": "Могућности",
 	"about-heading": "О",
 	"sign-up": "Регистрација",
+	"sign-in": "Пријава",
 	"support-us": "Подржите нас",
-	"features-text": "Могућности",
+	"learn-more": "Сазнајте више",
+	"features-text": "Зашто одабрати Miraheze?",
+	"features-header": "ШТА НУДИМО",
+	"features-adfree": "Без огласа",
 	"features-mediawiki": "Медијавики",
 	"features-community-text": "Заједница",
-	"footer-desc": "WikiTide Foundation је непрофитна организација регистрована у САД-у.\nОсим ако није другачије наведено, садржај овог сајта је доступан под лиценцом [https://creativecommons.org/licenses/by-sa/4.0/ Creative Commons Ауторство—Делити под истим условима 4.0 међународна (CC BY-SA 4.0)].",
+	"footer-desc": "WikiTide Foundation је непрофитна организација регистрована у САД-у.",
 	"footer-terms": "Услови коришћења",
 	"footer-privacy-policy": "Политика приватности",
 	"footer-content-policy": "Политика за садржај",
@@ -24,5 +29,11 @@
 	"blog-text": "Блог",
 	"status-text": "Статус",
 	"donate-heading": "Донација",
-	"donate-amount": "Износ"
+	"donate-amount": "Износ",
+	"statistics-wikis": "Викији",
+	"statistics-users": "Корисници",
+	"wikitype-technology": "Технологија",
+	"wikitype-games": "Игре",
+	"wikitype-science": "Наука",
+	"wikitype-education": "Образовање"
 }

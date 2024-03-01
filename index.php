@@ -55,7 +55,7 @@
 		_paq.push(['trackPageView']);
 		_paq.push(['enableLinkTracking']);
 		(function() {
-			var u = 'https://matomo.miraheze.org/';
+			var u = 'https://analytics.wikitide.net/';
 			_paq.push(['setTrackerUrl', u+'matomo.php']);
 			_paq.push(['setDocumentTitle', 'Landing - Home']);
 			_paq.push(['setSiteId', 9838]);
@@ -64,7 +64,7 @@
 			g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
 		})();
 	</script>
-	<noscript><p><img src="https://matomo.miraheze.org/matomo.php?idsite=9838&amp;rec=1&amp;action_name=Landing_Home" style="border:0;" alt="Matomo" /></p></noscript>
+	<noscript><p><img src="https://analytics.wikitide.net/matomo.php?idsite=9838&amp;rec=1&amp;action_name=Landing_Home" style="border:0;" alt="Matomo" /></p></noscript>
 </head>
 
 <body>
@@ -376,7 +376,7 @@
                         <p class="section-title text-accent h5 mb-4">Contact us<span></span></p>
                         <p><i class="fa fa-envelope me-3"></i><span class="text-accent">sre [at] miraheze.org</span></p>
                         <p><i class="fa fa-globe me-3"></i><a class="text-accent" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" title="On-wiki">On-wiki</a></p>
-                        <p><i class="fa fa-flag-checkered me-3"></i><a class="text-accent" href="https://phabricator.miraheze.org" title="Phabricator issue tracker">Phabricator</a></p>
+                        <p><i class="fa fa-flag-checkered me-3"></i><a class="text-accent" href="https://issue-tracker.miraheze.org" title="Issue tracker">Issue tracker</a></p>
 
                         <div class="d-flex pt-2">
                             <a rel="me" class="btn btn-outline-light btn-social" href="https://mastodon.social/@miraheze" title="Mastodon"><i class="fab fa-mastodon"></i></a>

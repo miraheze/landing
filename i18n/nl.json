@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Iamthedutchdude",
 			"McDutchie",
+			"Mitsjol",
 			"SPQRobin",
 			"Siebrand",
 			"Vistaus"
@@ -9,12 +11,16 @@
 	},
 	"features-heading": "Functies",
 	"about-heading": "Over",
-	"welcome-text": "Welkom bij Miraheze",
+	"welcome-text": "Advertentievrije wiki-hosting, mogelijk gemaakt door deskundige MediaWiki-vrijwilligers",
 	"description-text": "Miraheze is een advertentievrij en gemeenschapsgericht wiki-hostingplatform waar iedereen gratis een door MediaWiki aangedreven wiki kan maken. Vraag vandaag nog uw gratis wiki aan!",
 	"description-donate": "Op deze pagina kunt u doneren aan Miraheze. Donaties zijn de belangrijkste bron van inkomsten van Miraheze. Elke donatie gaat naar ondersteuning van de infrastructuur en uitbreiding naarmate de gemeenschap groeit. Bedankt voor uw begrip!",
 	"sign-up": "Registreren!",
+	"sign-in": "Aanmelden",
 	"support-us": "Ondersteun ons!",
+	"learn-more": "Meer lezen",
 	"features-text": "Functies",
+	"features-header": "WAT WE AANBIEDEN",
+	"features-support-desc": "Ons team van vriendelijke MediaWiki-experts staat klaar om je bij elke stap te helpen. Vraag maar raak!",
 	"features-mediawiki": "MediaWiki",
 	"features-mediawiki-desc": "Miraheze draait op dezelfde software als Wikipedia, dus [https://www.mediawiki.org MediaWiki]. U kunt van alles doen, van het uploaden van media zoals afbeeldingen of video's tot het schrijven van artikelen of blogs. We hebben meer dan 300 uitbreidingen en meer dan 25 vormgevingen waarmee u MediaWiki naar uw hand kunt zetten.",
 	"features-not-for-profit-text": "Geen winstoogmerk",
@@ -27,7 +33,7 @@
 	"features-extensions-desc": "We hebben enkele zeer geavanceerde uitbreidingen ontworpen om ons te helpen groeien en een van 's werelds beste wiki-farms te worden. Met onze uitbreidingen hebben gemeenschappen meer controle over hun eigen wiki's, waarbij weinig toezicht van ons personeel nodig is. We luisteren naar wat de gemeenschap te zeggen heeft over het beheer van hun wiki's.",
 	"features-more-desc": "En nog veel meer functies!",
 	"about-desc": "In juli 2015 maakten John Lewis en Ferran Tufan een nieuwe wikifarm met de naam Miraheze. Gesteund door crowdfunding vanuit de gemeenschap en door persoonlijke investeringen, ging Miraheze in augustus 2015 officieel de lucht in. In de loop der jaren is het project enorm gegroeid tot een van de grootste en meest herkenbare wikifarms die in MediaWiki gespecialiseerd zijn. Ondanks het succes en de vooruitgang is één aspect van Miraheze nooit veranderd: het formele bestaan. In november 2019 werd Miraheze een geregistreerde non-profit in het VK onder de naam Miraheze Limited. In januari 2024 werden de activiteiten overgedragen aan de WikiTide Foundation.",
-	"footer-desc": "WikiTide Foundation\n Een geregistreerd 501(c)(3) non-profitbedrijf nr. 5312868 in de Verenigde Staten. \n Tenzij anders vermeld, is de inhoud van deze site gelicentieerd onder een [https://creativecommons.org/licenses/by-sa/4.0/|Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)].",
+	"footer-desc": "WikiTide Foundation\n Een geregistreerd 501(c)(3) non-profitbedrijf nr. 5312868 in de Verenigde Staten.",
 	"footer-terms": "Gebruiksvoorwaarden",
 	"footer-privacy-policy": "Privacybeleid",
 	"footer-content-policy": "Inhoudsbeleid",
@@ -44,7 +50,7 @@
 	"faq": "Vraag en antwoord",
 	"more": "Meer",
 	"wikidiscover-text": "Ontdek wiki's",
-	"requestwiki-text": "Wiki aanvragen",
+	"requestwiki-text": "Start een wiki",
 	"organisation-text": "Organisatie-informatie",
 	"blog-text": "Blog",
 	"status-text": "Status",
@@ -54,5 +60,8 @@
 	"donate-note": "Dit formulier is voor donaties met PayPal. U kunt daarmee ook credit- en debetkaarten gebruiken. U moet uw lokale valuta selecteren uit de keuzelijst op die pagina.",
 	"fundraising-sitenotice": "Al bijna acht jaar biedt Miraheze zijn meer dan 300.000 gebruikers gratis wiki-onderdak. Help ons nog eens acht jaar door te gaan! We bestaan voor 100% dankzij donaties van mensen zoals u. De jaarlijkse groei van het verkeer en de gemeenschap is indrukwekkend en dat maakt ons blij. Wel hebben we meer infrastructuur nodig om de toegenomen vraag aan te kunnen. We vragen u oprecht om te overwegen om €5, €10, of €20 bij te dragen, of wat u zich ook kunt veroorloven. Als 550 van Miraheze's meer dan 300.000 gebruikers slechts €15 per jaar zouden geven, zou Miraheze al meer dan genoeg hebben.",
 	"fundraiser-sitenotice-title": "Help ons!",
-	"fundraising-sitenotice-button-text": "Bekijk hoe u kunt bijdragen!"
+	"fundraising-sitenotice-button-text": "Bekijk hoe u kunt bijdragen!",
+	"wikitype-education": "Opleiding",
+	"wikitype-education-desc": "Bouw prachtige wiki's voor verschillende behoeften: van curriculum tot presentaties tot proefschriften en onderzoek, we verwelkomen alle academische en onderwijsgebruikers om ons platform te gebruiken.",
+	"wikitype-more-desc": "De mogelijkheden zijn eindeloos. Zowel experts als beginners kunnen samenkomen om samen te werken aan wiki's over verschillende onderwerpen, van astronomie tot natuurkunde, alles is mogelijk!"
 }
