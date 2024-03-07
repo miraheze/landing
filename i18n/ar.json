@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Asma",
+			"Lolekek",
 			"Mohanad Kh",
 			"محمد أحمد عبد الفتاح"
 		]
@@ -47,7 +48,7 @@
 	"organisation-text": "معلومات المنظمة",
 	"blog-text": "مدونة",
 	"status-text": "الحالة",
-	"donate-heading": "تبرع",
+	"donate-heading": "تبرع لميراهيز",
 	"header-donate-logo-text": "تبرّع لـ Miraheze",
 	"donate-amount": "الكمية",
 	"donate-note": "هذا النموذج مُخصص للتبرعات عبر باي بال «PayPal» (يمكنك استخدام بطاقات الائتمان/السحب من الرصيد). ينبغي تحديد عملتك المحلية باستخدام القائمة المنسدلة الموجودة بالصفحة.",
