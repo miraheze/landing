@@ -29,7 +29,7 @@
     <meta name="apple-mobile-web-app-title" content="Miraheze" />
     <link rel="canonical" href="https://miraheze.org" />
     <link rel="icon" type="image/x-icon" href="https://miraheze.org/img/favicon.ico" />
-    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="https://miraheze.org/img/apple-touch-icon.png" />
     <script type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"Miraheze","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}]</script>
 
     <!-- Favicon -->
