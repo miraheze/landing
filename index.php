@@ -253,7 +253,6 @@
                             <p class="m-0">
 								<?php echo getTranslation( 'features-adfree-desc' ); ?>
 							</p>
-                            <a class="btn btn-square" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Advertisements" title="<?php echo getTranslation( 'learn-more' ); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp d-flex" data-wow-delay="0.3s">
