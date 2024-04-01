@@ -9,7 +9,8 @@
 			"Ruven",
 			"Shaedrich",
 			"Talex42",
-			"ThisCarthing"
+			"ThisCarthing",
+			"TomatoCake"
 		]
 	},
 	"features-heading": "Merkmale",
@@ -30,7 +31,7 @@
 	"features-customizability": "Anpassbarkeit",
 	"features-customizability-desc": "Richte dein Wiki ganz nach deinem Belieben ein. Dir stehen dabei über 300 konfigurierbare Erweiterungen und Oberflächen zur Verfügung.",
 	"features-customdomain": "Eigene Domains",
-	"features-customdomain-desc": "Zeig, worum es geht! Alle Wikis können kostenlos eine eigene benutzerdefinierte Domain verwenden.",
+	"features-customdomain-desc": "Zeig, worum es geht! Alle Wikis können kostenlos eine eigene benutzerdefinierte Domain verwenden, wenn gewünscht.",
 	"features-support": "Freundlicher Support",
 	"features-support-desc": "Unser Team aus freundlichen MediaWiki-Experten steht dir bei jedem Schritt zur Seite. Einfach fragen!",
 	"features-visualeditor": "VisualEditor-Unterstützung",
@@ -69,7 +70,7 @@
 	"blog-text": "Blog",
 	"status-text": "Status",
 	"donate-heading": "An Miraheze spenden",
-	"donate-subheading": "Unterstütze Miraheze langfristig mit einer großzügigen Spende noch heute!",
+	"donate-subheading": "Unterstütze Miraheze noch heute langfristig mit einer großzügigen Spende!",
 	"header-donate-logo-text": "Miraheze Spenden",
 	"donate-amount": "Betrag",
 	"donate-note": "Dieses Formular ist für Spenden mit PayPal (du kannst auch Kredit- und Debitkarten benutzen). Bitte wähle die zutreffende Währung für deinen Standort über das Dropdown-Menü auf dieser Seite.",
