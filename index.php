@@ -31,13 +31,12 @@
     <meta name="application-name" content="Miraheze" />
     <meta name="apple-mobile-web-app-title" content="Miraheze" />
     <link rel="canonical" href="https://miraheze.org" />
-    <link rel="icon" type="image/x-icon" href="https://miraheze.org/img/favicon.ico" />
     <link rel="apple-touch-icon" href="https://miraheze.org/img/apple-touch-icon.png" />
     <script
         type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"Miraheze","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}]</script>
 
     <!-- Favicon -->
-    <link href="https://static.miraheze.org/commonswiki/6/62/Orain_O.png" rel="icon">
+    <link href="https://miraheze.org/img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -82,9 +81,8 @@
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <img class="logo" src="https://static.miraheze.org/commonswiki/6/62/Orain_O.png" width="135"
-                        alt="Miraheze">
-                    <h1 class="m-0 wordmark text-accent">Orain</h1>
+                    <img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" width="135" alt="Miraheze">
+                    <h1 class="m-0 wordmark text-accent">Miraheze</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     title="Navigation menu">
