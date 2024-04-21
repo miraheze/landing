@@ -48,10 +48,10 @@
         integrity="sha384-iw3OoTErCYJJB9mCa8LNS2hbsQ7M3C0EpIsO/H5+EGAkPGc6rk+V8i04oW/K5xq0" crossorigin="anonymous">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="https://miraheze.org/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/miraheze/landing@master/css/bootstrap.min.css" crossorigin="anonymous" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="https://miraheze.org/css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/miraheze/landing@master/css/style.min.css" crossorigin="anonymous" rel="stylesheet">
 
     <!-- Matomo analytics -->
     <script>
