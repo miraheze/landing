@@ -193,13 +193,9 @@
                     <div class="col-md-6 col-lg-3">
                         <p class="section-title text-accent h5 mb-4">Quick Links<span></span></p>
                         <a class="nav nav-link"
-                            href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze:About_us"
+                            href="https://meta.miraheze.org/wiki/Special:MyLanguage/WikiTide_Foundation"
                             title="<?php echo getTranslation('about-heading'); ?>">
                             <?php echo getTranslation('about-heading'); ?>
-                        </a>
-                        <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center"
-                            title="<?php echo getTranslation('help-center'); ?>">
-                            <?php echo getTranslation('help-center'); ?>
                         </a>
                         <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy"
                             title="<?php echo getTranslation('footer-privacy-policy'); ?>">
@@ -208,10 +204,6 @@
                         <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Terms_of_Use"
                             title="<?php echo getTranslation('footer-terms'); ?>">
                             <?php echo getTranslation('footer-terms'); ?>
-                        </a>
-                        <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Content_Policy"
-                            title="<?php echo getTranslation('footer-content-policy'); ?>">
-                            <?php echo getTranslation('footer-content-policy'); ?>
                         </a>
                     </div>
                 </div>
@@ -236,9 +228,9 @@
                                         <?php echo getTranslation('footer-cookie'); ?>
                                     </a>
                                     <a class="text-accent"
-                                        href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center"
-                                        title="<?php echo getTranslation('help-center'); ?>">
-                                        <?php echo getTranslation('help-center'); ?>
+                                        href="https://meta.miraheze.org/wiki/Special:MyLanguage/WikiTide_Foundation"
+                                        title="<?php echo getTranslation('about-heading'); ?>">
+                                        <?php echo getTranslation('about-heading'); ?>
                                     </a>
                                     <a class="text-accent" href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ"
                                         title="<?php echo getTranslation('faq'); ?>">
