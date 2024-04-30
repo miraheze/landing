@@ -10,12 +10,12 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="keywords" content="wikitide foundation" />
     <meta name="description"
-        content="WikiTide Foundation" />
+        content="The WikiTide Foundation is the nonprofit organization responsible for operating Miraheze. It is located in the United States and recognized as a 501(c)(3) tax-exempt charity." />
     <meta name="google-site-verification" content="9BKrnuH_ZCD7XGAk50SjbeUEZKjfJOQ02Dmo5pMZut0" />
     <meta name="twitter:description"
-        content="WikiTide Foundation" />
+        content="The WikiTide Foundation is the nonprofit organization responsible for operating Miraheze. It is located in the United States and recognized as a 501(c)(3) tax-exempt charity." />
     <meta property="og:description"
-        content="WikiTide Foundation" />
+        content="The WikiTide Foundation is the nonprofit organization responsible for operating Miraheze. It is located in the United States and recognized as a 501(c)(3) tax-exempt charity." />
     <meta property="og:image" content="https://foundation.wikitide.org/embed.png">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="WikiTide Foundation" />
@@ -32,7 +32,7 @@
     <meta name="apple-mobile-web-app-title" content="WikiTide Foundation" />
     <link rel="canonical" href="https://foundation.wikitide.org" />
     <link rel="icon" type="image/x-icon" href="https://foundation.wikitide.org/img/favicon-wikitide.ico" />
-    <link rel="apple-touch-icon" href="/img/apple-touch-icon-wikitide.png" />
+    <link rel="apple-touch-icon" href="https://foundation.wikitide.org/img/apple-touch-icon-wikitide.png" />
     <script
         type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"WikiTide Foundation","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}]</script>
 
