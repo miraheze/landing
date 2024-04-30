@@ -97,9 +97,9 @@
                             class="nav-item nav-link" title="<?php echo getTranslation('about-heading'); ?>">
                             <?php echo getTranslation('about-heading'); ?>
                         </a>
-                        <a href="#" class="nav-item nav-link active"
-                            title="<?php echo getTranslation('donate-heading'); ?>">
-                            <?php echo getTranslation('donate-heading'); ?>
+                        <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Donate" class="nav-item nav-link"
+                            title="Support our Mission">
+                            Support our Mission
                         </a>
                         <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ" class="nav-item nav-link"
                             title="<?php echo getTranslation('faq'); ?>">
