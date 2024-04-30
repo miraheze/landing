@@ -157,9 +157,9 @@
                             </p>
                             <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/WikiTide_Foundation"
                                 class="btn btn-light btn-lg py-sm-3 px-sm-5 rounded-pill"
-                                title="Learn More">
+                                title="Learn more">
                                 <i class="fa fa-info-circle"></i>
-                                Learn More
+                                Learn more
                             </a>
                         </div>
                     </div>
