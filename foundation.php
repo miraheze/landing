@@ -174,7 +174,7 @@
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-3">
                         <p class="section-title text-accent h5 mb-4">Contact us<span></span></p>
-                        <p><i class="fa fa-envelope me-3"></i><span class="text-accent">board [at] wikitide.org</span
+                        <p><i class="fa fa-envelope me-3"></i><span class="text-accent">board [at] wikitide.org</span>
 
                         <div class="d-flex pt-2">
                             <a rel="me" class="btn btn-outline-light btn-social"
