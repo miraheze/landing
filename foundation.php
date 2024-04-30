@@ -90,7 +90,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-auto py-0">
-                        <a href="https://miraheze.org" class="nav-item nav-link">
+                        <a href="#" class="nav-item nav-link active">
                             <?php echo getTranslation('home'); ?>
                         </a>
                         <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/WikiTide_Foundation"
@@ -193,6 +193,10 @@
                             title="<?php echo getTranslation('about-heading'); ?>">
                             <?php echo getTranslation('about-heading'); ?>
                         </a>
+                        <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Board_of_Directors"
+                            title="Board of Directors">
+                            Board of Directors
+                        </a>
                         <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy"
                             title="<?php echo getTranslation('footer-privacy-policy'); ?>">
                             <?php echo getTranslation('footer-privacy-policy'); ?>
@@ -200,6 +204,14 @@
                         <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Terms_of_Use"
                             title="<?php echo getTranslation('footer-terms'); ?>">
                             <?php echo getTranslation('footer-terms'); ?>
+                        </a>
+                        <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Copyright_Policy"
+                            title="Copyright Policy">
+                            Copyright Policy
+                        </a>
+                        <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/WikiTide_Foundation/Bylaws"
+                            title="Bylaws">
+                            Bylaws
                         </a>
                     </div>
                 </div>
@@ -219,7 +231,7 @@
                                         <?php echo getTranslation('home'); ?>
                                     </a>
                                     <a class="text-accent"
-                                        href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy#Cookies"
+                                        href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy#2._Cookies"
                                         title="<?php echo getTranslation('footer-cookie'); ?>">
                                         <?php echo getTranslation('footer-cookie'); ?>
                                     </a>
