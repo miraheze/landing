@@ -156,7 +156,7 @@
                                 The WikiTide Foundation is the nonprofit organization responsible for operating Miraheze. It is located in the United States and recognized as a 501(c)(3) tax-exempt charity.
                             </p>
                             <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/WikiTide_Foundation"
-                                class="btn btn-light py-sm-3 px-sm-5 rounded-pill"
+                                class="btn btn-light btn-lg py-sm-3 px-sm-5 rounded-pill"
                                 title="Learn more">
                                 Learn more
                             </a>
