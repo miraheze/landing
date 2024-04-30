@@ -93,7 +93,7 @@
                         <a href="https://miraheze.org" class="nav-item nav-link">
                             <?php echo getTranslation('home'); ?>
                         </a>
-                        <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze:About"
+                        <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/WikiTide_Foundation"
                             class="nav-item nav-link" title="<?php echo getTranslation('about-heading'); ?>">
                             <?php echo getTranslation('about-heading'); ?>
                         </a>
@@ -104,10 +104,6 @@
                         <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ" class="nav-item nav-link"
                             title="<?php echo getTranslation('faq'); ?>">
                             <?php echo getTranslation('faq'); ?>
-                        </a>
-                        <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center"
-                            class="nav-item nav-link" title="<?php echo getTranslation('help-center'); ?>">
-                            <?php echo getTranslation('help-center'); ?>
                         </a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Languages</a>
