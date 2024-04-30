@@ -197,6 +197,10 @@
                             title="Board of Directors">
                             Board of Directors
                         </a>
+                        <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/WikiTide_Foundation/Bylaws"
+                            title="Foundation Bylaws">
+                            Foundation Bylaws
+                        </a>
                         <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy"
                             title="<?php echo getTranslation('footer-privacy-policy'); ?>">
                             <?php echo getTranslation('footer-privacy-policy'); ?>
@@ -208,10 +212,6 @@
                         <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/Copyright_Policy"
                             title="Copyright Policy">
                             Copyright Policy
-                        </a>
-                        <a class="nav nav-link" href="https://meta.miraheze.org/wiki/Special:MyLanguage/WikiTide_Foundation/Bylaws"
-                            title="Bylaws">
-                            Bylaws
                         </a>
                     </div>
                 </div>
