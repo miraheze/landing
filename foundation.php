@@ -144,19 +144,22 @@
                 </div>
             </nav>
 
-            <div class="container-xxl py-5 bg-primary hero-header">
-                <div class="container my-5 py-5 px-lg-5">
-                    <div class="row g-5 py-5">
-                        <div class="col-12 text-center">
-                            <h1>
+            <div class="container-fluid hero-header">
+                <div class="container px-lg-5">
+                    <div class="row g-5 align-items-end">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="text-accent mb-4">
                                 WikiTide Foundation
                             </h1>
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
-                            <nav aria-label="breadcrumb">
-                                <p class="breadcrumb-item active justify-content-center text-white" aria-current="page">
-                                    The WikiTide Foundation is the nonprofit organization responsible for operating Miraheze. It is located in the United States and recognized as a 501(c)(3) tax-exempt charity.
-                                </p>
-                            </nav>
+                            <p class="pb-3">
+                                The WikiTide Foundation is the nonprofit organization responsible for operating Miraheze. It is located in the United States and recognized as a 501(c)(3) tax-exempt charity.
+                            </p>
+                            <a href="https://meta.miraheze.org/wiki/Special:MyLanguage/WikiTide_Foundation"
+                                class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3"
+                                title="Learn more">
+                                Learn more
+                            </a>
                         </div>
                     </div>
                 </div>
