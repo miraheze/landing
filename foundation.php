@@ -82,7 +82,7 @@
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
                     <h1 class="m-0 text-accent">WikiTide Foundation</h1>
-                    <img src="https://foundation.wikitide.org/img/WikiTide-Logo.png" width="135" alt="WikiTide">
+                    <img src="https://foundation.wikitide.org/img/WikiTide-Logo.png" alt="WikiTide">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     title="Navigation menu">
