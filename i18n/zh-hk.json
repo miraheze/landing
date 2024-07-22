@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"SCP-2000",
 			"捍粵者",
 			"铁桶"
 		]
@@ -25,7 +26,7 @@
 	"features-extensions-desc": "我們設計了一些頂尖的擴充功能來幫我們發展成絕佳的wiki農場！我們的擴充功能使社群更能掌管自己的wiki，幾乎不需我們的工作人員照管。我們也會聽取社群在管理其wiki的意見。",
 	"features-more-desc": "還有更多特點！",
 	"about-desc": "2015年7月，約翰·路易士（John Lewis）和費蘭·圖凡（Ferran Tufan）建立了一個新的wiki農場——Miraheze。通過社群眾籌和個人投資，Miraheze於2015年8月正式上線。長年累月，這個專案已經發展成為最大最知名並專精提供MediaWiki託管服務的wiki農場之一。儘管取得了成功和進步，不過Miraheze有一個方向從未改變——正式成立。2019年11月，Miraheze在英國注册成為非營利組織——Miraheze Limited。",
-	"footer-desc": "Miraheze Limited\n 是在英格蘭和威爾斯註冊的擔保有限公司 註冊號碼︰12323854\n 除非另有聲明，本網站的內容均在[https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW|署名-相同方式共享 4.0 國際授權條款 (CC BY-SA 4.0)]下提供。",
+	"footer-desc": "Miraheze Limited\n 是在英格蘭和威爾斯註冊的擔保有限公司 註冊號碼︰12323854\n 除非另有聲明，本網站的內容均在[https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant 署名-相同方式共享 4.0 國際授權條款 (CC BY-SA 4.0)]下提供。",
 	"footer-terms": "使用條款",
 	"footer-privacy-policy": "私隱政策",
 	"footer-content-policy": "內容方針",
