@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hakimi97",
 			"Izington",
 			"Tofeiku"
 		]
@@ -23,6 +24,6 @@
 	"faq": "Soalan Lazim",
 	"blog-text": "Blog",
 	"status-text": "Status",
-	"donate-heading": "Derma",
+	"donate-heading": "Derma ke Miraheze",
 	"donate-amount": "Jumlah"
 }
