@@ -28,6 +28,12 @@ jobs:
         run: |
           bash phplint.sh
 
+      - name: json-yaml-validate
+        uses: GrantBirki/json-yaml-validate@v3.2.1
+          with:
+            comment: "true"
+            base_dir: "./i18n"
+
   notify-irc:
     needs: build
     runs-on: ubuntu-latest
