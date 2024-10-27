@@ -448,7 +448,7 @@
                     <div class="col-md-6 col-lg-3">
                         <p class="section-title text-accent h5 mb-4">Quick Links<span></span></p>
                         <a class="nav nav-link"
-                            href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze:About_us"
+                            href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze:About"
                             title="<?php echo getTranslation('about-heading'); ?>">
                             <?php echo getTranslation('about-heading'); ?>
                         </a>
