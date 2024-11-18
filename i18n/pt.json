@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Hamilton Abreu",
+			"Mbs262",
 			"PixDeVl"
 		]
 	},
@@ -52,5 +53,7 @@
 	"donate-note": "Este formulário é para fazer donativos usando o PayPal (pode usar cartões de crédito e de débito). Deve selecionar a sua moeda local usando o menu descendente na página.",
 	"fundraising-sitenotice": "Há quase oito anos que o Miraheze fornece alojamento gratuito a mais de 300 000 utilizadores. Ajude-nos a continuar por mais oito anos e mais ainda! Somos financiados a 100% por donativos de pessoas como você. Estamos gratos por ver um crescimento impressionante, ano após ano, do tráfego e da comunidade. Contudo, devido ao nosso crescimento impressionante precisamos de mais infraestrutura para lidar com o aumento da procura. Pedimos, sinceramente, que considere contribuir com 5, 10 ou 20 dólares ou o montante que possa contribuir. Se 550 dos mais de 300 000 utilizadores do Miraheze fizessem um donativo de apenas 16 dólares USD uma vez por ano, o Miraheze excederia as suas necessidades orçamentais.",
 	"fundraiser-sitenotice-title": "Ajude-nos!",
-	"fundraising-sitenotice-button-text": "Saiba como ajudar!"
+	"fundraising-sitenotice-button-text": "Saiba como ajudar!",
+	"statistics-wikis": "Wikis",
+	"statistics-users": "Utilizadores"
 }
