@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GianAntonucci"
 		]
 	},
 	"about-heading": "Nfurmazzioni",
@@ -12,7 +13,7 @@
 	"footer-privacy-policy": "Pulìtica supra la privacy",
 	"footer-disclaimers": "Avvirtenzi",
 	"footer-translate": "Traduci sta pàggina",
-	"home": "Pàggina principali",
+	"home": "Pàggina mastra",
 	"faq": "FAQ",
 	"blog-text": "Blog",
 	"status-text": "Statu"
