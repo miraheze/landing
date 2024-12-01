@@ -220,6 +220,8 @@
                             <a rel="me" class="btn btn-outline-light btn-social"
                                 href="https://mastodon.social/@miraheze" title="Mastodon"><i
                                     class="fab fa-mastodon"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://bsky.app/profile/miraheze.org"
+                                title="BlueSky"><i class="fab fa-bluesky"></i></a>
                             <a class="btn btn-outline-light btn-social" href="https://facebook.com/Miraheze"
                                 title="Facebook"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-light btn-social" href="https://twitter.com/miraheze"><i
