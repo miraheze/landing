@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cabal"
+		]
+	},
+	"features-heading": "ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ",
+	"about-heading": "ਬਾਬਤ",
+	"sign-up": "ਭਰਤੀ ਹੋਵੋ",
+	"sign-in": "ਦਾਖ਼ਲ ਹੋਵੋ",
+	"learn-more": "ਹੋਰ ਸਿੱਖੋ",
+	"features-header": "ਅਸੀਂ ਕੀ ਪੇਸ਼ਕਸ਼ ਕਰਦੇ ਹਾਂ",
+	"features-mediawiki": "ਮੀਡੀਆਵਿਕੀ",
+	"features-community-text": "ਭਾਈਚਾਰਾ",
+	"footer-terms": "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ",
+	"footer-privacy-policy": "ਨਿੱਜਤਾ ਨੀਤੀ",
+	"footer-content-policy": "ਸਮੱਗਰੀ ਨੀਤੀ",
+	"footer-translate": "ਇਸ ਸਫ਼ੇ ਦਾ ਤਰਜਮਾ ਕਰੋ",
+	"help-center": "ਸਹਾਇਤਾ ਕੇਂਦਰ",
+	"home": "ਘਰ",
+	"faq": "ਅਕਸਰ ਪੁੱਛੇ ਜਾਂਦੇ ਸੁਆਲ",
+	"more": "ਹੋਰ",
+	"wikidiscover-text": "ਵਿਕੀਆਂ ਦੀ ਖੋਜ ਕਰੋ",
+	"requestwiki-text": "ਵਿਕੀ ਸ਼ੁਰੂ ਕਰੋ",
+	"organisation-text": "ਸੰਗਠਨ ਦੀ ਜਾਣਕਾਰੀ",
+	"status-text": "ਦਰਜਾ",
+	"donate-amount": "ਰਕਮ",
+	"fundraiser-sitenotice-title": "ਸਾਡੀ ਮਦਦ ਕਰੋ!",
+	"fundraising-sitenotice-button-text": "ਸਿੱਖੋ ਕਿ ਕਿਵੇਂ ਮਦਦ ਕਰਨੀ ਹੈ!",
+	"statistics-wikis": "ਵਿਕੀਆਂ",
+	"statistics-requests": "ਵਿਕੀ ਬੇਨਤੀਆਂ",
+	"statistics-users": "ਵਰਤੋਂਕਾਰ",
+	"wikitype-technology": "ਤਕਨਾਲੋਜੀ",
+	"wikitype-games": "ਖੇਡਾਂ",
+	"wikitype-science": "ਵਿਗਿਆਨ",
+	"wikitype-education": "ਸਿੱਖਿਆ",
+	"wikitype-more": "...ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ!"
+}
