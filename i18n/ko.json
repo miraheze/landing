@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"AMOg",
+			"Tensama0415",
 			"Ykhwong"
 		]
 	},
@@ -12,7 +13,7 @@
 	"description-donate": "이 페이지는 Miraheze가 기부받는데 사용될 수 있습니다. 기부는 Miraheze가 서지스를 지속할 수 있도록 돕는 주요 방법입니다. 여러분이 주신 모든 기부금을 서비스 인프라를 개선하고, 확장하는데 사용됩니다. 당신의 지원에 감사합니다!😄",
 	"sign-up": "가입하기",
 	"support-us": "지원",
-	"features-text": "기능",
+	"features-text": "왜 미라헤즈를 선택하셨나요?",
 	"features-mediawiki": "미디어위키",
 	"features-mediawiki-desc": "Miraheze를 사용하는 모든 위키는 위키백과와 동일한 소프트웨어인 [https://www.mediawiki.org|미디어위키]로 실행됩니다. 이미지, 동영상 등 미디어 업로드와 기사,블로그 작성까지 무엇이든 가능합니다! 미디어위키 소프트웨어를 개인화 하기 위해 300개 이상의 확장 기능과 25개 이상의 스킨을 제공합니다!",
 	"features-not-for-profit-text": "비영리",
@@ -25,7 +26,7 @@
 	"features-extensions-desc": "우리는 세계 최고의 위키팜 중 하나로 거듭날 수 있도록 초신식 확장 기능을 설계했습니다! 우리가 지원하는 확장 기능을 사용하면 커뮤니티가 자신의 위키에 대해 통제권을 더 많이 가질 수 있으므로 직원이 해야하는 일이 대폭 줄어듭니다. 우리는 위키 관리에 대한 커뮤니티의 의견을 듣고 있습니다.",
 	"features-more-desc": "그리고 더 많은 기능들!",
 	"about-desc": "2015년 7월, John Lewis와 Ferran Tufan은 Miraheze라는 이름의 새로운 위키 팜을 만들었습니다. 커뮤니티 크라우드 펀딩과 개인 투자를 통해 Miraheze는 공식적으로 2015년 8월에 시작되었습니다. 수년에 걸쳐 이 프로젝트는 제공되는 미디어위키를 전문으로 하는 가장 크고 가장 인정받는 위키 팜 중 하나로 엄청나게 성장했습니다. 성공과 발전에도 불구하고 Miraheze의 한 측면, 즉 형식적 존재는 결코 변하지 않았습니다. 2019년 11월, Miraheze는 영국에서 Miraheze Limited로 등록된 비영리 단체가 되었습니다. 2024년 1월에 운영이 WikiTide 재단으로 이전되었습니다.",
-	"footer-desc": "WikiTide 재단 \n 등록된 501(c)(3) 비영리 회사 번호. 미국에서는 5312868입니다. \n 달리 명시되지 않는 한, 이 사이트의 콘텐츠는 [https://creativecommons.org/licenses/by-sa/4.0/|Attribution-ShareAlike 4.0 International(CC BY-SA 4.0)]에 따라 라이센스가 부여됩니다.",
+	"footer-desc": "WikiTide 재단 - 501(c)(3) 비영리 회사.",
 	"footer-terms": "이용 약관",
 	"footer-privacy-policy": "개인정보처리방침",
 	"footer-content-policy": "컨텐츠에 대한 정책",
@@ -46,7 +47,7 @@
 	"organisation-text": "조직 정보",
 	"blog-text": "블로그",
 	"status-text": "상태",
-	"donate-heading": "기부",
+	"donate-heading": "미라헤즈에 기부하기",
 	"header-donate-logo-text": "Miraheze 기부",
 	"donate-amount": "금액",
 	"donate-note": "이 양식은 PayPal을 통한 기부용입니다(신용카드/직불카드 사용 가능). 페이지의 드롭다운을 사용하여 현지 통화를 선택해야 합니다.",
