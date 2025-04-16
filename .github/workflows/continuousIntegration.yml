@@ -29,7 +29,7 @@ jobs:
           bash phplint.sh
 
       - name: json-yaml-validate
-        uses: GrantBirki/json-yaml-validate@v3.2.1
+        uses: GrantBirki/json-yaml-validate@v3.3.0
         with:
           comment: "true"
           base_dir: "./i18n"
