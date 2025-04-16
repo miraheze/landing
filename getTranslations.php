@@ -92,4 +92,29 @@ function getDefault() {
 	return json_decode( file_get_contents( __DIR__ . '/i18n/en.json' ), true );
 }
 
+/**
+ * Is the current language a right-to-left language?
+ *
+ * @return bool - true if so, false if not
+ */
+function isRightToLeft() {
+	$langCode = getLanguageCode();
+	$rtlLanguages = [
+		'ar',
+		'arc',
+		'dv',
+		'fa',
+		'ha',
+		'he',
+		'khw',
+		'ks',
+		'ku',
+		'ps',
+		'ur',
+		'yi'
+	];
+
+	return in_array($langCode, $rtlLanguages);
+}
+
 ?>
