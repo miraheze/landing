@@ -9,7 +9,10 @@
 	"welcome-text": "Wëllkomm op Miraheze",
 	"sign-up": "Mellt Iech un!",
 	"support-us": "Ënnerstëtzt eis!",
+	"learn-more": "Méi gewuer ginn",
 	"features-text": "Firwat Miraheze wielen?",
+	"features-header": "WAT MIR BIDDEN",
+	"features-adfree": "Ouni Werbung",
 	"features-mediawiki": "MediaWiki",
 	"features-not-for-profit-text": "Ouni Gewënnzweck",
 	"features-community-text": "Communautéit",
@@ -33,5 +36,10 @@
 	"donate-amount": "Betrag",
 	"fundraiser-sitenotice-title": "Hëlleft eis!",
 	"fundraising-sitenotice-button-text": "Gitt gewuer, wéi Dir hëllefe kënnt!",
+	"statistics-wikis": "Wikien",
+	"statistics-requests": "Wiki-Ufroen",
+	"statistics-users": "Benotzer",
+	"wikitype-technology": "Technologie",
+	"wikitype-games": "Spiller",
 	"wikitype-science": "Wëssenschaften"
 }
