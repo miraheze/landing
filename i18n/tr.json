@@ -8,6 +8,7 @@
 			"Qwea1",
 			"SaldırganSincap",
 			"Selcuksntrk",
+			"Slickdaddy",
 			"ToprakM"
 		]
 	},
@@ -19,6 +20,10 @@
 	"sign-up": "Kaydol!",
 	"support-us": "Destekle!",
 	"features-text": "Neden Miraheze'yi seçmelisiniz?",
+	"features-header": "NE SUNUYORUZ",
+	"features-adfree": "Reklamsız",
+	"features-customizability": "Özelleştirilebilirlik",
+	"features-visualeditor": "VisualEditor desteği",
 	"features-mediawiki": "MediaWiki",
 	"features-mediawiki-desc": "Miraheze, Vikipedi ile aynı yazılım olan [https://www.mediawiki.org|MediaWiki] ile çalışır! Resim veya video gibi medya yüklemeyle madde veya blog göndermeye kadar her şeyi yapabilirsiniz. MediaWiki deneyiminizi özelleştirmeniz için 300'den fazla uzantımız ve 25'in üzerinde temamız var!",
 	"features-not-for-profit-text": "Kâr Amacı Gütmeyen",
@@ -38,6 +43,10 @@
 	"footer-disclaimers": "Sorumluluk reddi",
 	"footer-cookie": "Çerez Bildirimi",
 	"footer-translate": "Bu sayfayı çevir",
+	"footer-facebook-title": "Facebook",
+	"footer-twitter-title": "Twitter",
+	"footer-mastodon-title": "Mastodon",
+	"footer-discord-title": "Discord",
 	"help-center": "Yardım Merkezi",
 	"home": "Anasayfa",
 	"faq": "SSS",
@@ -50,5 +59,10 @@
 	"donate-note": "Bu form PayPal ile yapılan bağışlar içindir (kredi/banka kartlarını kullanabilirsiniz). Sayfadaki açılır menüyü kullanarak yerel para biriminizi seçmelisiniz.",
 	"fundraising-sitenotice": "Altı yılı aşkın bir süredir Miraheze, 300.000'den fazla kullanıcıya ücretsiz barındırma hizmeti sağladı. Altı yıl ve daha uzun süre devam etmemize yardımcı olun! Gücümüz %100 sizin gibi insanlardan gelen bağışlarla sağlanıyor. Etkileyici yıldan yıla trafik ve topluluk büyümesi görmeye devam ettiğimiz için minnettarız. Etkileyici büyümemize rağmen, artan talebi karşılamak için daha fazla altyapıya ihtiyacımız var. Sizden ciddiyetle, £5, £10, £20 veya gücünüzün yettiği her şeyde talaş almayı düşünmenizi rica ediyoruz. Miraheze'nin 300.000'den fazla kullanıcısının 500'ü yılda yalnızca £12 (16.35 USD) verseydi, Miraheze bütçe gereksinimlerini aşacaktı.",
 	"fundraiser-sitenotice-title": "Bize Yardım Et!",
-	"fundraising-sitenotice-button-text": "Nasıl yardım edeceğinizi öğrenin!"
+	"fundraising-sitenotice-button-text": "Nasıl yardım edeceğinizi öğrenin!",
+	"statistics-users": "Kullanıcılar",
+	"wikitype-technology": "Teknoloji",
+	"wikitype-games": "Oyunlar",
+	"wikitype-education": "Eğitim",
+	"wikitype-more": "...ve çok daha fazlası!"
 }
