@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bartomelow",
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
 			"Lakelimbo",
@@ -43,8 +44,8 @@
 	"features-more-desc": "E muitos mais recursos!",
 	"about-desc": "Em julho de 2015, John Lewis e Ferran Tufan criaram uma nova wiki farm - chamada Miraheze. Através do uso de crowdfunding comunitário e investimento pessoal, Miraheze foi oficialmente ao ar em agosto de 2015. Ao longo dos anos, o projeto cresceu imensamente para ser uma das maiores e mais reconhecidas fazendas de wiki especializadas em MediaWiki em oferta. Apesar do sucesso e da evolução, um aspecto do Miraheze nunca mudou - a existência formal. Em novembro de 2019, Miraheze tornou-se uma organização sem fins lucrativos registrada no Reino Unido como Miraheze Limited. Em janerio de 2024, as operações foram transferidas para a Fundação WikiTide",
 	"footer-desc": "WikiTide Foundation, Inc. - uma caridade pública 501(c)(3)",
-	"footer-terms": "Termos de uso",
-	"footer-privacy-policy": "Politica de privacidade",
+	"footer-terms": "Termos de Uso",
+	"footer-privacy-policy": "Politica de Privacidade",
 	"footer-content-policy": "Política de Conteúdo",
 	"footer-disclaimers": "Termo de responsabilidade",
 	"footer-cookie": "Declaração de cookies",
@@ -67,15 +68,17 @@
 	"header-donate-logo-text": "Doar para Miraheze",
 	"donate-amount": "Valor",
 	"donate-note": "Este formulário é para doações com o PayPal (você pode usar cartões de crédito/débito). Você deve selecionar sua moeda local usando o menu suspenso na página.",
-	"fundraising-sitenotice": "Por quase oito anos, a Miraheze já providenciou seus 300.000 usuários com hospedagem grátis. Ajude-nos a continuar crescendo por mais oito anos ou mais! Nós somos movidos totalmente por doações de pessoas como você. Somos gratos em ver todo o tráfego ao decorrer dos anos, além do crescimento da comunidade. Porém com nosso crescimento impressionante, precisamos de mais infraestrutura para atender à crescente demanda. Pedimos, sinceramente, em considerar enviar $5, $10, $20, ou qualquer valor que possa contribuir. Se 550 dos 300.000+ usuários do Miraheze contribuíssem apenas $16 ao ano, a organização iria suprimir todas as necessidades financeiras.",
+	"fundraising-sitenotice": "Por quase dez anos, a Miraheze já providenciou seus 500.000 usuários com hospedagem grátis. Ajude-nos a continuar crescendo por mais oito anos ou mais! Nós somos movidos totalmente por doações de pessoas como você. Somos gratos em ver todo o tráfego ao decorrer dos anos, além do crescimento da comunidade. Porém com nosso crescimento impressionante, precisamos de mais infraestrutura para atender à crescente demanda. Pedimos, sinceramente, em considerar enviar $5, $10, $20, ou qualquer valor que possa contribuir. Se 550 dos 300.000+ usuários do Miraheze contribuíssem apenas $16 ao ano, a organização iria suprimir todas as necessidades financeiras.",
 	"fundraiser-sitenotice-title": "Ajude-nos!",
 	"fundraising-sitenotice-button-text": "Aprenda como ajudar!",
 	"statistics-wikis": "Wikis",
 	"statistics-users": "Usuários",
+	"statistics-powered": "Desenvolvido por especialistas",
 	"wikitype-technology": "Tecnologia",
 	"wikitype-games": "Jogos",
 	"wikitype-tv": "Entretenimento",
 	"wikitype-science": "Ciências",
 	"wikitype-education": "Educação",
-	"wikitype-more": "...e muito mais!"
+	"wikitype-more": "...e muito mais!",
+	"wikitype-more-desc": "As possibilidades são infinitas. Especialistas e novatos podem se reunir para colaborar em wikis sobre vários tópicos, de astronomia a física, tudo é possível!"
 }
