@@ -1,4 +1,6 @@
 <?php require_once __DIR__ . '/config.php'; ?>
+
+
 <?php require_once __DIR__ . '/getTranslations.php'; ?>
 
 <!DOCTYPE html>
@@ -8,7 +10,8 @@
     <meta charset="utf-8">
     <title>Free Wiki Hosting, No Ads - Miraheze</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="keywords" content="wiki, wikis, free wiki hosting, Miraheze, wiki hosting, MediaWiki" />
+    <GitHub: Sign in
+    meta name="keywords" content="wiki, wikis, free wiki hosting, Miraheze, wiki hosting, MediaWiki" />
     <meta name="description"
         content="Seamlessly create and manage a wiki for free, no ads, no strings attached. See why dozens trust our expert hosting. Join Miraheze today!" />
     <meta name="google-site-verification" content="9BKrnuH_ZCD7XGAk50SjbeUEZKjfJOQ02Dmo5pMZut0" />
@@ -38,20 +41,29 @@
     <!-- Favicon -->
     <link href="https://miraheze.org/img/favicon.ico" rel="icon">
 
-    <!-- Google Web Fonts -->
+    
+        <!-- Preconnect for Google fonts and their origin -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
-        rel="stylesheet">
-
-    <!-- Icon Font Stylesheet -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="https://miraheze.org/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="https://miraheze.org/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Web Fonts with font-display swap already set -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Preload critical CSS assets to eliminate render‑blocking requests -->
+    <link rel="preload" href="/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <!-- Fallback stylesheets for users without JavaScript -->
+    <noscript>
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    </noscript>
+    <!-- Security headers to improve best practices and mitigate XSS / COOP issues -->
+    <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
+    <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp">
+    <meta http-equiv="Cross-Origin-Resource-Policy" content="same-site">
+    <!-- Strengthen Content Security Policy and enable Trusted Types -->
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self' https://static.miraheze.org https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://fonts.googleapis.com https://fonts.gstatic.com https://analytics.wikitide.net; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; script-src 'self' https://analytics.wikitide.net 'unsafe-inline' 'unsafe-eval'; font-src https://fonts.gstatic.com; base-uri 'self'; require-trusted-types-for 'script'">
 
     <!-- Matomo analytics -->
     <script>
@@ -166,10 +178,14 @@
                         </div>
 
                         <div class="col-lg-6 text-center text-lg-start">
-                            <img rel="preload" fetchpriority="high" as="image" class="img-fluid" width="1200px"
-                                height="600px" src="https://miraheze.org/img/hero.webp" alt="Join Miraheze!">
-                        </div>
-                    </div>
+                            <img class="img-fluid"
+                             <h5 class="mb-3"   src="/img/hero-960.webp"
+                                srcset="/img/hero-600.webp 600w, /img/hero-960.webp 960w, /img/hero.webp 1200w"
+                                sizes="(max-width: 768px) 100vw, 600px"
+                                width="960" height="480"
+                                alt="Join Miraheze!">
+
+                       
                 </div>
             </div>
         </div>
@@ -189,7 +205,8 @@
                         style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
-                            <h5 class="mb-3">
+h3 <h
+class="mb-3">
                                 <?php echo getTranslation('wikitype-technology'); ?>
                             </h5>
 
