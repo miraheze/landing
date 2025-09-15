@@ -44,7 +44,7 @@
         background-color: #282828 !important;
     }
 
-    h1, h5 {
+    h1, h2, h5 {
         color: #fff;
     }
 
@@ -78,7 +78,7 @@ h2 {
     font-weight: 700 !important;
 }
 
-h5 {
+h5, .h5 {
     font-weight: 500 !important;
 }
 
