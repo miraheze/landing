@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Darafsh",
+			"Zagothal",
 			"Zoji"
 		]
 	},
@@ -42,7 +43,7 @@
 	"faq": "Často kladené dotazy",
 	"more": "Více",
 	"wikidiscover-text": "Objevte wiki",
-	"requestwiki-text": "Žádost o wiki",
+	"requestwiki-text": "Založit wiki",
 	"organisation-text": "Informace o organizaci",
 	"blog-text": "Blog",
 	"status-text": "Stav",
