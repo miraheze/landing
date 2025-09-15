@@ -235,8 +235,6 @@
         <div class="container-xxl">
             <div class="container py-5 px-lg-5">
                 <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="section-title text-secondary justify-content-center"><span></span>WHAT WE
-                        OFFER<span></span></p>
                     <h1 class="text-center mb-5">
                         <?php echo getTranslation('features-text'); ?>
                     </h1>
