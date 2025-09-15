@@ -45,7 +45,7 @@
     }
 
     h1, h2, h5 {
-        color: #fff;
+        color: #fff !important;
     }
 
     .bg-light, .service-item {
