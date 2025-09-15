@@ -38,11 +38,6 @@
     <!-- Favicon -->
     <link href="https://miraheze.org/img/favicon.ico" rel="icon">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
-        rel="stylesheet">
-
     <!-- Icon Font Stylesheet -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous">
@@ -163,11 +158,6 @@
                                 title="<?php echo getTranslation('donate-heading'); ?>">
                                 <?php echo getTranslation('donate-heading'); ?>
                             </a>
-                        </div>
-
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <img rel="preload" fetchpriority="high" as="image" class="img-fluid" width="1200px"
-                                height="600px" src="https://miraheze.org/img/hero.webp" alt="Join Miraheze!">
                         </div>
                     </div>
                 </div>
