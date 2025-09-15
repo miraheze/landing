@@ -157,9 +157,9 @@
                         style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('wikitype-technology'); ?>
-                            </h5>
+                            </h2>
 
                             <p class="m-0">
                                 <?php echo getTranslation('wikitype-technology-desc'); ?>
@@ -170,9 +170,9 @@
                     <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.1s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-gamepad text-primary mb-4"></i>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('wikitype-games'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('wikitype-games-desc'); ?>
                             </p>
@@ -182,9 +182,9 @@
                     <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.3s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-masks-theater text-primary mb-4"></i>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('wikitype-tv'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('wikitype-tv-desc'); ?>
                             </p>
@@ -194,9 +194,9 @@
                     <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-flask-vial text-primary mb-4"></i>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('wikitype-science'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('wikitype-science-desc'); ?>
                             </p>
@@ -206,9 +206,9 @@
                     <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('wikitype-education'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('wikitype-education-desc'); ?>
                             </p>
@@ -218,9 +218,9 @@
                     <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-bullhorn text-primary mb-4"></i>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('wikitype-more'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('wikitype-more-desc'); ?>
                             </p>
@@ -247,9 +247,9 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-rectangle-ad fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('features-adfree'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('features-adfree-desc'); ?>
                             </p>
@@ -264,9 +264,9 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-screwdriver-wrench fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('features-configure'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('features-configure-desc'); ?>
                             </p>
@@ -281,9 +281,9 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-swatchbook fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('features-customizability'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('features-customizability-desc'); ?>
                             </p>
@@ -298,9 +298,9 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-window-restore fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('features-customdomain'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('features-customdomain-desc'); ?>
                             </p>
@@ -315,9 +315,9 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-headset fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('features-support'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('features-support-desc'); ?>
                             </p>
@@ -332,9 +332,9 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-pen-ruler fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('features-visualeditor'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('features-visualeditor-desc'); ?>
                             </p>
