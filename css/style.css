@@ -54,18 +54,6 @@
 }
 
 /*** Spinner ***/
-#spinner {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
-    z-index: 99999;
-}
-
-#spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
-    visibility: visible;
-    opacity: 1;
-}
 
 .back-to-top {
     position: fixed;
@@ -414,15 +402,6 @@ h5 {
 }
 
 
-/*** About ***/
-.progress {
-    height: 5px;
-}
-
-.progress .progress-bar {
-    width: 0px;
-    transition: 3s;
-}
 
 
 /*** Fact ***/
@@ -531,58 +510,6 @@ h5 {
 
 .service-item:hover a.btn {
     bottom: 0;
-}
-
-/*** Project Portfolio ***/
-#portfolio-flters li {
-    display: inline-block;
-    font-weight: 500;
-    color: var(--dark);
-    cursor: pointer;
-    transition: .5s;
-    border-bottom: 2px solid transparent;
-}
-
-#portfolio-flters li:hover,
-#portfolio-flters li.active {
-    color: var(--primary);
-    border-color: var(--primary);
-}
-
-.portfolio-item img {
-    transition: .5s;
-}
-
-.portfolio-item:hover img {
-    transform: scale(1.1);
-}
-
-/*** Testimonial ***/
-.testimonial-carousel .owl-nav {
-    display: flex;
-    justify-content: center;
-}
-
-.testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next {
-    margin: 0 12px;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--primary);
-    background: var(--light);
-    border-radius: 60px;
-    font-size: 22px;
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-nav .owl-prev:hover,
-.testimonial-carousel .owl-nav .owl-next:hover {
-    color: #FFFFFF;
-    background: var(--primary);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
 /*** Footer ***/
