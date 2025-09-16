@@ -37,24 +37,20 @@
 
     <!-- Favicon -->
     <link href="https://miraheze.org/img/favicon.ico" rel="icon">
-    
-    <!--<link rel="preload" href="../img/blob-top-left.webp" as="image">
-    <link rel="preload" href="../img/blob-top-right.webp" as="image">
-    <link rel="preload" href="../img/blob-bottom-left.webp" as="image">
-    <link rel="preload" href="../img/blob-bottom-right.webp" as="image">
-    <link rel="preload" href="../img/blob-center.webp" as="image">-->
+
     <link rel="preload" href="webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
     <link rel="preload" href="webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 
     <!-- Icon Font Stylesheet -->
-    <link rel="preload" href="https://miraheze.org/css/fonts.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://miraheze.org/css/fonts.min.css"></noscript>
+    <link rel="preload" href="https://miraheze.org/css/fonts.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://miraheze.org/css/fonts.min.css" /></noscript>
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="https://miraheze.org/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preload" href="https://miraheze.org/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link href="https://miraheze.org/css/bootstrap.min.css" rel="stylesheet" /></noscript>
 
     <!-- Template Stylesheet -->
-    <link href="https://miraheze.org/css/style.css" rel="stylesheet">
+    <link href="https://miraheze.org/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
