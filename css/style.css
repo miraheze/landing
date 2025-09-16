@@ -103,6 +103,10 @@ h5, .h5 {
     box-shadow: 0 0 10px rgb(0 0 0 / 10%);
 }
 
+.btn.rounded-pill {
+    transition: none !important;
+}
+
 .btn:hover {
     box-shadow: 0 0 8px rgb(0 0 0 / 30%);
 }
@@ -182,6 +186,7 @@ h5, .h5 {
 
 .navbar-light .navbar-toggler {
     color: var(--link-menu) !important;
+    transition: none !important;
 }
 
 @media (max-width: 991.98px) {
