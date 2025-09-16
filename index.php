@@ -353,21 +353,21 @@
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
                         <i class="fa fa-certificate fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-accent mb-2" data-toggle="counter-up">8800</h1>
+                        <h1 class="text-accent mb-2" data-toggle="counter-up">22000</h1>
                         <p class="text-accent mb-0">
                             <?php echo getTranslation('statistics-wikis'); ?>
                         </p>
                     </div>
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
                         <i class="fa fa-users-cog fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-accent mb-2" data-toggle="counter-up">40000</h1>
+                        <h1 class="text-accent mb-2" data-toggle="counter-up">60000</h1>
                         <p class="text-accent mb-0">
                             <?php echo getTranslation('statistics-requests'); ?>
                         </p>
                     </div>
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
                         <i class="fa fa-users fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-accent mb-2" data-toggle="counter-up">450000</h1>
+                        <h1 class="text-accent mb-2" data-toggle="counter-up">680000</h1>
                         <p class="text-accent mb-0">
                             <?php echo getTranslation('statistics-users'); ?>
                         </p>
