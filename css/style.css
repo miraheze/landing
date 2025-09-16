@@ -100,7 +100,6 @@ h5, .h5 {
 /*** Button ***/
 .btn {
     font-weight: 500;
-    transition: .5s;
     box-shadow: 0 0 10px rgb(0 0 0 / 10%);
 }
 
@@ -148,7 +147,6 @@ h5, .h5 {
     font-size: 18px;
     font-weight: 500;
     outline: none;
-    transition: .5s;
     color: var(--link-menu) !important;
 }
 
@@ -168,7 +166,6 @@ h5, .h5 {
 
 .navbar-light .navbar-brand img {
     max-height: 60px;
-    transition: .5s;
 }
 
 .sticky-top.navbar-light .navbar-brand img {
@@ -236,13 +233,11 @@ h5, .h5 {
         top: 150%;
         opacity: 0;
         visibility: hidden;
-        transition: .5s;
     }
 
     .navbar-light .navbar-nav .nav-item:hover .dropdown-menu {
         top: 100%;
         visibility: visible;
-        transition: .5s;
         opacity: 1;
     }
 
