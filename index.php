@@ -39,7 +39,7 @@
     <link href="https://miraheze.org/img/favicon.ico" rel="icon">
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://miraheze.org/css/fonts.min.css" rel="stylesheet">
+    <link rel="preload" href="https://miraheze.org/css/fonts.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="https://miraheze.org/css/bootstrap.min.css" rel="stylesheet">
