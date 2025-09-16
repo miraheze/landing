@@ -47,6 +47,12 @@
 
     <!-- Template Stylesheet -->
     <link href="https://miraheze.org/css/style.css" rel="stylesheet">
+
+    <link rel="preload" href="../img/blob-top-left.webp" as="image">
+    <link rel="preload" href="../img/blob-top-right.webp" as="image">
+    <link rel="preload" href="../img/blob-bottom-left.webp" as="image">
+    <link rel="preload" href="../img/blob-bottom-right.webp" as="image">
+    <link rel="preload" href="../img/blob-center.webp" as="image">
 </head>
 
 <body>
