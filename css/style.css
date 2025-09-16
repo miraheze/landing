@@ -312,7 +312,8 @@ h5, .h5 {
         center center;
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
-    background-color: var(--gradient-detail);   
+    background-color: var(--gradient-detail);
+	will-change: mask-image, -webkit-mask-image;
 }
 
 /* Hero Header overlay - wave image */
