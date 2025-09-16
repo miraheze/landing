@@ -85,7 +85,7 @@ h5, .h5 {
 /*** Logo and workmark ***/
 .logo {
     float: left;
-    width: 90px;
+    width: unset;
     height: 90px;
     margin-right: 20px;
 }
