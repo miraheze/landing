@@ -261,6 +261,10 @@ h5, .h5 {
         color: var(--dark);
         background: var(--secondary);
     }
+
+    .wordmark {
+        top: 13px;
+    }
 }
 
 
