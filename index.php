@@ -43,8 +43,8 @@
     <link rel="preload" href="../img/blob-bottom-left.webp" as="image">
     <link rel="preload" href="../img/blob-bottom-right.webp" as="image">
     <link rel="preload" href="../img/blob-center.webp" as="image">-->
-    <link rel="preload" href="webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 
     <!-- Icon Font Stylesheet -->
     <link rel="preload" href="https://miraheze.org/css/fonts.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
