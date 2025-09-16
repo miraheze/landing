@@ -39,13 +39,8 @@
     <!-- Favicon -->
     <link href="https://foundation.wikitide.org/img/favicon-wikitide.ico" rel="icon">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
-        rel="stylesheet">
-
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
+    <link href="https://foundation.wikitide.org/css/fonts.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="https://foundation.wikitide.org/css/bootstrap.min.css" rel="stylesheet">
@@ -81,7 +76,7 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <img class="logo" src="https://foundation.wikitide.org/img/WikiTide-Logo.png" style="width: unset; margin-right: 20px;" alt="WikiTide">
+                    <img class="logo" src="https://foundation.wikitide.org/img/WikiTide-Logo.png" style="width: unset; margin-right: 20px;" alt="WikiTide Logo">
                     <h1 class="m-0 wordmark text-accent">WikiTide</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"

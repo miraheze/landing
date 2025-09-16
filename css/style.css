@@ -44,8 +44,8 @@
         background-color: #282828 !important;
     }
 
-    h1, h5 {
-        color: #fff;
+    h1, h2, h5 {
+        color: #fff !important;
     }
 
     .bg-light, .service-item {
@@ -53,24 +53,7 @@
     }
 }
 
-/*** Light mode ***/
-@media (prefers-color-scheme: light) {
-    
-}
-
 /*** Spinner ***/
-#spinner {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
-    z-index: 99999;
-}
-
-#spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
-    visibility: visible;
-    opacity: 1;
-}
 
 .back-to-top {
     position: fixed;
@@ -79,7 +62,6 @@
     bottom: 45px;
     z-index: 99;
 }
-
 
 /*** Text ***/
 .text-accent {
@@ -92,20 +74,11 @@
 
 /*** Heading ***/
 h1,
-h2,
-.fw-bold {
+h2 {
     font-weight: 700 !important;
 }
 
-h3,
-h4,
-.fw-semi-bold {
-    font-weight: 600 !important;
-}
-
-h5,
-h6,
-.fw-medium {
+h5, .h5 {
     font-weight: 500 !important;
 }
 
@@ -140,18 +113,12 @@ h6,
     height: 38px;
 }
 
-.btn-sm-square {
-    width: 32px;
-    height: 32px;
-}
-
 .btn-lg-square {
     width: 48px;
     height: 48px;
 }
 
 .btn-square,
-.btn-sm-square,
 .btn-lg-square {
     padding: 0;
     display: flex;
@@ -424,13 +391,6 @@ h6,
     background: var(--secondary);
 }
 
-.section-title.text-white span:first-child,
-.section-title.text-white span:last-child,
-.section-title.text-white span:first-child::after,
-.section-title.text-white span:last-child::after {
-    background: #FFFFFF;
-}
-
 
 /*** Feature ***/
 .feature-item {
@@ -442,15 +402,6 @@ h6,
 }
 
 
-/*** About ***/
-.progress {
-    height: 5px;
-}
-
-.progress .progress-bar {
-    width: 0px;
-    transition: 3s;
-}
 
 
 /*** Fact ***/
@@ -561,114 +512,6 @@ h6,
     bottom: 0;
 }
 
-
-/*** Project Portfolio ***/
-#portfolio-flters li {
-    display: inline-block;
-    font-weight: 500;
-    color: var(--dark);
-    cursor: pointer;
-    transition: .5s;
-    border-bottom: 2px solid transparent;
-}
-
-#portfolio-flters li:hover,
-#portfolio-flters li.active {
-    color: var(--primary);
-    border-color: var(--primary);
-}
-
-.portfolio-item img {
-    transition: .5s;
-}
-
-.portfolio-item:hover img {
-    transform: scale(1.1);
-}
-
-.portfolio-item .portfolio-overlay {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(98, 34, 204, .9);
-    transition: .5s;
-    opacity: 0;
-}
-
-.portfolio-item:hover .portfolio-overlay {
-    opacity: 1;
-}
-
-
-/*** Newsletter ***/
-.newsletter {
-    margin: 6rem 0;
-    background:
-        url(../img/blob-top-left.webp),
-        url(../img/blob-top-right.webp),
-        url(../img/blob-bottom-left.webp),
-        url(../img/blob-bottom-right.webp),
-        url(../img/blob-center.webp);
-    background-position:
-        left 0px top 0px,
-        right 0px top 0px,
-        left 0px bottom 0px,
-        right 0px bottom 0px,
-        center center;
-    background-repeat: no-repeat;
-}
-
-
-/*** Testimonial ***/
-.testimonial-carousel .testimonial-item {
-    padding: 0 30px 30px 30px;
-}
-
-.testimonial-carousel .owl-nav {
-    display: flex;
-    justify-content: center;
-}
-
-.testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next {
-    margin: 0 12px;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--primary);
-    background: var(--light);
-    border-radius: 60px;
-    font-size: 22px;
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-nav .owl-prev:hover,
-.testimonial-carousel .owl-nav .owl-next:hover {
-    color: #FFFFFF;
-    background: var(--primary);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-}
-
-
-/*** Team ***/
-.team-item .btn {
-    color: var(--primary);
-    background: #FFFFFF;
-}
-
-.team-item .btn:hover {
-    color: #FFFFFF;
-    background: var(--primary);
-}
-
-
 /*** Footer ***/
 .footer {
     position: relative;
@@ -731,30 +574,6 @@ h6,
 
 .footer .btn.btn-social:hover {
     color: var(--primary);
-}
-
-.footer .btn.btn-link {
-    display: block;
-    margin-bottom: 10px;
-    padding: 0;
-    text-align: left;
-    color: var(--light);
-    font-weight: normal;
-    transition: .3s;
-}
-
-.footer .btn.btn-link::before {
-    position: relative;
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 10px;
-}
-
-.footer .btn.btn-link:hover {
-    letter-spacing: 1px;
-    box-shadow: none;
-    color: var(--secondary);
 }
 
 .footer .copyright-container {

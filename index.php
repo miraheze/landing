@@ -39,35 +39,13 @@
     <link href="https://miraheze.org/img/favicon.ico" rel="icon">
 
     <!-- Icon Font Stylesheet -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous">
+    <link href="https://miraheze.org/css/fonts.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="https://miraheze.org/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="https://miraheze.org/css/style.css" rel="stylesheet">
-
-    <!-- Matomo analytics -->
-    <script>
-        var _paq = window._paq = window._paq || [];
-        _paq.push(['disableCookies']);
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function () {
-            var u = 'https://analytics.wikitide.net/';
-            _paq.push(['setTrackerUrl', u + 'matomo.php']);
-            _paq.push(['setDocumentTitle', 'Landing - Home']);
-            _paq.push(['setSiteId', 9838]);
-            _paq.push(['addTracker', u + 'matomo.php', 1]);
-            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-            g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
-        })();
-    </script>
-    <noscript>
-        <p><img src="https://analytics.wikitide.net/matomo.php?idsite=9838&amp;rec=1&amp;action_name=Landing_Home"
-                style="border:0;" alt="Matomo" /></p>
-    </noscript>
 </head>
 
 <body>
@@ -76,7 +54,7 @@
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" width="135" alt="Miraheze">
+                    <img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" width="135" alt="Miraheze Logo">
                     <h1 class="m-0 wordmark text-accent">Miraheze</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -179,9 +157,9 @@
                         style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('wikitype-technology'); ?>
-                            </h5>
+                            </h2>
 
                             <p class="m-0">
                                 <?php echo getTranslation('wikitype-technology-desc'); ?>
@@ -192,9 +170,9 @@
                     <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.1s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-gamepad text-primary mb-4"></i>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('wikitype-games'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('wikitype-games-desc'); ?>
                             </p>
@@ -204,9 +182,9 @@
                     <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.3s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-masks-theater text-primary mb-4"></i>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('wikitype-tv'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('wikitype-tv-desc'); ?>
                             </p>
@@ -216,9 +194,9 @@
                     <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-flask-vial text-primary mb-4"></i>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('wikitype-science'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('wikitype-science-desc'); ?>
                             </p>
@@ -228,9 +206,9 @@
                     <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('wikitype-education'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('wikitype-education-desc'); ?>
                             </p>
@@ -240,9 +218,9 @@
                     <div class="col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
                         <div class="feature-item bg-light rounded text-center p-4">
                             <i class="fa fa-3x fa-bullhorn text-primary mb-4"></i>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('wikitype-more'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('wikitype-more-desc'); ?>
                             </p>
@@ -257,8 +235,6 @@
         <div class="container-xxl">
             <div class="container py-5 px-lg-5">
                 <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="section-title text-secondary justify-content-center"><span></span>WHAT WE
-                        OFFER<span></span></p>
                     <h1 class="text-center mb-5">
                         <?php echo getTranslation('features-text'); ?>
                     </h1>
@@ -269,9 +245,9 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-rectangle-ad fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('features-adfree'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('features-adfree-desc'); ?>
                             </p>
@@ -286,9 +262,9 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-screwdriver-wrench fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('features-configure'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('features-configure-desc'); ?>
                             </p>
@@ -303,9 +279,9 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-swatchbook fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('features-customizability'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('features-customizability-desc'); ?>
                             </p>
@@ -320,9 +296,9 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-window-restore fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('features-customdomain'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('features-customdomain-desc'); ?>
                             </p>
@@ -337,9 +313,9 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-headset fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('features-support'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('features-support-desc'); ?>
                             </p>
@@ -354,9 +330,9 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-pen-ruler fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">
+                            <h2 class="h5 mb-3">
                                 <?php echo getTranslation('features-visualeditor'); ?>
-                            </h5>
+                            </h2>
                             <p class="m-0">
                                 <?php echo getTranslation('features-visualeditor-desc'); ?>
                             </p>
@@ -377,21 +353,21 @@
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
                         <i class="fa fa-certificate fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-accent mb-2" data-toggle="counter-up">8800</h1>
+                        <h1 class="text-accent mb-2" data-toggle="counter-up">22,000</h1>
                         <p class="text-accent mb-0">
                             <?php echo getTranslation('statistics-wikis'); ?>
                         </p>
                     </div>
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
                         <i class="fa fa-users-cog fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-accent mb-2" data-toggle="counter-up">40000</h1>
+                        <h1 class="text-accent mb-2" data-toggle="counter-up">60,000</h1>
                         <p class="text-accent mb-0">
                             <?php echo getTranslation('statistics-requests'); ?>
                         </p>
                     </div>
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
                         <i class="fa fa-users fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-accent mb-2" data-toggle="counter-up">450000</h1>
+                        <h1 class="text-accent mb-2" data-toggle="counter-up">680,000</h1>
                         <p class="text-accent mb-0">
                             <?php echo getTranslation('statistics-users'); ?>
                         </p>
@@ -509,6 +485,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
         crossorigin="anonymous"></script>
+
+    <!-- Matomo analytics -->
+    <script>
+        var _paq = window._paq = window._paq || [];
+        _paq.push(['disableCookies']);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = 'https://analytics.wikitide.net/';
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setDocumentTitle', 'Landing - Home']);
+            _paq.push(['setSiteId', 9838]);
+            _paq.push(['addTracker', u + 'matomo.php', 1]);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <p><img src="https://analytics.wikitide.net/matomo.php?idsite=9838&amp;rec=1&amp;action_name=Landing_Home"
+                style="border:0;" alt="Matomo" /></p>
+    </noscript>
 </body>
 
 </html>
