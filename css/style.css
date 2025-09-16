@@ -85,8 +85,9 @@ h5, .h5 {
 /*** Logo and workmark ***/
 .logo {
     float: left;
-    width: 90px;
+    width: unset;
     height: 90px;
+    margin-right: 20px;
 }
 
 .wordmark {
@@ -260,6 +261,10 @@ h5, .h5 {
         color: var(--dark);
         background: var(--secondary);
     }
+
+    .wordmark {
+        top: 13px;
+    }
 }
 
 
@@ -312,7 +317,7 @@ h5, .h5 {
         center center;
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
-    background-color: var(--gradient-detail);   
+    background-color: var(--gradient-detail);
 }
 
 /* Hero Header overlay - wave image */

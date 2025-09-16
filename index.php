@@ -5,9 +5,9 @@
 <html lang="<?php echo getLanguageCode(); ?>" prefix="og: http://ogp.me/ns#">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Free Wiki Hosting, No Ads - Miraheze</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="keywords" content="wiki, wikis, free wiki hosting, Miraheze, wiki hosting, MediaWiki" />
     <meta name="description"
         content="Seamlessly create and manage a wiki for free, no ads, no strings attached. See why dozens trust our expert hosting. Join Miraheze today!" />
@@ -16,14 +16,14 @@
         content="Seamlessly create and manage a wiki for free, no ads, no strings attached. See why dozens trust our expert hosting. Join Miraheze today!" />
     <meta property="og:description"
         content="Seamlessly create and manage a wiki for free, no ads, no strings attached. See why dozens trust our expert hosting. Join Miraheze today!" />
-    <meta property="og:image" content="https://miraheze.org/embed.png">
+    <meta property="og:image" content="https://miraheze.org/embed.png" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Free Wiki Hosting, No Ads - Miraheze" />
     <meta property="og:site_name" content="Miraheze" />
     <meta property="og:url" content="https://miraheze.org/" />
     <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:image" content="https://miraheze.org/embed.png">
+    <meta name="twitter:image" content="https://miraheze.org/embed.png" />
     <meta name="twitter:title" content="Miraheze - Free Wiki Hosting with No Ads" />
     <meta name="twitter:site" content="Miraheze" />
     <meta name="mobile-web-app-capable" content="yes" />
@@ -36,17 +36,20 @@
         type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"Miraheze","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}]</script>
 
     <!-- Favicon -->
-    <link href="https://miraheze.org/img/favicon.ico" rel="icon">
+    <link href="https://miraheze.org/img/favicon.ico" rel="icon" />
+
+    <link rel="preload" href="webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 
     <!-- Icon Font Stylesheet -->
-    <link rel="preload" href="https://miraheze.org/css/fonts.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://miraheze.org/css/fonts.min.css"></noscript>
+    <link rel="preload" href="https://miraheze.org/css/fonts.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://miraheze.org/css/fonts.min.css" /></noscript>
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="https://miraheze.org/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://miraheze.org/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="https://miraheze.org/css/style.css" rel="stylesheet">
+    <link href="https://miraheze.org/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -55,7 +58,7 @@
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" width="135" alt="Miraheze Logo">
+                    <img class="logo" src="https://miraheze.org/img/Miraheze-Logo.svg" width="135" alt="Miraheze Logo" fetchpriority="high" />
                     <h1 class="m-0 wordmark text-accent">Miraheze</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -483,8 +486,9 @@
     </div>
 
     <!-- JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    <script defer
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
     <!-- Matomo analytics -->
