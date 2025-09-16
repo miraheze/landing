@@ -40,6 +40,7 @@
 
     <!-- Icon Font Stylesheet -->
     <link rel="preload" href="https://miraheze.org/css/fonts.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://miraheze.org/css/fonts.min.css"></noscript>
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="https://miraheze.org/css/bootstrap.min.css" rel="stylesheet">
