@@ -37,6 +37,12 @@
 
     <!-- Favicon -->
     <link href="https://miraheze.org/img/favicon.ico" rel="icon">
+    
+    <link rel="preload" href="/img/blob-top-left.webp" as="image">
+    <link rel="preload" href="/img/blob-top-right.webp" as="image">
+    <link rel="preload" href="/img/blob-bottom-left.webp" as="image">
+    <link rel="preload" href="/img/blob-bottom-right.webp" as="image">
+    <link rel="preload" href="/img/blob-center.webp" as="image">
 
     <!-- Icon Font Stylesheet -->
     <link rel="preload" href="https://miraheze.org/css/fonts.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -47,12 +53,6 @@
 
     <!-- Template Stylesheet -->
     <link href="https://miraheze.org/css/style.css" rel="stylesheet">
-
-    <link rel="preload" href="../img/blob-top-left.webp" as="image">
-    <link rel="preload" href="../img/blob-top-right.webp" as="image">
-    <link rel="preload" href="../img/blob-bottom-left.webp" as="image">
-    <link rel="preload" href="../img/blob-bottom-right.webp" as="image">
-    <link rel="preload" href="../img/blob-center.webp" as="image">
 </head>
 
 <body>
