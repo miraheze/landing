@@ -286,7 +286,7 @@ h5, .h5 {
     bottom: 0;
     left: 0;
     right: 0;
-    /* mask-image: 
+    mask-image: 
         url(../img/blob-top-left.webp),
         url(../img/blob-top-right.webp),        
         url(../img/blob-bottom-left.webp),        
@@ -311,7 +311,7 @@ h5, .h5 {
         right 0px bottom 0px,
         center center;
     mask-repeat: no-repeat;
-    -webkit-mask-repeat: no-repeat; */
+    -webkit-mask-repeat: no-repeat;
     background-color: var(--gradient-detail);
 }
 
