@@ -5,9 +5,9 @@
 <html lang="<?php echo getLanguageCode(); ?>" prefix="og: http://ogp.me/ns#">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>WikiTide Foundation</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="keywords" content="wikitide foundation" />
     <meta name="description"
         content="The WikiTide Foundation is the nonprofit organization responsible for operating Miraheze. It is located in the United States and recognized as a 501(c)(3) tax-exempt charity." />
@@ -16,14 +16,14 @@
         content="The WikiTide Foundation is the nonprofit organization responsible for operating Miraheze. It is located in the United States and recognized as a 501(c)(3) tax-exempt charity." />
     <meta property="og:description"
         content="The WikiTide Foundation is the nonprofit organization responsible for operating Miraheze. It is located in the United States and recognized as a 501(c)(3) tax-exempt charity." />
-    <meta property="og:image" content="https://foundation.wikitide.org/embed.png">
+    <meta property="og:image" content="https://foundation.wikitide.org/embed.png" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="WikiTide Foundation" />
     <meta property="og:site_name" content="WikiTide Foundation" />
     <meta property="og:url" content="https://foundation.wikitide.org/" />
     <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:image" content="https://foundation.wikitide.org/embed.png">
+    <meta name="twitter:image" content="https://foundation.wikitide.org/embed.png" />
     <meta name="twitter:title" content="WikiTide Foundation" />
     <meta name="twitter:site" content="WikiTide Foundation" />
     <meta name="mobile-web-app-capable" content="yes" />
@@ -37,37 +37,20 @@
         type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"WikiTide Foundation","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}]</script>
 
     <!-- Favicon -->
-    <link href="https://foundation.wikitide.org/img/favicon-wikitide.ico" rel="icon">
+    <link href="https://foundation.wikitide.org/img/favicon-wikitide.ico" rel="icon" />
+
+    <link rel="preload" href="webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://foundation.wikitide.org/css/fonts.min.css" rel="stylesheet">
+    <link rel="preload" href="https://foundation.wikitide.org/css/fonts.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://foundation.wikitide.org/css/fonts.min.css" /></noscript>
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="https://foundation.wikitide.org/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://foundation.wikitide.org/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="https://foundation.wikitide.org/css/style.css" rel="stylesheet">
-
-    <!-- Matomo analytics -->
-    <script>
-        var _paq = window._paq = window._paq || [];
-        _paq.push(['disableCookies']);
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function () {
-            var u = 'https://analytics.wikitide.net/';
-            _paq.push(['setTrackerUrl', u + 'matomo.php']);
-            _paq.push(['setDocumentTitle', 'Landing - WikiTide Foundation']);
-            _paq.push(['setSiteId', 9838]);
-            _paq.push(['addTracker', u + 'matomo.php', 1]);
-            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-            g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
-        })();
-    </script>
-    <noscript>
-        <p><img src="https://analytics.wikitide.net/matomo.php?idsite=9838&amp;rec=1&amp;action_name=Landing_WikiTide_Foundation"
-                style="border: 0;" alt="Matomo" /></p>
-    </noscript>
+    <link href="https://foundation.wikitide.org/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -76,7 +59,7 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <img class="logo" src="https://foundation.wikitide.org/img/WikiTide-Logo.png" style="width: unset; margin-right: 20px;" alt="WikiTide Logo">
+                    <img class="logo" src="https://foundation.wikitide.org/img/WikiTide-Logo.png" style="width: unset; margin-right: 20px;" alt="WikiTide Logo" fetchpriority="high" />
                     <h1 class="m-0 wordmark text-accent">WikiTide</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -256,9 +239,31 @@
     </div>
 
     <!-- JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    <script defer
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
+    <!-- Matomo analytics -->
+    <script>
+        var _paq = window._paq = window._paq || [];
+        _paq.push(['disableCookies']);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = 'https://analytics.wikitide.net/';
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setDocumentTitle', 'Landing - WikiTide Foundation']);
+            _paq.push(['setSiteId', 9838]);
+            _paq.push(['addTracker', u + 'matomo.php', 1]);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <p><img src="https://analytics.wikitide.net/matomo.php?idsite=9838&amp;rec=1&amp;action_name=Landing_WikiTide_Foundation"
+                style="border: 0;" alt="Matomo" /></p>
+    </noscript>
 </body>
 
 </html>
