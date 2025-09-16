@@ -8,7 +8,7 @@
     --link-base: #6222CC;
     --link-hover: #4e1ba3;
     --text-accent: #7f4200;
-    --link-menu: #04000B;
+    --link-menu: rgba(0,0,0,0.55);
     --gradient-base: linear-gradient(45deg, #ffc3e2, #ffefb3);
     --gradient-detail: #e75492;
     --semitransparent: #ffffff90;
@@ -149,6 +149,7 @@ h5, .h5 {
     font-weight: 500;
     outline: none;
     transition: .5s;
+    color: var(--link-menu) !important;
 }
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
