@@ -63,7 +63,7 @@
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" width="135" alt="Miraheze Logo">
+                    <img class="logo" src="https://miraheze.org/img/Miraheze-Logo.svg" width="135" alt="Miraheze Logo">
                     <h1 class="m-0 wordmark text-accent">Miraheze</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
