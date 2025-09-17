@@ -53,8 +53,6 @@
     }
 }
 
-/*** Spinner ***/
-
 .back-to-top {
     position: fixed;
     display: none;
@@ -343,6 +341,11 @@ h5, .h5 {
 .footer > div {
     position: relative;  /* avoid being covered by the overlay images */
     z-index: 9;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
 }
 
 /*** Section Title ***/
