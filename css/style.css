@@ -290,17 +290,17 @@ h5, .h5 {
     left: 0;
     right: 0;
     mask-image: 
-        url(../img/blob-top-left.svg),
-        url(../img/blob-top-right.svg),        
-        url(../img/blob-bottom-left.svg),        
-        url(../img/blob-bottom-right.svg),        
-        url(../img/blob-center.svg);
+        url(../img/blob-top-left.webp),
+        url(../img/blob-top-right.webp),        
+        url(../img/blob-bottom-left.webp),        
+        url(../img/blob-bottom-right.webp),        
+        url(../img/blob-center.webp);
     -webkit-mask-image: 
-        url(../img/blob-top-left.svg),
-        url(../img/blob-top-right.svg),        
-        url(../img/blob-bottom-left.svg),        
-        url(../img/blob-bottom-right.svg),        
-        url(../img/blob-center.svg);
+        url(../img/blob-top-left.webp),
+        url(../img/blob-top-right.webp),        
+        url(../img/blob-bottom-left.webp),        
+        url(../img/blob-bottom-right.webp),        
+        url(../img/blob-center.webp);
     mask-position:
         left 0px top 0px,
         right 0px top 0px,
@@ -326,8 +326,8 @@ h5, .h5 {
     bottom: 0;
     left: 0;
     right: 0;
-    mask-image: url(../img/bg-bottom.svg);
-    -webkit-mask-image: url(../img/bg-bottom.svg);
+    mask-image: url(../img/bg-bottom.webp);
+    -webkit-mask-image: url(../img/bg-bottom.webp);
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
     mask-position: bottom;
@@ -427,17 +427,17 @@ h5, .h5 {
     left: 0;
     right: 0;
     mask-image:
-        url(../img/blob-top-left.svg),
-        url(../img/blob-top-right.svg),
-        url(../img/blob-bottom-left.svg),
-        url(../img/blob-bottom-right.svg),
-        url(../img/blob-center.svg);
+        url(../img/blob-top-left.webp),
+        url(../img/blob-top-right.webp),
+        url(../img/blob-bottom-left.webp),
+        url(../img/blob-bottom-right.webp),
+        url(../img/blob-center.webp);
     -webkit-mask-image:
-        url(../img/blob-top-left.svg),
-        url(../img/blob-top-right.svg),
-        url(../img/blob-bottom-left.svg),
-        url(../img/blob-bottom-right.svg),
-        url(../img/blob-center.svg);
+        url(../img/blob-top-left.webp),
+        url(../img/blob-top-right.webp),
+        url(../img/blob-bottom-left.webp),
+        url(../img/blob-bottom-right.webp),
+        url(../img/blob-center.webp);
     mask-position:
         left 0px top 0px,
         right 0px top 0px,
@@ -479,14 +479,14 @@ h5, .h5 {
     align-items: center;
     justify-content: center;
     color: var(--light);
-    background: url(../img/blob-primary.svg) center center no-repeat;
+    background: url(../img/blob-primary.webp) center center no-repeat;
     background-size: contain;
     transition: .5s;
 }
 
 .service-item:hover .service-icon {
     color: var(--dark);
-    background: url(../img/blob-secondary.svg) center center no-repeat;
+    background: url(../img/blob-secondary.webp) center center no-repeat;
     background-size: contain;
 }
 
@@ -556,8 +556,8 @@ h5, .h5 {
     bottom: 0;
     left: 0;
     right: 0;  
-    mask-image: url(../img/bg-top.svg);
-    -webkit-mask-image: url(../img/bg-top.svg);
+    mask-image: url(../img/bg-top.webp);
+    -webkit-mask-image: url(../img/bg-top.webp);
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
     mask-position: top;
