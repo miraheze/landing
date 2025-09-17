@@ -1,13 +1,13 @@
 {
-  "type": "module",
 	"private": true,
+	"type": "module",
 	"scripts": {
 		"minify:svg": "svgo --config=.svgo.config.cjs --quiet --recursive --folder img/"
 	},
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "glob": "^11.0.3",
-    "purgecss": "^7.0.2",
-    "svgo": "4.0.0"
-  }
+	"dependencies": {
+		"fs": "^0.0.1-security",
+		"glob": "^11.0.3",
+		"purgecss": "^7.0.2",
+		"svgo": "4.0.0"
+	}
 }
