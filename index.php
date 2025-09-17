@@ -142,8 +142,7 @@
                             </a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-start">
-                            <img rel="preload" fetchpriority="high" as="image" class="img-fluid" width="1200px"
-                                height="600px" src="https://miraheze.org/img/hero.webp" alt="Join Miraheze!" />
+                            <img rel="preload" fetchpriority="high" as="image" class="img-fluid" src="https://miraheze.org/img/hero.webp" alt="Join Miraheze!" />
                         </div>
                     </div>
                 </div>
