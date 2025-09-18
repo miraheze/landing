@@ -201,7 +201,7 @@
                     <div class="copyright">
                         <div class="row">
                             <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                                <span class="border-bottom text-accent">
+                                <span class="text-accent">
                                     <?php echo getTranslation('footer-desc'); ?>
                                 </span>
                             </div>
@@ -211,9 +211,9 @@
                                         <?php echo getTranslation('home'); ?>
                                     </a>
                                     <a class="text-accent"
-                                        href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy#2._Cookies"
-                                        title="<?php echo getTranslation('footer-cookie'); ?>">
-                                        <?php echo getTranslation('footer-cookie'); ?>
+                                        href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy"
+                                        title="<?php echo getTranslation('footer-privacy-policy'); ?>">
+                                        <?php echo getTranslation('footer-privacy-policy'); ?>
                                     </a>
                                     <a class="text-accent"
                                         href="https://meta.miraheze.org/wiki/Special:MyLanguage/WikiTide_Foundation"
