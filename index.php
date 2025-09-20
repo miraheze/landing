@@ -42,14 +42,14 @@
     <link rel="preload" href="webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 
     <!-- Icon Font Stylesheet -->
-    <link rel="preload" href="https://miraheze.org/css/fonts.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-    <noscript><link rel="stylesheet" href="https://miraheze.org/css/fonts.min.css" /></noscript>
+    <link rel="preload" href="https://miraheze.org/css/fonts.min.v1.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://miraheze.org/css/fonts.min.v1.css" /></noscript>
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="https://miraheze.org/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://miraheze.org/css/bootstrap.min.v1.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="https://miraheze.org/css/style.css" rel="stylesheet" />
+    <link href="https://miraheze.org/css/style.v1.css" rel="stylesheet" />
 </head>
 
 <body>
