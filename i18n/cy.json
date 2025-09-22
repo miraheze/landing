@@ -17,7 +17,6 @@
 	"footer-privacy-policy": "Polisi Preifatrwydd",
 	"footer-content-policy": "Polisi Cynnwys",
 	"footer-disclaimers": "Gwadiad",
-	"footer-cookie": "Datganiad Cwcis",
 	"footer-translate": "Cyfieithu'r dudalen hon",
 	"footer-facebook-title": "Facebook",
 	"footer-twitter-title": "Twitter",
@@ -30,6 +29,5 @@
 	"more": "Rhagor",
 	"blog-text": "Blog",
 	"status-text": "Statws",
-	"donate-heading": "Rhoi arian",
-	"donate-amount": "Swm"
+	"donate-heading": "Rhoi arian"
 }

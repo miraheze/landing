@@ -29,7 +29,6 @@
 	"footer-terms": "Condizioni d'uso",
 	"footer-privacy-policy": "Informativa sulla privacy",
 	"footer-disclaimers": "Avvertenze",
-	"footer-cookie": "Dichiarazione sui cookie",
 	"footer-translate": "Traduci questa pagina",
 	"footer-facebook-title": "Facebook",
 	"footer-twitter-title": "Twitter",
@@ -39,8 +38,5 @@
 	"faq": "Domande frequenti",
 	"blog-text": "Blog",
 	"status-text": "Stato",
-	"donate-heading": "Dona a Miraheze",
-	"header-donate-logo-text": "Dona a Miraheze!",
-	"donate-amount": "Importo",
-	"donate-note": "Questo foglio elettronico è per donazioni con PayPal (puoi usare carte di credito/debito). Dovresti selezionare la tua valuta corrente usando il menù a scomparsa sulla pagina."
+	"donate-heading": "Dona a Miraheze"
 }
