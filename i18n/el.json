@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Geraki",
+			"Jimkats",
 			"Michail Angelos Georgoulas",
 			"Norhorn"
 		]
 	},
 	"description-text": "Η Miraheze είναι μία μη κερδοσκοπική εταιρεία, με αποστολή της να παρέχει μία δωρεάν κοινωνιοκεντρική βικιφάρμα.",
-	"features-text": "Χαρακτηριστικά",
+	"features-text": "Γιατί να επιλέξετε τη Miraheze;",
 	"features-mediawiki": "MediaWiki",
 	"features-mediawiki-desc": "Η Miraheze τρέχει το ίδιο λογισμικό όπως η Βικιπαίδεια, το [https://www.mediawiki.org|MediaWiki]! Μπορείς να κάνεις τα πάντα από το να ανεβάζεις μέσα όπως εικόνες ή βίντεο, μέχρι να γράφεις άρθρα ή ιστολόγια. Έχουμε πάνω από 300 επεκτάσεις και πάνω από 25 skins να διαλέξεις για να εξατομικεύσεις την εμπειρία σου με το MediaWiki!",
 	"features-not-for-profit-desc": "Η Miraheze είναι καταχωρισμένη ως Miraheze Limited στο Ηνωμένο Βασίλειο. Παρέχουμε 100% δωρεάν wikis ως μια μη κερδοσκοπική εταρεία που διατηρεί τους σέρβερ και συμβαδίζει με την εξέλιξη των επεκτάσεων.",
