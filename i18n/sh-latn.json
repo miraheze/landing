@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
@@ -11,7 +12,7 @@
 	"sign-up": "Registriraj se!",
 	"features-text": "Značajke",
 	"features-mediawiki": "MediaWiki",
-	"features-mediawiki-desc": "Miraheze projekt pokreće isti softver kao Vikipedija, [https://www.mediawiki.org|MediaViki]! Na njemu možete da radite bilo šta, od otpremanja medija kao što su slike ili video snimci, do pisanja članaka ili blogova. Imamo preko 300 ekstenzija i preko 25 skinova koje možete izabrati da prilagodite svoje iskustvo sa MediaVikijem!",
+	"features-mediawiki-desc": "Miraheze pokreće isti softver koji pokreće Wikipediju – [https://www.mediawiki.org|MediaWiki]. Na njemu možete raditi bilo šta, poput postavljanja datoteka (slika i videosnimaka) i pisanja članaka ili blogova. Imamo više od 300 dodataka i više od 25 tema koje možete izabrati da biste prilagodiili svoje iskustvo s MediaWikijem.",
 	"features-not-for-profit-text": "Nekomercijalna organizacija",
 	"features-not-for-profit-desc": "Miraheze je registrovana kao \"Miraheze Limited\" u Ujedninjenom Kraljevstvu. Kao neprofitna organizacija, obezbeđujemo 100% besplatne vikije, održavamo njihove servere i pratimo razvoj domaćih ekstenzija.",
 	"features-community-text": "Zajednica",
