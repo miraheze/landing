@@ -2,19 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"Jon Harald Søby",
-			"Sabelöga"
+			"Sabelöga",
+			"Stefan2255"
 		]
 	},
 	"features-heading": "Funktioner",
 	"about-heading": "Om",
-	"welcome-text": "Välkommen till Miraheze",
-	"description-text": "Miraheze är en annonsfri och gemenskapscentrerad wiki-värdplattform där vem som helst kan skapa en gratis MediaWiki-driven wiki. Begär din gratis wiki idag!",
+	"welcome-text": "Annonsfri wikihosting, driven av MediaWiki-frivilliga",
+	"description-text": "Fokusera på det du älskar och låt oss ta hand om de tekniska detaljerna. Gå med i Miraheze och skapa din wiki idag, driven av en ideell organisation vars uppdrag är att tjäna dig!",
 	"sign-up": "Registrera!",
-	"features-text": "Funktioner",
+	"features-text": "Varför välja Miraheze?",
 	"features-mediawiki": "MediaWiki",
 	"features-mediawiki-desc": "Miraheze kör på samma programvara som Wikipedia, [https://www.mediawiki.org|MediaWiki!] Du kan göra allt från att ladda upp filer som bilder och videor, till att skriva artiklar eller bloggar. Vi har över 200 tillägg och över 15 utseenden att välja mellan för att skräddarsy din upplevelse med MediaWiki!",
 	"features-not-for-profit-text": "Icke-vinstdrivande",
-	"features-not-for-profit-desc": "Miraheze är registrerad som Miraheze Limited i Storbritannien. Vi tillhandahåller 100% gratis wikier som ett icke-vinstdrivande företag som underhåller servrarna och tar hand om utvecklingen av våra egna tillägg.",
+	"features-not-for-profit-desc": "Miraheze drivs av WikiTide Foundation i USA. Vi erbjuder 100 % gratis wikis som en ideell organisation som underhåller servrarna och håller jämna steg med utvecklingen av våra interna tillägg.",
 	"features-community-text": "Gemenskap",
 	"features-community-desc": "Som en gemenskap arbetar vi alla tillsammans för att uppnå vårt gemensamma mål, att vara ett riktigt bra wikihotell! Det låter oss uppnå det bästa möjliga resultatet för våra användare, genom att låta användarna lära sig!",
 	"features-responsive-text": "Responsiv",
@@ -22,8 +23,8 @@
 	"features-extensions-text": "Våra tillägg",
 	"features-extensions-desc": "Vi har utvecklat några av de mest avancerade tilläggen för att hjälpa oss att växa och bli en av världens bästa wikihotell! Våra tillägg ger gemenskapen mer kontroll över sina wikier, och kräver lite eller ingen övervakning från personalens sida. Vi lyssnar på gemenskapens åsikter om hanteringen av deras wikier.",
 	"features-more-desc": "Och många fler funktioner!",
-	"about-desc": "I juli 2015 grundade John Lewis och Ferran Tufan ett nytt wikihotell - vid namn Miraheze. Genom gräsrotsfinansiering och personliga investeringar, presenterades Miraheze för allmänheten i augusti 2015. Genom åren har projektet växt oerhört till att bli en av de största och mest välkända wikihotellen som specialiserar sig i MediaWiki. Trots framgången och utvecklingen har en aspekt av Miraheze aldrig förändrats - formell existens. I november 2019, registrerades Miraheze som ett icke-vinstdrivande företag i Storbritannien som Miraheze Limited.",
-	"footer-desc": "Miraheze Limited\n Ett aktiebolag med begränsad vinstutdelning registrerat i England och Wales förtagsnummer 12323854\n Om inget annat anges licensieras innehållet under [https://creativecommons.org/licenses/by-sa/4.0/deed.sv|Erkännande-DelaLike 4.0 Internationell (CC BY-SA 4.0)].",
+	"about-desc": "I juli 2015 grundade John Lewis och Ferran Tufan ett nytt wikihotell vid namn Miraheze. Genom gräsrotsfinansiering och personliga investeringar, presenterades Miraheze för allmänheten i augusti 2015. Genom åren har projektet växt oerhört till att bli en av de största och mest välkända wikihotellen som specialiserar sig i MediaWiki. Trots framgången och utvecklingen har en aspekt av Miraheze aldrig förändrats; formell existens. I november 2019, registrerades Miraheze som ett icke-vinstdrivande företag i Storbritannien som Miraheze Limited. I januari 2024 överfördes verksamheten till WikiTide Foundation.",
+	"footer-desc": "WikiTide Foundation, Inc. - en allmän  välgörenhetsorganisation enligt (US IRC) 501(c)(3).",
 	"footer-terms": "Användarvillkor",
 	"footer-privacy-policy": "Integritetspolicy",
 	"footer-content-policy": "Innehållspolicy",
@@ -39,12 +40,12 @@
 	"faq": "Vanliga frågor",
 	"more": "Mer",
 	"wikidiscover-text": "Upptäck wikier",
-	"requestwiki-text": "Begär en wiki",
+	"requestwiki-text": "Starta en wiki",
 	"organisation-text": "Organisationsinformation",
 	"blog-text": "Blogg",
 	"status-text": "Status",
-	"donate-heading": "Donera",
-	"fundraising-sitenotice": "I över åtta år nu har Miraheze försett sina över 300 000+ användare med gratis hosting. Hjälp oss att fortsätta i åtta år till och längre! Vi drivs till 100 % av donationer från människor som du. Vi är tacksamma för att kunna fortsätta se imponerande trafik från år till år och tillväxt i samhället. Men med vår imponerande tillväxt behöver vi mer infrastruktur för att hantera ökad efterfrågan. Vi ber dig, uppriktigt, överväga att lägga in $5, $10, $20 eller vad du nu har råd med. Om 500 av Mirahezes 300 000+ användare bara gav $16 en gång om året, skulle Miraheze överskrida sina budgetkrav.",
+	"donate-heading": "Donera till Miraheze",
+	"fundraising-sitenotice": "I över tio år nu har Miraheze försett sina 500 000+ användare med gratis hosting. Hjälp oss att fortsätta i tio år till och längre! Vi drivs till 100 % av donationer från människor som du. Vi är tacksamma för att kunna fortsätta se imponerande trafik från år till år och tillväxt i samhället. Men med vår imponerande tillväxt behöver vi mer infrastruktur för att hantera ökad efterfrågan. Vi ber dig, uppriktigt, överväga att lägga in $5, $10, $20 eller vad du nu har råd med. Om bara 1% av Mirahezes 500 000+ användare bara gav $3 en gång om året, skulle Miraheze överskrida sina budgetkrav.",
 	"fundraiser-sitenotice-title": "Hjälp oss!",
 	"fundraising-sitenotice-button-text": "Lär dig att hjälpa!"
 }
