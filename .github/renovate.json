@@ -10,7 +10,8 @@
 			"groupName": "all dependencies",
 			"groupSlug": "all-deps",
 			"automerge": true,
-			"automergeType": "branch"
+			"automergeType": "branch",
+			"rangeStrategy": "replace"
 		},
 		{
 			"matchManagers": [ "github-actions", "npm" ],
