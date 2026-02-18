@@ -1,0 +1,22 @@
+{
+	"extends": [ "config:recommended" ],
+
+	"prConcurrentLimit": 1,
+	"separateMajorMinor": false,
+
+	"packageRules": [
+		{
+			"matchPackagePatterns": [ "*" ],
+			"groupName": "all dependencies",
+			"groupSlug": "all-deps",
+			"automerge": true,
+			"automergeType": "branch"
+		},
+		{
+			"matchManagers": [ "github-actions", "npm" ],
+			"rangeStrategy": "replace"
+		}
+	],
+
+	"labels": [ "dependencies" ]
+}
