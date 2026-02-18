@@ -10,12 +10,11 @@
 			"groupName": "all dependencies",
 			"groupSlug": "all-deps",
 			"automerge": true,
-			"automergeType": "branch",
-			"rangeStrategy": "replace"
+			"automergeType": "branch"
 		},
 		{
 			"matchManagers": [ "github-actions", "npm" ],
-			"rangeStrategy": "replace"
+			"rangeStrategy": "bump"
 		}
 	],
 
