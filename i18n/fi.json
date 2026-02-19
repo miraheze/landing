@@ -5,7 +5,8 @@
 			"Moj",
 			"Nike",
 			"Pyscowicz",
-			"Veikk0.ma"
+			"Veikk0.ma",
+			"Yupik"
 		]
 	},
 	"features-heading": "Ominaisuudet",
@@ -14,6 +15,7 @@
 	"description-text": "Miraheze on mainokseton ja yhteisökeskeinen wiki-isännöintialusta, jossa kuka tahansa voi luoda ilmaisen MediaWiki-pohjaisen wikin. Pyydä ilmaista wikiäsi jo tänään!",
 	"sign-up": "Rekisteröidy",
 	"sign-in": "Kirjaudu sisään",
+	"learn-more": "Lisätietoja",
 	"features-text": "Ominaisuudet",
 	"features-adfree": "Mainosvapaa",
 	"features-customizability": "Muokattavuus",
