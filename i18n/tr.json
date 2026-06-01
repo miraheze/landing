@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Brightt11",
+			"HakanIST",
 			"Hedda",
 			"Joseph",
 			"LisafBia",
@@ -23,7 +24,10 @@
 	"features-text": "Neden Miraheze'yi seçmelisiniz?",
 	"features-adfree": "Reklam yok",
 	"features-customizability": "Özelleştirilebilirlik",
+	"features-support": "Arkadaş canlısı destek",
+	"features-support-desc": "Arkadaş canlısı MediaWiki uzmanlarından oluşan ekibimiz, yolun her adımında size yardımcı olmak için burada. Sadece sorun!",
 	"features-visualeditor": "VisualEditor desteği",
+	"features-visualeditor-desc": "Başkaları kurulum için sizden ücret alırken, biz VisualEditor'ü kutudan çıkar çıkmaz ücretsiz olarak destekliyoruz.",
 	"features-mediawiki": "MediaWiki",
 	"features-mediawiki-desc": "Miraheze, Vikipedi ile aynı yazılım olan [https://www.mediawiki.org|MediaWiki] ile çalışır! Resim veya video gibi medya yüklemeyle madde veya blog göndermeye kadar her şeyi yapabilirsiniz. MediaWiki deneyiminizi özelleştirmeniz için 300'den fazla uzantımız ve 25'in üzerinde temamız var!",
 	"features-not-for-profit-text": "Kâr Amacı Gütmeyen",
@@ -53,6 +57,7 @@
 	"more": "Daha fazla",
 	"wikidiscover-text": "Vikileri keşfedin",
 	"requestwiki-text": "Bir wiki başlat",
+	"organisation-text": "Kuruluş bilgileri",
 	"blog-text": "Blog",
 	"status-text": "Durum",
 	"donate-heading": "Bağış yapın",
@@ -62,10 +67,19 @@
 	"statistics-wikis": "Vikiler",
 	"statistics-requests": "Viki talepleri",
 	"statistics-users": "Kullanıcılar",
+	"statistics-powered": "Uzmanlar tarafından destekleniyor",
+	"wikitype-header": "Geniş çeşitlilik için vikiler",
+	"wikitype-desc": "Miraheze, geniş çeşitlilikte vikilere barındırma hizmeti sunar! Bazı olası kullanım durumlarını düşünün:",
 	"wikitype-technology": "Teknoloji",
+	"wikitype-technology-desc": "Teknoloji her yerde, hatta bir tost makinesinde bile. Teknolojiyle ilgili ansiklopediler, belgeler, kılavuzlar ve bilgi tabanları oluşturun ve paylaşın.",
 	"wikitype-games": "Oyunlar",
+	"wikitype-games-desc": "Oyunları sizin kadar kimse bilmez. Gizli özellikler, güçlü modlar, çıkarılmış hikâyeler, hepsini biliyorsunuz. Bunu yansıtan bir ansiklopedi oluşturun.",
 	"wikitype-tv": "TV/Eğlence",
+	"wikitype-tv-desc": "Gerilim! Drama! Korku! Hepsini bir viki aracılığıyla güzelce belgeleyin ve yakalayın.",
 	"wikitype-science": "Bilim",
+	"wikitype-science-desc": "Meraklı zihinler bilmek ister. Formal bilimlerden doğa bilimlerine kadar çeşitli konularda vikiler oluşturun.",
 	"wikitype-education": "Eğitim",
-	"wikitype-more": "...ve çok daha fazlası!"
+	"wikitype-education-desc": "Müfredattan sunumlara, tezlerden araştırmalara kadar çeşitli ihtiyaçlar için güzel vikiler oluşturun.",
+	"wikitype-more": "...ve çok daha fazlası!",
+	"wikitype-more-desc": "Olasılıklar sonsuz. Uzmanlar ve yeni başlayanlar, çeşitli konularda vikilerde işbirliği yapmak için bir araya gelebilir."
 }
