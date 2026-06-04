@@ -3,6 +3,7 @@
 		"authors": [
 			"AMOg",
 			"Tensama0415",
+			"YeBoy371",
 			"Ykhwong"
 		]
 	},
@@ -66,7 +67,7 @@
 	"statistics-wikis": "위키",
 	"statistics-requests": "위키 요청",
 	"statistics-users": "사용자",
-	"statistics-powered": "전문가들에 의해 제공됨",
+	"statistics-powered": "전문가들에 의해 제공",
 	"wikitype-header": "다양한 분야의 위키",
 	"wikitype-desc": "미라헤즈는 다양한 위키에 위키 호스팅 서비스를 제공합니다! 몇 가지 잠재적인 활용 사례를 살펴보세요:",
 	"wikitype-technology": "기술",
