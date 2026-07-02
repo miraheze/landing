@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"TreeIsLife",
+			"Wizzard",
 			"Yardom78"
 		]
 	},
+	"header-logo-text": "Miraheze",
 	"features-heading": "Funkcie",
 	"about-heading": "O Miraheze",
 	"welcome-text": "Wiki hosting, bez reklám, prevádzkovaný odbornými dobrovoľníkmi na MediaWiki",
