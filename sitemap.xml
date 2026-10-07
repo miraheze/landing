@@ -14,7 +14,27 @@
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
+		<loc>https://miraheze.org/br</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>https://miraheze.org/ce</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
 		<loc>https://miraheze.org/cs</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>https://miraheze.org/cs</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>https://miraheze.org/cy</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>https://miraheze.org/da</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
@@ -39,6 +59,10 @@
 	</url>
 	<url>
 		<loc>https://miraheze.org/fr</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>https://miraheze.org/gl</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
@@ -82,6 +106,10 @@
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
+		<loc>https://miraheze.org/lt</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
 		<loc>https://miraheze.org/lzh</loc>
 		<changefreq>weekly</changefreq>
 	</url>
@@ -98,11 +126,19 @@
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
+		<loc>https://miraheze.org/ne</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
 		<loc>https://miraheze.org/nl-informal</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>https://miraheze.org/nl</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>https://miraheze.org/pa</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
@@ -122,7 +158,7 @@
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
-		<loc>https://miraheze.org/sh</loc>
+		<loc>https://miraheze.org/sh-latn</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
@@ -130,7 +166,19 @@
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
+		<loc>https://miraheze.org/sk-arab</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
 		<loc>https://miraheze.org/sl</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>https://miraheze.org/sr-ec</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>https://miraheze.org/sr-el</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
