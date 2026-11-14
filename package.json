@@ -6,7 +6,7 @@
 	},
 	"dependencies": {
 		"fs": "^0.0.1-security",
-		"glob": "^14.0.4",
+		"glob": "^14.0.6",
 		"purgecss": "^9.1.0",
 		"svgo": "4.1.0"
 	}
