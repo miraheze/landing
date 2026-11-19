@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Hedeyohu22",
-			"U.ayaao.p"
+			"U.ayaao.p",
+			"Wikuiser"
 		]
 	},
 	"features-heading": "Өзгешеліктері",
@@ -36,11 +37,11 @@
 	"faq": "Ж.Қ.С.",
 	"more": "Тағы",
 	"wikidiscover-text": "Уикилермен танысу",
-	"requestwiki-text": "Уики сұрау",
+	"requestwiki-text": "Уики бастау",
 	"organisation-text": "Ұйым анықтамасы",
 	"blog-text": "Блог",
 	"status-text": "Күйі",
-	"donate-heading": "Ақша беру",
+	"donate-heading": "Miraheze-ге қайырымдылық жасау",
 	"fundraiser-sitenotice-title": "Бізге көмектесіңіз!",
 	"fundraising-sitenotice-button-text": "Қалай көмектесуге болатынын біліңіз!"
 }
